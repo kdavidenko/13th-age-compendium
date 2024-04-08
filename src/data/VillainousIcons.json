@@ -1,0 +1,97 @@
+{
+    "icons": [
+        {
+            "iconType": "villainous",
+            "symbolPath": "./img/iconSymbol/deadseer.png",
+            "name": "The Dead Seer",
+            "description": "Once a respected wizard, the Dead Seer is the most powerful lich in the world and Chosen of the god of secrets. He is believed to be entirely unkillable.",
+            "quote": "\"I believe that's the sixty-seventh time upstarts just like you have said that to me. Be original, at least!\"",
+            "usualLocation": "Darkhill Fortress, in the Breathless Hills.",
+            "commonKnowledge": [
+                "He was once the most well known diviner in the north, with clients traveling far and wide to seek his counsel. However, he summoned the Four Heralds of the dark gods into the world, and the carnage wreaked has been surpassed only by the Last Night.",
+                "Despite his twisted, evil nature, the Dead Seer maintains a sense of humor and lack of decorum. As likely to toy with his enemies than prey on them, he delights in taunting those who dare challenge him, and the necromancers and liches under his command follow suit.",
+                "His plans have been stopped or delayed before, but every attempt to end his reign has failed."
+            ],
+            "adventurers": [
+                "More often than not, the Dead Seer is a challenge to overcome. If an adventurer works for the Dead Seer, it is typically obscured through layers of functionaries and go-betweens."
+            ],
+            "allies": "On rare occasions, he works with the Epiphany, but stands alone.",
+            "enemies": "Few are willing to trust someone with a track record of betrayal. He is the second most hated icon.",
+            "history": [
+                "He betrayed those who ended the Watcher Crisis over thirty years ago, choosing to throw his lot in with the Heralds of the Dark Gods, gaining supremacy over necromancy and the twisted monstrosities that served the fallen ones.",
+                "He took control of the Fire Mountains and their foothills, creating a second Land Without Breath: a realm walked by undead, where sunlight cannot shine, and life drains slowly from all creatures."
+            ],
+            "trueDanger": "Everything will be alright so long as the majority of the Dead Seer's forces are contained to the Breathless Hills."
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "./img/iconSymbol/epiphany.png",
+            "name": "The Epiphany",
+            "description": "An ever-changing mass of limbs and tentacles, they are the embodiment of demonic chaos in the world and the true herald of the Uncreator, the source of all demons: Abd'Zoth. Happy to give gifts or tempt a mortal with power, the only consistency to the Epiphany is their absolute belief in their own superiority.",
+            "quote": "\"Your flesh is weak, soft, vulnerable. Hold still, we will correct nature's errors.\"",
+            "usualLocation": "Old Yazatli, the Epiphany has taken the entire volcano blasted archipelago as its lair, pulling open holes through the Foundation to summon its creations.",
+            "commonKnowledge": [
+                "The Epiphany is the amalgamation of the Uncreator's twisted imagination. A mockery of life and a mutilator of wills. To look upon them is to see entropy itself.",
+                "Over the millennia, the Epiphany has broken into the world on occasion, but the agents of Cadre swiftly returned them to the Abyss, destroying their physical manifestation and forcing them to regenerate and find new paths back into the world.",
+                "Those who serve the Epiphany often have some part of their body altered in chimeric fashion, such as a human having an insectoid carapace or ooze-like appendages. Additionally, they often have powers over the mind, leading many to mistrust psychics and the telekinetic."
+            ],
+            "adventurers": [
+                "Those who traffic with the Epiphany are often obviously identified by their alterations or powers, but many an adventurer has navigated the relationship and come out the other side unchanged. Those lucky few fall for the Epiphany's trap, however, and encourage others to accept patronage from the Epiphany and their demonic agents.",
+                "Those who work for the Epiphany for long always skirt closer and closer to their own transformation into an aberrant demonic entity, which the Epiphany views as the purest form of existence.",
+                "Working against the Epiphany is as easy as breathing to most adventurers. Cults, spy networks, and rampaging monstrosities are the most common representatives of the Epiphany."
+            ],
+            "allies": "Rarely, the Dead Seer and the Epiphany align, but the Epiphany heralds the Uncreator, so even death would be undone.",
+            "enemies": "All existence abhors the Epiphany and the devastation it represents.",
+            "history": [
+                "There has only been one Epiphany. Almost a century ago, the fire serpents of the Yazatli attempted to drive out the rest of their people. In so doing, they caught the attention of the Epiphany, an entity that had been trying for ages to enter into the world. Upon making the pact, the Epiphany emerged, caused violent volcanic eruptions that made the island uninhabitable, and then consumed most of the fire serpents. Since that time, holes leading to the Erosion have become more common, allowing demons to enter the world."
+            ],
+            "trueDanger": "Everything will be alright unless the Epiphany manages to consume other icons."
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "./img/iconSymbol/schemer.png",
+            "name": "The Schemer",
+            "description": "One of the first dragons to darken the skies. An ancient being with thousands of years of experience. She's long been in the shadow of another, and now that there is no Scaled Tyrant, she is making her move.",
+            "quote": "\"Power abhors a vacuum.\"",
+            "usualLocation": "The current Schemer has taken up residence in the Mire, the entire massive swamp is her stalking grounds and she has multiple lairs.",
+            "commonKnowledge": [
+                "She is more than happy to advise others and share her knowledge, so long as it doesn't put her in harm's way. She will do anything in her power to preserve herself, her consort, and her children: the Ashline dragons. Anything.",
+                "She had spent most of her life on a different Cycle of Myrr, but recently returned in the string of events that also led to the Scaled Tyrant becoming the Redeemer. With the space made for her, she competes with some of her other Elder Dragon siblings to claim the title herself, often ending in conflict with the Redeemer."
+            ],
+            "adventurers": [
+                "Those seeking knowledge and power find a potent patron with the Schemer, if one can tolerate the inevitable strings attached. To the truly heroic, halting one of her plans is truly a tale worth remembering."
+            ],
+            "allies": "She operates alone more often than not, but has trafficked with the Viper, the Uniter and the Storm King on more than one occasion.",
+            "enemies": "The Redeemer is her primary rival, with the Truthteller and the Arbiter keeping tabs on her activities.",
+            "history": [
+                "One of the Ten Elder Dragons created by Ausphitar, all Ashline dragons descend from her. For eons she was trapped in another Cycle of Myrr, but recently has returned and claimed the mantle of draconic empress. Her efforts are consumed with establishing her bases of power and bringing the remaining unaffiliated Elder Dragons under her control."
+            ],
+            "trueDanger": "Everything will be alright as long as the Schemer is unable to pull the other Elder Dragons under her sway and become a new Scaled Tyrant."
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "./img/iconSymbol/viper.png",
+            "name": "The Viper",
+            "description": "Part matron, part murderer. She's quickly ascended to power in the underworld and puts profits before people. Ending up on her bad side gives a lot of unwanted attention. Being on her good side is almost worse.",
+            "quote": "\"A contract is a contract is a contract… but only within the Syndicates.\"",
+            "usualLocation": "It's known that Viper lairs in the free city of Kazijin, but not where.",
+            "commonKnowledge": [
+                "The Viper has gone to extreme lengths to hide any details about her personal life. Even her name and family identity has been swiped clean. No doubt a king's ransom would be rewarded to anyone who could uncover such information."
+            ],
+            "adventurers": [
+                "There is always work to be had for the Viper, often the desperate end up in her coils. One of the easiest Icons to work for, provided you don't have many morals. You don't mind shaking down an old man who owes the family money, do you?"
+            ],
+            "allies": "The Storm King, the Uniter, and the Schemert have all had dealings with the Viper in one way or another. In all dealings, the Viper probably got more out of it.",
+            "enemies": "The Wolf Queen, the Matriarch, and the Iron Marshal view the Viper's activities with suspicion and derision: she scoffs at their laws.",
+            "history": [
+                "When the Scaled Tyrant was transformed into the Redeemer, the chokehold her agents had on the criminal elements of the world faded, leaving openings for fresh blood. The Viper was one such individual.",
+                "She quickly ascended through the ranks of power and established herself as the undisputed head of multiple crime syndicates, consolidating power. Many nations grew concerned at this quick ascension, but were unable to stop her."
+            ],
+            "trueDanger": "Everything will be alright as long as the Viper stays out of direct politics."
+        }
+
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "icons": [
+        {
+            "iconType": "heroic",
+            "symbolPath": "./img/iconSymbol/arbiter.png",
+            "name": "The Arbiter",
+            "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
+            "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
+            "usualLocation": "The Arbiter is a hands-on fellow and is typically found where he is most needed.",
+            "commonKnowledge": [
+                "For hundreds of years, the Arbiters have been silent and hidden, falling into mythic status. The current Arbiter has held his post for over forty years. He has only revealed himself with the arrival of the Last Night as magic has thrown the world into turmoil and portals to the Erosion below have allowed demons to leak into the world.",
+                "The Arbiter rarely advocates for violence, with only demons excluded from this pacifism. Even undead have some sort of a function and place in existence."
+            ],
+            "adventurers": [
+                "The Arbiter draws a wide variety of characters to his side, as he is the nexus point of all powers and agendas. His agents come from all walks of life, often those who don't fit in elsewhere, as the balance the Arbiter maintains requires various perspectives to monitor correctly."
+            ],
+            "allies": "The Truthteller, the Green Man, and the Redeemer are allied with him to combat demon invasions.",
+            "enemies": "The Epiphany is the antithesis of everything the Arbiter is.",
+            "history": [
+                "There has always been an Arbiter, from the Fall of Heaven to present day. Whenever one dies, the essence of the Arbiter selects another living being who then becomes an immortal keeper of balance between good and evil, stability and freedom."
+            ],
+            "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
+        },
+        {   
+            "iconType": "heroic",
+            "symbolPath": "./img/iconSymbol/redeemer.png",
+            "name": "The Redeemer",
+            "description": "Once known as the Scaled Tyrant, through an unlikely event, she has returned to her ancient state of grace. Seeking to recant for all the damage she caused over the last seven thousand years, she now acts openly to halt those that would cause harm to the world at large.",
+            "quote": "\"The right path is rarely simple or easy.\"",
+            "usualLocation": "Cadre-Tolir, off the map to the south west, at the northern border of the Land Without Breath.",
+            "commonKnowledge": [
+                "Also known as the First, the Redeemer has ancient power and knowledge, with the wisdom to know how to apply it. She also has the wisdom to know when to withhold it.",
+                "The Redeemer was the Scaled Tyrant only recently, but through sheer dumb luck, events aligned to bring about her return to benevolence. However, many are wary of her and might even believe her newfound kindness to be a ruse.",
+                "As the Scaled Tyrant she had a massive network of agents, cults, and syndicates under her control, when she was redeemed, most fell away from her, but some remained in her service and followed her."
+            ],
+            "adventurers": [
+                "Many good-hearted folk would align with the Redeemer, and various clerics and paladins are sworn to her cause. Unlike most other icons, even those who walk darker paths are invited into her service in the hopes that they will also turn towards their own betterment.",
+                "Adventurers who follow the darker arts such as necromancy, might have followed her redemption and magic sourced from her now always has a radiant bent to it."
+            ],
+            "allies": "On paper, the heroic icons would be the ones allied with the Redeemer, but in truth, the Arbiter and the Green Man are the most likely. As the Green Man was there when she was redeemed, she holds him in high esteem.",
+            "enemies": "Most other Icons remember when the Redeemer was the Scaled Tyrant, and so they tolerate her but don't trust her. The Truthteller, especially, keeps close watch for any fall back to tyranny. The Redeemer makes it a point to cross paths with the Schemer and to halt the Epiphany and the Dead Seer's plans at any opportunity.",
+            "history": [
+                "She was the first dragon, embodying the love and protection her creator Ausphitar had for the world. However, just prior to the Fall of Heaven, she heeded the words of the god of secrets and fell under the sway of the Uncreator. She brought six of her nine siblings down with her and started the First War. The conflict only ended when her mate Elmranis sacrificed himself in a ritual to imprison her and the other fallen elders.",
+                "For thousands of years, after, she was the Scaled Tyrant, terrorizing the world through machinations and cults and agents. She sought to free her fellow Elder Dragons from their soulcrystal prisons, but was unsuccessful."
+            ],
+            "trueDanger": "Everything will be alright as long as the Redeemer does not fall back to her old ways as the previous Scaled Tyrant."
+        },
+
+        {
+            "iconType": "heroic",
+            "symbolPath": "./img/iconSymbol/sunqueen.png",
+            "name": "The Sun Queen",
+            "description": "The young Queen of Idres wishes to undo the actions of her father, the Wolf King, rebuilding alliances he squandered and instituting reforms. Time will tell if she will be as beloved as her grandmother.",
+            "quote": "\"Let our covenant endure through this Night.\"",
+            "usualLocation": "She rules from Sunhold, the capital of Idres.",
+            "commonKnowledge": [
+                "The Sun Queen's father was a paranoid ruler and fully embraced the priests of Kah-y-Rah, god of curses and lycanthropy. With the Sun Queen's ascension to the throne, cruel administrators and dark clerics were expelled from her court and replaced with more benevolent advisors.",
+                "The young Queen of human nation of Idres has many suitors throughout the world, as yet she has remained unwed. The Prince of Okkarr and the King of Gildwater being her primary suitors.",
+                "Seeing as the Sun Queen overturned many of her father's decrees, rumors persist that she had a hand in his premature death."
+            ],
+            "adventurers": [
+                "Adventurers frequently find themselves in the employ of the Sun Queen.Typically through her agents and vassal lords, rather than herself personally. Those who accept tasks directly from the Sun Queen end up with greater rewards and often become dedicated agents of the throne."
+            ],
+            "allies": "The Sun Queen values the Truthteller, but has limited interaction with the other Icons",
+            "enemies": "The Viper is a thorn in her side, while the Schemer and the Epiphany are existential threats to her kingdom's continued existence",
+            "history": [
+                "During the Three Thrones War that resulted in her grandmother Viola II ascending to the throne, she accepted a pact with the malevolent god Kah-y-Rah to be resurrected back to life after a battle. As a result of the arrangement, she was cursed with natural lycanthropy, which no cure could touch.",
+                "Her reign was marked by reforms and rights expanding for the people, unfortunately her former companion Duke Petronio of Tregemas stoked revolutionary ideals and a man named Dain Skyless took up arms to lead many of the constituent states of Idres to revolution. As a result, her heir became the Wolf King, cracking down on the populace and isolating the kingdom. When he was inevitably assassinated, the Sun Queen ascended the throne"
+            ],
+            "trueDanger": "Everything will be alright so long as the Sun Queen does not embrace her natural lycanthropy and become the Wolf Queen."
+        },
+
+        {
+            "iconType": "heroic",
+            "symbolPath": "./img/iconSymbol/truthteller.png",
+            "name": "The Truthteller",
+            "description": "The goddess of truth, she exists in seven parts, each representing a different sort of truth. One of the oldest icons, her influence is felt throughout the world, inspiring heroes and intimidating would-be villains.",
+            "quote": "\"The Truth is rarely pure and never simple.\"",
+            "usualLocation": "Most typically Red or Indigo Kalea is found in the Temple of Jinessa at Sunhold, the capital of Idres.",
+            "commonKnowledge": [
+                "The Truthteller is far and away the most active god in the world, her seven demigod forms able to maintain good relations with mortals.",
+                "Each one of her forms corresponds to a color of the rainbow and to a related truth. Red is the truth one finds with passions; Orange represents academic truth; Yellow spreads truth far and wide; Green is hidden and eclectic truths; Blue is cold, hard truth; Indigo is interpreting many conflicting truths; and Violet is truth found in the future.",
+                "Yellow Kalea is often touring the world as a musician.",
+                "Kalea and two of her consorts, are from a different Cycle of Myrr."
+            ],
+            "adventurers": [
+                "Kalea has made it a point to sponsor many adventuring parties, and those who accept her patronage are often tied to great and legendary deeds.",
+                "Often clerics, bards, rogues, and other wise and charismatic folks are drawn to her service and align with her objectives."
+            ],
+            "allies": "Few have conflict with the Truthteller. She was once the patron of the Green Man, one of her consorts helped the Redeemer adjust after her transformation, and her work with the Wolf Queen has led to stability in Idres.",
+            "enemies": "Most Villainous Icons challenge the Truthteller, with the Schemer holding a special place in her ire, as her home Cycle is the same one the Schemer was trapped on.",
+            "history": [
+                "Originally from a different Cycle of Myrr, after stopping the Scaled Tyrant of that Cycle, she and her friends chose to come to a new Cycle, where she entered the service of Jinessa and rose from Chosen, to Demigod, and then goddess in her own right."
+            ],
+            "trueDanger": "Everything will be alright so long as the Truthteller keeps the people inspired"
+        }
+    ]
+}

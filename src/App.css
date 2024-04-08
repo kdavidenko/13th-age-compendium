@@ -1,0 +1,19 @@
+.App {
+  max-width: 800px;
+  height:auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 25px auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+}
+
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+}

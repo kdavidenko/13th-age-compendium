@@ -1,0 +1,53 @@
+.IconItem {
+  color:black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.iconNameWrapper {
+  text-align: left;
+}
+
+.name {
+  font-size: 24px;
+  display: inline-block;
+}
+
+  .name-symbol {
+    max-height: 72px;
+    margin-right: 12px;
+    display: inline-block;
+  }
+  .description {
+    font-size: 12px;
+    overflow:hidden;
+  }
+
+
+  .heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+  
+    .content {
+      margin-bottom: 12px;
+    }
+  
+    .content div {
+      margin-bottom: 6px;
+    }
+  
+    .quote .content {
+      color: #8b0000 ;
+      font-style: italic;
+      font-weight: bold;
+    }
+  
+    .symbol {
+      text-align: center;
+    }
+    .symbol img {
+      height: 192px;
+    }

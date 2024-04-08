@@ -1,0 +1,144 @@
+{
+    "icons": [
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/greenman.png",
+            "name": "The Green Man",
+            "description": "A young, but influential archfey, the Green Man sets his sights wherever nature and civilization clash. Fey of all varieties, seelie and unseelie, find common ground in his court.",
+            "quote": "\"Nature and cities. Ain't so different. They both grow. I will make them grow together.\"",
+            "usualLocation": "The Grove of Ash, a region of Fey nestled somewhere in Idres.",
+            "commonKnowledge": [
+                "When he was mortal, he collected deals and pacts. When the Last Night fell, like the Truthteller, the Green Man's power remained largely intact.",
+                "He positions himself between people and the wilds, understanding all are part of nature.",
+                "The Green Man made it a point to bring goblins and their kin under his sphere of influence, them having long been exiled from Fey. His agents are often of this sort of creature. Through his consort, he also has a connection to the were-bear clans.",
+                "He once made a deal with the Schemer, it's unknown if it still holds true."
+            ],
+            "adventurers": [
+                "Rangers and druids and other naturally inclined adventurers can find work in the Green Man's machinations. Beastfolk, wandering Fey and other such outsiders often make their way into his good graces as well. Rewards are often given in unexpected ways, typically in materials to build one's own item or an augment to their magical ability."
+            ],
+            "allies": "The Truthteller was once the Green Man's patron and he now works closely with her. He gives the Redeemer the benefit of the doubt.",
+            "enemies": "Any that threaten nature find out that the jovial green man will make time for them. He often butts heads with the Matriarch over Fey matters.",
+            "history": [
+                "Born the son of a hag, he traveled the world and fought with the agents of the Scaled Tyrant many times before being instrumental in the events that led to her Redemption."
+            ],
+            "trueDanger": "So long as the Green Man keeps to his self-imposed mandate, the balance between nature and civilization will be maintained"
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/ironmarshal.png",
+            "name": "The Iron Marshal",
+            "description": "The military dictator of Socordia, one of the strongest nations in the world and closely allied with the devils. She ascended to power after her predecessor, the Watcher, cobbled the realm together from disparate factions. With the arrival of Last Night, only time will tell if her nation endures.",
+            "quote": "\"I will do what must be done, no matter the cost.\"",
+            "usualLocation": "She reigns in Alaris, the capital of Socordia.",
+            "commonKnowledge": [
+                "The enemy of your enemy is your friend, so the saying goes. But the Iron Marshal and her devil allies put this to the test. With the demonic invasions of the Last Night, the tyrannical order she imposes may be all that stands between the world and annihilation.",
+                "Her agents and functionaries often take the form of dwarves or devils in humanoid form, and in her nation, she is the ultimate holder of all contracts. Break your word with her at your peril."
+            ],
+            "adventurers": [
+                "The Iron Marshal has the means and resources to hire mercenaries and any other sort she believes would serve her interests. More often than not, her tasks are the stuff of legends, or nightmares. When her interests lie within rival nations, the Iron Marshal is more likely to rely on outsiders."
+            ],
+            "allies": "She has a tenuous partnership with the Storm and welcomes the Arbiter.",
+            "enemies": "Any who present the Viper's head to the Iron Marshal will never want for anything again. She thinks the Sun Queen is an inexperienced child. The Epiphany needs to be annihilated once and for all. The Martiarch's fellow elf monarchs were all eliminated by the Watcher's agents, and so she remains in open conflict with the Iron Marshal.",
+            "history": [
+                "For centuries, a being known as the Watcher worked to infiltrate every culture on the planet, forming the Southern Coalition. He attempted to bring the world to heel during the Watcher Crisis, to finally invade the demons of the Erosion and put an end to the Red War. He was stopped, however, and those agents he left behind had to be brought to heel again. The Iron Marshal transformed the Southern Coalition into the nation of Socordia, and with it the prismatic devil god, Zelnemis, finally had a nation to patronize.",
+                "Under the Iron Marshal's rule, needs were met but freedom stifled. Much of daily life was spent serving the state and dissent was swiftly punished."
+            ],
+            "trueDanger": "If the Iron Marshal were to ever take up her predecessor's cause again, the world would tremble."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/matriarch.png",
+            "name": "The Matriarch",
+            "description": "The last living member of the Triumvirate, the Pale Elf Matriarch leads various factions of the elf people while trying to hold a semblance of the old Ironwood Empire together. Having centuries of experience makes her a formidable presence.",
+            "quote": "\"Never attempt to win by force what can be won by deception.\"",
+            "usualLocation": "Her palace lies far to the north of Greenwood, off the map in the Underdark Forest.",
+            "commonKnowledge": [
+                "She remained in Underdark Forest for her entire reign, only leaving her homeland once to tour Greenwood and Gildwater after the other members of the Triumvirate were eliminated. Despite her overtures, the rest of elf-kind has chosen their own path.",
+                "Dark gods such as Kah-y-Rah and especially Arishna are openly venerated under her rule, causing outsiders to mistrust the Matriarch. Among the pale elves, they are simply continuing their religions as they have for millennia."
+            ],
+            "adventurers": [
+                "Elf and Fey adventurers find respectable employment with the Matriarch, with non-elves having more difficulty getting in the door. Those willing to be her eyes and ears are rarely left without work."
+            ],
+            "allies": "The Matriarch and the Storm both have reason to oppose the Sun Queen. However, she is accustomed to standing alone.",
+            "enemies": "She holds a special hatred for the Iron Marshal,  due to the attempt on her during the Watcher Crisis. She views the young Sun Queen and the Green Man as political and magical rivals, respectively. The Dead Seer's encroachment on elf lands, and the fact he is an elf irritates her greatly.",
+            "history": [
+                "The Matriarch has ruled for nearly four hundred years and has seen empires rise and fall in her time. During the Watcher Crisis, she was the sole member of the Triumvirate - the three elven monarchs - who survived her assassination attempt. Since then, she has become a rallying cry for the elven people, even those who would not normally fall under her dominion of the pale elves."
+            ],
+            "trueDanger": "Everything will be alright so long as the Matriarch maintains order in her courts and between the elven peoples."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/storm.png",
+            "name": "The Storm",
+            "description": "The Chosen of the Devastation God, Kazak, the Storm rules the rich mercantile kingdom of Tregemas. A prodigy of political acumen and patron of both the arts and technology, there are few power plays that the Storm doesn't know about.",
+            "quote": "\"Keep them guessing, it makes success all the more satisfying.\"",
+            "usualLocation": "The Sapphire Isle of Tregemas.",
+            "commonKnowledge": [
+                "He is the potent combination of raw magical power and shrewd political cunning, which has catapulted him to one of the most influential people in the world.",
+                "Despite the Last Night disrupting magic for most spellcasters, the Storm seems completely undiminished in his ability.",
+                "He was the one of the first to manufacture firearms at a mass scale."
+            ],
+            "adventurers": [
+                "Plots within plots make it difficult to discern if an adventurer is ever truly working for the Storm. Those who openly align with his goals find more favor. Those who tend towards destruction can often be directed by the Storm."
+            ],
+            "allies": "He happily does business with anyone, in particular the Viper and the Uniter. He and the Schemer have an on-again-off-again arrangement.",
+            "enemies": "The Sun Queen and the Storm are currently in conflict for the fate of their peninsula.",
+            "history": [
+                "During the Three Thrones war, he traveled with the future Sun Queen of the time. When she married an exiled prince, he began to plot. Having secured his home kingdom from his cousin, the Storm began laying the groundwork for his own ascension. He made veneration of Kazak not only legal, but beneficial and the power flowing to the god filtered right back down to him.",
+                "Proving his shrewd political mind, he orchestrated the Skyless Rebellions which has destabilized the Sun Queen's kingdom to this day"
+            ],
+            "trueDanger": "Everything will be alright as long as the Storm is focused on politics and not world-shattering ambitions."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/uniter.png",
+            "name": "The Uniter",
+            "description": "After the Last Night fell, many of the monstrous denizens of the world became easy pickings for demons and adventurers alike. Kandali, Orcs, Ogres, and myriad others began fighting amongst themselves, squabbling for the barest of scraps. In this turmoil, the Uniter rose, bringing them under his protection.",
+            "quote": "\"The gods are silent, deaf to your cries. But I hear you.\"",
+            "usualLocation": "High Fist, an orcish citadel in the mountains of Uthkril",
+            "commonKnowledge": [
+                "The Uniter is Thara-taak, following the path of the Orcish Mother-saint and concerned with clan and homeland. This focus towards caring for his own people is what leads other nations to tolerate his activities, rather than be militarily invested in ending his reign.",
+                "There has never been a Uniter before, at least not in this way. The speed with which he's managed to collect such disparate peoples alarms many.",
+                "It's rumored that he has so many ancestries in him and cultures, he has a supernatural ability to relate to others.",
+                "His ambassadors are just as likely to forcibly end a conflict or serve as mediators of it, the deciding factor lies in how best to advance his own position."
+            ],
+            "adventurers": [
+                "Disparate and eclectic adventurers are welcome in the ranks of the Uniter's forces. Mercenaries make up the bulk of his forces and agents. Occasionally, raids encroach on other icons, prompting a response. Those seeking loot may do well to look elsewhere, as he is rich in honor and culture, not gold - or so he claim."
+            ],
+            "allies": "The Uniter is a wild card in the current state of the world. He has shown no strong opinions one way or another and has been incredibly shrewd. Like other icons, he welcomes the Arbiter. The Viper is equally happy to sell to the Uniter as anyone else.",
+            "enemies": "His neighbor, the Iron Marshal would rather he fall in line, and the only certainty is he is equally content to smash the demons of the Epiphany and the undead of the Dead Seer. The Matriarch and the Sun Queen both keep an eye on the Uniter.",
+            "history": [
+                "Not much is known about the Uniter, himself. What little can be inferred from reports and word of mouth is that he appeared one day and slew a group of soldiers about to descend on a family of lycanthropes, and from there word spread of one who would protect the abhorred."
+            ],
+            "trueDanger": "Everything will be alright so long as the Uniter is focused on his people and not conques."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "./img/iconSymbol/unwaking.png",
+            "name": "The Unwaking",
+            "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
+            "quote": "\"Whether dream or nightmare, you learn about yourself.\"",
+            "usualLocation": "The place the Unwaking sleeps is unknown, even to his functionaries and agents.",
+            "commonKnowledge": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new Dawn is established.",
+                "He is aware of his surroundings and communicates with others by easily slipping into their dreams. If one is visited by the Unwaking, it is a coin flip whether the event is enlightening or terrifying."
+            ],
+            "adventurers": [
+                "It is rare for an adventurer to deal with the Unwaking directly, most often the academics and mages under his tutelage act on his behalf. Those with notable potential are often recruited into a magical pact to expand their abilities. He is flexible on morality and prefers an efficient and fully resolved solution to grandiose displays of virtue or villainy.",
+                "Adventurers in a bind or needing information are wise to seek out the council of the Unwaking and his agents."
+            ],
+            "allies": "He visits the Sun Queen and the Storm in their dreams, and is neutral in the conflict between them, his agents beginning to act as intermediaries between his two most powerful neighbors.",
+            "enemies": "The Epiphany believes he is still on Old Yazatli, and searches to consume him. The Unwaking is only too happy to lead the Epiphany on their chase and dreams of the day his people can retake their ancient home.",
+            "history": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new order is established."
+            ],
+            "trueDanger": "Everything will be alright so long as the Unwaking maintains his dream and no one can find his slumbering body."
+        }
+
+    ]
+}
