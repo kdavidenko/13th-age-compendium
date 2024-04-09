@@ -1,0 +1,437 @@
+{
+    "ancestries": [
+        {
+            "title": "Aven/Aarakocra",
+            "img": "https://images.squarespace-cdn.com/content/v1/5bd88db093a6320f071b1a50/52d4fa87-631d-4d35-8f6a-3bacbcd44047/5e_ToA_Aarakocra.png",
+            "desc": "Mystical eagle-people who can fly. Tend to be reclusive.",
+            "srd": "",
+            "powers": [
+                {
+                    "pwrtitle":"Flight",
+                    "pwrDesc": "Aven can fly. They are very agile flyers, but rather slow. They can't carry much weight while flying or fly with heavy armor.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Your speed and agility while flying increases. When you move by flying, you cannot be targeted with opportunity attacks."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You become strong enough to fly while wearing heavy armor or while carrying another creature or item that weighs about as much as you."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Beastfolk",
+            "img": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/11/Gnoll.jpg",
+            "desc": "Bestial humanoids that walk on two legs and can speak like others but have features of hyenas, dogs, etc.",
+            "srd": "https://www.13thagesrd.com/races/beastblooded/",
+            "powers": [
+                {
+                    "pwrtitle":"Bestial Future",
+                    "pwrDesc": "Once per battle when you hit an enemy with an attack, you may deal extra damage to them equal to your level X the escalation die.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "The first time you use bestial fury each battle, heal hp equal to the extra damage you deal."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per battle when you use bestial fury against an enemy engaged with an ally, bestial fury is not expended."
+                        },
+                        {
+                            "featType": "Epic Feat", 
+                            "feat": "Once per battle when you miss an enemy with an attack, until the end of the battle, gain an extra use of bestial fury that can only be used against an enemy you miss with an attack."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dragonborn",
+            "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Chromatic-Dragonborn-Dungeons-and-Dragons-Cover.jpg",
+            "desc": "Dragon-like people. They are as varied as their draconic ancestries",
+            "srd": "https://www.13thagesrd.com/races/beastblooded/",
+            "powers": [
+                {
+                    "pwrtitle":"Breath Weapon",
+                    "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 1d6 damage per your level of an energy type that makes sense for your character.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "Roll a hard save (16+) when you use your breath weapon. If you succeed, the breath weapon is not expended."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Your breath weapon attack targets 1d3 nearby enemies in a group instead."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": " Your breath weapon damage dice are d8s instead of d6s."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "The first time each battle you are staggered, you regain one use of your breath weapon attack if it's expended."
+                        },
+                        {
+                            "featType": "Epic Feat", 
+                            "feat": "You can use your breath weapon twice per battle instead of once, and the target of your breath weapon attacks can now be far away."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elf, Gold",
+            "img": "https://www.worldanvil.com/uploads/images/943ca011aef39166eeed683dd6f2eaf3.jpg",
+            "desc": "Magical, imperialistic culture from the Gilded Coast.",
+            "srd": "https://www.13thagesrd.com/races/high-elf/",
+            "powers": [
+                {
+                    "pwrtitle":"Highblood Teleport",
+                    "pwrDesc": "Once per battle as a move action, place yourself in a nearby location you can see.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Deal damage equal to twice your level to one enemy engaged with you before or after you teleport."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elf, Green",
+            "img": "https://netheril.net/w/images/d/d9/TdRABPh_-_Imgur.png",
+            "desc": "Nature-loving culture from Ironwood. Of late they have become more closely aligned with the wilds.",
+            "srd": "https://www.13thagesrd.com/races/wood-elf/",
+            "powers": [
+                {
+                    "pwrtitle":"Elven Grace",
+                    "pwrDesc": "At the start of each of your turns, roll a die to see if you get an extra standard action. If your roll is equal to or lower than the escalation die, you get an extra standard action that turn. At the start of battle, you roll a d6. Each time you successfully gain an extra action, the size of the die you roll increases by one step on the following progression: (d4), d6, d8, d10, d12, d20. If you get an extra action after rolling a d20, you can’t get any more extra actions that battle.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per day, start a battle rolling a d4 for elven grace instead of a d6."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elf, Pale",
+            "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8badeff-1e39-4f04-8d8f-a5ff1fd9b908/d8offod-bfc86bbe-4138-40fa-82b6-e17a7b7f4a3f.jpg/v1/fill/w_900,h_492,q_75,strp/the_szarkai_by_mavrosh_d8offod-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDkyIiwicGF0aCI6IlwvZlwvZThiYWRlZmYtMWUzOS00ZjA0LThkOGYtYTVmZjFmZDliOTA4XC9kOG9mZm9kLWJmYzg2YmJlLTQxMzgtNDBmYS04MmI2LWUxN2E3YjdmNGEzZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.uHBIlGTDGM3qqZ0f5YoKfOmnlhFc1HdwL4tGinEzAQk",
+            "desc": "Elusive, secretive people from the far north. Most self-concerned of the elves.",
+            "srd": "https://www.13thagesrd.com/races/dark-elf/",
+            "powers": [
+                {
+                    "pwrtitle":"Cruel",
+                    "pwrDesc": "Once per battle, deal ongoing damage to a target you hit with a natural even attack roll as a free action. The ongoing damage equals 5 times your level. (For example, at 3rd level you would deal 15 ongoing damage against a single target.) As usual, a normal save (11+) ends the damage. A critical hit doesn't double this ongoing damage.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per day, you can instead use cruel to deal 5 ongoing damage per level against an enemy you miss or that you roll a natural odd attack against."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fairy",
+            "img": "https://static.wixstatic.com/media/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg/v1/fill/w_600,h_850,al_c,q_85,enc_auto/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg",
+            "desc": "Tricky, small, and swift. They have their own rules of behavior that can seem rather alien.",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/pixie-3pp/",
+            "powers": [
+                {
+                    "pwrDesc": "When you assign your ability scores, both Dexterity and Charisma must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a fourth score, but neither can drop out of the top three at 1st level."
+                },
+                {
+                    "pwrtitle":"Flight",
+                    "pwrDesc": "Fairies can fly. They are very agile flyers, but rather slow. They can't carry much weight while flying. They prefer staying close to the ground to avoid issues such as strong winds and predatory birds."
+                },
+                {
+                    "pwrtitle":"Poisoned Weapons",
+                    "pwrDesc": "Fairies weapon attacks deal poison damage. Poisoning their weapons is the only way fairies can deal damage comparable to larger peoples."
+                },
+                {
+                    "pwrtitle":"Tiny",
+                    "pwrDesc": "You get a +4 bonus to AC against opportunity attacks. Strength-based skill checks that require moving heavy objects are one step more difficult for you (+5). Checks to squeeze into tiny spaces are one step easier (-5)."
+                },
+                {
+                    "pwrtitle":"Flutter Away",
+                    "pwrDesc": "Once per battle, when you roll a natural even failure with a disengage check, you can reroll the die and take the new result.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "If the reroll is successful, any enemy you disengaged from is dazed until the end of your next turn."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Goblins",
+            "img": "https://i0.wp.com/nerdarchy.com/wp-content/uploads/2020/09/beastlands-goblin-scaled.jpg",
+            "desc": "Fey creatures that have spent centuries in the wilds.",
+            "srd": "https://www.13thagesrd.com/races/halfling/",
+            "powers": [
+                {
+                    "pwrtitle":"Small",
+                    "pwrDesc": "Halflings have a +2 AC bonus against opportunity attacks."
+                },
+                {
+                    "pwrtitle":"Evasive",
+                    "pwrDesc": "Once per battle, force an enemy that hits you with an attack to reroll the attack with a -2 penalty.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "The enemy's reroll takes a -5 penalty instead."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Human",
+            "img": "https://arcaneeye.com/wp-content/uploads/2021/07/Human_Corsairs.jpg",
+            "desc": "Found all over the world, they are as varied as their many nations.",
+            "srd": "https://www.13thagesrd.com/races/human/",
+            "powers": [
+                {
+                    "pwrtitle":"Bonus Feat",
+                    "pwrDesc": "At 1st level, human PCs start with two feats instead of one."
+                },
+                {
+                    "pwrtitle":"Quick to Fight",
+                    "pwrDesc": "At the start of each battle, roll initiative twice and choose the result you want.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "If you roll a natural 19 or 20 for initiative, increase the escalation die by 1 (usually from 0 to 1 since it's the start of the battle)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Kandali/Kobold",
+            "img": "https://www.belloflostsouls.net/wp-content/uploads/2023/08/kobold-feat.jpg",
+            "desc": "Small dragon-like creatures forsaken by higher powers",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/kobold-3pp/",
+            "powers": [
+                {
+                    "pwrtitle": "Sobriquet",
+                    "pwrDesc": "You must spend at least one background point on your kobold sobriquet: the surname given to you by the kobold community because of a character trait, physical feature, occupation, great deed or shameful event. These canny survivors know the value of misdirection, so some sobriquets hide a kobold's true nature — a kobold named Takto Damnfool might leave you holding an empty coin purse in one hand and a worthless deed to the Puffing Bridge in the other. Mechanically, a kobold sobriquet is simply a character background expressed as a name. But it's also public knowledge, so \"Smaruk Backstabber\" should expect to be treated with suspicion."
+                },
+                {
+                    "pwrtitle":"Nifty Footwork",
+                    "pwrDesc": "When you miss with a melee attack you can pop free from the target as a free action. If you choose not to pop free you may add your Intelligence or Dexterity modifier to the damage of your next attack against this target.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You can now also pop free from an enemy you're engaged with as a free action when that enemy's attack misses you. If you choose not to do so you may add 2x your Intelligence or Dexterity modifier to the next miss damage that you do this battle."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Kathic/Catfolk",
+            "img": "https://cdna.artstation.com/p/assets/images/images/007/099/794/large/bram-sels-mtg-alms-collector-bram-sels.jpg?1503671372",
+            "desc": "Community-minded feline people.",
+            "srd": "https://www.13thagesrd.com/races/alleykin/",
+            "powers": [
+                {
+                    "pwrtitle": "Elusive",
+                    "pwrDesc": "Once per battle, reduce the damage you take from an attack by 1d6 X your level. Then deal that much damage to one enemy engaged with you.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "You take half damage from falls."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "After you use elusive, you can immediately roll a free disengage check."
+                        },
+                        {
+                            "featType": "Epic Feat", 
+                            "feat": "Once when you die, it turns out you weren't dead after all. You find your allies during the next rest, having spent enough recoveries to get above staggered."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Khanmori",
+            "img": "https://www.mtgnexus.com/img/gallery/4400-glint-sleeve-artisan.jpg",
+            "desc": "Technologically and magically advanced race of Dwarves, recently returned after millennia of hiding.",
+            "srd": "https://www.13thagesrd.com/races/dwarf/",
+            "powers": [
+                {
+                    "pwrtitle": "That's Your Best Shot?",
+                    "pwrDesc": "Once per battle as a free action after you have been hit by an enemy attack, you can heal using a recovery. If the escalation die is less than 2, you only get half the usual healing from the recovery. Unlike other recoveries that might allow you to take an average result, you have to roll this one! Note that you can't use this ability if the attack drops you to 0 hp or below. You've got to be on your feet to sneer at their attack and recover",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "If the escalation die is 2+ when you use that's your best shot, the recovery is free."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ogre/Giantkin",
+            "img": "https://www.pcinvasion.com/wp-content/uploads/2020/10/Baldurs-Gate-3-Ogre-summon-Lumps-War-Horn-Lump-the-Enlightened-One-.jpg",
+            "desc": "Crude and brutal, their lives revolve around meals and strength.",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/half-ogre-3pp/",
+            "powers": [
+                {
+                    "pwrDesc": "Add +1 to Strength or Constitution. When you assign a ability scores, both Strength and Constitution must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a score that's out of your top three scores, but neither Strength nor Constitution can drop out of the top three at 1st level."
+                },
+                {
+                    "pwrtitle": "Brutal",
+                    "pwrDesc": "Once per battle, before making an attack, you can choose to take disadvantage on the attack roll. If you still hit, you deal double damage. You cannot use this power if the attack already had disadvantage, and advantage cannot cancel this disadvantage"
+                }
+            ]
+        },
+        {
+            "title": "Orc / People of the Taak",
+            "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
+            "desc": "People defined by their \"taak\" or life of a battle-saint they choose to emulate.",
+            "srd": "https://www.13thagesrd.com/races/half-orc/",
+            "powers": [
+                {
+                    "pwrtitle": "Lethal",
+                    "pwrDesc": "Once per battle, reroll a melee attack and use the roll you prefer as the result.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "If the lethal attack reroll is a natural 16+, you can use lethal again later this battle."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Lost/Tiefling",
+            "img": "https://www.enworld.org/media/tiefling-3-jpeg.113534/full",
+            "desc": "Devilish-looking humanoids, orphaned by fate.",
+            "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
+            "powers": [
+                {
+                    "pwrtitle": "Curse of Chaos",
+                    "pwrDesc": "Once per battle as a free action when a nearby enemy rolls a natural 1-5 on an attack or a save, turn their roll into a natural 1 and improvise a further curse that shows how their attempt backfires horribly.A curse should have about the same impact as a typical once-per-battle ability. For example, a typical curse might lead to the cursed attacker dealing half damage to themself with their fumbled attack and being dazed until the end of their next turn. The GM may reward storytelling flair and/or limit the suggested effects of the curse.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Whenever a nearby enemy rolls a natural 1 on an attack against you, you can use curse of chaos against them without expending it."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Thraskan/Mantisfolk",
+            "img": "https://1.bp.blogspot.com/-qv7qmAoGEw4/WzEBEefRiwI/AAAAAAAABYE/g9qougcNp70aNrg6J2Yc2RlgxQS2RDdzACEwYBhgL/s1600/thri-kreen.jpg",
+            "desc": "An ancient insectoid people organized into hives with a natural talent for magical song.",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
+            "powers": [
+                {
+                    "pwrtitle": "Four Armed Warrior",
+                    "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Your crit range on the reroll expands by 2."
+                        },
+                        {
+                            "featType": "Epic Feat", 
+                            "feat": "Your crit range on the reroll expands by 4."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sukrah/Werefolk",
+            "img": "https://www.dandwiki.com/w/images/9/98/Werewolf_Splash.jpeg",
+            "desc": "People cursed by Kah-y-Rah to walk as lycanthropes or other were-creatures but who maintain their intelligence and personality.",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/moonblooded-3pp/",
+            "powers": [
+                {
+                    "pwrtitle": "Four Armed Warrior",
+                    "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Your crit range on the reroll expands by 2."
+                        },
+                        {
+                            "featType": "Epic Feat", 
+                            "feat": "Your crit range on the reroll expands by 4."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Yazatli/Snakefolk",
+            "img": "https://www.dndspeak.com/wp-content/uploads/2023/04/maxresdefault-5.jpg",
+            "desc": "Cunning multi-caste snake-people from a distant island chain.",
+            "srd": "",
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Poison Bite",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "A creature you hit with this attack also becomes weakened and suffers an ongoing 5 poison damage per level you possess. They can end the effect with a Normal (11+) save."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Crushing Coils",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty. If you hit, you deal ongoing 1d8 damage per level you possess, plus any modifier from Strength (which is doubled at champion tier and tripled at epic tier). ",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "A creature you hit with this attack also becomes stuck until you attack a different target. If you use this attack against a creature stuck by it, the attack automatically hits."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Star Scale",
+                    "pwrDesc": "You may choose a wizard talent as one of your class talents instead of the normal options. If your class does not let you cast spells, you learn a wizard spell of appropriate level at 1st, 5th, and 8th levels. If you can cast spells, you may select from the wizard spell list.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Choose one of your spells to be your signature spell. If it is a Daily spell, it becomes Per Battle. If it doesn't have a Recharge, it now has a Recharge of 6+. If it has a Recharge, it's Recharge becomes 6+"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ysthar/Lizardfolk",
+            "img": "https://www.gmbinder.com/images/vGYZJH6.jpg",
+            "desc": "Cosmically obsessed reptilians from the northern swamps",
+            "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
+            "powers": [
+                {
+                    "pwrtitle": "Claws and Jaws",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You can make an unarmed melee basic attack as above as a quick action in addition to your other actions on your turn. However, if you take another action during that turn to use an attack power or basic attack, this attack deals only half damage. (Any miss damage is not halved, however.)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
