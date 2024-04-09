@@ -1,5 +1,5 @@
-import { Button } from '@mui/material';
 import './App.css';
+import Navbar from "Navbar";
 import IconList from './icons/IconList';
 import {Route, Routes } from 'react-router-dom';
 
@@ -8,12 +8,7 @@ function App() {
     <>
       <div className="background"></div> 
       <div className="App">
-        <nav>
-          <Button href='/ancestries' variant='text' disabled>Ancestries</Button>
-          <Button href='/classes' variant='text' disabled>Classes</Button>
-          <Button href='/icons' variant='text'>Icons</Button>
-          <Button href='/world' variant='text' disabled>World</Button>
-        </nav>
+        <Navbar />
         <Routes>
           <Route path="/" />
           <Route path="/icons" element={ <IconList />} />

@@ -1,0 +1,9 @@
+.Navbar {
+ text-align: center;
+}
+
+.Navbar a {
+  margin:12px;
+  text-decoration: none;
+  padding: 8px 12px;
+}
