@@ -11,7 +11,6 @@ function IconPage() {
       <h3>Heroic Icons</h3>
     { 
       Heroic.icons.map(function(icon, i) {
-        console.log(icon)
         return (
           <div key={`icon`+i}>
             <IconItem {...icon} />
@@ -22,7 +21,6 @@ function IconPage() {
     <h3>Ambiguous Icons</h3>
     { 
       Ambiguous.icons.map(function(icon, i) {
-        console.log(icon)
         return (
           <div key={`icon`+i}>
             <IconItem {...icon} />
@@ -33,7 +31,6 @@ function IconPage() {
     <h3>Villainous Icons</h3>
     { 
       Villainous.icons.map(function(icon, i) {
-        console.log(icon)
         return (
           <div key={`icon`+i}>
             <IconItem {...icon} />
