@@ -9,7 +9,7 @@ type AncestryItemProps = {
   title: string,
   img: string,
   desc: string,
-  srd: string,
+  srd?: string,
   powers: Array<AncestryPowerProps>
 }
 
@@ -33,9 +33,8 @@ function AncestryItem(
     powers
   }: AncestryItemProps,
 ) {
-  
+
   const CustomAccordion = styled(Accordion)(() => {
-    console.log(img)
     return {
       boxShadow: 'none', // this styles directly apply to accordion
       border: `1px solid gray`,

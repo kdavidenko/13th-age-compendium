@@ -7,7 +7,7 @@
             "srd": "",
             "powers": [
                 {
-                    "pwrtitle":"Flight",
+                    "pwrtitle":"Flight (Ancestry Power)",
                     "pwrDesc": "Aven can fly. They are very agile flyers, but rather slow. They can't carry much weight while flying or fly with heavy armor.",
                     "pwrFeats": [
                         {
@@ -29,7 +29,7 @@
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
             "powers": [
                 {
-                    "pwrtitle":"Bestial Future",
+                    "pwrtitle":"Bestial Fury (Ancestry Power)",
                     "pwrDesc": "Once per battle when you hit an enemy with an attack, you may deal extra damage to them equal to your level X the escalation die.",
                     "pwrFeats": [
                         {
@@ -55,7 +55,7 @@
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
             "powers": [
                 {
-                    "pwrtitle":"Breath Weapon",
+                    "pwrtitle":"Breath Weapon (Ancestry Power)",
                     "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 1d6 damage per your level of an energy type that makes sense for your character.",
                     "pwrFeats": [
                         {
@@ -89,7 +89,7 @@
             "srd": "https://www.13thagesrd.com/races/high-elf/",
             "powers": [
                 {
-                    "pwrtitle":"Highblood Teleport",
+                    "pwrtitle":"Highblood Teleport (Ancestry Power)",
                     "pwrDesc": "Once per battle as a move action, place yourself in a nearby location you can see.",
                     "pwrFeats": [
                         {
@@ -107,7 +107,7 @@
             "srd": "https://www.13thagesrd.com/races/wood-elf/",
             "powers": [
                 {
-                    "pwrtitle":"Elven Grace",
+                    "pwrtitle":"Elven Grace (Ancestry Power)",
                     "pwrDesc": "At the start of each of your turns, roll a die to see if you get an extra standard action. If your roll is equal to or lower than the escalation die, you get an extra standard action that turn. At the start of battle, you roll a d6. Each time you successfully gain an extra action, the size of the die you roll increases by one step on the following progression: (d4), d6, d8, d10, d12, d20. If you get an extra action after rolling a d20, you can’t get any more extra actions that battle.",
                     "pwrFeats": [
                         {
@@ -125,7 +125,7 @@
             "srd": "https://www.13thagesrd.com/races/dark-elf/",
             "powers": [
                 {
-                    "pwrtitle":"Cruel",
+                    "pwrtitle":"Cruel (Ancestry Power)",
                     "pwrDesc": "Once per battle, deal ongoing damage to a target you hit with a natural even attack roll as a free action. The ongoing damage equals 5 times your level. (For example, at 3rd level you would deal 15 ongoing damage against a single target.) As usual, a normal save (11+) ends the damage. A critical hit doesn't double this ongoing damage.",
                     "pwrFeats": [
                         {
@@ -158,7 +158,7 @@
                     "pwrDesc": "You get a +4 bonus to AC against opportunity attacks. Strength-based skill checks that require moving heavy objects are one step more difficult for you (+5). Checks to squeeze into tiny spaces are one step easier (-5)."
                 },
                 {
-                    "pwrtitle":"Flutter Away",
+                    "pwrtitle":"Flutter Away (Ancestry Power)",
                     "pwrDesc": "Once per battle, when you roll a natural even failure with a disengage check, you can reroll the die and take the new result.",
                     "pwrFeats": [
                         {
@@ -177,10 +177,10 @@
             "powers": [
                 {
                     "pwrtitle":"Small",
-                    "pwrDesc": "Halflings have a +2 AC bonus against opportunity attacks."
+                    "pwrDesc": "Goblins have a +2 AC bonus against opportunity attacks."
                 },
                 {
-                    "pwrtitle":"Evasive",
+                    "pwrtitle":"Evasive (Ancestry Power)",
                     "pwrDesc": "Once per battle, force an enemy that hits you with an attack to reroll the attack with a -2 penalty.",
                     "pwrFeats": [
                         {
@@ -202,7 +202,7 @@
                     "pwrDesc": "At 1st level, human PCs start with two feats instead of one."
                 },
                 {
-                    "pwrtitle":"Quick to Fight",
+                    "pwrtitle":"Quick to Fight (Ancestry Power)",
                     "pwrDesc": "At the start of each battle, roll initiative twice and choose the result you want.",
                     "pwrFeats": [
                         {
@@ -224,7 +224,7 @@
                     "pwrDesc": "You must spend at least one background point on your kobold sobriquet: the surname given to you by the kobold community because of a character trait, physical feature, occupation, great deed or shameful event. These canny survivors know the value of misdirection, so some sobriquets hide a kobold's true nature — a kobold named Takto Damnfool might leave you holding an empty coin purse in one hand and a worthless deed to the Puffing Bridge in the other. Mechanically, a kobold sobriquet is simply a character background expressed as a name. But it's also public knowledge, so \"Smaruk Backstabber\" should expect to be treated with suspicion."
                 },
                 {
-                    "pwrtitle":"Nifty Footwork",
+                    "pwrtitle":"Nifty Footwork (Ancestry Power)",
                     "pwrDesc": "When you miss with a melee attack you can pop free from the target as a free action. If you choose not to pop free you may add your Intelligence or Dexterity modifier to the damage of your next attack against this target.",
                     "pwrFeats": [
                         {
@@ -242,7 +242,7 @@
             "srd": "https://www.13thagesrd.com/races/alleykin/",
             "powers": [
                 {
-                    "pwrtitle": "Elusive",
+                    "pwrtitle": "Elusive (Ancestry Power)",
                     "pwrDesc": "Once per battle, reduce the damage you take from an attack by 1d6 X your level. Then deal that much damage to one enemy engaged with you.",
                     "pwrFeats": [
                         {
@@ -268,7 +268,7 @@
             "srd": "https://www.13thagesrd.com/races/dwarf/",
             "powers": [
                 {
-                    "pwrtitle": "That's Your Best Shot?",
+                    "pwrtitle": "That's Your Best Shot? (Ancestry Power)",
                     "pwrDesc": "Once per battle as a free action after you have been hit by an enemy attack, you can heal using a recovery. If the escalation die is less than 2, you only get half the usual healing from the recovery. Unlike other recoveries that might allow you to take an average result, you have to roll this one! Note that you can't use this ability if the attack drops you to 0 hp or below. You've got to be on your feet to sneer at their attack and recover",
                     "pwrFeats": [
                         {
@@ -289,7 +289,7 @@
                     "pwrDesc": "Add +1 to Strength or Constitution. When you assign a ability scores, both Strength and Constitution must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a score that's out of your top three scores, but neither Strength nor Constitution can drop out of the top three at 1st level."
                 },
                 {
-                    "pwrtitle": "Brutal",
+                    "pwrtitle": "Brutal (Ancestry Power)",
                     "pwrDesc": "Once per battle, before making an attack, you can choose to take disadvantage on the attack roll. If you still hit, you deal double damage. You cannot use this power if the attack already had disadvantage, and advantage cannot cancel this disadvantage"
                 }
             ]
@@ -301,7 +301,7 @@
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "powers": [
                 {
-                    "pwrtitle": "Lethal",
+                    "pwrtitle": "Lethal (Ancestry Power)",
                     "pwrDesc": "Once per battle, reroll a melee attack and use the roll you prefer as the result.",
                     "pwrFeats": [
                         {
@@ -319,7 +319,7 @@
             "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
             "powers": [
                 {
-                    "pwrtitle": "Curse of Chaos",
+                    "pwrtitle": "Curse of Chaos (Ancestry Power)",
                     "pwrDesc": "Once per battle as a free action when a nearby enemy rolls a natural 1-5 on an attack or a save, turn their roll into a natural 1 and improvise a further curse that shows how their attempt backfires horribly.A curse should have about the same impact as a typical once-per-battle ability. For example, a typical curse might lead to the cursed attacker dealing half damage to themself with their fumbled attack and being dazed until the end of their next turn. The GM may reward storytelling flair and/or limit the suggested effects of the curse.",
                     "pwrFeats": [
                         {
@@ -337,7 +337,7 @@
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
             "powers": [
                 {
-                    "pwrtitle": "Four Armed Warrior",
+                    "pwrtitle": "Four Armed Warrior (Ancestry Power)",
                     "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
                     "pwrFeats": [
                         {
@@ -356,19 +356,18 @@
             "title": "Sukrah/Werefolk",
             "img": "https://www.dandwiki.com/w/images/9/98/Werewolf_Splash.jpeg",
             "desc": "People cursed by Kah-y-Rah to walk as lycanthropes or other were-creatures but who maintain their intelligence and personality.",
-            "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/moonblooded-3pp/",
             "powers": [
                 {
-                    "pwrtitle": "Four Armed Warrior",
-                    "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrtitle": "Beast Form (Ancestry Power)",
+                    "pwrDesc": "You may shapeshift into a bestial form as a standard action once per battle that lasts until the end of the scene or you drop to 0 hit points. When you do so, you can increase your damage equal to the escalation die. Double the additional damage at 5th level, and at 8th level quadruple it. Additionally, you gain resist damage 16+ to attacks against AC and PD from normal weapons that aren't silvered or magical, but take double damage from silvered weapons. You must make a hard save (16+) at the beginning of your turn. If you fail, you must use your action to move to and attack the closest creature, whether ally or foe.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "Your crit range on the reroll expands by 2."
+                            "feat": "The save becomes Easy (6+)."
                         },
                         {
                             "featType": "Epic Feat", 
-                            "feat": "Your crit range on the reroll expands by 4."
+                            "feat": "You no longer need to make the save."
                         }
                     ]
                 }
@@ -384,7 +383,7 @@
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
-                    "pwrtitle": "Poison Bite",
+                    "pwrtitle": "Poison Bite (Ancestry Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
                     "pwrFeats": [
                         {
@@ -394,7 +393,7 @@
                     ]
                 },
                 {
-                    "pwrtitle": "Crushing Coils",
+                    "pwrtitle": "Crushing Coils (Ancestry Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty. If you hit, you deal ongoing 1d8 damage per level you possess, plus any modifier from Strength (which is doubled at champion tier and tripled at epic tier). ",
                     "pwrFeats": [
                         {
@@ -404,7 +403,7 @@
                     ]
                 },
                 {
-                    "pwrtitle": "Star Scale",
+                    "pwrtitle": "Star Scale (Ancestry Power)",
                     "pwrDesc": "You may choose a wizard talent as one of your class talents instead of the normal options. If your class does not let you cast spells, you learn a wizard spell of appropriate level at 1st, 5th, and 8th levels. If you can cast spells, you may select from the wizard spell list.",
                     "pwrFeats": [
                         {
@@ -422,7 +421,7 @@
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
             "powers": [
                 {
-                    "pwrtitle": "Claws and Jaws",
+                    "pwrtitle": "Claws and Jaws (Ancestry Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
                     "pwrFeats": [
                         {
@@ -430,6 +429,26 @@
                             "feat": "You can make an unarmed melee basic attack as above as a quick action in addition to your other actions on your turn. However, if you take another action during that turn to use an attack power or basic attack, this attack deals only half damage. (Any miss damage is not halved, however.)"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "title": "Mixed Ancestry",
+            "img": "https://www.dndbeyond.com/attachments/10/615/bard-101.jpg",
+            "desc": "The people of Myrr are a varied bunch, perhaps you look mostly human but have a Kathic grandfather, or your mother and father were a kobold and a dragonborn.",
+            "srd": "",
+            "powers": [
+                {
+                    "pwrDesc": "You may select from any of the Ancestry powers of the members of your family, provideded they are a parent or grandparent of yours. An ancestry that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."
+                },
+                {
+                    "pwrDesc": "The sole exception is Thraskan/Mantisfolk, they cannot interbreed with other peoples."
+                },
+                {
+                    "pwrDesc": "If a feature has the (Ancestry Power) tag in its name, you may select it as your Mixed Ancestry power."
+                },
+                {
+                    "pwrDesc": "You do not gain the benefit of other features, such as Fairy's Tiny."
                 }
             ]
         }

@@ -1,0 +1,9 @@
+.AncestryPage {
+    .content {
+    margin-bottom: 12px;
+  }
+
+  .content div {
+    margin-bottom: 6px;
+  } 
+}
