@@ -2,7 +2,7 @@
     "icons": [
         {
             "iconType": "heroic",
-            "symbolPath": "./img/iconSymbol/arbiter.png",
+            "symbolPath": "img/iconSymbol/arbiter.png",
             "name": "The Arbiter",
             "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
             "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
