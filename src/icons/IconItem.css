@@ -1,18 +1,18 @@
 .IconItem {
   color:black;
 
-  h3 {
-    text-align: center;
-  }
+h3 {
+  text-align: center;
+}
 
-  .iconNameWrapper {
-    text-align: left;
-  }
+.iconNameWrapper {
+  text-align: left;
+}
 
-  .name {
-    font-size: 24px;
-    display: inline-block;
-  }
+.name {
+  font-size: 24px;
+  display: inline-block;
+}
 
   .name-symbol {
     max-height: 72px;
