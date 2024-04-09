@@ -58,7 +58,7 @@ function IconItem(
     <div className="IconItem">
       <CustomAccordion>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-        <img src={symbolPath} className='name-symbol' />
+        <img src={symbolPath} alt={`${name} name symbol`} className='name-symbol' />
         <div className='accordionHeaderContent'>
           <div className='iconNameWrapper'>
           <div className='name'> 

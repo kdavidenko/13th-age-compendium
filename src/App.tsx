@@ -1,18 +1,23 @@
+import { Button } from '@mui/material';
 import './App.css';
 import IconList from './icons/IconList';
 import {Route, Routes } from 'react-router-dom';
-import Navbar from 'Navbar';
 
 function App() {
   return (
     <>
       <div className="background"></div> 
       <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="" />
-        <Route path="/icons" element={<IconList />} />
-      </Routes>
+        <nav>
+          <Button href='/ancestries' variant='text' disabled>Ancestries</Button>
+          <Button href='/classes' variant='text' disabled>Classes</Button>
+          <Button href='/icons' variant='text'>Icons</Button>
+          <Button href='/world' variant='text' disabled>World</Button>
+        </nav>
+        <Routes>
+          <Route path="/" />
+          <Route path="/icons" element={ <IconList />} />
+        </Routes>
       </div>
     </>
   );
