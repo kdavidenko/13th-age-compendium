@@ -1,13 +1,13 @@
-import './IconList.css';
+import './IconPage.css';
 import IconItem from './IconItem';
 
 import Heroic from '../data/HeroicIcons.json';
 import Ambiguous from '../data/AmbiguousIcons.json';
 import Villainous from '../data/VillainousIcons.json';
 
-function IconList() {
+function IconPage() {
   return (
-    <div className="IconItem">
+    <div className="IconPage">
       <h3>Heroic Icons</h3>
     { 
       Heroic.icons.map(function(icon, i) {
@@ -45,4 +45,4 @@ function IconList() {
   );
 }
 
-export default IconList;
+export default IconPage;
