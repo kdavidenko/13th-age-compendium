@@ -1,0 +1,63 @@
+{
+    "locations": [
+        {
+            "name": "Khanmor",
+            "id": "khanmor",
+            "size": "major",
+            "tooltip": "A reclusive noocracy ruled by philosopher-kings. One of the world's two superpowers."
+        },
+        {
+            "name": "Socordia",
+            "id": "socordia",
+            "size": "major",
+            "tooltip": "A techological stratocracy. Its military power is unrivaled. One of the world's two superpowers."
+        },
+
+        {
+            "name": "The Glass Sea",
+            "id": "glass-sea",
+            "size": "major",
+            "tooltip": "Once a vast desert, at the end of the Watcher Crisis it was melted into glass."
+        },
+
+        {
+            "name": "The Mire",
+            "id": "mire",
+            "size": "major",
+            "tooltip": "A twisted, corrupt swamp stretching from the Spine of the world to the Sun Mountains. The Schemer keeps many lairs here."
+        },
+
+        {
+            "name": "Witchvale",
+            "id": "witchvale",
+            "size": "major",
+            "tooltip": "A great forest full of monstrous beasts and home to many lycanthropes."
+        },
+
+        {
+            "name": "Idres",
+            "id": "idres",
+            "size": "minor",
+            "tooltip": "An ancient human kingdom struggling to maintain relevancy."
+        },
+        {
+            "name": "Old Yazatli",
+            "id": "oldyazatli",
+            "size": "minor",
+            "tooltip": "A volcano-blasted wasteland. Currently the lair of the Epiphany."
+        },
+        {
+            "name": "Tregemas",
+            "id": "tregemas",
+            "size": "minor",
+            "tooltip": "A mercantile powerhouse. The birthplace of firearms. Stronghold of the Storm."
+        },
+
+        {
+            "name": "Sunhold",
+            "id": "sunhold",
+            "size": "city",
+            "tooltip": "The capital of Idres."
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 import './AncestryPage.css';
 import AncestryItem from './AncestryItem';
 
-import Ancestries from '../data/Ancestries.json';
+import Ancestries from '../../data/Ancestries.json';
 
 function AncestryPage() {
   return (

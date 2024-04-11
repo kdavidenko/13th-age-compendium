@@ -1,0 +1,171 @@
+.WorldPage {
+    .map {
+        background-image: url(/public/img/myrr13thAgePoliticalMap.png);
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50em;
+        border-radius: 8px;
+        position: relative;
+    }
+    
+    .map-locations {
+        color: #000;
+        font-weight: bold;
+        text-shadow: #fff 0px 0px 5px;
+        cursor: pointer;
+    }
+    
+    .location-tooltip {
+        position: absolute;
+    }
+
+    .location-major {
+        font-size: 20px;
+    }
+
+    .location-minor {
+        font-size: 15px;
+    }
+
+    .location-city {
+        font-size: 10px;
+    }
+
+    /* Major Locations */
+    #location-khanmor {
+        top: 118px;
+        left: 66px;
+    }
+    #location-socordia {
+        top: 368px;
+        left: 241px;
+    }
+    #location-glass-sea {
+        top: 33em;
+        left: 5em;
+    }
+    #location-mire {
+        top: 118px;
+        left: 66px;
+    }
+    #location-witchvale {
+        top: 118px;
+        left: 66px;
+    }
+    /* Minor Locations */
+    #location-aman {
+        top: 118px;
+        left: 66px;
+    }
+    #location-firefangs {
+        top: 118px;
+        left: 66px;
+    }
+    #location-gilded-coast {
+        top: 118px;
+        left: 66px;
+    }
+    #location-gnorath {
+        top: 118px;
+        left: 66px;
+    }
+    #location-greenwood {
+        top: 118px;
+        left: 66px;
+    }
+    #location-heartland {
+        top: 118px;
+        left: 66px;
+    }
+    #location-republics {
+        top: 118px;
+        left: 66px;
+    }
+    #location-idres {
+        top: 441px;
+        left: 498px;
+    }
+    #location-kath {
+        top: 118px;
+        left: 66px;
+    }
+    #location-morkarr {
+        top: 118px;
+        left: 66px;
+    }
+    #location-oldyazatli {
+        top: 400px;
+        left: 670px;
+    }
+    #location-oOrd {
+        top: 118px;
+        left: 66px;
+    }
+    #location-taliskhan {
+        top: 118px;
+        left: 66px;
+    }
+    #location-tregemas {
+        top: 441px;
+        left: 498px;
+    }
+
+    /* City Locations */
+    #location-alaris {
+        top: 118px;
+        left: 66px;
+    }
+    #location-crossroads {
+        top: 118px;
+        left: 66px;
+    }
+    #location-darkhill {
+        top: 118px;
+        left: 66px;
+    }
+    #location-gates {
+        top: 118px;
+        left: 66px;
+    }
+    #location-gildwater {
+        top: 118px;
+        left: 66px;
+    }
+    #location-karakas {
+        top: 118px;
+        left: 66px;
+    }
+    #location-kazijin {
+        top: 118px;
+        left: 66px;
+    }
+    #location-kolabras {
+        top: 118px;
+        left: 66px;
+    }
+    #location-qovith {
+        top: 118px;
+        left: 66px;
+    }
+    #location-panthean {
+        top: 118px;
+        left: 66px;
+    }
+    #location-saphiria {
+        top: 118px;
+        left: 66px;
+    }
+    #location-silvanwood {
+        top: 118px;
+        left: 66px;
+    }
+    #location-sunhold {
+        top: 424px;
+        left: 514px;
+    }
+    #location-timir{
+        top: 118px;
+        left: 66px;
+    }
+}

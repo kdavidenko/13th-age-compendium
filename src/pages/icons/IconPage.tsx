@@ -1,9 +1,9 @@
 import './IconPage.css';
 import IconItem from './IconItem';
 
-import Heroic from '../data/HeroicIcons.json';
-import Ambiguous from '../data/AmbiguousIcons.json';
-import Villainous from '../data/VillainousIcons.json';
+import Heroic from '../../data/HeroicIcons.json';
+import Ambiguous from '../../data/AmbiguousIcons.json';
+import Villainous from '../../data/VillainousIcons.json';
 
 function IconPage() {
   return (
