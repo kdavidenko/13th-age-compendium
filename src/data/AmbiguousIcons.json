@@ -2,7 +2,7 @@
     "icons": [
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/greenman.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/greenman.png",
             "name": "The Green Man",
             "description": "A young, but influential archfey, the Green Man sets his sights wherever nature and civilization clash. Fey of all varieties, seelie and unseelie, find common ground in his court.",
             "quote": "\"Nature and cities. Ain't so different. They both grow. I will make them grow together.\"",
@@ -26,7 +26,7 @@
 
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/ironmarshal.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/ironmarshal.png",
             "name": "The Iron Marshal",
             "description": "The military dictator of Socordia, one of the strongest nations in the world and closely allied with the devils. She ascended to power after her predecessor, the Watcher, cobbled the realm together from disparate factions. With the arrival of Last Night, only time will tell if her nation endures.",
             "quote": "\"I will do what must be done, no matter the cost.\"",
@@ -49,7 +49,7 @@
 
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/matriarch.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/matriarch.png",
             "name": "The Matriarch",
             "description": "The last living member of the Triumvirate, the Pale Elf Matriarch leads various factions of the elf people while trying to hold a semblance of the old Ironwood Empire together. Having centuries of experience makes her a formidable presence.",
             "quote": "\"Never attempt to win by force what can be won by deception.\"",
@@ -71,7 +71,7 @@
 
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/storm.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/storm.png",
             "name": "The Storm",
             "description": "The Chosen of the Devastation God, Kazak, the Storm rules the rich mercantile kingdom of Tregemas. A prodigy of political acumen and patron of both the arts and technology, there are few power plays that the Storm doesn't know about.",
             "quote": "\"Keep them guessing, it makes success all the more satisfying.\"",
@@ -95,7 +95,7 @@
 
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/uniter.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/uniter.png",
             "name": "The Uniter",
             "description": "After the Last Night fell, many of the monstrous denizens of the world became easy pickings for demons and adventurers alike. Kandali, Orcs, Ogres, and myriad others began fighting amongst themselves, squabbling for the barest of scraps. In this turmoil, the Uniter rose, bringing them under his protection.",
             "quote": "\"The gods are silent, deaf to your cries. But I hear you.\"",
@@ -119,7 +119,7 @@
 
         {
             "iconType": "ambiguous",
-            "symbolPath": "./img/iconSymbol/unwaking.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
             "name": "The Unwaking",
             "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
             "quote": "\"Whether dream or nightmare, you learn about yourself.\"",

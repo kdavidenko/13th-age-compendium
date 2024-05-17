@@ -2,7 +2,7 @@
     "icons": [
         {
             "iconType": "heroic",
-            "symbolPath": "./img/iconSymbol/arbiter.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
             "name": "The Arbiter",
             "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
             "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
@@ -23,7 +23,7 @@
         },
         {   
             "iconType": "heroic",
-            "symbolPath": "./img/iconSymbol/redeemer.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/redeemer.png",
             "name": "The Redeemer",
             "description": "Once known as the Scaled Tyrant, through an unlikely event, she has returned to her ancient state of grace. Seeking to recant for all the damage she caused over the last seven thousand years, she now acts openly to halt those that would cause harm to the world at large.",
             "quote": "\"The right path is rarely simple or easy.\"",
@@ -48,7 +48,7 @@
 
         {
             "iconType": "heroic",
-            "symbolPath": "./img/iconSymbol/sunqueen.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/sunqueen.png",
             "name": "The Sun Queen",
             "description": "The young Queen of Idres wishes to undo the actions of her father, the Wolf King, rebuilding alliances he squandered and instituting reforms. Time will tell if she will be as beloved as her grandmother.",
             "quote": "\"Let our covenant endure through this Night.\"",
@@ -72,7 +72,7 @@
 
         {
             "iconType": "heroic",
-            "symbolPath": "./img/iconSymbol/truthteller.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/truthteller.png",
             "name": "The Truthteller",
             "description": "The goddess of truth, she exists in seven parts, each representing a different sort of truth. One of the oldest icons, her influence is felt throughout the world, inspiring heroes and intimidating would-be villains.",
             "quote": "\"The Truth is rarely pure and never simple.\"",

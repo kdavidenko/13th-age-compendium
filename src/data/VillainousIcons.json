@@ -2,7 +2,7 @@
     "icons": [
         {
             "iconType": "villainous",
-            "symbolPath": "./img/iconSymbol/deadseer.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/deadseer.png",
             "name": "The Dead Seer",
             "description": "Once a respected wizard, the Dead Seer is the most powerful lich in the world and Chosen of the god of secrets. He is believed to be entirely unkillable.",
             "quote": "\"I believe that's the sixty-seventh time upstarts just like you have said that to me. Be original, at least!\"",
@@ -26,7 +26,7 @@
 
         {
             "iconType": "villainous",
-            "symbolPath": "./img/iconSymbol/epiphany.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
             "name": "The Epiphany",
             "description": "An ever-changing mass of limbs and tentacles, they are the embodiment of demonic chaos in the world and the true herald of the Uncreator, the source of all demons: Abd'Zoth. Happy to give gifts or tempt a mortal with power, the only consistency to the Epiphany is their absolute belief in their own superiority.",
             "quote": "\"Your flesh is weak, soft, vulnerable. Hold still, we will correct nature's errors.\"",
@@ -51,7 +51,7 @@
 
         {
             "iconType": "villainous",
-            "symbolPath": "./img/iconSymbol/schemer.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/schemer.png",
             "name": "The Schemer",
             "description": "One of the first dragons to darken the skies. An ancient being with thousands of years of experience. She's long been in the shadow of another, and now that there is no Scaled Tyrant, she is making her move.",
             "quote": "\"Power abhors a vacuum.\"",
@@ -73,7 +73,7 @@
 
         {
             "iconType": "villainous",
-            "symbolPath": "./img/iconSymbol/viper.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/viper.png",
             "name": "The Viper",
             "description": "Part matron, part murderer. She's quickly ascended to power in the underworld and puts profits before people. Ending up on her bad side gives a lot of unwanted attention. Being on her good side is almost worse.",
             "quote": "\"A contract is a contract is a contract… but only within the Syndicates.\"",
