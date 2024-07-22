@@ -1,37 +1,37 @@
-import './AncestryItem.css';
+import './KinItem.css';
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
 
-type AncestryItemProps = {
+type KinItemProps = {
   title: string,
   img: string,
   desc: string,
   srd?: string,
-  powers: Array<AncestryPowerProps>
+  powers: Array<KinPowerProps>
 }
 
-type AncestryPowerProps = {
+type KinPowerProps = {
   pwrtitle?: string,
   pwrDesc: string,
-  pwrFeats?: Array<AncestryFeatProps>
+  pwrFeats?: Array<KinFeatProps>
 }
 
-type AncestryFeatProps = {
+type KinFeatProps = {
   featType: string,
   feat: string
 }
 
-function AncestryItem(
+function KinItem(
   {
     title,
     img,
     desc,
     srd,
     powers
-  }: AncestryItemProps,
+  }: KinItemProps,
 ) {
 
   const CustomAccordion = styled(Accordion)(() => {
@@ -59,7 +59,7 @@ function AncestryItem(
 
 
   return (
-    <div className="AncestryItem">
+    <div className="KinItem">
       <CustomAccordion>
       <AccordionSummary expandIcon={<ExpandMoreIcon sx={{ color: '#fff' }}/>}>
           <div className='name'> 
@@ -109,4 +109,4 @@ function AncestryItem(
   );
 }
 
-export default AncestryItem;
+export default KinItem;

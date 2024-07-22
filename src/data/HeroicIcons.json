@@ -19,7 +19,8 @@
             "history": [
                 "There has always been an Arbiter, from the Fall of Heaven to present day. Whenever one dies, the essence of the Arbiter selects another living being who then becomes an immortal keeper of balance between good and evil, stability and freedom."
             ],
-            "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
+            "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons.",
+            "setting": ["mainland"]
         },
         {   
             "iconType": "heroic",
@@ -43,7 +44,8 @@
                 "She was the first dragon, embodying the love and protection her creator Ausphitar had for the world. However, just prior to the Fall of Heaven, she heeded the words of the god of secrets and fell under the sway of the Uncreator. She brought six of her nine siblings down with her and started the First War. The conflict only ended when her mate Elmranis sacrificed himself in a ritual to imprison her and the other fallen elders.",
                 "For thousands of years, after, she was the Scaled Tyrant, terrorizing the world through machinations and cults and agents. She sought to free her fellow Elder Dragons from their soulcrystal prisons, but was unsuccessful."
             ],
-            "trueDanger": "Everything will be alright as long as the Redeemer does not fall back to her old ways as the previous Scaled Tyrant."
+            "trueDanger": "Everything will be alright as long as the Redeemer does not fall back to her old ways as the previous Scaled Tyrant.",
+            "setting": ["mainland"]
         },
 
         {
@@ -67,7 +69,8 @@
                 "During the Three Thrones War that resulted in her grandmother Viola II ascending to the throne, she accepted a pact with the malevolent god Kah-y-Rah to be resurrected back to life after a battle. As a result of the arrangement, she was cursed with natural lycanthropy, which no cure could touch.",
                 "Her reign was marked by reforms and rights expanding for the people, unfortunately her former companion Duke Petronio of Tregemas stoked revolutionary ideals and a man named Dain Skyless took up arms to lead many of the constituent states of Idres to revolution. As a result, her heir became the Wolf King, cracking down on the populace and isolating the kingdom. When he was inevitably assassinated, the Sun Queen ascended the throne"
             ],
-            "trueDanger": "Everything will be alright so long as the Sun Queen does not embrace her natural lycanthropy and become the Wolf Queen."
+            "trueDanger": "Everything will be alright so long as the Sun Queen does not embrace her natural lycanthropy and become the Wolf Queen.",
+            "setting": ["mainland"]
         },
 
         {
@@ -92,7 +95,31 @@
             "history": [
                 "Originally from a different Cycle of Myrr, after stopping the Scaled Tyrant of that Cycle, she and her friends chose to come to a new Cycle, where she entered the service of Jinessa and rose from Chosen, to Demigod, and then goddess in her own right."
             ],
-            "trueDanger": "Everything will be alright so long as the Truthteller keeps the people inspired"
+            "trueDanger": "Everything will be alright so long as the Truthteller keeps the people inspired",
+            "setting": ["mainland"]
+        },
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Unwaking",
+            "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
+            "quote": "\"Whether dream or nightmare, you learn about yourself.\"",
+            "usualLocation": "The place the Unwaking sleeps is unknown, even to his functionaries and agents.",
+            "commonKnowledge": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new Dawn is established.",
+                "He is aware of his surroundings and communicates with others by easily slipping into their dreams. If one is visited by the Unwaking, it is a coin flip whether the event is enlightening or terrifying."
+            ],
+            "adventurers": [
+                "It is rare for an adventurer to deal with the Unwaking directly, most often the academics and mages under his tutelage act on his behalf. Those with notable potential are often recruited into a magical pact to expand their abilities. He is flexible on morality and prefers an efficient and fully resolved solution to grandiose displays of virtue or villainy.",
+                "Adventurers in a bind or needing information are wise to seek out the council of the Unwaking and his agents."
+            ],
+            "allies": "He visits the Sun Queen and the Storm in their dreams, and is neutral in the conflict between them, his agents beginning to act as intermediaries between his two most powerful neighbors.",
+            "enemies": "The Epiphany believes he is still on Old Yazatli, and searches to consume him. The Unwaking is only too happy to lead the Epiphany on their chase and dreams of the day his people can retake their ancient home.",
+            "history": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new order is established."
+            ],
+            "trueDanger": "Everything will be alright so long as the Unwaking maintains his dream and no one can find his slumbering body.",
+            "setting": ["urthu"]
         }
     ]
 }

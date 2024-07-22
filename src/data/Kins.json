@@ -1,13 +1,14 @@
 {
-    "ancestries": [
+    "kins": [
         {
             "title": "Aven/Aarakocra",
             "img": "https://images.squarespace-cdn.com/content/v1/5bd88db093a6320f071b1a50/52d4fa87-631d-4d35-8f6a-3bacbcd44047/5e_ToA_Aarakocra.png",
             "desc": "Mystical eagle-people who can fly. Tend to be reclusive.",
             "srd": "",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Flight (Ancestry Power)",
+                    "pwrtitle":"Flight (Kin Power)",
                     "pwrDesc": "Aven can fly. They are very agile flyers, but rather slow. They can't carry much weight while flying or fly with heavy armor.",
                     "pwrFeats": [
                         {
@@ -27,9 +28,10 @@
             "img": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/11/Gnoll.jpg",
             "desc": "Bestial humanoids that walk on two legs and can speak like others but have features of hyenas, dogs, etc.",
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Bestial Fury (Ancestry Power)",
+                    "pwrtitle":"Bestial Fury (Kin Power)",
                     "pwrDesc": "Once per battle when you hit an enemy with an attack, you may deal extra damage to them equal to your level X the escalation die.",
                     "pwrFeats": [
                         {
@@ -51,11 +53,12 @@
         {
             "title": "Dragonborn",
             "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Chromatic-Dragonborn-Dungeons-and-Dragons-Cover.jpg",
-            "desc": "Dragon-like people. They are as varied as their draconic ancestries",
+            "desc": "Dragon-like people. They are as varied as their draconic kin",
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Breath Weapon (Ancestry Power)",
+                    "pwrtitle":"Breath Weapon (Kin Power)",
                     "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 1d6 damage per your level of an energy type that makes sense for your character.",
                     "pwrFeats": [
                         {
@@ -87,9 +90,10 @@
             "img": "https://www.worldanvil.com/uploads/images/943ca011aef39166eeed683dd6f2eaf3.jpg",
             "desc": "Magical, imperialistic culture from the Gilded Coast.",
             "srd": "https://www.13thagesrd.com/races/high-elf/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Highblood Teleport (Ancestry Power)",
+                    "pwrtitle":"Highblood Teleport (Kin Power)",
                     "pwrDesc": "Once per battle as a move action, place yourself in a nearby location you can see.",
                     "pwrFeats": [
                         {
@@ -105,9 +109,10 @@
             "img": "https://netheril.net/w/images/d/d9/TdRABPh_-_Imgur.png",
             "desc": "Nature-loving culture from Ironwood. Of late they have become more closely aligned with the wilds.",
             "srd": "https://www.13thagesrd.com/races/wood-elf/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Elven Grace (Ancestry Power)",
+                    "pwrtitle":"Elven Grace (Kin Power)",
                     "pwrDesc": "At the start of each of your turns, roll a die to see if you get an extra standard action. If your roll is equal to or lower than the escalation die, you get an extra standard action that turn. At the start of battle, you roll a d6. Each time you successfully gain an extra action, the size of the die you roll increases by one step on the following progression: (d4), d6, d8, d10, d12, d20. If you get an extra action after rolling a d20, you can’t get any more extra actions that battle.",
                     "pwrFeats": [
                         {
@@ -123,9 +128,10 @@
             "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8badeff-1e39-4f04-8d8f-a5ff1fd9b908/d8offod-bfc86bbe-4138-40fa-82b6-e17a7b7f4a3f.jpg/v1/fill/w_900,h_492,q_75,strp/the_szarkai_by_mavrosh_d8offod-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDkyIiwicGF0aCI6IlwvZlwvZThiYWRlZmYtMWUzOS00ZjA0LThkOGYtYTVmZjFmZDliOTA4XC9kOG9mZm9kLWJmYzg2YmJlLTQxMzgtNDBmYS04MmI2LWUxN2E3YjdmNGEzZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.uHBIlGTDGM3qqZ0f5YoKfOmnlhFc1HdwL4tGinEzAQk",
             "desc": "Elusive, secretive people from the far north. Most self-concerned of the elves.",
             "srd": "https://www.13thagesrd.com/races/dark-elf/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle":"Cruel (Ancestry Power)",
+                    "pwrtitle":"Cruel (Kin Power)",
                     "pwrDesc": "Once per battle, deal ongoing damage to a target you hit with a natural even attack roll as a free action. The ongoing damage equals 5 times your level. (For example, at 3rd level you would deal 15 ongoing damage against a single target.) As usual, a normal save (11+) ends the damage. A critical hit doesn't double this ongoing damage.",
                     "pwrFeats": [
                         {
@@ -141,6 +147,7 @@
             "img": "https://static.wixstatic.com/media/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg/v1/fill/w_600,h_850,al_c,q_85,enc_auto/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg",
             "desc": "Tricky, small, and swift. They have their own rules of behavior that can seem rather alien.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/pixie-3pp/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
                     "pwrDesc": "When you assign your ability scores, both Dexterity and Charisma must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a fourth score, but neither can drop out of the top three at 1st level."
@@ -158,7 +165,7 @@
                     "pwrDesc": "You get a +4 bonus to AC against opportunity attacks. Strength-based skill checks that require moving heavy objects are one step more difficult for you (+5). Checks to squeeze into tiny spaces are one step easier (-5)."
                 },
                 {
-                    "pwrtitle":"Flutter Away (Ancestry Power)",
+                    "pwrtitle":"Flutter Away (Kin Power)",
                     "pwrDesc": "Once per battle, when you roll a natural even failure with a disengage check, you can reroll the die and take the new result.",
                     "pwrFeats": [
                         {
@@ -174,13 +181,14 @@
             "img": "https://i0.wp.com/nerdarchy.com/wp-content/uploads/2020/09/beastlands-goblin-scaled.jpg",
             "desc": "Fey creatures that have spent centuries in the wilds.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
                     "pwrtitle":"Small",
                     "pwrDesc": "Goblins have a +2 AC bonus against opportunity attacks."
                 },
                 {
-                    "pwrtitle":"Evasive (Ancestry Power)",
+                    "pwrtitle":"Evasive (Kin Power)",
                     "pwrDesc": "Once per battle, force an enemy that hits you with an attack to reroll the attack with a -2 penalty.",
                     "pwrFeats": [
                         {
@@ -196,13 +204,14 @@
             "img": "https://arcaneeye.com/wp-content/uploads/2021/07/Human_Corsairs.jpg",
             "desc": "Found all over the world, they are as varied as their many nations.",
             "srd": "https://www.13thagesrd.com/races/human/",
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrtitle":"Bonus Feat",
                     "pwrDesc": "At 1st level, human PCs start with two feats instead of one."
                 },
                 {
-                    "pwrtitle":"Quick to Fight (Ancestry Power)",
+                    "pwrtitle":"Quick to Fight (Kin Power)",
                     "pwrDesc": "At the start of each battle, roll initiative twice and choose the result you want.",
                     "pwrFeats": [
                         {
@@ -218,13 +227,14 @@
             "img": "https://www.belloflostsouls.net/wp-content/uploads/2023/08/kobold-feat.jpg",
             "desc": "Small dragon-like creatures forsaken by higher powers",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/kobold-3pp/",
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrtitle": "Sobriquet",
                     "pwrDesc": "You must spend at least one background point on your kobold sobriquet: the surname given to you by the kobold community because of a character trait, physical feature, occupation, great deed or shameful event. These canny survivors know the value of misdirection, so some sobriquets hide a kobold's true nature — a kobold named Takto Damnfool might leave you holding an empty coin purse in one hand and a worthless deed to the Puffing Bridge in the other. Mechanically, a kobold sobriquet is simply a character background expressed as a name. But it's also public knowledge, so \"Smaruk Backstabber\" should expect to be treated with suspicion."
                 },
                 {
-                    "pwrtitle":"Nifty Footwork (Ancestry Power)",
+                    "pwrtitle":"Nifty Footwork (Kin Power)",
                     "pwrDesc": "When you miss with a melee attack you can pop free from the target as a free action. If you choose not to pop free you may add your Intelligence or Dexterity modifier to the damage of your next attack against this target.",
                     "pwrFeats": [
                         {
@@ -240,9 +250,10 @@
             "img": "https://cdna.artstation.com/p/assets/images/images/007/099/794/large/bram-sels-mtg-alms-collector-bram-sels.jpg?1503671372",
             "desc": "Community-minded feline people.",
             "srd": "https://www.13thagesrd.com/races/alleykin/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle": "Elusive (Ancestry Power)",
+                    "pwrtitle": "Elusive (Kin Power)",
                     "pwrDesc": "Once per battle, reduce the damage you take from an attack by 1d6 X your level. Then deal that much damage to one enemy engaged with you.",
                     "pwrFeats": [
                         {
@@ -266,9 +277,10 @@
             "img": "https://www.mtgnexus.com/img/gallery/4400-glint-sleeve-artisan.jpg",
             "desc": "Technologically and magically advanced race of Dwarves, recently returned after millennia of hiding.",
             "srd": "https://www.13thagesrd.com/races/dwarf/",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle": "That's Your Best Shot? (Ancestry Power)",
+                    "pwrtitle": "That's Your Best Shot? (Kin Power)",
                     "pwrDesc": "Once per battle as a free action after you have been hit by an enemy attack, you can heal using a recovery. If the escalation die is less than 2, you only get half the usual healing from the recovery. Unlike other recoveries that might allow you to take an average result, you have to roll this one! Note that you can't use this ability if the attack drops you to 0 hp or below. You've got to be on your feet to sneer at their attack and recover",
                     "pwrFeats": [
                         {
@@ -280,16 +292,59 @@
             ]
         },
         {
+            "title": "Ocotzli/Sea Serpent People",
+            "img": "https://www.artofwillstore.com/wp-content/uploads/2022/09/Naga.jpg",
+            "desc": "Cunning multi-caste snake-people from a distant island chain.",
+            "srd": "",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Poison Bite (Kin Power)",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "A creature you hit with this attack also becomes weakened and suffers an ongoing 5 poison damage per level you possess. They can end the effect with a Normal (11+) save."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Crushing Coils (Kin Power)",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty. If you hit, you deal ongoing 1d8 damage per level you possess, plus any modifier from Strength (which is doubled at champion tier and tripled at epic tier). ",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "A creature you hit with this attack also becomes stuck until you attack a different target. If you use this attack against a creature stuck by it, the attack automatically hits."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Star Scale (Kin Power)",
+                    "pwrDesc": "You may choose a wizard talent as one of your class talents instead of the normal options. If your class does not let you cast spells, you learn a wizard spell of appropriate level at 1st, 5th, and 8th levels. If you can cast spells, you may select from the wizard spell list.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Choose one of your spells to be your signature spell. If it is a Daily spell, it becomes Per Battle. If it doesn't have a Recharge, it now has a Recharge of 6+. If it has a Recharge, it's Recharge becomes 6+"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Ogre/Giantkin",
             "img": "https://www.pcinvasion.com/wp-content/uploads/2020/10/Baldurs-Gate-3-Ogre-summon-Lumps-War-Horn-Lump-the-Enlightened-One-.jpg",
             "desc": "Crude and brutal, their lives revolve around meals and strength.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/half-ogre-3pp/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
                     "pwrDesc": "Add +1 to Strength or Constitution. When you assign a ability scores, both Strength and Constitution must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a score that's out of your top three scores, but neither Strength nor Constitution can drop out of the top three at 1st level."
                 },
                 {
-                    "pwrtitle": "Brutal (Ancestry Power)",
+                    "pwrtitle": "Brutal (Kin Power)",
                     "pwrDesc": "Once per battle, before making an attack, you can choose to take disadvantage on the attack roll. If you still hit, you deal double damage. You cannot use this power if the attack already had disadvantage, and advantage cannot cancel this disadvantage"
                 }
             ]
@@ -299,9 +354,10 @@
             "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
             "desc": "People defined by their \"taak\" or life of a battle-saint they choose to emulate.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle": "Lethal (Ancestry Power)",
+                    "pwrtitle": "Lethal (Kin Power)",
                     "pwrDesc": "Once per battle, reroll a melee attack and use the roll you prefer as the result.",
                     "pwrFeats": [
                         {
@@ -317,9 +373,10 @@
             "img": "https://www.enworld.org/media/tiefling-3-jpeg.113534/full",
             "desc": "Devilish-looking humanoids, orphaned by fate.",
             "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle": "Curse of Chaos (Ancestry Power)",
+                    "pwrtitle": "Curse of Chaos (Kin Power)",
                     "pwrDesc": "Once per battle as a free action when a nearby enemy rolls a natural 1-5 on an attack or a save, turn their roll into a natural 1 and improvise a further curse that shows how their attempt backfires horribly.A curse should have about the same impact as a typical once-per-battle ability. For example, a typical curse might lead to the cursed attacker dealing half damage to themself with their fumbled attack and being dazed until the end of their next turn. The GM may reward storytelling flair and/or limit the suggested effects of the curse.",
                     "pwrFeats": [
                         {
@@ -335,9 +392,10 @@
             "img": "https://1.bp.blogspot.com/-qv7qmAoGEw4/WzEBEefRiwI/AAAAAAAABYE/g9qougcNp70aNrg6J2Yc2RlgxQS2RDdzACEwYBhgL/s1600/thri-kreen.jpg",
             "desc": "An ancient insectoid people organized into hives with a natural talent for magical song.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle": "Four Armed Warrior (Ancestry Power)",
+                    "pwrtitle": "Four Armed Warrior (Kin Power)",
                     "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
                     "pwrFeats": [
                         {
@@ -356,9 +414,10 @@
             "title": "Sukrah/Werefolk",
             "img": "https://www.dandwiki.com/w/images/9/98/Werewolf_Splash.jpeg",
             "desc": "People cursed by Kah-y-Rah to walk as lycanthropes or other were-creatures but who maintain their intelligence and personality.",
+            "setting": ["mainland"],
             "powers": [
                 {
-                    "pwrtitle": "Beast Form (Ancestry Power)",
+                    "pwrtitle": "Beast Form (Kin Power)",
                     "pwrDesc": "You may shapeshift into a bestial form as a standard action once per battle that lasts until the end of the scene or you drop to 0 hit points. When you do so, you can increase your damage equal to the escalation die. Double the additional damage at 5th level, and at 8th level quadruple it. Additionally, you gain resist damage 16+ to attacks against AC and PD from normal weapons that aren't silvered or magical, but take double damage from silvered weapons. You must make a hard save (16+) at the beginning of your turn. If you fail, you must use your action to move to and attack the closest creature, whether ally or foe.",
                     "pwrFeats": [
                         {
@@ -378,12 +437,13 @@
             "img": "https://www.dndspeak.com/wp-content/uploads/2023/04/maxresdefault-5.jpg",
             "desc": "Cunning multi-caste snake-people from a distant island chain.",
             "srd": "",
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
-                    "pwrtitle": "Poison Bite (Ancestry Power)",
+                    "pwrtitle": "Poison Bite (Kin Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
                     "pwrFeats": [
                         {
@@ -393,7 +453,7 @@
                     ]
                 },
                 {
-                    "pwrtitle": "Crushing Coils (Ancestry Power)",
+                    "pwrtitle": "Crushing Coils (Kin Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty. If you hit, you deal ongoing 1d8 damage per level you possess, plus any modifier from Strength (which is doubled at champion tier and tripled at epic tier). ",
                     "pwrFeats": [
                         {
@@ -403,7 +463,7 @@
                     ]
                 },
                 {
-                    "pwrtitle": "Star Scale (Ancestry Power)",
+                    "pwrtitle": "Star Scale (Kin Power)",
                     "pwrDesc": "You may choose a wizard talent as one of your class talents instead of the normal options. If your class does not let you cast spells, you learn a wizard spell of appropriate level at 1st, 5th, and 8th levels. If you can cast spells, you may select from the wizard spell list.",
                     "pwrFeats": [
                         {
@@ -419,9 +479,10 @@
             "img": "https://www.gmbinder.com/images/vGYZJH6.jpg",
             "desc": "Cosmically obsessed reptilians from the northern swamps",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle": "Claws and Jaws (Ancestry Power)",
+                    "pwrtitle": "Claws and Jaws (Kin Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
                     "pwrFeats": [
                         {
@@ -433,19 +494,20 @@
             ]
         },
         {
-            "title": "Mixed Ancestry",
+            "title": "Mixed Kin",
             "img": "https://www.dndbeyond.com/attachments/10/615/bard-101.jpg",
             "desc": "The people of Myrr are a varied bunch, perhaps you look mostly human but have a Kathic grandfather, or your mother and father were a kobold and a dragonborn.",
             "srd": "",
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrDesc": "You may select from any of the Ancestry powers of the members of your family, provideded they are a parent or grandparent of yours. An ancestry that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."
+                    "pwrDesc": "You may select from any of the Kin powers of the members of your family, provideded they are a parent or grandparent of yours. An Kin that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."
                 },
                 {
                     "pwrDesc": "The sole exception is Thraskan/Mantisfolk, they cannot interbreed with other peoples."
                 },
                 {
-                    "pwrDesc": "If a feature has the (Ancestry Power) tag in its name, you may select it as your Mixed Ancestry power."
+                    "pwrDesc": "If a feature has the (Kin Power) tag in its name, you may select it as your Mixed Kin power."
                 },
                 {
                     "pwrDesc": "You do not gain the benefit of other features, such as Fairy's Tiny."

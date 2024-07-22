@@ -1,0 +1,76 @@
+{
+    "heroic": [
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Unwaking",
+            "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
+            "quote": "\"Whether dream or nightmare, you learn about yourself.\"",
+            "usualLocation": "The place the Unwaking sleeps is unknown, even to his functionaries and agents.",
+            "commonKnowledge": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new Dawn is established.",
+                "He is aware of his surroundings and communicates with others by easily slipping into their dreams. If one is visited by the Unwaking, it is a coin flip whether the event is enlightening or terrifying."
+            ],
+            "adventurers": [
+                "It is rare for an adventurer to deal with the Unwaking directly, most often the academics and mages under his tutelage act on his behalf. Those with notable potential are often recruited into a magical pact to expand their abilities. He is flexible on morality and prefers an efficient and fully resolved solution to grandiose displays of virtue or villainy.",
+                "Adventurers in a bind or needing information are wise to seek out the council of the Unwaking and his agents."
+            ],
+            "allies": "He visits the Sun Queen and the Storm in their dreams, and is neutral in the conflict between them, his agents beginning to act as intermediaries between his two most powerful neighbors.",
+            "enemies": "The Epiphany believes he is still on Old Yazatli, and searches to consume him. The Unwaking is only too happy to lead the Epiphany on their chase and dreams of the day his people can retake their ancient home.",
+            "history": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new order is established."
+            ],
+            "trueDanger": "Everything will be alright so long as the Unwaking maintains his dream and no one can find his slumbering body."
+        }
+    ],
+    "ambiguous": [
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "name": "The Arbiter",
+            "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
+            "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
+            "usualLocation": "The Arbiter is a hands-on fellow and is typically found where he is most needed.",
+            "commonKnowledge": [
+                "For hundreds of years, the Arbiters have been silent and hidden, falling into mythic status. The current Arbiter has held his post for over forty years. He has only revealed himself with the arrival of the Last Night as magic has thrown the world into turmoil and portals to the Erosion below have allowed demons to leak into the world.",
+                "The Arbiter rarely advocates for violence, with only demons excluded from this pacifism. Even undead have some sort of a function and place in existence."
+            ],
+            "adventurers": [
+                "The Arbiter draws a wide variety of characters to his side, as he is the nexus point of all powers and agendas. His agents come from all walks of life, often those who don't fit in elsewhere, as the balance the Arbiter maintains requires various perspectives to monitor correctly."
+            ],
+            "allies": "The Truthteller, the Green Man, and the Redeemer are allied with him to combat demon invasions.",
+            "enemies": "The Epiphany is the antithesis of everything the Arbiter is.",
+            "history": [
+                "There has always been an Arbiter, from the Fall of Heaven to present day. Whenever one dies, the essence of the Arbiter selects another living being who then becomes an immortal keeper of balance between good and evil, stability and freedom."
+            ],
+            "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
+        }
+    ],
+    "villainous": [
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "name": "The Epiphany",
+            "description": "An ever-changing mass of limbs and tentacles, they are the embodiment of demonic chaos in the world and the true herald of the Uncreator, the source of all demons: Abd'Zoth. Happy to give gifts or tempt a mortal with power, the only consistency to the Epiphany is their absolute belief in their own superiority.",
+            "quote": "\"Your flesh is weak, soft, vulnerable. Hold still, we will correct nature's errors.\"",
+            "usualLocation": "Old Yazatli, the Epiphany has taken the entire volcano blasted archipelago as its lair, pulling open holes through the Foundation to summon its creations.",
+            "commonKnowledge": [
+                "The Epiphany is the amalgamation of the Uncreator's twisted imagination. A mockery of life and a mutilator of wills. To look upon them is to see entropy itself.",
+                "Over the millennia, the Epiphany has broken into the world on occasion, but the agents of Cadre swiftly returned them to the Abyss, destroying their physical manifestation and forcing them to regenerate and find new paths back into the world.",
+                "Those who serve the Epiphany often have some part of their body altered in chimeric fashion, such as a human having an insectoid carapace or ooze-like appendages. Additionally, they often have powers over the mind, leading many to mistrust psychics and the telekinetic."
+            ],
+            "adventurers": [
+                "Those who traffic with the Epiphany are often obviously identified by their alterations or powers, but many an adventurer has navigated the relationship and come out the other side unchanged. Those lucky few fall for the Epiphany's trap, however, and encourage others to accept patronage from the Epiphany and their demonic agents.",
+                "Those who work for the Epiphany for long always skirt closer and closer to their own transformation into an aberrant demonic entity, which the Epiphany views as the purest form of existence.",
+                "Working against the Epiphany is as easy as breathing to most adventurers. Cults, spy networks, and rampaging monstrosities are the most common representatives of the Epiphany."
+            ],
+            "allies": "Rarely, the Dead Seer and the Epiphany align, but the Epiphany heralds the Uncreator, so even death would be undone.",
+            "enemies": "All existence abhors the Epiphany and the devastation it represents.",
+            "history": [
+                "There has only been one Epiphany. Almost a century ago, the fire serpents of the Yazatli attempted to drive out the rest of their people. In so doing, they caught the attention of the Epiphany, an entity that had been trying for ages to enter into the world. Upon making the pact, the Epiphany emerged, caused violent volcanic eruptions that made the island uninhabitable, and then consumed most of the fire serpents. Since that time, holes leading to the Erosion have become more common, allowing demons to enter the world."
+            ],
+            "trueDanger": "Everything will be alright unless the Epiphany manages to consume other icons."
+        }
+    ]
+
+}

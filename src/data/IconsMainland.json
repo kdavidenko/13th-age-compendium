@@ -1,0 +1,336 @@
+{
+    "heroic": [
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "name": "The Arbiter",
+            "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
+            "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
+            "usualLocation": "The Arbiter is a hands-on fellow and is typically found where he is most needed.",
+            "commonKnowledge": [
+                "For hundreds of years, the Arbiters have been silent and hidden, falling into mythic status. The current Arbiter has held his post for over forty years. He has only revealed himself with the arrival of the Last Night as magic has thrown the world into turmoil and portals to the Erosion below have allowed demons to leak into the world.",
+                "The Arbiter rarely advocates for violence, with only demons excluded from this pacifism. Even undead have some sort of a function and place in existence."
+            ],
+            "adventurers": [
+                "The Arbiter draws a wide variety of characters to his side, as he is the nexus point of all powers and agendas. His agents come from all walks of life, often those who don't fit in elsewhere, as the balance the Arbiter maintains requires various perspectives to monitor correctly."
+            ],
+            "allies": "The Truthteller, the Green Man, and the Redeemer are allied with him to combat demon invasions.",
+            "enemies": "The Epiphany is the antithesis of everything the Arbiter is.",
+            "history": [
+                "There has always been an Arbiter, from the Fall of Heaven to present day. Whenever one dies, the essence of the Arbiter selects another living being who then becomes an immortal keeper of balance between good and evil, stability and freedom."
+            ],
+            "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
+        },
+        {   
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/redeemer.png",
+            "name": "The Redeemer",
+            "description": "Once known as the Scaled Tyrant, through an unlikely event, she has returned to her ancient state of grace. Seeking to recant for all the damage she caused over the last seven thousand years, she now acts openly to halt those that would cause harm to the world at large.",
+            "quote": "\"The right path is rarely simple or easy.\"",
+            "usualLocation": "Cadre-Tolir, off the map to the south west, at the northern border of the Land Without Breath.",
+            "commonKnowledge": [
+                "Also known as the First, the Redeemer has ancient power and knowledge, with the wisdom to know how to apply it. She also has the wisdom to know when to withhold it.",
+                "The Redeemer was the Scaled Tyrant only recently, but through sheer dumb luck, events aligned to bring about her return to benevolence. However, many are wary of her and might even believe her newfound kindness to be a ruse.",
+                "As the Scaled Tyrant she had a massive network of agents, cults, and syndicates under her control, when she was redeemed, most fell away from her, but some remained in her service and followed her."
+            ],
+            "adventurers": [
+                "Many good-hearted folk would align with the Redeemer, and various clerics and paladins are sworn to her cause. Unlike most other icons, even those who walk darker paths are invited into her service in the hopes that they will also turn towards their own betterment.",
+                "Adventurers who follow the darker arts such as necromancy, might have followed her redemption and magic sourced from her now always has a radiant bent to it."
+            ],
+            "allies": "On paper, the heroic icons would be the ones allied with the Redeemer, but in truth, the Arbiter and the Green Man are the most likely. As the Green Man was there when she was redeemed, she holds him in high esteem.",
+            "enemies": "Most other Icons remember when the Redeemer was the Scaled Tyrant, and so they tolerate her but don't trust her. The Truthteller, especially, keeps close watch for any fall back to tyranny. The Redeemer makes it a point to cross paths with the Schemer and to halt the Epiphany and the Dead Seer's plans at any opportunity.",
+            "history": [
+                "She was the first dragon, embodying the love and protection her creator Ausphitar had for the world. However, just prior to the Fall of Heaven, she heeded the words of the god of secrets and fell under the sway of the Uncreator. She brought six of her nine siblings down with her and started the First War. The conflict only ended when her mate Elmranis sacrificed himself in a ritual to imprison her and the other fallen elders.",
+                "For thousands of years, after, she was the Scaled Tyrant, terrorizing the world through machinations and cults and agents. She sought to free her fellow Elder Dragons from their soulcrystal prisons, but was unsuccessful."
+            ],
+            "trueDanger": "Everything will be alright as long as the Redeemer does not fall back to her old ways as the previous Scaled Tyrant."
+        },
+
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/sunqueen.png",
+            "name": "The Sun Queen",
+            "description": "The young Queen of Idres wishes to undo the actions of her father, the Wolf King, rebuilding alliances he squandered and instituting reforms. Time will tell if she will be as beloved as her grandmother.",
+            "quote": "\"Let our covenant endure through this Night.\"",
+            "usualLocation": "She rules from Sunhold, the capital of Idres.",
+            "commonKnowledge": [
+                "The Sun Queen's father was a paranoid ruler and fully embraced the priests of Kah-y-Rah, god of curses and lycanthropy. With the Sun Queen's ascension to the throne, cruel administrators and dark clerics were expelled from her court and replaced with more benevolent advisors.",
+                "The young Queen of human nation of Idres has many suitors throughout the world, as yet she has remained unwed. The Prince of Okkarr and the King of Gildwater being her primary suitors.",
+                "Seeing as the Sun Queen overturned many of her father's decrees, rumors persist that she had a hand in his premature death."
+            ],
+            "adventurers": [
+                "Adventurers frequently find themselves in the employ of the Sun Queen.Typically through her agents and vassal lords, rather than herself personally. Those who accept tasks directly from the Sun Queen end up with greater rewards and often become dedicated agents of the throne."
+            ],
+            "allies": "The Sun Queen values the Truthteller, but has limited interaction with the other Icons",
+            "enemies": "The Viper is a thorn in her side, while the Schemer and the Epiphany are existential threats to her kingdom's continued existence",
+            "history": [
+                "During the Three Thrones War that resulted in her grandmother Viola II ascending to the throne, she accepted a pact with the malevolent god Kah-y-Rah to be resurrected back to life after a battle. As a result of the arrangement, she was cursed with natural lycanthropy, which no cure could touch.",
+                "Her reign was marked by reforms and rights expanding for the people, unfortunately her former companion Duke Petronio of Tregemas stoked revolutionary ideals and a man named Dain Skyless took up arms to lead many of the constituent states of Idres to revolution. As a result, her heir became the Wolf King, cracking down on the populace and isolating the kingdom. When he was inevitably assassinated, the Sun Queen ascended the throne"
+            ],
+            "trueDanger": "Everything will be alright so long as the Sun Queen does not embrace her natural lycanthropy and become the Wolf Queen."
+        },
+
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/truthteller.png",
+            "name": "The Truthteller",
+            "description": "The goddess of truth, she exists in seven parts, each representing a different sort of truth. One of the oldest icons, her influence is felt throughout the world, inspiring heroes and intimidating would-be villains.",
+            "quote": "\"The Truth is rarely pure and never simple.\"",
+            "usualLocation": "Most typically Red or Indigo Kalea is found in the Temple of Jinessa at Sunhold, the capital of Idres.",
+            "commonKnowledge": [
+                "The Truthteller is far and away the most active god in the world, her seven demigod forms able to maintain good relations with mortals.",
+                "Each one of her forms corresponds to a color of the rainbow and to a related truth. Red is the truth one finds with passions; Orange represents academic truth; Yellow spreads truth far and wide; Green is hidden and eclectic truths; Blue is cold, hard truth; Indigo is interpreting many conflicting truths; and Violet is truth found in the future.",
+                "Yellow Kalea is often touring the world as a musician.",
+                "Kalea and two of her consorts, are from a different Cycle of Myrr."
+            ],
+            "adventurers": [
+                "Kalea has made it a point to sponsor many adventuring parties, and those who accept her patronage are often tied to great and legendary deeds.",
+                "Often clerics, bards, rogues, and other wise and charismatic folks are drawn to her service and align with her objectives."
+            ],
+            "allies": "Few have conflict with the Truthteller. She was once the patron of the Green Man, one of her consorts helped the Redeemer adjust after her transformation, and her work with the Wolf Queen has led to stability in Idres.",
+            "enemies": "Most Villainous Icons challenge the Truthteller, with the Schemer holding a special place in her ire, as her home Cycle is the same one the Schemer was trapped on.",
+            "history": [
+                "Originally from a different Cycle of Myrr, after stopping the Scaled Tyrant of that Cycle, she and her friends chose to come to a new Cycle, where she entered the service of Jinessa and rose from Chosen, to Demigod, and then goddess in her own right."
+            ],
+            "trueDanger": "Everything will be alright so long as the Truthteller keeps the people inspired"
+        }
+    ],
+    "ambiguous": [
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/greenman.png",
+            "name": "The Green Man",
+            "description": "A young, but influential archfey, the Green Man sets his sights wherever nature and civilization clash. Fey of all varieties, seelie and unseelie, find common ground in his court.",
+            "quote": "\"Nature and cities. Ain't so different. They both grow. I will make them grow together.\"",
+            "usualLocation": "The Grove of Ash, a region of Fey nestled somewhere in Idres.",
+            "commonKnowledge": [
+                "When he was mortal, he collected deals and pacts. When the Last Night fell, like the Truthteller, the Green Man's power remained largely intact.",
+                "He positions himself between people and the wilds, understanding all are part of nature.",
+                "The Green Man made it a point to bring goblins and their kin under his sphere of influence, them having long been exiled from Fey. His agents are often of this sort of creature. Through his consort, he also has a connection to the were-bear clans.",
+                "He once made a deal with the Schemer, it's unknown if it still holds true."
+            ],
+            "adventurers": [
+                "Rangers and druids and other naturally inclined adventurers can find work in the Green Man's machinations. Beastfolk, wandering Fey and other such outsiders often make their way into his good graces as well. Rewards are often given in unexpected ways, typically in materials to build one's own item or an augment to their magical ability."
+            ],
+            "allies": "The Truthteller was once the Green Man's patron and he now works closely with her. He gives the Redeemer the benefit of the doubt.",
+            "enemies": "Any that threaten nature find out that the jovial green man will make time for them. He often butts heads with the Matriarch over Fey matters.",
+            "history": [
+                "Born the son of a hag, he traveled the world and fought with the agents of the Scaled Tyrant many times before being instrumental in the events that led to her Redemption."
+            ],
+            "trueDanger": "So long as the Green Man keeps to his self-imposed mandate, the balance between nature and civilization will be maintained"
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/ironmarshal.png",
+            "name": "The Iron Marshal",
+            "description": "The military dictator of Socordia, one of the strongest nations in the world and closely allied with the devils. She ascended to power after her predecessor, the Watcher, cobbled the realm together from disparate factions. With the arrival of Last Night, only time will tell if her nation endures.",
+            "quote": "\"I will do what must be done, no matter the cost.\"",
+            "usualLocation": "She reigns in Alaris, the capital of Socordia.",
+            "commonKnowledge": [
+                "The enemy of your enemy is your friend, so the saying goes. But the Iron Marshal and her devil allies put this to the test. With the demonic invasions of the Last Night, the tyrannical order she imposes may be all that stands between the world and annihilation.",
+                "Her agents and functionaries often take the form of dwarves or devils in humanoid form, and in her nation, she is the ultimate holder of all contracts. Break your word with her at your peril."
+            ],
+            "adventurers": [
+                "The Iron Marshal has the means and resources to hire mercenaries and any other sort she believes would serve her interests. More often than not, her tasks are the stuff of legends, or nightmares. When her interests lie within rival nations, the Iron Marshal is more likely to rely on outsiders."
+            ],
+            "allies": "She has a tenuous partnership with the Storm and welcomes the Arbiter.",
+            "enemies": "Any who present the Viper's head to the Iron Marshal will never want for anything again. She thinks the Sun Queen is an inexperienced child. The Epiphany needs to be annihilated once and for all. The Martiarch's fellow elf monarchs were all eliminated by the Watcher's agents, and so she remains in open conflict with the Iron Marshal.",
+            "history": [
+                "For centuries, a being known as the Watcher worked to infiltrate every culture on the planet, forming the Southern Coalition. He attempted to bring the world to heel during the Watcher Crisis, to finally invade the demons of the Erosion and put an end to the Red War. He was stopped, however, and those agents he left behind had to be brought to heel again. The Iron Marshal transformed the Southern Coalition into the nation of Socordia, and with it the prismatic devil god, Zelnemis, finally had a nation to patronize.",
+                "Under the Iron Marshal's rule, needs were met but freedom stifled. Much of daily life was spent serving the state and dissent was swiftly punished."
+            ],
+            "trueDanger": "If the Iron Marshal were to ever take up her predecessor's cause again, the world would tremble."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/matriarch.png",
+            "name": "The Matriarch",
+            "description": "The last living member of the Triumvirate, the Pale Elf Matriarch leads various factions of the elf people while trying to hold a semblance of the old Ironwood Empire together. Having centuries of experience makes her a formidable presence.",
+            "quote": "\"Never attempt to win by force what can be won by deception.\"",
+            "usualLocation": "Her palace lies far to the north of Greenwood, off the map in the Underdark Forest.",
+            "commonKnowledge": [
+                "She remained in Underdark Forest for her entire reign, only leaving her homeland once to tour Greenwood and Gildwater after the other members of the Triumvirate were eliminated. Despite her overtures, the rest of elf-kind has chosen their own path.",
+                "Dark gods such as Kah-y-Rah and especially Arishna are openly venerated under her rule, causing outsiders to mistrust the Matriarch. Among the pale elves, they are simply continuing their religions as they have for millennia."
+            ],
+            "adventurers": [
+                "Elf and Fey adventurers find respectable employment with the Matriarch, with non-elves having more difficulty getting in the door. Those willing to be her eyes and ears are rarely left without work."
+            ],
+            "allies": "The Matriarch and the Storm both have reason to oppose the Sun Queen. However, she is accustomed to standing alone.",
+            "enemies": "She holds a special hatred for the Iron Marshal,  due to the attempt on her during the Watcher Crisis. She views the young Sun Queen and the Green Man as political and magical rivals, respectively. The Dead Seer's encroachment on elf lands, and the fact he is an elf irritates her greatly.",
+            "history": [
+                "The Matriarch has ruled for nearly four hundred years and has seen empires rise and fall in her time. During the Watcher Crisis, she was the sole member of the Triumvirate - the three elven monarchs - who survived her assassination attempt. Since then, she has become a rallying cry for the elven people, even those who would not normally fall under her dominion of the pale elves."
+            ],
+            "trueDanger": "Everything will be alright so long as the Matriarch maintains order in her courts and between the elven peoples."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/storm.png",
+            "name": "The Storm",
+            "description": "The Chosen of the Devastation God, Kazak, the Storm rules the rich mercantile kingdom of Tregemas. A prodigy of political acumen and patron of both the arts and technology, there are few power plays that the Storm doesn't know about.",
+            "quote": "\"Keep them guessing, it makes success all the more satisfying.\"",
+            "usualLocation": "The Sapphire Isle of Tregemas.",
+            "commonKnowledge": [
+                "He is the potent combination of raw magical power and shrewd political cunning, which has catapulted him to one of the most influential people in the world.",
+                "Despite the Last Night disrupting magic for most spellcasters, the Storm seems completely undiminished in his ability.",
+                "He was the one of the first to manufacture firearms at a mass scale."
+            ],
+            "adventurers": [
+                "Plots within plots make it difficult to discern if an adventurer is ever truly working for the Storm. Those who openly align with his goals find more favor. Those who tend towards destruction can often be directed by the Storm."
+            ],
+            "allies": "He happily does business with anyone, in particular the Viper and the Uniter. He and the Schemer have an on-again-off-again arrangement.",
+            "enemies": "The Sun Queen and the Storm are currently in conflict for the fate of their peninsula.",
+            "history": [
+                "During the Three Thrones war, he traveled with the future Sun Queen of the time. When she married an exiled prince, he began to plot. Having secured his home kingdom from his cousin, the Storm began laying the groundwork for his own ascension. He made veneration of Kazak not only legal, but beneficial and the power flowing to the god filtered right back down to him.",
+                "Proving his shrewd political mind, he orchestrated the Skyless Rebellions which has destabilized the Sun Queen's kingdom to this day"
+            ],
+            "trueDanger": "Everything will be alright as long as the Storm is focused on politics and not world-shattering ambitions."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/uniter.png",
+            "name": "The Uniter",
+            "description": "After the Last Night fell, many of the monstrous denizens of the world became easy pickings for demons and adventurers alike. Kandali, Orcs, Ogres, and myriad others began fighting amongst themselves, squabbling for the barest of scraps. In this turmoil, the Uniter rose, bringing them under his protection.",
+            "quote": "\"The gods are silent, deaf to your cries. But I hear you.\"",
+            "usualLocation": "High Fist, an orcish citadel in the mountains of Uthkril",
+            "commonKnowledge": [
+                "The Uniter is Thara-taak, following the path of the Orcish Mother-saint and concerned with clan and homeland. This focus towards caring for his own people is what leads other nations to tolerate his activities, rather than be militarily invested in ending his reign.",
+                "There has never been a Uniter before, at least not in this way. The speed with which he's managed to collect such disparate peoples alarms many.",
+                "It's rumored that he has so many kin in him and cultures, he has a supernatural ability to relate to others.",
+                "His ambassadors are just as likely to forcibly end a conflict or serve as mediators of it, the deciding factor lies in how best to advance his own position."
+            ],
+            "adventurers": [
+                "Disparate and eclectic adventurers are welcome in the ranks of the Uniter's forces. Mercenaries make up the bulk of his forces and agents. Occasionally, raids encroach on other icons, prompting a response. Those seeking loot may do well to look elsewhere, as he is rich in honor and culture, not gold - or so he claim."
+            ],
+            "allies": "The Uniter is a wild card in the current state of the world. He has shown no strong opinions one way or another and has been incredibly shrewd. Like other icons, he welcomes the Arbiter. The Viper is equally happy to sell to the Uniter as anyone else.",
+            "enemies": "His neighbor, the Iron Marshal would rather he fall in line, and the only certainty is he is equally content to smash the demons of the Epiphany and the undead of the Dead Seer. The Matriarch and the Sun Queen both keep an eye on the Uniter.",
+            "history": [
+                "Not much is known about the Uniter, himself. What little can be inferred from reports and word of mouth is that he appeared one day and slew a group of soldiers about to descend on a family of lycanthropes, and from there word spread of one who would protect the abhorred."
+            ],
+            "trueDanger": "Everything will be alright so long as the Uniter is focused on his people and not conques."
+        },
+
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Unwaking",
+            "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
+            "quote": "\"Whether dream or nightmare, you learn about yourself.\"",
+            "usualLocation": "The place the Unwaking sleeps is unknown, even to his functionaries and agents.",
+            "commonKnowledge": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new Dawn is established.",
+                "He is aware of his surroundings and communicates with others by easily slipping into their dreams. If one is visited by the Unwaking, it is a coin flip whether the event is enlightening or terrifying."
+            ],
+            "adventurers": [
+                "It is rare for an adventurer to deal with the Unwaking directly, most often the academics and mages under his tutelage act on his behalf. Those with notable potential are often recruited into a magical pact to expand their abilities. He is flexible on morality and prefers an efficient and fully resolved solution to grandiose displays of virtue or villainy.",
+                "Adventurers in a bind or needing information are wise to seek out the council of the Unwaking and his agents."
+            ],
+            "allies": "He visits the Sun Queen and the Storm in their dreams, and is neutral in the conflict between them, his agents beginning to act as intermediaries between his two most powerful neighbors.",
+            "enemies": "The Epiphany believes he is still on Old Yazatli, and searches to consume him. The Unwaking is only too happy to lead the Epiphany on their chase and dreams of the day his people can retake their ancient home.",
+            "history": [
+                "Szerusz the Unwaking is the oldest Yazatli in the world, and has been asleep for over a hundred years, not even the Last Night has stirred his slumber and it is rumored he will not awake until a new order is established."
+            ],
+            "trueDanger": "Everything will be alright so long as the Unwaking maintains his dream and no one can find his slumbering body."
+        }
+
+    ],
+    "villainous": [
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/deadseer.png",
+            "name": "The Dead Seer",
+            "description": "Once a respected wizard, the Dead Seer is the most powerful lich in the world and Chosen of the god of secrets. He is believed to be entirely unkillable.",
+            "quote": "\"I believe that's the sixty-seventh time upstarts just like you have said that to me. Be original, at least!\"",
+            "usualLocation": "Darkhill Fortress, in the Breathless Hills.",
+            "commonKnowledge": [
+                "He was once the most well known diviner in the north, with clients traveling far and wide to seek his counsel. However, he summoned the Four Heralds of the dark gods into the world, and the carnage wreaked has been surpassed only by the Last Night.",
+                "Despite his twisted, evil nature, the Dead Seer maintains a sense of humor and lack of decorum. As likely to toy with his enemies than prey on them, he delights in taunting those who dare challenge him, and the necromancers and liches under his command follow suit.",
+                "His plans have been stopped or delayed before, but every attempt to end his reign has failed."
+            ],
+            "adventurers": [
+                "More often than not, the Dead Seer is a challenge to overcome. If an adventurer works for the Dead Seer, it is typically obscured through layers of functionaries and go-betweens."
+            ],
+            "allies": "On rare occasions, he works with the Epiphany, but stands alone.",
+            "enemies": "Few are willing to trust someone with a track record of betrayal. He is the second most hated icon.",
+            "history": [
+                "He betrayed those who ended the Watcher Crisis over thirty years ago, choosing to throw his lot in with the Heralds of the Dark Gods, gaining supremacy over necromancy and the twisted monstrosities that served the fallen ones.",
+                "He took control of the Fire Mountains and their foothills, creating a second Land Without Breath: a realm walked by undead, where sunlight cannot shine, and life drains slowly from all creatures."
+            ],
+            "trueDanger": "Everything will be alright so long as the majority of the Dead Seer's forces are contained to the Breathless Hills."
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "name": "The Epiphany",
+            "description": "An ever-changing mass of limbs and tentacles, they are the embodiment of demonic chaos in the world and the true herald of the Uncreator, the source of all demons: Abd'Zoth. Happy to give gifts or tempt a mortal with power, the only consistency to the Epiphany is their absolute belief in their own superiority.",
+            "quote": "\"Your flesh is weak, soft, vulnerable. Hold still, we will correct nature's errors.\"",
+            "usualLocation": "Old Yazatli, the Epiphany has taken the entire volcano blasted archipelago as its lair, pulling open holes through the Foundation to summon its creations.",
+            "commonKnowledge": [
+                "The Epiphany is the amalgamation of the Uncreator's twisted imagination. A mockery of life and a mutilator of wills. To look upon them is to see entropy itself.",
+                "Over the millennia, the Epiphany has broken into the world on occasion, but the agents of Cadre swiftly returned them to the Abyss, destroying their physical manifestation and forcing them to regenerate and find new paths back into the world.",
+                "Those who serve the Epiphany often have some part of their body altered in chimeric fashion, such as a human having an insectoid carapace or ooze-like appendages. Additionally, they often have powers over the mind, leading many to mistrust psychics and the telekinetic."
+            ],
+            "adventurers": [
+                "Those who traffic with the Epiphany are often obviously identified by their alterations or powers, but many an adventurer has navigated the relationship and come out the other side unchanged. Those lucky few fall for the Epiphany's trap, however, and encourage others to accept patronage from the Epiphany and their demonic agents.",
+                "Those who work for the Epiphany for long always skirt closer and closer to their own transformation into an aberrant demonic entity, which the Epiphany views as the purest form of existence.",
+                "Working against the Epiphany is as easy as breathing to most adventurers. Cults, spy networks, and rampaging monstrosities are the most common representatives of the Epiphany."
+            ],
+            "allies": "Rarely, the Dead Seer and the Epiphany align, but the Epiphany heralds the Uncreator, so even death would be undone.",
+            "enemies": "All existence abhors the Epiphany and the devastation it represents.",
+            "history": [
+                "There has only been one Epiphany. Almost a century ago, the fire serpents of the Yazatli attempted to drive out the rest of their people. In so doing, they caught the attention of the Epiphany, an entity that had been trying for ages to enter into the world. Upon making the pact, the Epiphany emerged, caused violent volcanic eruptions that made the island uninhabitable, and then consumed most of the fire serpents. Since that time, holes leading to the Erosion have become more common, allowing demons to enter the world."
+            ],
+            "trueDanger": "Everything will be alright unless the Epiphany manages to consume other icons.",
+            "setting": ["mainland", "urthu"]
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/schemer.png",
+            "name": "The Schemer",
+            "description": "One of the first dragons to darken the skies. An ancient being with thousands of years of experience. She's long been in the shadow of another, and now that there is no Scaled Tyrant, she is making her move.",
+            "quote": "\"Power abhors a vacuum.\"",
+            "usualLocation": "The current Schemer has taken up residence in the Mire, the entire massive swamp is her stalking grounds and she has multiple lairs.",
+            "commonKnowledge": [
+                "She is more than happy to advise others and share her knowledge, so long as it doesn't put her in harm's way. She will do anything in her power to preserve herself, her consort, and her children: the Ashline dragons. Anything.",
+                "She had spent most of her life on a different Cycle of Myrr, but recently returned in the string of events that also led to the Scaled Tyrant becoming the Redeemer. With the space made for her, she competes with some of her other Elder Dragon siblings to claim the title herself, often ending in conflict with the Redeemer."
+            ],
+            "adventurers": [
+                "Those seeking knowledge and power find a potent patron with the Schemer, if one can tolerate the inevitable strings attached. To the truly heroic, halting one of her plans is truly a tale worth remembering."
+            ],
+            "allies": "She operates alone more often than not, but has trafficked with the Viper, the Uniter and the Storm King on more than one occasion.",
+            "enemies": "The Redeemer is her primary rival, with the Truthteller and the Arbiter keeping tabs on her activities.",
+            "history": [
+                "One of the Ten Elder Dragons created by Ausphitar, all Ashline dragons descend from her. For eons she was trapped in another Cycle of Myrr, but recently has returned and claimed the mantle of draconic empress. Her efforts are consumed with establishing her bases of power and bringing the remaining unaffiliated Elder Dragons under her control."
+            ],
+            "trueDanger": "Everything will be alright as long as the Schemer is unable to pull the other Elder Dragons under her sway and become a new Scaled Tyrant."
+        },
+
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/viper.png",
+            "name": "The Viper",
+            "description": "Part matron, part murderer. She's quickly ascended to power in the underworld and puts profits before people. Ending up on her bad side gives a lot of unwanted attention. Being on her good side is almost worse.",
+            "quote": "\"A contract is a contract is a contract… but only within the Syndicates.\"",
+            "usualLocation": "It's known that Viper lairs in the free city of Kazijin, but not where.",
+            "commonKnowledge": [
+                "The Viper has gone to extreme lengths to hide any details about her personal life. Even her name and family identity has been swiped clean. No doubt a king's ransom would be rewarded to anyone who could uncover such information."
+            ],
+            "adventurers": [
+                "There is always work to be had for the Viper, often the desperate end up in her coils. One of the easiest Icons to work for, provided you don't have many morals. You don't mind shaking down an old man who owes the family money, do you?"
+            ],
+            "allies": "The Storm King, the Uniter, and the Schemert have all had dealings with the Viper in one way or another. In all dealings, the Viper probably got more out of it.",
+            "enemies": "The Wolf Queen, the Matriarch, and the Iron Marshal view the Viper's activities with suspicion and derision: she scoffs at their laws.",
+            "history": [
+                "When the Scaled Tyrant was transformed into the Redeemer, the chokehold her agents had on the criminal elements of the world faded, leaving openings for fresh blood. The Viper was one such individual.",
+                "She quickly ascended through the ranks of power and established herself as the undisputed head of multiple crime syndicates, consolidating power. Many nations grew concerned at this quick ascension, but were unable to stop her."
+            ],
+            "trueDanger": "Everything will be alright as long as the Viper stays out of direct politics."
+        }
+
+    ]
+}

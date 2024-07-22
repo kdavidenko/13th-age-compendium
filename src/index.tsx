@@ -6,11 +6,15 @@ import {
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {store} from './app/store';
+import { Provider } from 'react-redux';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <HashRouter>
-      <App />
+      <Provider store={store}>
+        <App />
+      </Provider>
     </HashRouter>
   </React.StrictMode>
 );
