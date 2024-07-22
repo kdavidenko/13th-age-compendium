@@ -3,6 +3,72 @@
         {
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Loresinger",
+            "description": "The most ancient being on Urthu, they hold the songs of a hundred Thraskan colonies and all the magic ever practiced here.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Sealord",
+            "description": "The magistrate of Hullshatter Port, he leads the forces of Morkarr and the tenuous alliances across Urthu.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "name": "The Shaman",
+            "description": "The wisest crone of the Ukaru clans, her spiritual influence is undeniable and unquestioningly beneficial.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
             "name": "The Unwaking",
             "description": "An ancient, massive serpent-sage that spends decades at a time asleep, exploring the cosmos and magic itself. A patron of wizards and academics alike, his wisdom is sorely needed in the coming conflicts.",
             "quote": "\"Whether dream or nightmare, you learn about yourself.\"",
@@ -28,7 +94,7 @@
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
             "name": "The Arbiter",
-            "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter, but recent events have forced the current Arbiter to take a more active role. Time will tell if he's up to the task of his legacy.",
+            "description": "The sole representative of the Creator, Alleros. He is the balance point between the Icons. There has always been an Arbiter. On Urthu, he mostly relies on agents and intermediaries.",
             "quote": "\"We are dealing with the fate of all life. Help me save the world.\"",
             "usualLocation": "The Arbiter is a hands-on fellow and is typically found where he is most needed.",
             "commonKnowledge": [
@@ -44,14 +110,124 @@
                 "There has always been an Arbiter, from the Fall of Heaven to present day. Whenever one dies, the essence of the Arbiter selects another living being who then becomes an immortal keeper of balance between good and evil, stability and freedom."
             ],
             "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
+        },
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "name": "The Conqueror",
+            "description": "General of the orcish forces on Urthu. Ostensibly works under the Sealord but desires a more aggressive policy towards the continent, one ending with the Black Spear Banner waving over every corner.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "name": "The Huntress",
+            "description": "A dragon from a far away land, she prefers to be left alone and the wilds unsundered by the Morkarrans. She is often at odds with other Icons, but is fiercely protective of her new home.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "name": "The Shadowbringer",
+            "description": "The mysterious archmage of the Silent City of Irmanna. They are the most powerful necromancer on the continent and somehow those using their version of necromancy can do so without attracting demonic attention.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
         }
     ],
     "villainous": [
         {
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "name": "The Breaker",
+            "description": "A massive Kraken that lives off the shores of Urthu. Its followers maintain the Tollhouse Line outside Hullbreaker Bay. So long as it appeased, it does not wreak havoc...",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "name": "The Collector",
+            "description": "A raider and murderer of unkonwn origin. They hunt throughout Urthu and have inspired immitators. Of the Icons, they are the most directly active.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
+        },
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
             "name": "The Epiphany",
-            "description": "An ever-changing mass of limbs and tentacles, they are the embodiment of demonic chaos in the world and the true herald of the Uncreator, the source of all demons: Abd'Zoth. Happy to give gifts or tempt a mortal with power, the only consistency to the Epiphany is their absolute belief in their own superiority.",
+            "description": "They are the embodiment of demonic chaos in the world and the true herald of the Uncreator, Abd'Zoth. The only consistency to the Epiphany is their absolute belief in their own superiority. They are a dark mirror of the Arbiter.",
             "quote": "\"Your flesh is weak, soft, vulnerable. Hold still, we will correct nature's errors.\"",
             "usualLocation": "Old Yazatli, the Epiphany has taken the entire volcano blasted archipelago as its lair, pulling open holes through the Foundation to summon its creations.",
             "commonKnowledge": [
@@ -70,6 +246,28 @@
                 "There has only been one Epiphany. Almost a century ago, the fire serpents of the Yazatli attempted to drive out the rest of their people. In so doing, they caught the attention of the Epiphany, an entity that had been trying for ages to enter into the world. Upon making the pact, the Epiphany emerged, caused violent volcanic eruptions that made the island uninhabitable, and then consumed most of the fire serpents. Since that time, holes leading to the Erosion have become more common, allowing demons to enter the world."
             ],
             "trueDanger": "Everything will be alright unless the Epiphany manages to consume other icons."
+        },
+        {
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "name": "The Hive",
+            "description": "The consciousness behind the mole-people colonies bursting through the surface to retake Urthu for their own. They are an undeniable force of destruction.",
+            "quote": "\"xxx\"",
+            "usualLocation": "xxx",
+            "commonKnowledge": [
+                "xxx",
+                "xxx"
+            ],
+            "adventurers": [
+                "xxx",
+                "xxx"
+            ],
+            "allies": "xxx.",
+            "enemies": "xxx",
+            "history": [
+                "xxx"
+            ],
+            "trueDanger": "xxx"
         }
     ]
 
