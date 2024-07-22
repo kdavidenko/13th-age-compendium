@@ -14,27 +14,27 @@ function ConvertPage() {
       <hr />
       { location === 'mainland' && 
         <>
-          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter, Storm, Unwaking</div>
+          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter</div>
           <hr />
           <div className='convertIcon'>Crusader <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Iron Marshal</div>
           <hr />
           <div className='convertIcon'>Diabolist <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Epiphany</div>
           <hr />
-          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Iron Marshal, Uniter</div>
+          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Uniter</div>
           <hr />
-          <div className='convertIcon'>Elf Queen <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Matriarch, Green Man, Truthteller</div>
+          <div className='convertIcon'>Elf Queen <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Matriarch</div>
           <hr />
-          <div className='convertIcon'>Emperor <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Sun Queen, Iron Marshal, Storm</div>
+          <div className='convertIcon'>Emperor <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Sun Queen</div>
           <hr />
-          <div className='convertIcon'>Great Gold Wyrm <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Redeemer, Unwaking</div>
+          <div className='convertIcon'>Great Gold Wyrm <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Redeemer</div>
           <hr />
           <div className='convertIcon'>High Druid <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Green Man</div>
           <hr />
           <div className='convertIcon'>Lich King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Dead Seer</div>
           <hr />
-          <div className='convertIcon'>Orc Lord <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Uniter</div>
+          <div className='convertIcon'>Orc Lord <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Storm</div>
           <hr />
-          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter or Truthteller</div>
+          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Truthteller</div>
           <hr />
           <div className='convertIcon'>Prince of Shadows <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Viper</div>
           <hr />
@@ -44,15 +44,15 @@ function ConvertPage() {
       }
       { location === 'urthu' && 
         <>
-          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter, Shadowbinder, Unwaking</div>
+          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter</div>
           <hr />
           <div className='convertIcon'>Crusader <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conqueror</div>
           <hr />
           <div className='convertIcon'>Diabolist <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Epiphany</div>
           <hr />
-          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conqueror, Shaman</div>
+          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Loresinger</div>
           <hr />
-          <div className='convertIcon'>Elf Queen <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Shadowbinder, Shaman</div>
+          <div className='convertIcon'>Elf Queen <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Shadowbinder</div>
           <hr />
           <div className='convertIcon'>Emperor <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Sealord</div>
           <hr />
@@ -64,7 +64,7 @@ function ConvertPage() {
           <hr />
           <div className='convertIcon'>Orc Lord <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conqueror</div>
           <hr />
-          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Loresinger, Shaman</div>
+          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Shaman</div>
           <hr />
           <div className='convertIcon'>Prince of Shadows <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Collector</div>
           <hr />
