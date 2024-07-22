@@ -6,24 +6,44 @@
 
   .zone {
     position: absolute;
-    border-radius: 30px;
-    &:hover {
-      background-color: #fff;
-      opacity: 0.2;
+    cursor:pointer;
+    .zoneTitle {
+      color: #fff;
+      display: none;
+      text-align: center;
+      position: absolute;
+      top: 33%;
+      width: 100%;
+    }
+    .zoneHighlight {
+      height:100%;
+      width: 100%;
+      border-radius: 30px;
+      opacity: 0.25;
       box-shadow: 0 0 10px 5px #fff;
+    }
+    &.selected .zoneHighlight,
+    &:hover .zoneHighlight {
+      opacity: 0.25;
+      background-color: #fff;
+      box-shadow: 0 0 10px 5px #fff;
+    }
+    &.selected .zoneTitle,
+    &:hover .zoneTitle {
+      display: block;
     }
   }
   #Mainland {
-    width: 10%;
-    left: 52%;
-    height: 13%;
-    top: 35%;
+    width: 13%;
+    left: 50%;
+    height: 19%;
+    top: 32%;
   }
 
   #Urthu {
-    width: 8%;
-    right: 3%;
-    height: 10%;
-    top: 52%;
+    width: 11%;
+    right: 2%;
+    height: 13%;
+    top: 51%;
   }
 }
