@@ -113,7 +113,7 @@
             "powers": [
                 {
                     "pwrtitle":"Elven Grace (Kin Power)",
-                    "pwrDesc": "At the start of each of your turns, roll a die to see if you get an extra standard action. If your roll is equal to or lower than the escalation die, you get an extra standard action that turn. At the start of battle, you roll a d6. Each time you successfully gain an extra action, the size of the die you roll increases by one step on the following progression: (d4), d6, d8, d10, d12, d20. If you get an extra action after rolling a d20, you can’t get any more extra actions that battle.",
+                    "pwrDesc": "At the start of each of your turns, roll a die to see if you get an extra standard action. If your roll is equal to or lower than the escalation die, you get an extra standard action that turn. At the start of battle, you roll a d6. Each time you successfully gain an extra action, the size of the die you roll increases by one step on the following progression: (d4), d6, d8, d10, d12, d20. If you get an extra action after rolling a d20, you can't get any more extra actions that battle.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
@@ -147,7 +147,7 @@
             "img": "https://static.wixstatic.com/media/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg/v1/fill/w_600,h_850,al_c,q_85,enc_auto/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg",
             "desc": "Tricky, small, and swift. They have their own rules of behavior that can seem rather alien.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/pixie-3pp/",
-            "setting": ["mainland", "urthu"],
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrDesc": "When you assign your ability scores, both Dexterity and Charisma must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a fourth score, but neither can drop out of the top three at 1st level."
@@ -181,7 +181,7 @@
             "img": "https://i0.wp.com/nerdarchy.com/wp-content/uploads/2020/09/beastlands-goblin-scaled.jpg",
             "desc": "Fey creatures that have spent centuries in the wilds.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
-            "setting": ["mainland", "urthu"],
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrtitle":"Small",
@@ -292,24 +292,60 @@
             ]
         },
         {
-            "title": "Ocotzli/Sea Serpent People",
-            "img": "https://www.artofwillstore.com/wp-content/uploads/2022/09/Naga.jpg",
-            "desc": "Cunning multi-caste snake-people from a distant island chain.",
-            "srd": "",
+            "title": "Morgul'taak",
+            "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
+            "desc": "Known across the southern seas as the most skilled sailors in the world, the Orcs of Morkarr are as skilled at tradecraft and diplomacy as they are with their longships. Among the peoples of Urthu, their society is more of an outpost and while they have long had a presence here, this is not their home. Alongside them have come Minotaur, Ogres, and a myriad other kin from their homelands. Unless urgent business takes them further inland, they are mostly found near the western coast.",
+            "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["urthu"],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
-                    "pwrtitle": "Poison Bite (Kin Power)",
-                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrtitle": "Killer Instinct (Kin Power)",
+                    "pwrDesc": "In a battle in which you have rallied, you deal +3 damage with attacks for the rest of the battle (5th level: +6; 8th level: +12).",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "A creature you hit with this attack also becomes weakened and suffers an ongoing 5 poison damage per level you possess. They can end the effect with a Normal (11+) save."
+                            "feat": "The first time you drop a non-mook enemy to 0 hp each battle, raise the escalation die by 1"
                         }
                     ]
+                },
+                {
+                    "pwrtitle": "Lethal (Kin Power)",
+                    "pwrDesc": "Once per battle, reroll an attack and use the roll you prefer as the result. ",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "If the lethal attack is with a weapon, deal +7 damage (5th: +15 damage, 8th: +25)."
+                        },
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "If the lethal attack reroll is a natural 16+, you can use lethal again later this battle."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Survivor Tough (Kin Power)",
+                    "pwrDesc": "Your recovery dice are one size larger. d4 < d6 < d8 < d10 < d12 < 2d6 < 2d8.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "Increase your total number of recoveries by +1."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ocotzli/Sea Serpent People",
+            "img": "https://www.artofwillstore.com/wp-content/uploads/2022/09/Naga.jpg",
+            "desc": "Similar to their cousins, the Yazatli, the Ocotzli are Yazatli who, in ancient times, adhered to the call of the sea and gave veneration to the Leviathan. They vanished beneath the waves for generations until the great elemental lord's return over 25 years ago. Now they have taken up residence throughout the Serpentswrath Isles, and have made overtures of peace, but there is still little trust between them and the other societies. Among the Ocotzli are several breeds or castes, ranging from nearly human to serpentine.",
+            "srd": "",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
                 },
                 {
                     "pwrtitle": "Crushing Coils (Kin Power)",
@@ -322,12 +358,22 @@
                     ]
                 },
                 {
-                    "pwrtitle": "Star Scale (Kin Power)",
-                    "pwrDesc": "You may choose a wizard talent as one of your class talents instead of the normal options. If your class does not let you cast spells, you learn a wizard spell of appropriate level at 1st, 5th, and 8th levels. If you can cast spells, you may select from the wizard spell list.",
+                    "pwrtitle": "Elemental Escalator (Kin Power)",
+                    "pwrDesc": "Once per battle as a quick action, roll a d6. You can use the result of your roll as if it were your own personal escalation die this turn. No other creature's abilities or power can steal the die from you or prevent you from using it.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "Choose one of your spells to be your signature spell. If it is a Daily spell, it becomes Per Battle. If it doesn't have a Recharge, it now has a Recharge of 6+. If it has a Recharge, it's Recharge becomes 6+"
+                            "feat": "If the escalation die is 2+ when you use elemental escalator, roll a d12 instead of a d6, and use the higher number as your personal escalation die."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Poison Bite (Kin Power)",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and quadrupled at epic tier). If you miss, you deal damage equal to your level (x2 at champion, x4 at epic).",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "A creature you hit with this attack also becomes weakened and suffers an ongoing 5 poison damage per level you possess. They can end the effect with a Normal (11+) save."
                         }
                     ]
                 }
@@ -338,7 +384,7 @@
             "img": "https://www.pcinvasion.com/wp-content/uploads/2020/10/Baldurs-Gate-3-Ogre-summon-Lumps-War-Horn-Lump-the-Enlightened-One-.jpg",
             "desc": "Crude and brutal, their lives revolve around meals and strength.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/half-ogre-3pp/",
-            "setting": ["mainland", "urthu"],
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrDesc": "Add +1 to Strength or Constitution. When you assign a ability scores, both Strength and Constitution must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a score that's out of your top three scores, but neither Strength nor Constitution can drop out of the top three at 1st level."
@@ -354,7 +400,7 @@
             "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
             "desc": "People defined by their \"taak\" or life of a battle-saint they choose to emulate.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
-            "setting": ["mainland", "urthu"],
+            "setting": ["mainland"],
             "powers": [
                 {
                     "pwrtitle": "Lethal (Kin Power)",
@@ -371,17 +417,40 @@
         {
             "title": "The Lost/Tiefling",
             "img": "https://www.enworld.org/media/tiefling-3-jpeg.113534/full",
-            "desc": "Devilish-looking humanoids, orphaned by fate.",
+            "desc": "Devilish-looking humanoids, orphaned by fate. Unique among the Kins, Tiefling are not born, they are found. Often a Tiefling infant is delivered by a beautiful woman to a location where they will be discovered quickly, and a glamor is placed on them to encourage the child to be taken care of. Inexplicably people that take in a tiefling child always have enough to be comfortable. They have a wide range of skills and culture from individual to individual. No two Tiefling are alike. They are found among all peoples.",
             "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
             "setting": ["mainland", "urthu"],
             "powers": [
                 {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
                     "pwrtitle": "Curse of Chaos (Kin Power)",
-                    "pwrDesc": "Once per battle as a free action when a nearby enemy rolls a natural 1-5 on an attack or a save, turn their roll into a natural 1 and improvise a further curse that shows how their attempt backfires horribly.A curse should have about the same impact as a typical once-per-battle ability. For example, a typical curse might lead to the cursed attacker dealing half damage to themself with their fumbled attack and being dazed until the end of their next turn. The GM may reward storytelling flair and/or limit the suggested effects of the curse.",
+                    "pwrDesc": "Once per battle as a free action when a nearby enemy rolls a natural 1–5 on an attack or a save, turn their roll into a natural 1 and inflict a random condition, roll a d12.\n1: Charmed\n2: Confused\n3: Dazed\n4: Fear\n5: Frenzied\n6: Helpless\n7: Hindered\n8: Stuck\n9: Stunned\n10: Vulnerable\n11: Weakened\n12: Roll twice",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
                             "feat": "Whenever a nearby enemy rolls a natural 1 on an attack against you, you can use curse of chaos against them without expending it."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Cruel (Kin Power)",
+                    "pwrDesc": "Once per battle as a free action, deal ongoing damage to a single target you hit with a natural even attack roll. The ongoing damage is 15 at adventurer tier, 30 at champion, and 50 at epic. As usual, a normal save (11+) ends the damage.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per arc, you can instead use cruel to deal 5 ongoing damage per level against a target you have missed or had a natural odd attack roll against. (Yes, you could even deal the ongoing damage with a natural 1; you're that cruel.)"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Deadly Trickster (Kin Power)",
+                    "pwrDesc": "At the start of each battle, your natural initiative roll provides a temporary bonus.\nNatural odd roll: This result becomes a trick die. As a free action once per battle when the escalation die is 3+, give your trick die to a nearby ally or enemy who is about to make an attack roll. The trick die result becomes the natural result of their roll instead.\nNatural even roll: You gain a +2 bonus to the first attack roll you make in this battle.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "The escalation die only has to be 2+ for you to use the trick die when your initiative roll is odd."
                         }
                     ]
                 }
@@ -444,7 +513,7 @@
                 },
                 {
                     "pwrtitle": "Poison Bite (Kin Power)",
-                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 poison damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and quadrupled at epic tier). If you miss, you deal damage equal to your level (x2 at champion, x4 at epic).",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
@@ -477,17 +546,37 @@
         {
             "title": "Ysthar/Lizardfolk",
             "img": "https://www.gmbinder.com/images/vGYZJH6.jpg",
-            "desc": "Cosmically obsessed reptilians from the northern swamps",
+            "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
             "setting": ["mainland", "urthu"],
             "powers": [
                 {
                     "pwrtitle": "Claws and Jaws (Kin Power)",
-                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and tripled at epic tier). If you miss, you deal damage equal to your level.",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and quadrupled at epic tier). If you miss, you deal damage equal to your level (x2 at champion, x4 at epic).",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
                             "feat": "You can make an unarmed melee basic attack as above as a quick action in addition to your other actions on your turn. However, if you take another action during that turn to use an attack power or basic attack, this attack deals only half damage. (Any miss damage is not halved, however.)"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Comrade Defender (Kin Power)",
+                    "pwrDesc": "Once per battle when you intercept an enemy moving to attack an ally, make a basic attack against that enemy after the enemy's attack as a free action.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "Your attack has a +2 attack bonus and takes place before the attack of the enemy you intercept."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Never Give In (Kin Power)",
+                    "pwrDesc": "Once per battle when you heal using a recovery, make a save with a +2 bonus against a temporary effect as a free action.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "The first time the save fails each battle, you don't expend the power, though you can only use it once per turn."
                         }
                     ]
                 }

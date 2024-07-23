@@ -86,7 +86,7 @@ function KinItem(
                       power.pwrFeats.map((feat, i) => {
                         return (
                           <div key={"feat"+i}>
-                            <b><i>{feat.featType}.</i></b> {feat.feat}
+                            <u>{feat.featType}</u>: {feat.feat}
                           </div>
                         );
                       })
