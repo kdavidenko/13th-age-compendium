@@ -97,11 +97,11 @@ function KinItem(
             }
           </div>
         </div>
-        {srd && 
+        {/* {srd && 
           <div className='srd'>
             <div className="heading"><a href={srd} target='_blank'>SRD Link</a></div>
           </div>
-        }
+        } */}
         </AccordionDetails>
       </CustomAccordion>
     </div>

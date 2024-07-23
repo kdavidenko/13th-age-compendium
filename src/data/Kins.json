@@ -223,6 +223,47 @@
             ]
         },
         {
+            "title": "Irmannan/Shadowkin",
+            "img": "https://pbs.twimg.com/media/FOYTL-VX0AYPlLz.jpg",
+            "desc": "The residents of Irmanna, the Silent City, eventually take on its characteristics. Shrouded in the stony hollows between the Shell and the Near Sisters, they practice their crafts, which include a form of necromancy that has never drawn the Gaze of the Fallen. They are not often seen outside of their home, but inspire dread and fear when they do. Irmannan necromancy has allowed many to speak directly to the dead without severe consequences, and so the strange folk are tolerated. Irmannan can look like any Kin, but their Kin Powers and identity are Irmannan.",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Ghastly Knowledge (Kin Power)",
+                    "pwrDesc": "At the beginning of each arc, you commune with a spirit. You gain an additional +3 background in addition to your other backgrounds of your choice that represents knowledge gains from this communion. When you make an attack roll, you may sacrifice this background to add an equal bonus to the attack roll.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "The bonus becomes +5."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Shadowborn Teleport (Kin Power)",
+                    "pwrDesc": "Once per battle as a move action, place yourself in a nearby location you can see.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Deal 15 force damage to one enemy engaged with you before or after you teleport, or 30 damage at epic tier."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Shadow-slip (Kin Power)",
+                    "pwrDesc": "Once per battle when an enemy moves to engage you, roll a normal save as an interrupt action. If the save succeeds, you disappear into shadow, removing yourself from the battle. The enemy can continue its move and attack a different target, if it wishes. At the start of your next turn, you return to the battle nearby the spot you slipped into shadow from. Unlike the rogue's Shadow Walk talent, you don't gain any attack advantages the turn you return from shadow.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "If your shadow-slip save fails, the power is not expended. You can use it again later this battle."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Kandali/Kobold",
             "img": "https://www.belloflostsouls.net/wp-content/uploads/2023/08/kobold-feat.jpg",
             "desc": "Small dragon-like creatures forsaken by higher powers",
@@ -292,8 +333,50 @@
             ]
         },
         {
-            "title": "Morgul'taak",
-            "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
+            "title": "Kwari/Halfling",
+            "img": "https://www.historymuseum.ca/blog/wp-content/uploads/2019/07/neandertal-1-Cutrona.jpg",
+            "desc": "Short humanoids with canid-like traits. Typically exceptionally hairy with tails of varying lengths. These creatures are curious explorers, living in packs of two to ten. Often prized as a method of sending messages long distance, due to their penchant for travel and their discreet attitudes. Most of the \"Big Folk\" call them halflings or something similar.",
+            "srd": "https://www.13thagesrd.com/races/halfling/",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Evasive (Kin Power)",
+                    "pwrDesc": "Once per battle, force an enemy that hits you with an attack to reroll the attack with a –2 penalty and keep the second result.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "The enemy's reroll when you use evasive takes a –5 penalty instead."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Perseverance (Kin Power)",
+                    "pwrDesc": "Whenever you roll a natural 1 or 2 with an attack, you gain an attack reroll that can be used on any later turn during this battle as a free action.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "You don't have to use the reroll this battle; you can use it any time this arc."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Skitterfoot (Kin Power)",
+                    "pwrDesc": "Once per battle as free action, turn your failed disengage check into a success. You gain a +2 AC bonus against opportunity attacks until the end of the battle.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You can now use skitterfoot twice per battle. (Naturally, the AC bonus against opportunity attacks doesn't stack)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Morgul'taak/Orc",
+            "img": "https://images3.alphacoders.com/906/906070.jpg",
             "desc": "Known across the southern seas as the most skilled sailors in the world, the Orcs of Morkarr are as skilled at tradecraft and diplomacy as they are with their longships. Among the peoples of Urthu, their society is more of an outpost and while they have long had a presence here, this is not their home. Alongside them have come Minotaur, Ogres, and a myriad other kin from their homelands. Unless urgent business takes them further inland, they are mostly found near the western coast.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["urthu"],
@@ -338,7 +421,7 @@
             ]
         },
         {
-            "title": "Ocotzli/Sea Serpent People",
+            "title": "Ocotzli/Serpentfolk",
             "img": "https://www.artofwillstore.com/wp-content/uploads/2022/09/Naga.jpg",
             "desc": "Similar to their cousins, the Yazatli, the Ocotzli are Yazatli who, in ancient times, adhered to the call of the sea and gave veneration to the Leviathan. They vanished beneath the waves for generations until the great elemental lord's return over 25 years ago. Now they have taken up residence throughout the Serpentswrath Isles, and have made overtures of peace, but there is still little trust between them and the other societies. Among the Ocotzli are several breeds or castes, ranging from nearly human to serpentine.",
             "srd": "",
@@ -464,16 +547,35 @@
             "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle": "Four Armed Warrior (Kin Power)",
-                    "pwrDesc": "If you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Chitinous Endurance (Kin Power)",
+                    "pwrDesc": "Your first recovery each arc that is not a free recovery becomes a free recovery.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "Your crit range on the reroll expands by 2."
-                        },
+                            "feat": "Once per arc if you would spend your last recovery, that recovery becomes a free recovery."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Reaper Claws (Kin Power)",
+                    "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and quadrupled at epic tier). If you miss, you deal damage equal to your level (x2 at champion, x4 at epic).",
+                    "pwrFeats": [
                         {
-                            "featType": "Epic Feat", 
-                            "feat": "Your crit range on the reroll expands by 4."
+                            "featType": "Champion Feat", 
+                            "feat": "You can make an unarmed melee basic attack as above as a quick action in addition to your other actions on your turn. However, if you take another action during that turn to use an attack power or basic attack, this attack deals only half damage. (Any miss damage is not halved, however.)"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Song of Your People (Kin Power)",
+                    "pwrDesc": "At the beginning of each arc, you may choose a Bardic song of your level or less. This song is castable once per arc for you at your level. If it has a recharge, the song does not have a recharge for you. If you are already a Bard, you gain an additional casting of that song once per arc.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per arc, if you fail to sustain the Bardic song chosen for Song of Your People, you may reroll the failed sustain."
                         }
                     ]
                 }
@@ -496,6 +598,47 @@
                         {
                             "featType": "Epic Feat", 
                             "feat": "You no longer need to make the save."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ukaru/Desertfolk",
+            "img": "https://www.originalmagicart.store/cdn/shop/products/Swanland_RuhanOfTheFomori_Print_5000x.jpg",
+            "desc": "Goat-like Nomadic desert dwellers with arguably the best marksmen in the world. Each one wears a unique wooden/cashmere mask made by their mother from her own wool and wood gathered by their father. It is a grave insult to take another's mask, even a bitter enemy, and replacements are never made. Conflicts between groups cease to find and return masks that end up taken or lost. The clans cycle their route around Osis and its freshwater lake. They are indigenous to the Smokesands Desert and the regions north of Mori's Wall.",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Comrade Defender (Kin Power)",
+                    "pwrDesc": "Once per battle when you intercept an enemy moving to attack an ally, make a basic attack against that enemy after the enem's attack as a free action.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "Your attack has a +2 attack bonus and takes place before the attack of the enemy you intercept."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Keen Eye (Kin Power)",
+                    "pwrDesc": "Once per battle, when the escalation die is 2+, turn your miss with a ranged weapon into a hit.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Once per arc, instead, you may turn a hit into a critical hit."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Mystic Initiative (Kin Power)",
+                    "pwrDesc": "Once per battle before you have acted in the current round, you can trade initiative with one of your nearby allies. The swap lasts until the end of the battle. You both gain 8 temporary hit points (5th: 16 temp hp; 8th: 35 temp hp).",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Instead of trading initiative with an ally, you can trade with any enemy. No one gains temporary hit points when you use Mystic Initiative on an enemy."
                         }
                     ]
                 }
@@ -551,6 +694,9 @@
             "setting": ["mainland", "urthu"],
             "powers": [
                 {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
                     "pwrtitle": "Claws and Jaws (Kin Power)",
                     "pwrDesc": "You can make an unarmed melee basic attack without the usual -2 penalty, and you choose whether to use Strength or Dexterity to modify the attack and damage rolls. If you hit, you deal 1d8 damage per level you possess, plus any modifier from Strength or Dexterity (which is doubled at champion tier and quadrupled at epic tier). If you miss, you deal damage equal to your level (x2 at champion, x4 at epic).",
                     "pwrFeats": [
@@ -590,7 +736,7 @@
             "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrDesc": "You may select from any of the Kin powers of the members of your family, provideded they are a parent or grandparent of yours. An Kin that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."
+                    "pwrDesc": "You may select from any of the Kin powers of the members of your family, provideded they are a parent or grandparent of yours. A Kin that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."
                 },
                 {
                     "pwrDesc": "The sole exception is Thraskan/Mantisfolk, they cannot interbreed with other peoples."
