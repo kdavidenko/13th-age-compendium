@@ -1,5 +1,4 @@
 import './App.css';
-import Map from "Map";
 import Navbar from "Navbar";
 import KinPage from './kins/KinPage';
 import IconPage from './icons/IconPage';

@@ -1,7 +1,6 @@
 import './Map.css';
 import { Link } from 'react-router-dom';
 
-import { useState } from 'react';
 import { RegionState } from 'app/reducers/regionReducer';
 import { useSelector } from 'react-redux';
 
@@ -20,8 +19,8 @@ function Map(props:Props) {
       <div className="Map">
         {props.zones !== undefined && 
         props.zones.map(zone => 
-          <Link to="/">
-            <div key={`map${zone.title}`} id={zone.title} className={`zone ${location === zone.title.toLocaleLowerCase() ? 'selected' : ''}`} onClick={() => {zone.callback()}}>
+          <Link key={`map${zone.title}`} to="/">
+            <div id={zone.title} className={`zone ${location === zone.title.toLocaleLowerCase() ? 'selected' : ''}`} onClick={() => {zone.callback()}}>
               <div className='zoneHighlight' />
               <div className='zoneTitle'>{zone.title}</div>
             </div>
