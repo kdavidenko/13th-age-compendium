@@ -2,67 +2,70 @@
     "heroic": [
         {
             "iconType": "heroic",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/loresinger.png",
             "name": "The Loresinger",
             "description": "The most ancient being on Urthu, they hold the songs of a hundred Thraskan colonies and all the magic ever practiced here.",
             "quote": "\"Sing a song, little one. Tell us your tale, the truth of it. Both the good and the bad.\"",
             "usualLocation": "The Wandering Brothers",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "There are multiple Loresingers in the world, but he is the only one in Urthu.",
+                "As the oldest being on the continent, he remembers back before the Fall of Heaven and can recount, perfectly from memory, the songs of every Thraskan hive and wield every sort of magic.",
+                "Many of the brightest minds on Urthu travel across the continent to seek the tutelage of his singers and mages."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Those who find themselves in the employ of the Loresinger are typically rewarded with esoteric but meaningful items. Often the use of them evades understanding until the right moment.",
+                "Would-be adventuerers who value cryptic knowledge or unique items are drawn to the Loresinger's service."
             ],
             "allies": "The Sealord and Shaman have a Pact with him. He remembers every Arbiter fondly.",
             "enemies": "The Shadowbinder works in profane magics, however tame it appears. The Hive threatens his people's home. The Huntress ranges in his lands and the Conqueror is too aggressive.",
             "history": [
-                "xxx"
+                "Born before the Fall of Heaven, over seven thousand years ago, he is ancient but still capable of swift action if required. He has been a valued advisor and ally for generations of leaders before the current Icons."
             ],
             "trueDanger": "Everything will be alright as long as the Lorekeeper is around to remember everything."
         },
         {
             "iconType": "heroic",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/sealord.png",
             "name": "The Sealord",
             "description": "The magistrate of Hullshatter Port, he leads the forces of Morkarr and the tenuous alliances across Urthu.",
             "quote": "\"This land is dangerous with unmatched beauty. Help me secure our people's safety.\"",
             "usualLocation": "Hullshatter Port",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "Of the Icons he is one of the youngest, having only recently taken his post by election of the Orc Clan Mothers.",
+                "He is courageous, courteous, and considerate of the smallfolk. Though early in his administration, he is incredibly popular and his patronage is enjoyed across Urthu.",
+                "He enjoys the support of all the Orc Clans on Urthu, except one."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Adventuerers who travel long enough on Urthu will find themselves working for the Sealord in one way or another. He pays well, on time, and is prone to bonuses should the task become more difficult than presented."
             ],
             "allies": "The Loresinger and Shaman have a Pact with him, he has cordial relations with the Shadowbinder and agents of both the Arbiter and the Unwaking.",
             "enemies": "The tenous truce with the Breaker could snap at any moment, the Conquerer threatens to usurp him, and the Hive is at his doorstep. All while the Huntress attacks any encroachment.",
             "history": [
-                "xxx"
+                "For centuries there has been a Sealord of Hullshatter Port, and the pact with the Breaker has been maintained for most of that time.",
+                "Some Sealords have tried to take control of Urthu, but such endeavors have all ended in failure. The most successful Sealords cooperated with the other peoples of the continent, and thus far the current Sealord is only too happy to continue that tradition."
             ],
-            "trueDanger": "Everything will be alright while the Sealord rules the forces of Morkarr."
+            "trueDanger": "Everything will be alright while the Sealord rules the forces of Morkarr and the Pact is maintained."
         },
         {
             "iconType": "heroic",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/shaman.png",
             "name": "The Shaman",
             "description": "The wisest crone of the Ukaru clans, her spiritual influence is undeniable and unquestioningly beneficial.",
             "quote": "\"Come, child. Rest your weary soul.\"",
             "usualLocation": "Osis",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "She is the most skilled healer in Urthu and is happy to share this knowledge. Most warriors of the region have passed under her care of the care of her pupils.",
+                "All who follow the paths of peace are welcome in her city of Osis and it is a remote haven on the least hospitable side of the continent."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Clerics and paladins often find their way to the service of the Shaman. Despite having her own beliefs, she and her functionaries offer spiritual support to all faiths.",
+                "Those who work for the Shaman find healing and potions available and it is rumored she has the power to restore the dead under certain conditions."
             ],
             "allies": "The Loresinger and Sealord have a Pact with her. She tought the Shadowbinder in their youth, and she has visions from the Unwaking.",
             "enemies": "The Collector threatens her people's souls, while the Hive threatens their lives.",
             "history": [
-                "xxx"
+                "Among the Icons of Urthu, the Shaman maintains health and spiritual matters for the people. Sometimes the Shaman has been among the Thraskan, sometimes they have been among the Irmannan, but the current Shaman is from the desert-dwelling Ukaru.",
+                "During the last invasion of the Hive several decades ago, the current Shaman worked with the Loresinger, the Sealord of that time, and even the Breaker to push them back."
             ],
             "trueDanger": "Everything will be alright while the Shaman provides sage counsel to her allies."
         },
@@ -114,7 +117,7 @@
         },
         {
             "iconType": "ambiguous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/conqueror.png",
             "name": "The Conqueror",
             "description": "General of the orcish forces on Urthu. Ostensibly works under the Sealord but desires a more aggressive policy towards the continent, one ending with the Black Spear Banner waving over every corner.",
             "quote": "\"This land belongs to Morkarr! Together we will carve our fates into the stone itself.\"",
@@ -136,7 +139,7 @@
         },
         {
             "iconType": "ambiguous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/huntress.png",
             "name": "The Huntress",
             "description": "A dragon from a far away land, she prefers to be left alone and the wilds unsundered by the Morkarrans. She is often at odds with other Icons, but is fiercely protective of her new home.",
             "quote": "\"My patience for your intrusion is at an end. Begone or be singed.\"",
@@ -149,7 +152,7 @@
                 "xxx",
                 "xxx"
             ],
-            "allies": "The Shaman and the Shadowbringer are few of the ones the Huntress tolerates.",
+            "allies": "The Shaman and the Shadowbinder are few of the ones the Huntress tolerates.",
             "enemies": "Anyone who encroaches on her wildlands, specifically the Conqueror or the Hive. She has a special hatred of the Epiphany's demons.",
             "history": [
                 "xxx"
@@ -158,8 +161,8 @@
         },
         {
             "iconType": "ambiguous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
-            "name": "The Shadowbringer",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/shadowbinder.png",
+            "name": "The Shadowbinder",
             "description": "The mysterious archmage of the Silent City of Irmanna. They are the most powerful necromancer on the continent and somehow those using their version of necromancy can do so without attracting demonic attention.",
             "quote": "\"Not all that is beautiful is good, nor that which is hideous, evil.\"",
             "usualLocation": "Irmanna, the Silent City",
@@ -182,7 +185,7 @@
     "villainous": [
         {
             "iconType": "villainous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/breaker.png",
             "name": "The Breaker",
             "description": "A massive Kraken that lives off the shores of Urthu. Its followers maintain the Tollhouse Line outside Hullbreaker Bay. So long as it appeased, it does not wreak havoc...",
             "quote": "\"Pay the toll, or your ship'll roll!\"",
@@ -200,11 +203,11 @@
             "history": [
                 "xxx"
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "Nothing bad will happen as long as the Breaker is appeased with the toll."
         },
         {
             "iconType": "villainous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/collector.png",
             "name": "The Collector",
             "description": "A raider and murderer of unkonwn origin. They hunt throughout Urthu and have inspired immitators. Of the Icons, they are the most directly active.",
             "quote": "\"Your spine will make a fine addition to my trophy wall.\"",
@@ -222,7 +225,7 @@
             "history": [
                 "xxx"
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "All will be well so long as the Collector does not seek power and only collects."
         },
         {
             "iconType": "villainous",
@@ -250,7 +253,7 @@
         },
         {
             "iconType": "villainous",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/hive.png",
             "name": "The Hive",
             "description": "The consciousness behind the mole-people colonies bursting through the surface to retake Urthu for their own. They are an undeniable force of destruction.",
             "quote": "\"Once this dirt and sand and stone was ours, from Aether to Abyss. It shall be again!\"",
@@ -268,7 +271,7 @@
             "history": [
                 "xxx"
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "All will be well so long as the Hive is contained."
         }
     ]
 
