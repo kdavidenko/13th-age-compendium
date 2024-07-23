@@ -123,19 +123,20 @@
             "quote": "\"This land belongs to Morkarr! Together we will carve our fates into the stone itself.\"",
             "usualLocation": "Cinder Pass",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "The general of the Morkarran forces has always been one to push for aggressive expansion inland, representing the hunger of the Orc people. The Sealord must often temper this by keeping the Conqueror occupied with external threats to keep him from going rogue and subjugating other members of the Pact.",
+                "If the Conqueror were to try to usurp the Sealord, it's believed he actually could defeat all other forces on Urthu, even if they united.",
+                "There hasn't always been a Conqueror, but the current general certainly acts independantly enough from the Sealord."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "The Conqueror is a pragmatist and an opportunist first and foremost. He does not care where assistance comes from and gives oppportunity to any, even those of questionable morals. However, he does not tolerate failure and punishes it with prejudice.",
+                "It is rare the Conquerer patrons adventurers and the task is simple or safe. To succeed in his service is worthy of song and boast."
             ],
             "allies": "He has had dealings with the Collector and the Shadowbinder in the past.",
             "enemies": "He views the Sealord as too weak and soft, and the Loresinger and Shaman should be pressed under heal. However, he is too fixated on fighting the Epiphany and the Hive to usurp anyone. The Huntress is only too happy to attack his armies.",
             "history": [
-                "xxx"
+                "Often the champion of Morkarr's forces on Urthu, the Conqueror is a brilliant strategist and exceptional warrior in his own right. He has never been defeated in single combat."
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "Everything will be alright as long as the Conquerer is too occupied with demons and the mole incursions to usurp the Sealord."
         },
         {
             "iconType": "ambiguous",
@@ -145,19 +146,21 @@
             "quote": "\"My patience for your intrusion is at an end. Begone or be singed.\"",
             "usualLocation": "Mother Mountain",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "Often found on the Mother Mountain or other high places, the Huntress only leaves to perform her hunts.",
+                "She does not tolerate many outsiders, but those who show respect for the wilderness and the mountain regions specifically are ignored or find themselves in her good graces."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Most rangers, druids, outlanders and other naturalists must, one way or another, contend with the Huntress. Her most common intermediaries are skilled hunters and trackers who protect the wilds.",
+                "She will often employ adventurers when her objectives involve cities or other long established settlements. Unlike other Icons, however, her organization is fractured and prone to infighting.",
+                "It is just as possible that the Huntress is an opposition force to adventurers as she is an employer.",
+                "She often takes the guise of an Aven woman with red, black, and white feathers."
             ],
             "allies": "The Shaman and the Shadowbinder are few of the ones the Huntress tolerates.",
             "enemies": "Anyone who encroaches on her wildlands, specifically the Conqueror or the Hive. She has a special hatred of the Epiphany's demons.",
             "history": [
-                "xxx"
+                "Hailing from far away across the sea, she is only recently arrived. However, she is the largest and most powerful dragon on the island and quickly subjugated many of the other powerful beasts in the mountain valleys. It's believed she is a child of the Dragon Elders from long ago."
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "All will be well, so long as the Huntress keeps to her mountains and does not go to war with the Sealord."
         },
         {
             "iconType": "ambiguous",
@@ -167,19 +170,20 @@
             "quote": "\"Not all that is beautiful is good, nor that which is hideous, evil.\"",
             "usualLocation": "Irmanna, the Silent City",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "The Shadowbinder is an enigmatic figure, somehow able to practice all forms of dark magic without consequences.",
+                "The dark magics at their command make others wary of their influence and many shun working with them because of it.",
+                "They may be connected to the Prismatic God Vermori."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "To be visited by one of their shadowspawn can be seen as an omen of great respect or of great danger.",
+                "To the people of Irmanna, to work on behalf of the Shadowbinder is a great honor and for outsiders it is truly noteworthy. Most often, it is through an Irmannan ally that outsiders work for them."
             ],
             "allies": "They have fond memories of the Shaman's teachings and are cordial with the Sealord. They have a friendship cultivating with the Huntress.",
             "enemies": "They are at odds with the Loresinger and seek to protect their city from the Epiphany's demons, the Hive, and the iron fist of the Conqueror.",
             "history": [
-                "xxx"
+                "The current Shadowbringer has been a force of influence within Irmanna for some time, though they do not rule the city directly. They are functionally a high priest and cultural influence, much like the Shaman."
             ],
-            "trueDanger": "xxx"
+            "trueDanger": "Everything will be alright so long as the Shadowbinder does not fall to the temptation of darkness."
         }
     ],
     "villainous": [
@@ -191,19 +195,20 @@
             "quote": "\"Pay the toll, or your ship'll roll!\"",
             "usualLocation": "Hullbreaker Bay",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "The Breaker and the Unwaking are currently embroiled in a conflict for the soul of the Ocotzli, as the Breaker is of the Leviathan, whom they've served for so long, but the Unwaking is of Yazatli, their true identity.",
+                "Passing through the Tollhouse Line in Hullbreaker Bay has become increasingly costly of late, causing many to worry if the Breaker is becoming bored of his deal.",
+                "Any time a sea monster attacks a ship or giant beast rampages, it's assumed to be the work of the Breaker.",
+                "Despite his demeanor, the Breaker never harms any that pay the Toll."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Evil or greedy adventurers often find plenty to do within the employ of the Breaker and his intermediaries, while heroic figures make their name stymying his plans and destroying his monstrous servants."
             ],
             "allies": "The Breaker allies with no one, but sees a kindred soul in the Collector.",
             "enemies": "Pretty much everyone else.",
             "history": [
-                "xxx"
+                "Across the ages, the Breaker has made its way back to Hullbreaker Bay. It has currently resided there for several centuries, plaguing sea travel. All attempts to destroy it have failed, and so uneasy agreements between the Sealords and the Breaker maintain the status quo."
             ],
-            "trueDanger": "Nothing bad will happen as long as the Breaker is appeased with the toll."
+            "trueDanger": "Nothing bad will happen as long as the Breaker is appeased with the Toll."
         },
         {
             "iconType": "villainous",
@@ -213,17 +218,19 @@
             "quote": "\"Your spine will make a fine addition to my trophy wall.\"",
             "usualLocation": "Smokesands, but they travel throughout Urthu",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "To see the Collector is to know your death has come.",
+                "Most thing they are some sort of demon pulled up by the Epiphany or some dead spirit the Shadowbinder lost control of.",
+                "Whenever a brutal death occurs, they are blamed, even if they had nothing to do with it.",
+                "Some claim they are a fabrication to cover the actions of an as-yet undiscovered assassins guild."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Anyone working for the Collector is unlikely to realize it until after the fact.",
+                "Those who actively seek their employ often find themselves in dire straits and find their loyalty repaid with betrayed at a crucial moment.."
             ],
             "allies": "Occassionally, the Epiphany or the Conquerer.",
-            "enemies": "The actions of the Collector have made many enemies, but he has a special emnity for the Sealord, the Shaman, and the Loresinger.",
+            "enemies": "The actions of the Collector have made many enemies, but he has a special emnity for the Sealord, the Shaman, and the Loresinger. The Shaman has a high price on his head for his spiritual crimes against her people.",
             "history": [
-                "xxx"
+                "Much like the Huntress, they are a recent arrival on Urthu, beginning in the Smokesands with tales of dead hunters and stolen Ukaru masks. There has not been a Collector before now."
             ],
             "trueDanger": "All will be well so long as the Collector does not seek power and only collects."
         },
@@ -259,19 +266,19 @@
             "quote": "\"Once this dirt and sand and stone was ours, from Aether to Abyss. It shall be again!\"",
             "usualLocation": "Unknown, puncturing throughout Urthu",
             "commonKnowledge": [
-                "xxx",
-                "xxx"
+                "Most of the incursion points for the Hive are in the mountains and the Great Furnace, already inhospitable areas.",
+                "There have been many invasions by the Hive before, but that was supposed to be long in the past, as wards have kept them at bay for a few centuries."
             ],
             "adventurers": [
-                "xxx",
-                "xxx"
+                "Battling the Hive is a common task for adventurers of all stripes. As of now, the Hive has no interest in working with outsiders."
             ],
             "allies": "None, the Hive will consume everything in its path. The Hive will ally with another Icon against the Epiphany, but only temporarily.",
             "enemies": "All on the surface of Urthu.",
             "history": [
-                "xxx"
+                "Every few decades, the Hive attempts to regain control of the surface and thus far the peoples of Urthu have managed to unite against them. Only time will tell if this incursion will be the same.",
+                "Centuries ago, the Loresinger and the Sealord, Shadowbinder, and Shaman of a previous age banded together to ward Urthu from the Hive. With the coming of the Last Night, those wards weakened enough that a new, larger invasion has begun."
             ],
-            "trueDanger": "All will be well so long as the Hive is contained."
+            "trueDanger": "All will be well so long as the Hive is contained by the unity of the Pact."
         }
     ]
 
