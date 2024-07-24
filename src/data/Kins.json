@@ -179,21 +179,40 @@
         {
             "title": "Goblins",
             "img": "https://i0.wp.com/nerdarchy.com/wp-content/uploads/2020/09/beastlands-goblin-scaled.jpg",
-            "desc": "Fey creatures that have spent centuries in the wilds.",
+            "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventuerers who become accustomed to this find goblin companions among the most reliable folk around.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
-            "setting": ["mainland"],
+            "setting": ["mainland", "urthu"],
             "powers": [
                 {
-                    "pwrtitle":"Small",
-                    "pwrDesc": "Goblins have a +2 AC bonus against opportunity attacks."
+                    "pwrDesc": "CHOOSE ONE:"
                 },
                 {
-                    "pwrtitle":"Evasive (Kin Power)",
-                    "pwrDesc": "Once per battle, force an enemy that hits you with an attack to reroll the attack with a -2 penalty.",
+                    "pwrtitle":"Nimble Escape (Kin Power)",
+                    "pwrDesc": "Once per battle, when you roll a natural even failure with a disengage check, you can reroll the die and take the new result.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "The enemy's reroll takes a -5 penalty instead."
+                            "feat": "If the reroll is successful, any enemy you disengaged from is dazed until the end of your next turn."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Unseelie Blessing (Kin Power)",
+                    "pwrDesc": "Once per battle, when you fail a saving throw to remove the Charmed or Fear condition, you may reroll the save, using the new result instead.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": " When you succeed to remove Charmed or Fear, you may inflict that same condition on a different nearby enemy."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Fury of the Small (Kin Power)",
+                    "pwrDesc": "Once per arc, when dealing damage to an elite, double- or triple-strength enemy, you deal additional damage equal to your level. At 5th level, it deals damage equal to double your level, at 8th level it deals damage equal to four times your level.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You may use Fury of the Small once per battle instead of once per arc."
                         }
                     ]
                 }
