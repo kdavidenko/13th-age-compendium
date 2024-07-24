@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/13th-age-compendium/static/css/main.c4e7dc10.css",
-    "main.js": "/13th-age-compendium/static/js/main.3e0562fd.js",
+    "main.js": "/13th-age-compendium/static/js/main.dd250cee.js",
     "static/js/453.cc6f8940.chunk.js": "/13th-age-compendium/static/js/453.cc6f8940.chunk.js",
     "static/media/myrrMap.png": "/13th-age-compendium/static/media/myrrMap.f96e5bf98e8500cdfd73.png",
     "index.html": "/13th-age-compendium/index.html",
     "main.c4e7dc10.css.map": "/13th-age-compendium/static/css/main.c4e7dc10.css.map",
-    "main.3e0562fd.js.map": "/13th-age-compendium/static/js/main.3e0562fd.js.map",
+    "main.dd250cee.js.map": "/13th-age-compendium/static/js/main.dd250cee.js.map",
     "453.cc6f8940.chunk.js.map": "/13th-age-compendium/static/js/453.cc6f8940.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4e7dc10.css",
-    "static/js/main.3e0562fd.js"
+    "static/js/main.dd250cee.js"
   ]
 }
