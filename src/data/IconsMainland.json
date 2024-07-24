@@ -1,6 +1,7 @@
 {
     "heroic": [
         {
+            "id":"arbiter",
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/arbiter.png",
             "name": "The Arbiter",
@@ -22,6 +23,7 @@
             "trueDanger": "Everything will be alright as long as the Arbiter maintains balance between the Icons."
         },
         {   
+            "id":"redeemer",
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/redeemer.png",
             "name": "The Redeemer",
@@ -47,6 +49,7 @@
         },
 
         {
+            "id":"sunqueen",
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/sunqueen.png",
             "name": "The Sun Queen",
@@ -71,6 +74,7 @@
         },
 
         {
+            "id":"truthteller",
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/truthteller.png",
             "name": "The Truthteller",
@@ -97,6 +101,7 @@
     ],
     "ambiguous": [
         {
+            "id":"greenman",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/greenman.png",
             "name": "The Green Man",
@@ -121,6 +126,7 @@
         },
 
         {
+            "id":"ironmarshal",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/ironmarshal.png",
             "name": "The Iron Marshal",
@@ -144,6 +150,7 @@
         },
 
         {
+            "id":"matriarch",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/matriarch.png",
             "name": "The Matriarch",
@@ -166,6 +173,7 @@
         },
 
         {
+            "id":"storm",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/storm.png",
             "name": "The Storm",
@@ -190,6 +198,7 @@
         },
 
         {
+            "id":"uniter",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/uniter.png",
             "name": "The Uniter",
@@ -214,6 +223,7 @@
         },
 
         {
+            "id":"unwaking",
             "iconType": "ambiguous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/unwaking.png",
             "name": "The Unwaking",
@@ -239,6 +249,7 @@
     ],
     "villainous": [
         {
+            "id":"deadseer",
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/deadseer.png",
             "name": "The Dead Seer",
@@ -263,6 +274,7 @@
         },
 
         {
+            "id":"epiphany",
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/epiphany.png",
             "name": "The Epiphany",
@@ -289,6 +301,7 @@
         },
 
         {
+            "id":"schemer",
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/schemer.png",
             "name": "The Schemer",
@@ -311,6 +324,7 @@
         },
 
         {
+            "id":"viper",
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/viper.png",
             "name": "The Viper",

@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import './MapPage.css';
-import Map from "Map";
+import Map from "./Map";
 import { useState } from 'react';
 
 function MapPage() {
