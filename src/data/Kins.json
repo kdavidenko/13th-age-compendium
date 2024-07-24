@@ -187,6 +187,16 @@
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
+                    "pwrtitle":"Fury of the Small (Kin Power)",
+                    "pwrDesc": "Once per arc, when dealing damage to an elite, double- or triple-strength enemy, you deal additional damage equal to your level. At 5th level, it deals damage equal to double your level, at 8th level it deals damage equal to four times your level.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You may use Fury of the Small once per battle instead of once per arc."
+                        }
+                    ]
+                },
+                {
                     "pwrtitle":"Nimble Escape (Kin Power)",
                     "pwrDesc": "Once per battle, when you roll a natural even failure with a disengage check, you can reroll the die and take the new result.",
                     "pwrFeats": [
@@ -203,16 +213,6 @@
                         {
                             "featType": "Champion Feat", 
                             "feat": " When you succeed to remove Charmed or Fear, you may inflict that same condition on a different nearby enemy."
-                        }
-                    ]
-                },
-                {
-                    "pwrtitle":"Fury of the Small (Kin Power)",
-                    "pwrDesc": "Once per arc, when dealing damage to an elite, double- or triple-strength enemy, you deal additional damage equal to your level. At 5th level, it deals damage equal to double your level, at 8th level it deals damage equal to four times your level.",
-                    "pwrFeats": [
-                        {
-                            "featType": "Champion Feat", 
-                            "feat": "You may use Fury of the Small once per battle instead of once per arc."
                         }
                     ]
                 }
