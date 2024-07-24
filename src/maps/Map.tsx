@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { RegionState } from 'app/reducers/regionReducer';
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
+import { Button } from '@mui/material';
 
 export interface MapIconList {
   id: string,
@@ -29,9 +30,9 @@ function Map(props:Props) {
   return (
       <div className="Map">
       {props.icons && 
-        <button onClick={() => setShowIcons(!showIcons)}>
+        <Button variant="contained" onClick={() => setShowIcons(!showIcons)}>
           {showIcons ? 'Hide' : 'Show'} Icons
-        </button>
+        </Button>
       }
       {props.icons !== undefined && 
       props.icons.map(icon => 

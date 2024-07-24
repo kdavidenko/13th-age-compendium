@@ -7,6 +7,10 @@
     width: 100%;
   }
 
+  .button {
+    margin-bottom: 20px;
+  }
+
   .mapIcon {
     width: 5%;
     position: absolute;
@@ -30,6 +34,64 @@
   .mapIcon:hover .iconTitle {
     display: block;
   }
+  /* ==== MAINLAND ===== */
+  #mainland-arbiter {
+    top: 39%;
+    left: 28%;
+  }
+  #mainland-redeemer {
+    top: 27%;
+    left: 40%;
+  }
+  #mainland-sunqueen {
+    top: 54%;
+    left: 64%;
+  }
+  #mainland-truthteller {
+    top: 67%;
+    left: 59%;
+  }
+  #mainland-greenman {
+    top: 56%;
+    left: 69%;
+  }
+  #mainland-ironmarshal {
+    top: 54%;
+    left: 25%;
+  }
+  #mainland-matriarch {
+    top: 17%;
+    left: 63%;
+  }
+  #mainland-storm {
+    top: 47%;
+    left: 59%;
+  }
+  #mainland-uniter {
+    top: 54%;
+    left: 40%;
+  }
+  #mainland-unwaking {
+    top: 63%;
+    left: 89%;
+  }
+  #mainland-deadseer {
+    top: 27%;
+    left: 50%;
+  }
+  #mainland-epiphany {
+    top: 56%;
+    left: 90%;
+  }
+  #mainland-schemer {
+    top: 69%;
+    left: 39%;
+  }
+  #mainland-viper {
+    top: 47%;
+    left: 42%;
+  }
+  /* ==== URTHU ===== */
     #urthu-loresinger {
       top: 47%;
       left: 35%;
