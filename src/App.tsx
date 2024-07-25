@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux';
 import { RegionState } from './app/reducers/regionReducer'
 import MapPage from './maps/MapPage';
 import RegionMap from 'maps/RegionMap';
+import ClassPage from 'class/ClassPage';
 
 function App() {
   const location = useSelector<RegionState, RegionState['region']>((state:any) => state.regionReducer.region)
@@ -28,6 +29,7 @@ function App() {
           }
           <Route path="/map" element={ <MapPage />} />
           <Route path="/kins" element={ <KinPage />} />
+          <Route path="/classes" element={ <ClassPage />} />
           <Route path="/region" element={ <RegionMap />} />
           <Route path="/icons" element={ <IconPage />} />
           <Route path="/convert" element={ <ConvertPage />} />

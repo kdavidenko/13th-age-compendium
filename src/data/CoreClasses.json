@@ -1,0 +1,374 @@
+{
+    "classes": [
+        {
+            "id": "barbarian",
+            "name": "Barbarian",
+            "source": "Gamma Playtest Material",
+            "img": "https://coolvibe.com/wp-content/uploads/2014/08/Video-Game-Art-lee337-Barbarian.jpg",
+            "desc": "Striding out of the wilderness come ferocious women and indomitable men, barbaric warriors who pit their sinew and will against everything empires and sorcery can throw against them. Some win glory and wealth, while others gain nothing but the grim satisfaction of beating down powerful and terrifying foes.",
+            "complexity": "The simplest versions of the barbarian are designed for the player who wants to roll dice and slay without worrying too much about the rules. The slightly more complex versions of the barbarian still offer fewer choices during play than most other classes.",
+            "playstyle": "A barbarian character is straightforward and easy to play. It's a good class for a new player or the player who wants to have fun without worrying much about rules getting in the way of awesome attacks. Unlike most of the other classes, barbarians don't gain powers every level. Instead, most of their extra oomph comes from their class talents. The simplest barbarian player characters keep decisions to a minimum while contributing with mighty attacks and awesome bravado.",
+            "keymechanics":[
+                {
+                    "title":"Rage",
+                    "desc": "At the start of each of your turns, you roll a 1d12 and add the escalation die. If the result is 8+, you are raging this turn and natural odd rolls on your attacks deal double damage (crits deal triple). If you roll a nat 1 you can't rage this turn, and if you roll a nat12 you have 5e-style advantage on your rage attacks."
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"Beast Aspect (Talent lvl1)",
+                    "pwrDesc": "You channel the ferocity of dire wolves, dire bears, tigers, or other great wilderness predators. Over the course of each arc, choose a benefit which improves your rage roll, initiative, defenses, or damage.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Increase the effectiveness of Beast Talent and expand your options available each arc."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Building Frenzy (Talent lvl1)",
+                    "pwrDesc": "As you miss attacks you can store +2 damage for a subsequent hit, up to +12 (damage increases at even levels: +3/max 18, +4/max 24, etc up to +15/max 90 at lvl 10.)",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Increases the opportunities to add this stacking damage."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Death and Life (Talent lvl5)",
+                    "pwrDesc": "Lets you rage much easier when you take out enemies who started the battle with more health than you. Also grants you regenerative healing.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "Makes it easier to trigger the regeneration."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Ancestral Warband (Talent lvl8)",
+                    "pwrDesc": "Lets you summon ancestral warrior spirits to help you in battle. However, because of the battle warping abilities these additional warriors grant, there are special rules on how it recharges and if it doesn't recharge, you must pick a different talent, your ancestors having helped you all they can.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "Your ancestor spirits always get the benefit of raging."
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "clan champion, caravan outrider, fur trapper, ice wolf fur trapper, former volcano priest, wasteland survivalist, reluctant gladiator turned eager champion, dire beast hunter, dire beast guardian,"
+        },
+
+        {
+            "id": "bard",
+            "name": "Bard",
+            "source": "Gamma Playtest Material",
+            "img": "https://i.ytimg.com/vi/wLlovxa3VJ0/maxresdefault.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "cleric",
+            "name": "Cleric",
+            "source": "Gamma Playtest Material",
+            "img": "https://ih1.redbubble.net/image.5173153660.4717/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "fighter",
+            "name": "Fighter",
+            "source": "Gamma Playtest Material",
+            "img": "https://artfiles.alphacoders.com/889/88921.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "paladin",
+            "name": "Paladin",
+            "source": "Gamma Playtest Material",
+            "img": "https://i.pinimg.com/originals/1d/32/aa/1d32aa2bf7b461f9e32ebf1376b484df.png",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "ranger",
+            "name": "Ranger",
+            "source": "Gamma Playtest Material",
+            "img": "https://pbs.twimg.com/media/C8vq2kfVwAEm5Xl.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "rogue",
+            "name": "Rogue",
+            "source": "Gamma Playtest Material",
+            "img": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/486f1d115652715.6052644116c40.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "sorceror",
+            "name": "Sorceror",
+            "source": "Gamma Playtest Material",
+            "img": "https://artfiles.alphacoders.com/114/114358.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "wizard",
+            "name": "Wizard",
+            "source": "Gamma Playtest Material",
+            "img": "https://t3.ftcdn.net/jpg/05/62/55/36/360_F_562553694_4rNoRAQbYve4b7FKp2vDJJtP5gdj0rtZ.jpg",
+            "desc": "WIP",
+            "complexity": "xxxx",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        }
+    ]
+}
