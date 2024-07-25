@@ -1,0 +1,276 @@
+{
+    "classes": [
+        {
+            "id": "chaosmage",
+            "name": "Chaos Mage",
+            "source": "13 True Ways",
+            "img": "https://pbs.twimg.com/media/GSOWhuqXYAAENgu.jpg",
+            "desc": "WIP",
+            "complexity": "At least as complicated as the core wizard.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "commander",
+            "name": "Commander",
+            "source": "13 True Ways",
+            "img": "https://cdna.artstation.com/p/assets/images/images/063/495/094/4k/javier-charro-432463-aragorn-might-of-gondor-final.jpg",
+            "desc": "WIP",
+            "complexity": "At least as complicated as the core wizard.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "demonologist",
+            "name": "Demonologist",
+            "source": "Book of Demons",
+            "img": "https://candb.com/site/candb/images/artwork/kaalia-of-the-vast_fischer_mtg_hasbro.jpg",
+            "desc": "WIP",
+            "complexity": "At least as complicated as the core wizard. With a bit of help from the GM, this is also acceptable for beginners.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "druid",
+            "name": "Druid",
+            "source": "13 True Ways",
+            "img": "https://www.gmbinder.com/images/RmecJaN.jpg",
+            "desc": "WIP",
+            "complexity": "At least as complicated as the core wizard.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "monk",
+            "name": "Monk",
+            "source": "13 True Ways",
+            "img": "https://i0.wp.com/mtgazone.com/wp-content/uploads/2023/12/Narset-Enlightened-Master-MtG-Art-from-Khans-of-Tarkir-by-Magali-Villeneuve.jpg",
+            "desc": "WIP",
+            "complexity": "At least as complicated as the core wizard. With a bit of help from the GM, this is also acceptable for beginners.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "necromancer",
+            "name": "Necromancer",
+            "source": "13 True Ways",
+            "img": "https://scg-static.starcitygames.com/articles/2024/04/bd1351b2-gisa-the-hellraiser.jpg",
+            "desc": "WIP",
+            "complexity": "Of the supplemental classes, the necromancer often works for beginners.",
+            "playstyle": "xxxx",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        },
+
+        {
+            "id": "theoccultist",
+            "name": "The Occultist",
+            "source": "13 True Ways",
+            "img": "https://d1w82usnq70pt2.cloudfront.net/wp-content/uploads/2021/12/Riku.jpg",
+            "desc": "For the time being, this class is not usable for Myrr.",
+            "complexity": "At least as complicated as the core wizard.",
+            "playstyle": "The occultist is a class for the player who likes to pay attention and weigh options. You craftily watch as the battle plays out around you, waiting for the right moment to distort reality in your favor. In a split second, you can set back time and tweak reality just enough to have a devastating effect. The fates of your friends and of your foes are in your hands. It's a good class for an experienced player.",
+            "keymechanics":[
+                {
+                    "title":"xxxx",
+                    "desc": "xxxx"
+                }
+            ],
+            "powers":[
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"xxxx",
+                    "pwrDesc": "xxxx",
+                    "pwrFeats": [
+                        {
+                            "featType": "xxxx Feat", 
+                            "feat": "xxxx"
+                        }
+                    ]
+                }
+            ],
+            "backgrounds": "xxxx"
+        }
+    ]
+}
