@@ -51,6 +51,41 @@
             ]
         },
         {
+            "title": "Chalonian/Tortle",
+            "img": "https://uploads.worldanvil.com/uploads/images/e7762bdce4958945fdc12fab706d9b62.jpg",
+            "desc": "Hailing originally from the southern coasts of the mainland, the Chelonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
+            "setting": ["mainland", "urthu"],
+            "powers": [
+                {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
+                    "pwrtitle":"Hardy (Kin Power)",
+                    "pwrDesc": "Your recovery dice are one size larger. d4 < d8 < d10 < d12 < 2d6 < 2d8.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "Increase your total number of recoveries by +1."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Natural Armor (Kin Power)",
+                    "pwrDesc": "Your shell is particularly large and thick, but prevents you from gaining the benefit of armor. While unarmored, treat your base AC as Heavy Armor with no penalties. You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+                },
+                {
+                    "pwrtitle":"Shell Defense (Kin Power)",
+                    "pwrDesc": "Once per battle as a quick action, you withdraw into your shell and gain +4 bonus to your AC and PD and are Stuck but other larger creatures can move you. You can take no other actions except to exit your shell as a quick action.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Shell Defense becomes once per turn."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Dragonborn",
             "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Chromatic-Dragonborn-Dungeons-and-Dragons-Cover.jpg",
             "desc": "Dragon-like people. They are as varied as their draconic kin",
