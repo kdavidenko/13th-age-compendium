@@ -64,38 +64,40 @@
             "name": "Bard",
             "source": "Gamma Playtest Material",
             "img": "https://i.ytimg.com/vi/wLlovxa3VJ0/maxresdefault.jpg",
-            "desc": "WIP",
-            "complexity": "xxxx",
-            "playstyle": "xxxx",
+            "desc": "If the gods didn't create the world with a song, that's sure what it sounds like when you hear a mighty bard sing. Bards travel the world, learning and teaching each other the ancient songs and arcane secrets of a hundred lands. They practice an intuitive and nimble sort of arcane magic, using not merely their minds to cast spells but their hearts. Their spells, their swordplay, and their romances all demonstrate not just skill but a certain poetry. The best bards bring out the best in others, inspiring them to overcome all obstacles and then spreading the story in a victory song. The worst bards are manipulative, seductive egomaniacs.",
+            "complexity": "The bard has a variety of options because each of its talents supply effects that trigger on hitting with an attack or being missed with an attack, along with healing magic that requires the bard to pay attention to what's happening at the table. The bard also has spells, persistent songs, and unique features from their talents. Figuring out how to use these options in combat and in roleplaying is will be fun for a confident player but potentially overwhelming for a first timer. The bard is the class voted most likely to use index cards or some other form of organizing spells, reactions, and options.",
+            "playstyle": "Bards are magical, musical, playful, helpful, and tricky. Bards are flexible characters with many options in roleplaying situations and in combat. They're not the best character choice for beginning players, but can be a lot of fun for experienced or extroverted players who enjoy mastering different types of abilities.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Bardic Talents",
+                    "desc": "Each of the Bard class talents grants several abilities, an additional effect when you hit with a weapon, a healing ability, a reaction when you are missed by an attack, and a special feature just for that talent. Bards have multiple reactions and quick action options in their toolkit. Mastering these is key to the class. When you take feats for the talent, you get the same tier of feat for each ability under that talent."
+                },
+                {
+                    "title":"Social Skills",
+                    "desc": "You are able to get +3 to social checks three times per arc, four times at lvl 5 and five times at lvl 8. A feat makes the bonus +5."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Song of Heroes (lvl1 Spell)",
+                    "pwrDesc": "As a Bardic Song, it's tracked separately from your usual spell count. At the beginning of your turn, you see if the spell is sustained, otherwise you get a boosted final effect. Grants your allies +1 to attacks, while the Final Verse gives one ally +2 on their next attack.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Improve the recharge of the spell, making it more usable more often, and increase the effect."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
-                    "pwrFeats": [
-                        {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
-                        }
-                    ]
+                    "pwrtitle":"Emulate Faith (lvl5 Spell)",
+                    "pwrDesc": "Use one of the invocations from the cleric's domain talents. Interpret the invocation favorably. For example, the Healing invocation provides an extra use of the heal spell, so you would gain a single use of the heal spell. The group is still limited to one invocation per party per battle."
+                },
+                {
+                    "pwrtitle":"The Story (lvl9 Spell)",
+                    "pwrDesc": "You use an ally's icon relationship and get the benefits of a non-combat Icon connection, altering the entire scenario. IE, it can trigger \"The Eagles are coming!\"."
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Wandering minstrel, cathedral musician, court jester, court jester, mercenary herald, two time runner-up in the Twisp games of song and satire, tavern owner, failed hedge wizard, frustrated diplomat, spy, royal taster, caravan guide, smuggler, party circuit maven, battle skald, dance instructor, dwarven battle cry instructor."
         },
 
         {

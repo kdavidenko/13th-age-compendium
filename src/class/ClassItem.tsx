@@ -103,6 +103,7 @@ function ClassItem(
           <b>Background Ideas</b>: {backgrounds}
           </div>
         </div> 
+        <hr />
         <div><i>Note: The mechanics below are <b>not</b> an exhaustive list, these are simply some examples of talents, spells, and other powers available to members of this class.</i></div>
         <div className='keymechanics'>
           <div className="heading">Key Mechanic{keymechanics.length > 1 && 's'}</div>
