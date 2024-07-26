@@ -144,6 +144,10 @@
                     ]
                 },
                 {
+                    "pwrtitle":"Bless (lvl9 Spell)",
+                    "pwrDesc": "One ally gets +2 attack bonus until end of the battle or up to three allies get +1 until the end of the battle. At higher levels it also adds temp hp"
+                },
+                {
                     "pwrtitle":"Prayer for Readiness (lvl9 Spell)",
                     "pwrDesc": "Two creatures get two rerolls of a d20 or five creatures get one reroll of a d20 during a battle. You cast this as a free action during initiative. This is notable because 5e-style advantage is an INCREDIBLY rare bonus in 13th age if you're not a lucky barbarian.",
                     "pwrFeats": [
