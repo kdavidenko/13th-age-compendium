@@ -144,7 +144,7 @@
                     ]
                 },
                 {
-                    "pwrtitle":"Bless (lvl9 Spell)",
+                    "pwrtitle":"Bless (lvl1 Spell)",
                     "pwrDesc": "One ally gets +2 attack bonus until end of the battle or up to three allies get +1 until the end of the battle. At higher levels it also adds temp hp"
                 },
                 {
@@ -227,38 +227,52 @@
             "name": "Paladin",
             "source": "Gamma Playtest Material",
             "img": "https://media.wizards.com/images/magic/som/factionwars/hotspots/lg/131603c.jpg",
-            "desc": "WIP",
+            "desc": "In every age, extraordinary men and women have stepped forward to carry the battle flag of justice. By the will of the gods, paladins are both protectors and avengers whose campaigns of awesome justice serve as warnings to any who threaten those under their protection. The people depend on them, lords celebrate them, and monsters hate them. People have never needed paladins more than they do now.",
             "complexity": "Relies on a short list of class talents instead of powers. At adventurer-tier, it's the simplest class to play for newcomers. ",
-            "playstyle": "xxxx",
+            "playstyle": "Like the barbarian, the paladin is simple to play. Your choices during combat come from your talents since you don’t choose new attacks or spells as you rise in level. Most every attack you make uses your basic melee attack, but you can augment it by using Smite or one of the other abilities from your talents. Paladins who want a bit more complexity can choose talents that let them cast a cleric spell or use a cleric domain.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Smite",
+                    "desc": "Once per battle as a free action before you make an attack roll, you can declare you're using a Smite. Then you add a bonus to the damage. If you miss, you do not expend the Smite. Feats add bonuses to Smites, more damage, and more uses."
+                },
+                {
+                    "title":"Lay on Hands",
+                    "desc": "You roll one of your recoveries and you or an ally gets the healing. When it's someone else, there's an extra bonus based on your Charisma. Feats increase uses per arc. Most, if not all, other healing abilities use the recipient's recoveries, whereas Lay on Hands lets you use yours for someone else."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Undaunted (Adventurer Talent)",
+                    "pwrDesc": "Your roll saves at the start of your turn, instead of the end, letting you use your turn normally if you succeed or ignore ongoing damage.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "You get bonuses to the save or free uses."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Improved Smite (Champion Talent)",
+                    "pwrDesc": "When you drop an enemy, you don't expend the use of your Smite.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Give you additional uses of Smite the more damaged you are."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Great Dragon Incarnation (Epic Talent)",
+                    "pwrDesc": "You basically magically transform into an elder dragon with all sorts of movement and protection benefits. Also grants a unique version of a high level sorcerer spell.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Increases your icon relationship with the Great Gold Wyrm or The Three equivalent."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "City guard, combat medic, bodyguard, outlaw hunter, Sea Wall captain, Clockwork Citadel archeologist, Matriarch courtier, Heartlands Inquisitor, veteran of the orc wars, incursion commando, ex-priest of the Epiphany."
         },
 
         {
@@ -266,38 +280,56 @@
             "name": "Ranger",
             "source": "Gamma Playtest Material",
             "img": "https://mktg-assets.tcgplayer.com/content/opengraph/MTG-Orcish-Bowmasters-LTR.jpg",
-            "desc": "WIP",
+            "desc": "Some rangers get their training in an official ranger corps, serving a legitimate authority. Others are initiates into half-wild gangs, resourceful nomads who know more ancient secrets than their rough manner might suggest. Rangers from different lands or traditions respect each other, though they can still be ruthless rivals. In the wilderness, rangers are held in awe, provided the common people even know they're there. In the city, rangers are notorious for complaining about the conditions of urban life, but they are renowned as outlandish party guests.",
             "complexity": "Relies on base attacks augmented by class talents instead of a power list. The simpler ranger characters are based on Hunter Talents that provide options for higher damage. More complex rangers use more Warrior Talents that provide access to extra Skirmisher turns, but even then, rangers are arguably simpler to play than fighters. (A ranger using Control the Range a lot might lose the argument.)",
-            "playstyle": "xxxx",
+            "playstyle": "Like the barbarian, the ranger can be simple to play. Most of your choices in play come from your class talents since you don't choose new attacks or spells as you gain levels. Most every attack you make uses your basic melee or ranged attack. Depending on which talents you choose, you'll have access to actions that increase the amount of damage you deal with a specific attack or that give you a second turn.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Tracker",
+                    "desc": "Lets you reroll a wilderness-related skill check at +3. Represents your skills in the outdoors. Feats give it more uses and effectiveness."
+                },
+                {
+                    "title":"Lethal Hunter",
+                    "desc": "Deal extra damage on an attack, based on your level. The more Hunter talents you have, the more uses you get. Feats give you more uses and more consistent damage."
+                },
+                {
+                    "title":"Skirmisher",
+                    "desc": "Gives you a second turn with a move and standard action later in the round. The more Warrior talents you have, the more uses you get. Feats expand what you can do on the turn and make it easier to retain it if something goes wrong."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Animal Companion (Adventurer Talent: Hunter)",
+                    "pwrDesc": "You have an animal companion who fights alongside you. However, mechanically it is more like a special attack or ability you have. This prevents a slow down in combat as well as prevents your beloved companion from being annihilated by a dragon's stray breath weapon. The animal companion can also get random abilities to boost its effectiveness.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "There are so many feats and choices available, suffice to say, you "
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Twin Arrows (Adventurer Talent: Warrior)",
+                    "pwrDesc": "Drops your damage die down one level and you get to attack a second time on a natural even roll.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Lets you move between attacks or let you use it on an odd roll sometimes."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Elemental Nature (Adventurer Talent: Magician)",
+                    "pwrDesc": "Gives you four spells you can cast once per arc, but you can't cast that spell again until you cast the other remaining spells in the list. At 5th level you can cast two per arc (completing the cycle in two arcs).",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Lets you cast an Elemental Nature spell in the cycle this arc when you fail a death save."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "tracker, bounty hunters, members of secret orders of frontier guardians, agents of druidic circles, survivors of distant massacres, beast slayers, tree dwellers, initiates of the golden bough, woodsy assassins, dwellers on the sea wall, behemoth tribefolk, wanderers, and occasionally even secret monarchs of vanished kingdoms."
         },
 
         {
