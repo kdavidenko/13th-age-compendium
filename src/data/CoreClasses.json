@@ -16,7 +16,7 @@
             ],
             "powers":[
                 {
-                    "pwrtitle":"Beast Aspect (Talent lvl1)",
+                    "pwrtitle":"Beast Aspect (Adventurer Talent)",
                     "pwrDesc": "You channel the ferocity of dire wolves, dire bears, tigers, or other great wilderness predators. Over the course of each arc, choose a benefit which improves your rage roll, initiative, defenses, or damage.",
                     "pwrFeats": [
                         {
@@ -26,7 +26,7 @@
                     ]
                 },
                 {
-                    "pwrtitle":"Building Frenzy (Talent lvl1)",
+                    "pwrtitle":"Building Frenzy (Adventurer Talent)",
                     "pwrDesc": "As you miss attacks you can store +2 damage for a subsequent hit, up to +12 (damage increases at even levels: +3/max 18, +4/max 24, etc up to +15/max 90 at lvl 10.)",
                     "pwrFeats": [
                         {
@@ -36,7 +36,7 @@
                     ]
                 },
                 {
-                    "pwrtitle":"Death and Life (Talent lvl5)",
+                    "pwrtitle":"Death and Life (Champion Talent)",
                     "pwrDesc": "Lets you rage much easier when you take out enemies who started the battle with more health than you. Also grants you regenerative healing.",
                     "pwrFeats": [
                         {
@@ -46,7 +46,7 @@
                     ]
                 },
                 {
-                    "pwrtitle":"Ancestral Warband (Talent lvl8)",
+                    "pwrtitle":"Ancestral Warband (Epic Talent)",
                     "pwrDesc": "Lets you summon ancestral warrior spirits to help you in battle. However, because of the battle warping abilities these additional warriors grant, there are special rules on how it recharges and if it doesn't recharge, you must pick a different talent, your ancestors having helped you all they can.",
                     "pwrFeats": [
                         {
@@ -105,38 +105,56 @@
             "name": "Cleric",
             "source": "Gamma Playtest Material",
             "img": "https://images.squarespace-cdn.com/content/v1/5f0f8d6b41783421477485d4/1614469005584-XLPX4Y34IO4A2QYIAXLH/Bishop+of+Wings.jpg",
-            "desc": "WIP",
-            "complexity": "xxxx",
-            "playstyle": "xxxx",
+            "desc": "All mortals call on the gods, but when a cleric calls, the gods sometimes listen. In the current age the gods are quiet or communicate subtlely, making the few clerics that remain the primary representatives of divine might.",
+            "complexity": "Slightly more complicated than the Rogue and Sorcerer. Interesting choices include domain invocations that should be cast at the beginning of a battle, maintaining a balance between healing and fighting, and spells that can be cast for power or for broad effect.",
+            "playstyle": "The decisions necessary to play a cleric skillfully as well as the responsibility of tracking your allies' need for healing suggest that it is a better class for an experienced player. You can shape each battle using one of your invocations, but your choice of invocation won't always be clear. There aren't a ton of decision points, but the ones available influence a lot.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Armor OR Vestments",
+                    "desc": "Each cleric chooses whether they will advance their faith as heavily armored warriors with health and recoveries closer to a fighter or as lightly armored spellcasters with an extra at-will spell."
+                },
+                {
+                    "title":"Ritual Magic",
+                    "desc": "Essentially allows you to spend one of your limited use spells in order to cast a utility spell over the course of a time period that is out of combat. The most obvious use is Bless in order to be \"blessed\" with something like waterbreathing."
+                },
+                {
+                    "title":"Casting for Broad Effect",
+                    "desc": "Some spells allow you to cast for broad effect, which means they are less potent but effect more targets."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Domain: Healing (Adventurer Talent)",
+                    "pwrDesc": "When you cast a spell besides Heal during a battle that heals yourself or an ally, gain a bonus to the healing based on your Wisdom. The invocation lets you cast Heal an additional time this battle.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Increase the potency of your Heal spell and the number of free uses."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Domain: Protection OR Community (Adventurer Talent)",
+                    "pwrDesc": "You can target more creatures when casting for broad effect. As an Invocation, critical hits against you and your allies deal normal damage instead.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feat", 
+                            "feat": "An ally affected by your broad effect spells can save against a condition or effect on them."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Prayer for Readiness (lvl9 Spell)",
+                    "pwrDesc": "Two creatures get two rerolls of a d20 or five creatures get one reroll of a d20 during a battle. You cast this as a free action during initiative. This is notable because 5e-style advantage is an INCREDIBLY rare bonus in 13th age if you're not a lucky barbarian.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "The first two rerolls used by the group that miss don't use up the reroll."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "village healer, archivist, military chaplain, temple guard, bartender, reformed thief, abyssal survivor, wasteland prophet, dwarven hierophant, initiate of the Stellar Chorus, bishop of Foothold, multiversal pantheist, Cathedral guide, tutored by angels."
         },
 
         {
@@ -145,37 +163,59 @@
             "source": "Gamma Playtest Material",
             "img": "https://images.squarespace-cdn.com/content/562e2633e4b0b7066d01cbfa/1637354315566-7CSI9XBXXFE27DHVGLLD/327532-Bruenor-Battlehammer.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
-            "playstyle": "xxxx",
+            "complexity": "Simple to play but can askyou to choose between offense and defense maneuvers. The Combat Rhythm talent rewards fighters who maintain balanced offense and defense.",
+            "playstyle": "Playing a fighter is relatively simple. If you decide against using Combat Rhythm, you choose which maneuver you want to use, then attack. If you do have Combat Rhythm, you're choosing from fewer options each turn but have a higher chance to hit.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Fighter Maneuvers",
+                    "desc": "In a lot of ways 13th Age Fighters operate more like if 5e Battlemaster was the base class. Some manuevers are at-will and others have limitations on use per battle or arc."
+                },
+                {
+                    "title":"Fighter Talents",
+                    "desc": "As you level up, fighters get access to more class talents as a key feature."
+                },
+                {
+                    "title":"Zenith Talents",
+                    "desc": "At level 10, if the group earns an incremental advancement, you can take one last Fighter Talent or turn a magic piece of equipment you have sentient and give it an additional ability."
                 }
             ],
-            "powers":[
+            "powers": [
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Cleave (Adventurer Talent)",
+                    "pwrDesc": "After one of your maneuvers drops an enemy to 0 you can make a basic attack against another valid target. Extra attack is NOT a thing in 13th Age so this is one of the few sources of extra attacks.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Allows for mobility between the attacks or increases the accuracy and damage of the Cleave attack."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Combat Rhythm (Adventurer Talent)",
+                    "pwrDesc": "After you use a maneuver, you note whether it's offence or defense, and set your Rhythm to the other. You deal half damage with defense maneuvers, but when you use a combat maneuver that matches your current Rhythm, you gain 5e Advantage.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Lets you keep offense if you miss, start the battle in defense, or help you trigger a crit."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Escalation Strike (lvl1 Maneuver)",
+                    "pwrDesc": "Twice per battle you deal extra damage on a hit based on the escalation die."
+                },
+                {
+                    "pwrtitle":"Tactics of Engagement (lvl3 Maneuver)",
+                    "pwrDesc": "Rearrange yourself, an enemy, and any allies to be engaged or not engaged with each other.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Allows more uses as to ignore and break grapples."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "traveling swordmaster, mercenary captain, sea raider, shieldwall spearman, Spine Mountains explorer, Crossroads bouncer, well-dressed thug, city guardsman, Sea Wall veteran, former gladiator, former orc captive, bankrupt nobleman, duelist, underworld goblin-hunter, caravan guard, former legionnaire."
         },
 
         {
@@ -184,7 +224,7 @@
             "source": "Gamma Playtest Material",
             "img": "https://media.wizards.com/images/magic/som/factionwars/hotspots/lg/131603c.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
+            "complexity": "Relies on a short list of class talents instead of powers. At adventurer-tier, it's the simplest class to play for newcomers. ",
             "playstyle": "xxxx",
             "keymechanics":[
                 {
@@ -198,7 +238,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -208,7 +248,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -223,7 +263,7 @@
             "source": "Gamma Playtest Material",
             "img": "https://mktg-assets.tcgplayer.com/content/opengraph/MTG-Orcish-Bowmasters-LTR.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
+            "complexity": "Relies on base attacks augmented by class talents instead of a power list. The simpler ranger characters are based on Hunter Talents that provide options for higher damage. More complex rangers use more Warrior Talents that provide access to extra Skirmisher turns, but even then, rangers are arguably simpler to play than fighters. (A ranger using Control the Range a lot might lose the argument.)",
             "playstyle": "xxxx",
             "keymechanics":[
                 {
@@ -237,7 +277,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -247,7 +287,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -262,7 +302,7 @@
             "source": "Gamma Playtest Material",
             "img": "https://cdnb.artstation.com/p/assets/images/images/035/910/813/large/mx-ahm-414996-kalastria-flanker11.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
+            "complexity": "About as complicated as the the more complicated versions of the fighter. You track whether or not you have momentum, are constantly disengaging, and trying to use your Sneak Attack or Rush Attack damage effectively. Using Shadow Walk to disappear from most fights for a round simplifies the rogue, though it may complicate the lives of the rogues' allies.",
             "playstyle": "xxxx",
             "keymechanics":[
                 {
@@ -276,7 +316,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -286,7 +326,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -301,7 +341,7 @@
             "source": "Gamma Playtest Material",
             "img": "https://media.wizards.com/2015/images/daily/cardart_DTK_Sarkhans-Rage.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
+            "complexity": "Slightly complex because of the option to cast spells for double the effect in two rounds by more or less taking a round off. In a sense, the sorcerer might be simpler to play than the rogue, and it’s definitely simpler than the cleric. But the decisions you make while playing a sorcerer are important, each choice has a lot of impact. It's easy to play a sorcerer. It's harder to play a sorcerer optimally.",
             "playstyle": "xxxx",
             "keymechanics":[
                 {
@@ -315,7 +355,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -325,7 +365,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -340,7 +380,7 @@
             "source": "Gamma Playtest Material",
             "img": "https://images.squarespace-cdn.com/content/v1/59230491cd0f6848c4b2f9f5/1573605152835-FHX8RUPKFIVPPSIQPS2X/sara-winters-sarawinters-compulsiveresearch.jpg",
             "desc": "WIP",
-            "complexity": "xxxx",
+            "complexity": "Rivals the bard as the most complex class, especially if you choose all the options that allow improvisation and ad-libbing. Without those free-form talents, it's no more difficult than the sorcerer.",
             "playstyle": "xxxx",
             "keymechanics":[
                 {
@@ -354,7 +394,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -364,7 +404,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
