@@ -210,7 +210,7 @@
                 },
                 {
                     "title":"Wasting Away",
-                    "desc": "All necromancers are rotting away a bit, you must subtract your Constitution modifier from your necromancer spell attacks if it's a positive modifier. However, it takes five Skulls (failed death saves) to kill you instead of four. Feats add benefits to offset having a negative Consitution modifier and make you harder to kill."
+                    "desc": "All necromancers are rotting away a bit, you must subtract your Constitution modifier from your necromancer spell attacks if it's a positive modifier. However, it takes an additional Skull (dropping to 0 or failed death saves) to kill you instead of five. Feats add benefits to offset having a negative Consitution modifier and make you harder to kill."
                 },
                 {
                     "title":"Ritual Casting",
