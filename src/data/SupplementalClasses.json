@@ -83,38 +83,56 @@
             "name": "Demonologist",
             "source": "Book of Demons",
             "img": "https://candb.com/site/candb/images/artwork/kaalia-of-the-vast_fischer_mtg_hasbro.jpg",
-            "desc": "WIP",
+            "desc": "There's a new type of magician surfacing after the arrival of the Last Night who might do something about the world's demon incursions. It may not be something good.",
             "complexity": "At least as complicated as the core wizard. With a bit of help from the GM, this is also acceptable for beginners.",
-            "playstyle": "xxxx",
+            "playstyle": "Your experience as a demonologist depends on which path you've chosen. As a devotee of the path of corruption or the path of flame, you'll function somewhat like other spellcasters, preferring to keep allies, or your summoned demon, between you and the enemy. If you've focused on the path of slaughter, you're more likely to carry a serious melee weapon and welcome enemies who seek to engage you as unwilling sacrifices! This class can be fun for players who like to figure out interesting combos from disparate approaches.  Overall, there are some drawbacks to the abilities of the Demonologist and feats that would eliminate the drawback for another class just reduce it for the demonologist. This is by design, you're playing with fire you might get burned.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Initiate, Devotee, Fanatic",
+                    "desc": "Demonologist talents are grouped into three paths: Corruption, Flame, and Slaughter. Depending on how many of your three talents are in each path you're an Initiate, Devotee, or Fanatic of that path. The further down a path you are the more improved your powers and spells provided by that path will be, but your options will be narrower. These are essentially subclasses that you can pick and choose from."
+                },
+                {
+                    "title":"Curse Spells",
+                    "desc": "These are a category of spells that don't have an effect when cast, but their effect occurs when a certain trigger condition is met."
+                },
+                {
+                    "title":"Demon Summoner",
+                    "desc": "The demons you summon are, on average, stronger than the summons of other classes and don't require your action to control, but they take unpreventable damage taken at the end of their turns. Additionally, when a demon drops to 0 hit points, there is a chance it breaks free and acts of its own accord. Feats improve the demon's overall effectiveness in combat."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Contagion (Adventurer Talent: Corruption)",
+                    "pwrDesc": "You can use a number of times per arc equal to your Constution modifier. When a creature fails a save from an effect of yours and drops to 0 hit points, a nearby enemy under the hit point threshold recieves the negative effect.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Gives more use when the escalation is high and makes the save effect passed to an enemy more difficult to resist."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Golden Claw (5th level spell: Flame)",
+                    "pwrDesc": "You summon a giant flaming claw you can ride into battle. The claw offers an attack and improves your defenses.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Let you use it more with certain Icon relationships as well as if you are a path of flame devotee."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Blood for Blood! (9th level spell: Slaughter)",
+                    "pwrDesc": "Deal damage to yourself and automatically critically hit your next melee attack.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "The crit deals triple damage"
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "escaped sacrifice, child of cultists, survivor of a demon attack, survivor of an Iron Marshall attack, born of a demon incursion, former clergy for the Prismatic Gods, once-promising student at a Heartlands college, decorated soldier, respected doctor at an Idresan hospital, resurrected ancient hero, demon-child."
         },
 
         {
