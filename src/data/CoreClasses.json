@@ -229,7 +229,7 @@
             "img": "https://media.wizards.com/images/magic/som/factionwars/hotspots/lg/131603c.jpg",
             "desc": "In every age, extraordinary men and women have stepped forward to carry the battle flag of justice. By the will of the gods, paladins are both protectors and avengers whose campaigns of awesome justice serve as warnings to any who threaten those under their protection. The people depend on them, lords celebrate them, and monsters hate them. People have never needed paladins more than they do now.",
             "complexity": "Relies on a short list of class talents instead of powers. At adventurer-tier, it's the simplest class to play for newcomers. ",
-            "playstyle": "Like the barbarian, the paladin is simple to play. Your choices during combat come from your talents since you don’t choose new attacks or spells as you rise in level. Most every attack you make uses your basic melee attack, but you can augment it by using Smite or one of the other abilities from your talents. Paladins who want a bit more complexity can choose talents that let them cast a cleric spell or use a cleric domain.",
+            "playstyle": "Like the barbarian, the paladin is simple to play. Your choices during combat come from your talents since you don't choose new attacks or spells as you rise in level. Most every attack you make uses your basic melee attack, but you can augment it by using Smite or one of the other abilities from your talents. Paladins who want a bit more complexity can choose talents that let them cast a cleric spell or use a cleric domain.",
             "keymechanics":[
                 {
                     "title":"Smite",
@@ -320,7 +320,7 @@
                 },
                 {
                     "pwrtitle":"Elemental Nature (Adventurer Talent: Magician)",
-                    "pwrDesc": "Gives you four spells you can cast once per arc, but you can't cast that spell again until you cast the other remaining spells in the list. At 5th level you can cast two per arc (completing the cycle in two arcs).",
+                    "pwrDesc": "Gives you a group of four spells you can cast one from once per arc, but you can't cast that spell again until you cast the other remaining spells in the list. At 5th level you can cast two per arc (completing the cycle in two arcs).",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
@@ -337,38 +337,52 @@
             "name": "Rogue",
             "source": "Gamma Playtest Material",
             "img": "https://cdnb.artstation.com/p/assets/images/images/035/910/813/large/mx-ahm-414996-kalastria-flanker11.jpg",
-            "desc": "WIP",
+            "desc": "Rogues are a mixed bag. Some are thugs who have learned enough tricks to get a step ahead of the other thugs. A few are mad, driven by a reckless sense of adventure. Most are quick with a smile, a blade, and a getaway.",
             "complexity": "About as complicated as the the more complicated versions of the fighter. You track whether or not you have momentum, are constantly disengaging, and trying to use your Sneak Attack or Rush Attack damage effectively. Using Shadow Walk to disappear from most fights for a round simplifies the rogue, though it may complicate the lives of the rogues' allies.",
-            "playstyle": "xxxx",
+            "playstyle": "Rogue can be a challenge to play if you choose the Rush Attack option instead of Sneak Attack. Sneak Attack powers require the rogue to team up with allies, slightly simpler than the movement required for Rush Attacks. Momentum powers depend heavily on whether you last hit an enemy or were hit yourself.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Momentum",
+                    "desc": "You gain momentum by hitting an enemy and lose momentum when you are hit by an attack. When you use a momentum power, you retain momentum unless the power specifies that you spend it.."
+                },
+                {
+                    "title":"Rush Attack OR Sneak Attack",
+                    "desc": "For Rush Attack, you gain additional damage on your first attack with a new target this turn. For Sneak Attack you deal extra damage once a round against an enemy one of your allies is engaged with."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Cunning (Adventurer Talent)",
+                    "pwrDesc": "You can use your Intelligence wherever a rogue attack, talent or power says to use Charisma.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Improves mental defenses."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Roll With It (1st level power)",
+                    "pwrDesc": "A momentum power where you spend momentum. Once per battle, you take half damage when hit against AC.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Expands what sort of attacks trigger Roll With It use."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Cut After Cut (5th level power)",
+                    "pwrDesc": "A momentum power where you spend momentum. You make a number of attacks equal to the escalation die, ignoring critical hits. This is an arc/desperate power, which means it is usable once per arc but it recharges when you get a Skull (fail a death save) or spend your last recovery, whichever is first.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Deals damages on misses and lets you score critical hits."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Street thug, cat burglar, diplomat, professional gambler, Idresan customs agent, courtier, jewel thief, acrobat, con artist, bartender, incursion infiltrator, temple spy master, thieves guild organizer, pirate, dandy, rat catcher."
         },
 
         {
@@ -376,38 +390,70 @@
             "name": "Sorceror",
             "source": "Gamma Playtest Material",
             "img": "https://media.wizards.com/2015/images/daily/cardart_DTK_Sarkhans-Rage.jpg",
-            "desc": "WIP",
-            "complexity": "Slightly complex because of the option to cast spells for double the effect in two rounds by more or less taking a round off. In a sense, the sorcerer might be simpler to play than the rogue, and it’s definitely simpler than the cleric. But the decisions you make while playing a sorcerer are important, each choice has a lot of impact. It's easy to play a sorcerer. It's harder to play a sorcerer optimally.",
-            "playstyle": "xxxx",
+            "desc": "Sorcerers are notoriously reckless with their spells. Wizards say that a sorcerer doesn't so much cast a spell as uncork it. Some say you never talk to the same sorcerer twice; others say not even once.",
+            "complexity": "Slightly complex because of the option to cast spells for double the effect in two rounds by more or less taking a round off. In a sense, the sorcerer might be simpler to play than the rogue, and it's definitely simpler than the cleric. But the decisions you make while playing a sorcerer are important, each choice has a lot of impact. It's easy to play a sorcerer. It's harder to play a sorcerer optimally.",
+            "playstyle": "A sorcerer makes a small number of big decisions. Can you afford to gather power for a big effect next round? Or do your allies need you to blast an enemy right now? And once you've gathered power, you need to pick the right target for your double-strength spell. Meanwhile, monsters engage you, and sometimes you are forced to accept an opportunity attack to get your big spell off Players who can handle dice swinginess may enjoy the sorcerer more. If you're not that type, steer clear of the more chaotic powers.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Spell Keywords",
+                    "desc": "Some sorcerer spells have \"Breath Weapon\", \"Chain\", \"Random Energy\" keywords. Breath Weapon spells apply escalation die to their crit range. Chain spells attack the nearest valid target who hasn't been hit yet on a natural even roll. Random Energy spells deal a random damage type."
+                },
+                {
+                    "title":"Gather Power",
+                    "desc": "You spend your standard action gathering power. On your next turn, if you cast a damaging spell the damage is doubled otherwise the gathered power is lost. There's also the chance for ad-hoc effects at GM's discretion. After spending your gathered power, you can use a quick action on the same turn for one of your sorcerer talents' Overspill effect."
+                },
+                {
+                    "title":"Sorcerer Spell Feats",
+                    "desc": "These operate like Metamagic in 5e. But when you take the feat, the spells you cast that have those feats, such as Reverberate, will trigger that effect when you cast the spell. In this way one feat upgrades a class of spells."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Infernal Heritage (Adventurer Talent)",
+                    "pwrDesc": "Once per arc as a quick action, roll 2 dice and choose one to gain a random demonic ability from a table. As an Overspill effect, you deal random damage to multiple enemies.",
                     "pwrFeats": [
                         {
+                            "featType": "NOTE", 
+                            "feat": "YOU ARE NOT LIMITED TO ONE HERITAGE TALENT. Each one is connected to a magically inclined Icon. This makes the Sorcerer the core class that is the most defined by the Icons of a setting."
+                        },
+                        {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "You get the abilties of both dice, the overspill effect hits more targets, and you can just choose an ability at escalation 6+."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Touch of Chaos (Adventurer Talent)",
+                    "pwrDesc": "After choosing your spells for an arc, you gain a random spell you COULD have picked but didn't. Overspill increases everyone's crit range by 1.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "You exclude at-wills from the random spell selection."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Breath of Blue Lightning (1st level spell)",
+                    "pwrDesc": "Deal damage to a nearby enemy targeting their physical defense (ie, their \"dodge armor\") and put a Spark effect on them that deals ongoing damage to them and a closest nearby ally of theirs.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Deals additional damage and adds a small explosion when the target makes the save against Spark."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Calling the High (9th level spell)",
+                    "pwrDesc": "An out of combat spell, but unlike a normal ritual there's no skill check involved. You gain a powerful magical effect associated with a randomly determined Icon (from the options available as a heritage talent). The effect could be a powerful ally, temporary magic item, a spell, or a special capacity against an upcoming enemy.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Deals additional damage and adds a small explosion when the target makes the save against Spark."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Tribal shaman, former child avatar, Yazatli pirate captain, spellarena gladiator, failed wizard, Silent City guard, elemental hunter."
         },
 
         {
@@ -415,38 +461,70 @@
             "name": "Wizard",
             "source": "Gamma Playtest Material",
             "img": "https://images.squarespace-cdn.com/content/v1/59230491cd0f6848c4b2f9f5/1573605152835-FHX8RUPKFIVPPSIQPS2X/sara-winters-sarawinters-compulsiveresearch.jpg",
-            "desc": "WIP",
+            "desc": "Wizards are the masters of arcane energy. They use geometry, symbology, occult numerology, and a complex grammatical system to describe magic and thereby control it. They fill their heavy, locked spellbooks with crabbed writing, secret codes, and convoluted designs.",
             "complexity": "Rivals the bard as the most complex class, especially if you choose all the options that allow improvisation and ad-libbing. Without those free-form talents, it's no more difficult than the sorcerer.",
-            "playstyle": "xxxx",
+            "playstyle": "The wizard is designed for experienced players who like a bit of improvisation. Most of the wizard's spells can only be used once per arc, so timing matters. If you want to play the simplest possible wizard, choose the Abjuration, Evocation, and Familiar talents. To play as the flexible spellcaster who finds unique and amusing answers to problems, choose Cantrip Mastery, High Arcana, and Vance's Polysyllabic Verbalizations.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Cantrips",
+                    "desc": "You have access to every Cantrip (these are different than at-will spells!) and you can use a number of them equal to your Intelligence modifier, resetting each battle. These are spells like Alarm, Knock, Light, and Mage Hand. A lot of utility that isn't worth a leveled spell slot but still useful."
+                },
+                {
+                    "title":"Ritual Magic",
+                    "desc": "Essentially allows you to spend one of your limited use spells in order to cast a utility spell over the course of a time period that is out of combat. The most obvious use is the Utility Spell you get in order to pull a tool out of your proverbial toolbox."
+                },
+                {
+                    "title":"Cyclic Spells",
+                    "desc": "These are spells that you can always cast once per battle, but if you cast them when the escalation die is 2, 4, or 6+, you do not expend the usage."
+                },
+                {
+                    "title":"Judicious Casting",
+                    "desc": "Spells that have different effect when you're casting carefully or recklessly. Like FIREBALL!"
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Vance's Polysyllabic Verbalizations (Adventurerer Talent)",
+                    "pwrDesc": "Essentially, you can cast spells at a higher level if you give it an over the top name. Such as Rodrigo's Scintillating Plasms instead of Fireball.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Gives you additional uses based on your Charisma. Yes. Your CHARISMA."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Magic Missile (Adventurer Feat)",
+                    "pwrDesc": "Any wizard can take this feat, it gives you Magic Missile as a quick action spell in addition to your other spells. When you cast it, you roll to determine how many rounds of combat you can cast magic missile this battle, then the level determines how many 5 damage missiles you fire each use. For example, at 5th level you can use the spell 1d6 rounds with 2 missiles each time.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "You have to take the adventurer feat to even use this spell, and the other feats increase the number of missiles and casts per arc."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Utility Spell (Spell)",
+                    "pwrDesc": "Not so much a specific spell, but when you pick your spells you may choose Utility Spell instead of one of the other options. Depending on your level that will give you access to spells like disguise self, feather fall, levitate that you don't need to dedicate a specific slot to.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "Lets you access more uses of Utility Spell depending on the tier (adventurer, champion, or epic)"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Fireball (5th level spell)",
+                    "pwrDesc": "Attack 1d3+1 targets. You can choose to cast recklessly and attack 1d4 additional targets, but if you miss one of your allies take a quarter damage if they were engaged with that target.. Deals 10d10 fire damage and 10 ongoing fire damage.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "You can wait to cast recklessly until you know how many initial targets you have. Gives the spell a recharge if cast recklessly (you roll to see if you get it back after each battle while it's expended)."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Magical prodigy, spell thief, hedge wizard, chronomancer's apprentice, Heartlands City Guard, transformed familiar, behemoth cleaner, ship's wizard, Gold Coast veteran, royal poisoner."
         }
     ]
 }
