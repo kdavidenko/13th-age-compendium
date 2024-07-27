@@ -200,13 +200,21 @@
             "name": "Necromancer",
             "source": "13 True Ways",
             "img": "https://scg-static.starcitygames.com/articles/2024/04/bd1351b2-gisa-the-hellraiser.jpg",
-            "desc": "WIP",
+            "desc": "Can dark magic be used for positive ends? Are there sacrifices that are too great, no matter what the reward? Is that skeleton someone you used to know?",
             "complexity": "Of the supplemental classes, the necromancer often works for beginners.",
-            "playstyle": "xxxx",
+            "playstyle": "Some of your talent powers and spells are straightforward, while others require weighing the odds whether they will hurt your enemies more than they will hurt you and your friends. There are sacrifices to choose—power that has to be paid for somehow. ",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Summoning",
+                    "desc": "Allows you to summon a minion or group of mooks to fight with you. Only one is active at a time. All summoned creatures take their turn right after yours in initiative (even if your initiative changes) and get the usual standard action, quick action, and movement action. Feats increase the effectiveness of your summons."
+                },
+                {
+                    "title":"Wasting Away",
+                    "desc": "All necromancers are rotting away a bit, you must subtract your Constitution modifier from your necromancer spell attacks if it's a positive modifier. However, it takes five Skulls (failed death saves) to kill you instead of four. Feats add benefits to offset having a negative Consitution modifier and make you harder to kill."
+                },
+                {
+                    "title":"Ritual Casting",
+                    "desc": "Essentially allows you to spend one of your limited use spells in order to cast a utility spell over the course of a time period that is out of combat."
                 }
             ],
             "powers":[
@@ -215,7 +223,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -225,7 +233,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats",
                             "feat": "xxxx"
                         }
                     ]
