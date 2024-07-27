@@ -5,38 +5,64 @@
             "name": "Chaos Mage",
             "source": "13 True Ways",
             "img": "https://pbs.twimg.com/media/GSOWhuqXYAAENgu.jpg",
-            "desc": "WIP",
+            "desc": "Who is in control, chaos or the magician? . . . Someone is in control, right?",
             "complexity": "At least as complicated as the core wizard.",
-            "playstyle": "xxxx",
+            "playstyle": "Of all the classes, the Chaos Mage is the MOST defined by the Icons of a setting. The hardest part of playing a chaos mage may be that you're not going to be able to write all your options down on a character sheet. The price of a rich randomness of spells is that you'll need to keep the book around. The easy part of playing a chaos mage is that you have a limited set of options on any given turn. You don't have to compare more than two or three spell choices each turn, and most of these options have different usage patterns. In some cases the significant decisions you'll make will be how to put yourself in the best position for the spell you're going to cast and then how to use the choices within the spell. Playing a chaos mage won't prepare a newcomer to play any other spellcaster, but new players who enjoy shaping a path out of randomness should have fun. Just be mindful of other players.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Common Spell Roster",
+                    "desc": "Chaos Mages are unique in that they have access to every spell on their list, however they do not choose the spell they cast. You do decide whether you use a 1/battle spell or if you'll stick with an at-will."
+                },
+                {
+                    "title":"Chaos Magic Categories",
+                    "desc": "Chaos Mage spells fall into offensive, defensive, or iconic categories, and the spell you cast is determined by chance. There are various methods to determine it. The best usage is to use a bag with tokens. For now, we will use a D6. 1-2: attack, 3-4: defense, 5-6: iconic. However, once you roll a result, ignore it until one result remains. For example, if roll a 3, ignore future 3s until only one result of the d6 is valid. You determine the spell you can cast that turn at the beginning of your turn, allowing you to act in a way to best use that spell."
+                },
+                {
+                    "title":"High Weirdness",
+                    "desc": "Optional, but essentially functions like the Wild Magic chart for 5e Wild Sorcerers."
+                },
+                {
+                    "title":"Enough Already! (Adventurer Feat)",
+                    "desc": "This is a feat party members of a Chaos Mage have access to. Once per battle you negate a High Weirdness effect."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Defensive Warp (Adventurer Talent)",
+                    "pwrDesc": "Suitable for Chaos Mages with high Wisdom. When you cast a defensive spell, roll a d6 and add an additional effect to the spell.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Improves healing and defensive stats."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Touch of Wizardry (Adventurer Talent)",
+                    "pwrDesc": "At the beginning of each arc, you select a random Wizard spell that you are of a level capable of casting.",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
-                            "feat": "xxxx"
+                            "featType": "Feats", 
+                            "feat": "Gives you a random Wizard talent as well, gives you access to Utility Spell, gives you a reroll of you don't like the randomly picked spell."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Blarrrrgh! (1st level spell: Attack)",
+                    "pwrDesc": "Inflict damage and a random condition on the 1d6 enemies."
+                },
+                {
+                    "pwrtitle":"War Drums (1st level spell: Iconic)",
+                    "pwrDesc": "The next natural odd attack roll of an ally that hits deals extra damage.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Improves the damage and extends the effect. Feats requires Blood of Warriors feat"
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Blossoming witch, jester, Demonic sacrifice survivor, fireworks exhibitionist, no-longer-frustrated librarian, stirge wrangler, Mythic Age re-enactor, Witchwood patroller, living spell, living dungeon denizen, wandering musician, hero from another Cycle."
         },
 
         {
@@ -59,7 +85,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -69,7 +95,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -155,7 +181,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -165,7 +191,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -194,7 +220,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
@@ -204,7 +230,7 @@
                     "pwrDesc": "xxxx",
                     "pwrFeats": [
                         {
-                            "featType": "xxxx Feat", 
+                            "featType": "Feats", 
                             "feat": "xxxx"
                         }
                     ]
