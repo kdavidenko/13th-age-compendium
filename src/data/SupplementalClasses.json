@@ -219,27 +219,47 @@
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"It's Complicated (Adventurer Talent)",
+                    "pwrDesc": "The first 5 or 6 you get on an Icon roll will automatically trigger a twist, however you also get an additional Necromancer spell.",
                     "pwrFeats": [
                         {
-                            "featType": "Feats", 
-                            "feat": "xxxx"
+                            "featType": "Feat", 
+                            "feat": "All your Icon 5s and 6s trigger a twist, but you get an addtional Necromancer spell."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Redeemer",
+                    "pwrDesc": "The undead you summon are truly released from your service when they drop to 0 hit points, and so they fight much harder for you. When an undead you summoned drops to 0 hit points, it releases holy damage to engaged enemies.",
                     "pwrFeats": [
                         {
                             "featType": "Feats",
-                            "feat": "xxxx"
+                            "feat": "Improve the capabilities of your loyal, radiant undead."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Summon Undead (1st level spell)",
+                    "pwrDesc": "Create 1d3+1 undead mooks (weak creatures who's total health is tracked as a group)",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats",
+                            "feat": "You can summon more mooks or if they survive they stay until the next battle."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Finger of Death (9th level spell)",
+                    "pwrDesc": "A target under the hit point threshold just drops to 0 hit points and dies.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat",
+                            "feat": "Increases the threshold."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "failed village priest, archeologist, swamp baron, living dungeon escapee, former Irmannan acolyte, death giant servitor, former mummy, reformed outlaw, dreamweed addict, resurrected hero, burnt-out wizard."
         },
 
         {
