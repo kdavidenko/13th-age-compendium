@@ -447,8 +447,8 @@
                     "pwrDesc": "An out of combat spell, but unlike a normal ritual there's no skill check involved. You gain a powerful magical effect associated with a randomly determined Icon (from the options available as a heritage talent). The effect could be a powerful ally, temporary magic item, a spell, or a special capacity against an upcoming enemy.",
                     "pwrFeats": [
                         {
-                            "featType": "Feats", 
-                            "feat": "Deals additional damage and adds a small explosion when the target makes the save against Spark."
+                            "featType": "Feat", 
+                            "feat": "Increases the likelihood of you getting to outright choose the Icon you want."
                         }
                     ]
                 }
