@@ -70,38 +70,52 @@
             "name": "Commander",
             "source": "13 True Ways",
             "img": "https://cdna.artstation.com/p/assets/images/images/063/495/094/4k/javier-charro-432463-aragorn-might-of-gondor-final.jpg",
-            "desc": "WIP",
+            "desc": "Some people are born to fight. Others like giving orders. Put these two types of people together and you've got a commander.",
             "complexity": "At least as complicated as the core wizard.",
-            "playstyle": "xxxx",
+            "playstyle": "The commander aims to tell other player characters what to do without interfering too often in the turn-by-turn structure of the round. That's why commands take effect on the turn of an ally who is already taking their turn. Tactics are usually used on the commander's turn, but they're limited by how many times they can be used each day. Choosing how and when you'll spend command points to help your allies may be challenging for a novice player.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Commands & Command Points",
+                    "desc": "All commands are at-will powers and you start each battle with 1 command point. You gain them by using your action to gain more or when you hit. For most commands, you use your interrupt action to aid an ally on their turn."
+                },
+                {
+                    "title":"Tactics",
+                    "desc": "Powerful abilities you can use on your turn for immediate effect. "
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Into the Fray (Adventurer Talent)",
+                    "pwrDesc": "At the start of each battle a number of your allies get to add a bonus to initiative or a bonus to AC during the first round (your choice for the group).",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Allow you to give you the bonuses to defenses and AC, or eventually both bonuses."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Rally Now (1st level Command)",
+                    "pwrDesc": "Allows you to let an ally rally for free (spend a recovery). And you can spend extra command point to bring up unconscious allies.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Improves the healing and defenses."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Climactic Battle (7th level Tactic)",
+                    "pwrDesc": "You turn the escalation die into a d8 instead of a d6 and have a 50% chance increase it by 1.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feats", 
+                            "feat": "Gives you command points when escalation die maxes out again."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Historical re-enactor, sergeant of the city guard, street gang survivor, ex-gladiator, wilderness scout, cobbler, bouncer, exotic dancer, Queen's Wood patroller, wargame veteran, Imperial squad leader, reformed drunk, and officer of the Sunguard."
         },
 
         {
@@ -166,38 +180,40 @@
             "name": "Druid",
             "source": "13 True Ways",
             "img": "https://www.gmbinder.com/images/RmecJaN.jpg",
-            "desc": "WIP",
+            "desc": "Druids are poised between the cycles of nature and the timelines of civilization. It's true that druids are attuned to the calm rhythms of natural creation, but as mortal humanoids they're also poised between the savagery of wild nature and the mercilessness of tribal warfare.",
             "complexity": "At least as complicated as the core wizard.",
-            "playstyle": "xxxx",
+            "playstyle": "Depending on your talents, you can play as the Wild Wood's answer to the wizard, or as a warrior healer flourishing in the space traditionally defined by the cleric, or as a spellcasting magician who shapeshifts into animal forms to scout and fight. Your choice of talents is key, because each druid talent unlocks a pool of spells or powers. You also have the choice of doubling up on one of your talents, spending two talents instead of one to be more focused on what the talent has to offer. Druids are not the best characters for new players who want something easy to play.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Druidic Summoning",
+                    "desc": "Allows you to summon a minion or group of mooks to fight with you. Only one is active at a time. All summoned creatures take their turn right after yours in initiative (even if your initiative changes) and get the usual standard action, quick action, and movement action. Feats increase the effectiveness of your summons."
+                },
+                {
+                    "title":"Initiate or Adept?",
+                    "desc": "You have three talent choices, you can put one in each of three gaining Initiate status in each or put two choices into a single option become an Adept in one talent and an Initiate in another. Adept status in a talent gives you improved and more powerful options from it."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Shifter (Adventurer Talent)",
+                    "pwrDesc": "Initiates get a limited number of Shifts into Scout forms (small, noncombat animals), Beast forms (combat animals), and Beast Form Aspects (powers that you use while in beast form). Adepts get Beast form at will and the other daily powers more often.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "There are feats for Scout forms in total, and Beast Form attacks, as well as improvements to Aspects."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
-                    "pwrFeats": [
-                        {
-                            "featType": "Feats", 
-                            "feat": "xxxx"
-                        }
-                    ]
+                    "pwrtitle":"Spikestones (5th level Spell)",
+                    "pwrDesc": "Turn an area dangerous to move through. The creature must make a save or take 7d10 damage. Allies get a lesser save and only take half damage.",
+                },
+                {
+                    "pwrtitle":"Devastation (5th level Spell)",
+                    "pwrDesc": "You can only cast this spell once per level. You absolutely destroy a structure as if it aged centuries in minutes. It may take up to an hour to collapse complete."
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Orc-tribe hunter/gatherer, avalanche prophet, wild cult zealot, river guide, Elk Tribe healer, failed shaman, escaped demon gardener, wild temple priest, elven urban planner, mystic waterfall guardian, seventh initiate of the Stalking Trees Circle, and raised by wolverines."
         },
 
         {
