@@ -209,7 +209,7 @@
                     "pwrDesc": "Turn an area dangerous to move through. The creature must make a save or take 7d10 damage. Allies get a lesser save and only take half damage."
                 },
                 {
-                    "pwrtitle":"Devastation (5th level Spell)",
+                    "pwrtitle":"Devastation (9th level Spell)",
                     "pwrDesc": "You can only cast this spell once per level. You absolutely destroy a structure as if it aged centuries in minutes. It may take up to an hour to collapse complete."
                 }
             ],
