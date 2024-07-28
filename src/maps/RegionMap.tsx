@@ -49,7 +49,6 @@ function RegionMap() {
     const iconList:IconTypes[] = [...regionIcons.heroic, ...regionIcons.ambiguous, ...regionIcons.villainous];
     useEffect(() => {
         const returnList:MapIconList[] = [];
-        console.log (iconList);
         iconList.forEach(icon => {
             returnList.push({
                 id: icon.id,

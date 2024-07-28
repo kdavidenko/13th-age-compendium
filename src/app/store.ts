@@ -10,6 +10,5 @@ export const store = configureStore({
     reducer: rootReducer 
 })
 
-console.log(store)
 // The store now has redux-thunk added and the Redux DevTools Extension is turned on
 

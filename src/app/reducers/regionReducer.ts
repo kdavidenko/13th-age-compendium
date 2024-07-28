@@ -7,7 +7,7 @@ type Action = {
   payload: string
 }
 
-const initialState = { region: localStorage.getItem('myrrSetting') ?? "" }
+const initialState = { region: localStorage.getItem('myrrSetting') ?? "urthu" }
 
 function regionReducer(state:RegionState = initialState, action:Action,) {
 
