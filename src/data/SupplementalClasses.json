@@ -221,38 +221,60 @@
             "name": "Monk",
             "source": "13 True Ways",
             "img": "https://i0.wp.com/mtgazone.com/wp-content/uploads/2023/12/Narset-Enlightened-Master-MtG-Art-from-Khans-of-Tarkir-by-Magali-Villeneuve.jpg",
-            "desc": "WIP",
+            "desc": "Every monk that joins an adventuring party has a story about why they are not back at the monastery. Some chase a vision, while others have been driven out. For some, it's a temporary step in their training. For others, it's a permanent exile. And for a very few, a hard-won escape.",
             "complexity": "At least as complicated as the core wizard. With a bit of help from the GM, this is also acceptable for beginners.",
-            "playstyle": "xxxx",
+            "playstyle": "Monks are great fun for experienced players who like juggling significant decisions within the flow of moment-by-moment roleplaying. You'll make significant decisions when building your character out of interwoven options and fighting round-by-round using the diverse elements of the monk's attack forms. Some inexperienced players can handle playing a monk, others can't.",
             "keymechanics":[
                 {
-                    "title":"xxxx",
-                    "desc": "xxxx"
+                    "title":"Jab, Punch, and Kick Attacks",
+                    "desc": "Monk attacks are rated as Jabs, Punches, or Kicks. They have different base damage and in short your unarmed strikes are able to deal as much damage as a weapon. All monk attacks that use Dexterity as to hit, still use Strength for damage."
+                },
+                {
+                    "title":"Forms",
+                    "desc": "Forms have an opening attack, flow attack, and finishing attack. You use the abilities in a particular order to gain their effect. Your first attack in a battle must be opening, then second must be a flow, then you can use a finishing attack or use another opening attack of a different form. After a finishing attack you must use an opening attack."
+                },
+                {
+                    "title":"Ki",
+                    "desc": "You gain 1 + Wisdom modifier Ki per arc. You use Ki to shift the natural roll of your dice. So if you rolled a natural 19, you could spend 1 Ki point to turn it into a natural 20 and crit. Feats give you more ki and expand the usage during your turn."
                 }
             ],
             "powers":[
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Flurry (Adventurer Talent: Seven Deadly Secrets)",
+                    "pwrDesc": "If you use Flurry, you can't use another Seven Deadly Secret that battle. When escalation is 3+_, you get to attack with a Jab attack as a quick action.",
                     "pwrFeats": [
                         {
                             "featType": "Feats", 
-                            "feat": "xxxx"
+                            "feat": "Reduces the escalation needed to use Flurry and makes it more effective an attack."
                         }
                     ]
                 },
                 {
-                    "pwrtitle":"xxxx",
-                    "pwrDesc": "xxxx",
+                    "pwrtitle":"Disciple of the Hidden Flame (Champion Talent)",
+                    "pwrDesc": "Choose a cleric, sorcerer or wizard class. Choose a non-feature spell of your level or lower. You can cast the spell for free as part of a flow attack if at-will or with a finishing attack if it has a limited use (1/arc, 1/battle, etc). You can use Ki to access feats for that spell, if it has any."
+                },
+                {
+                    "pwrtitle":"Dance of the Mantis (Adventurer-Tier Form)",
+                    "pwrDesc": "Your openning allows you to engage as part of the attack. Flow attack allows you to disengage on a natural even roll. Finishing attack expands crit ranges on your attacks for the rest of the battle if you miss.",
                     "pwrFeats": [
                         {
-                            "featType": "Feats", 
-                            "feat": "xxxx"
+                            "featType": "Feat", 
+                            "feat": "You can spend ki to disengage as a free action."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Death's Quivering Shadow (Epic-Tier Form)",
+                    "pwrDesc": "Your openning attack deals ongoing unholy damage on a natural even hit. The flow attack stuns the target if it has fewer than 180hp. The Finishing attack deals ongoing unholy energy and on a natural even hit, until the end of your next turn, you gain Flight, Resist Damage 16+ (you take half damage on natural attack rolls that hit but are less than 16) and become incorporeal.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Feat", 
+                            "feat": "Once per arc when you hit with a finishing attack, you can spend ki to make a link and can hit the target no matter how far it is until you run out of ki."
                         }
                     ]
                 }
             ],
-            "backgrounds": "xxxx"
+            "backgrounds": "Temple acolyte, mountain sanctuary guardsman, traveling circus acrobat, river guide, Cathedral runner, spider-cult assassin, tunnel vermin exterminator, bodyguard, farmer, hallucinogenic mushroom farmer, wild mountain ginseng harvester, traveling tournament organizer, Uthkril civil rights organizer, star pupil of the Court of Stars."
         },
 
         {

@@ -25,6 +25,7 @@ function ClassPage() {
       }
       <h3>Supplemental Classes</h3>
       <div>The classes below are not updated yet for 2nd Edition, however they are still compatible with the system with minor changes, such as Daily powers becoming arc powers and references to 5s on Icon rolls being replaced with "automatic twist".</div>
+      <div>In addition, the Supplmental classes usually have some special playstyle or talent structure that can make them complicated to understand for newer players.</div>
       { 
         SupplementalClasses.classes.map(function(Class, i) {
           return (
