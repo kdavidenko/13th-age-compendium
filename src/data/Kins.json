@@ -552,6 +552,49 @@
             ]
         },
         {
+            "title": "Sahuagin / Deepfolk",
+            "img": "https://uploads.worldanvil.com/uploads/images/311deeb593f92faf50618766e753b7f4.jpg",
+            "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well.",
+            "setting": ["urthu"],
+            "powers": [
+                {
+                    "pwrtitle": "Deep Dweller (all sahuagin have this)",
+                    "pwrDesc": "Sahuagin can move and fight in water as well as a flying creature can in open air. They can breathe both water and air. However, once every three arcs you must submerge yourself in salt water. If you do not, you begin the next arc Helpless until you submerge yourself in salt water. If you finish that arc without submerging in salt water, you die."
+                },
+                {
+                    "pwrDesc": "ChOOSE ONE:"
+                },
+                {
+                    "pwrtitle": "Aberrant Resistance (Kin Power)",
+                    "pwrDesc": "Once per battle, you may roll a save against an ability or spell twice and keep the desired result. However, the first save you make against an ability or spell used by a monster of the aberration type in any battle automatically fails."
+                },
+                {
+                    "pwrtitle": "Paragon of Below (Kin Power)",
+                    "pwrDesc": "Your ancestry is connected to the deepest of beings, as such you have four arms. When you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Your crit range on the reroll expands by 2."
+                        },
+                        {
+                            "featType": "Epic Feat (replaces champion)", 
+                            "feat": "Your crit range on the reroll expands by 4."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle": "Siren Song (Kin Power)",
+                    "pwrDesc": "As a move action once per battle, you can sing a beautiful melody reminiscent of a gentle sea breeze, or a mournful dirge that carries the portent of tidal waves. Until the end of your next turn, all nearby allies add the escalation die to their defenses, OR all nearby enemies subtract the escalation die from their defenses (your choice).",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "Using your siren song is now a quick action."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "The Lost/Tiefling",
             "img": "https://www.enworld.org/media/tiefling-3-jpeg.113534/full",
             "desc": "Devilish-looking humanoids, orphaned by fate. Unique among the Kins, Tiefling are not born, they are found. Often a Tiefling infant is delivered by a beautiful woman to a location where they will be discovered quickly, and a glamor is placed on them to encourage the child to be taken care of. Inexplicably people that take in a tiefling child always have enough to be comfortable. They have a wide range of skills and culture from individual to individual. No two Tiefling are alike. They are found among all peoples.",
