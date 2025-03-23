@@ -6,6 +6,10 @@
             "desc": "Mystical eagle-people who can fly. Tend to be reclusive.",
             "srd": "",
             "setting": ["mainland"],
+            "names": [
+                "Most Aven names describe the place where they were born, the weather at the time, astronomical phenomena, or some combination thereof. Weather or location based names are usually in the past tense while astronomical related names are present tense. Each Aven also has a secret name that only their parents or siblings are permitted to use and is usually constructed from three of the most pleasing syllables to their mother's ear. Allowing another to use your secret name is considered a sign of utmost reverence, even surpassing blood bonds. It is considered grounds for a death duel to use another's secret name without permission.",
+                "Aven Names: Bright-Star, Chill-Air, Fire-Morning, Moon-Smiles-Down, Rain-Soaked-Barn, Snow-on-Stones, Thunder-Shook-Cave, Water-Bent-Near",
+                "Aven Secret Names: Al'Sha'Khe, Al'Ja'Re, Jel'Ku'Ne, Or'Ah'Uhn, Re'Kah'Ne, Ul'Ha'Shu, Zel'Ru'Ne. Zu'Li'Ko"],
             "powers": [
                 {
                     "pwrtitle":"Flight (Kin Power)",
@@ -29,6 +33,7 @@
             "desc": "Bestial humanoids that walk on two legs and can speak like others but have features of hyenas, dogs, etc.",
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
             "setting": ["mainland"],
+            "names": ["The names of Beastfolk are often phonetic representations of the sounds they make, such as: Grrk, Ssnrrl, Dgrrrr. Alternatively, they adopt the names of cultures nearby for use as \"trade names\" if they often deal with them"],
             "powers": [
                 {
                     "pwrtitle":"Bestial Fury (Kin Power)",
@@ -55,6 +60,8 @@
             "img": "https://uploads.worldanvil.com/uploads/images/e7762bdce4958945fdc12fab706d9b62.jpg",
             "desc": "Hailing originally from the southern coasts of the mainland, the Chelonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
             "setting": ["mainland", "urthu"],
+            "names": ["Prefixes: Be-, I, Ka-, Le-, Li-, Lo-, Me-, Mi-, Mo-, Mu-, Ne-, Ni-, Nu-, Sho-, Shu-", "Male suffixes: Che, Dao, Gu, Han, Hao, Je, Mo, Ong, Ran, Yi, Yu, Zi, Zu", "Female suffixes: Ai, Fa, Hau, Leu, Lin, Meen, Meu, Sha, Ung, Yanu, Zu",
+        "Examples: Be-Fa, Li-Gu, Sho-Meen, Shu-Ung"],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -91,8 +98,12 @@
             "desc": "Dragon-like people. They are as varied as their draconic kin",
             "srd": "https://www.13thagesrd.com/races/beastblooded/",
             "setting": ["mainland"],
-            "powers": [
-                {
+            "names": [
+                "The individual names of Dragonborn are always a personal name combined with whatever subrace they are in place of a surname.",
+                "Male Names: Ajax, Alastair, Basilius, Ermolai, Eskander, Grzegorz, Ippotis, Pyrrhus, Rehor, Tryphon, Tymoteusz, Xenophanes",
+                "Female Names: Agnete, Akra, Alyona, Calanthe, Dorete, Eurydice, Hypatia, Irinusz, Phaedra, Thesra, Zenaida, Zoya"
+            ],
+            "powers": [                {
                     "pwrtitle":"Breath Weapon (Kin Power)",
                     "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 1d6 damage per your level of an energy type that makes sense for your character.",
                     "pwrFeats": [
@@ -126,6 +137,12 @@
             "desc": "Magical, imperialistic culture from the Gilded Coast.",
             "srd": "https://www.13thagesrd.com/races/high-elf/",
             "setting": ["mainland"],
+            "names": [
+                "Elven names typically have meaning that is only clear to those that are native speakers of the language. Due to a deep respect for their culture and family, Elven surnames always precede their personal names. Vowels in Elvish are always pronounced.",
+                "Surname: Cosute, Kirisiti, Gosele, Lapaxele, Merele, Rixele, Roseao, Taravere, Vileneve.",
+                "Female Names: Adeli, Amali, Cesili, Elesi, Nikoli, Nola, Rena, Setefane, Zara.",
+                "Male Names: Abele, Belue, Emile, Lebou, Lukase, Nicomo, Salavage, Severe."
+            ],
             "powers": [
                 {
                     "pwrtitle":"Highblood Teleport (Kin Power)",
@@ -145,6 +162,12 @@
             "desc": "Nature-loving culture from Ironwood. Of late they have become more closely aligned with the wilds.",
             "srd": "https://www.13thagesrd.com/races/wood-elf/",
             "setting": ["mainland"],
+            "names": [
+                "Elven names typically have meaning that is only clear to those that are native speakers of the language. Due to a deep respect for their culture and family, Elven surnames always precede their personal names. Vowels in Elvish are always pronounced.",
+                "Surname: Cosute, Kirisiti, Gosele, Lapaxele, Merele, Rixele, Roseao, Taravere, Vileneve.",
+                "Female Names: Adeli, Amali, Cesili, Elesi, Nikoli, Nola, Rena, Setefane, Zara.",
+                "Male Names: Abele, Belue, Emile, Lebou, Lukase, Nicomo, Salavage, Severe."
+            ],
             "powers": [
                 {
                     "pwrtitle":"Elven Grace (Kin Power)",
@@ -164,6 +187,12 @@
             "desc": "Elusive, secretive people from the far north. Most self-concerned of the elves.",
             "srd": "https://www.13thagesrd.com/races/dark-elf/",
             "setting": ["mainland"],
+            "names": [
+                "Elven names typically have meaning that is only clear to those that are native speakers of the language. Due to a deep respect for their culture and family, Elven surnames always precede their personal names. Vowels in Elvish are always pronounced.",
+                "Surname: Cosute, Kirisiti, Gosele, Lapaxele, Merele, Rixele, Roseao, Taravere, Vileneve.",
+                "Female Names: Adeli, Amali, Cesili, Elesi, Nikoli, Nola, Rena, Setefane, Zara.",
+                "Male Names: Abele, Belue, Emile, Lebou, Lukase, Nicomo, Salavage, Severe."
+            ],
             "powers": [
                 {
                     "pwrtitle":"Cruel (Kin Power)",
@@ -183,6 +212,7 @@
             "desc": "Tricky, small, and swift. They have their own rules of behavior that can seem rather alien.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/pixie-3pp/",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrDesc": "When you assign your ability scores, both Dexterity and Charisma must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a fourth score, but neither can drop out of the top three at 1st level."
@@ -217,6 +247,7 @@
             "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventuerers who become accustomed to this find goblin companions among the most reliable folk around.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["mainland", "urthu"],
+            
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -259,6 +290,7 @@
             "desc": "Found all over the world, they are as varied as their many nations.",
             "srd": "https://www.13thagesrd.com/races/human/",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrtitle":"Bonus Feat",
@@ -281,6 +313,7 @@
             "img": "https://pbs.twimg.com/media/FOYTL-VX0AYPlLz.jpg",
             "desc": "The residents of Irmanna, the Silent City, eventually take on its characteristics. Shrouded in the stony hollows between the Shell and the Near Sisters, they practice their crafts, which include a form of necromancy that has never drawn the Gaze of the Fallen. They are not often seen outside of their home, but inspire dread and fear when they do. Irmannan necromancy has allowed many to speak directly to the dead without severe consequences, and so the strange folk are tolerated. Irmannan can look like any Kin, but their Kin Powers and identity are Irmannan.",
             "setting": ["urthu"],
+            
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -323,6 +356,7 @@
             "desc": "Small dragon-like creatures forsaken by higher powers",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/kobold-3pp/",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrtitle": "Sobriquet",
@@ -346,6 +380,7 @@
             "desc": "Community-minded feline people.",
             "srd": "https://www.13thagesrd.com/races/alleykin/",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrtitle": "Elusive (Kin Power)",
@@ -373,6 +408,13 @@
             "desc": "Technologically and magically advanced race of Dwarves, recently returned after millennia of hiding.",
             "srd": "https://www.13thagesrd.com/races/dwarf/",
             "setting": ["mainland"],
+            "names": [
+                "Dwarf names are constructed rather straightforwardly, allowing one to know a dwarf specifically related to his family. Each Dwarf is named for their family lineage with a personal name followed by a hereditary identifier and repeating the process as many times as necessary (typically no further than grandparent)",
+                "Male Names: Alyosha, Arakgraen, Egor, Fyodoe, Osef, Kazmir, Stanis, Vadok, Viruk.",
+                "Female Names: Anuska, Eltza, Gendiya, Nadzie, Rasha, Tatna, Valeta, Yeliza.",
+                "Hereditary Identifiers: sin (son of), doch (daughter of), iz (of/from)",
+                "Thus a name for example may be: Egor sin Osef iz-Talis"
+            ],
             "powers": [
                 {
                     "pwrtitle": "That's Your Best Shot? (Kin Power)",
@@ -392,6 +434,7 @@
             "desc": "Short humanoids with canid-like traits. Typically exceptionally hairy with tails of varying lengths. These creatures are curious explorers, living in packs of two to ten. Often prized as a method of sending messages long distance, due to their penchant for travel and their discreet attitudes. Most of the \"Big Folk\" call them halflings or something similar.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["urthu"],
+            
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -434,6 +477,12 @@
             "desc": "Known across the southern seas as the most skilled sailors in the world, the Orcs of Morkarr are as skilled at tradecraft and diplomacy as they are with their longships. Among the peoples of Urthu, their society is more of an outpost and while they have long had a presence here, this is not their home. Alongside them have come Minotaur, Ogres, and a myriad other kin from their homelands. Unless urgent business takes them further inland, they are mostly found near the western coast.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["urthu"],
+            "names": [
+                "Orcish names are usually a personal game given at birth and an earned name achieved upon the completion of a notable event. Until a name is earned, they treat their Taak, their chosen way of life, as their surname.",
+                "Male Names: Grog, Baatar, Erdem, Ganbold, Gerelt, Jargal, Krush, Orm, Otgon, Tomor",
+                "Female Names: Aswar, Davaa, Dura, Edela, Iulfrith, Grelka, Khulan, Maral, Sarnai, Thorfrid, Zaya",
+                "Earned Names: Birdeye, Foe-eater, Moonrunner, Snakecleaver, Steelfist, Thunderhead, Wolfbane"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -480,6 +529,10 @@
             "desc": "Similar to their cousins, the Yazatli, the Ocotzli are Yazatli who, in ancient times, adhered to the call of the sea and gave veneration to the Leviathan. They vanished beneath the waves for generations until the great elemental lord's return over 25 years ago. Now they have taken up residence throughout the Serpentswrath Isles, and have made overtures of peace, but there is still little trust between them and the other societies. Among the Ocotzli are several breeds or castes, ranging from nearly human to serpentine.",
             "srd": "",
             "setting": ["urthu"],
+            "names": [
+                "The Ocotzli do not identify each other's gender with names and their names are generally unisex. Due to the hissing nature of their native language, Ocotzli names end up seeming like sound effects to other creatures. Additionally, each Ocotzli is treated according to its caste and earned merit within that caste. Combined with communal raising of broods, family lineages are not tracked.",
+                "Example Names. Arzha, Gnassh, Gorsz, Kerriss, Klasz, Reszj, Seriss, Sokar, Szaat, Szhaa, Szkar, Voral, Voraesz, Zserusz."
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -522,6 +575,7 @@
             "desc": "Crude and brutal, their lives revolve around meals and strength.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/half-ogre-3pp/",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrDesc": "Add +1 to Strength or Constitution. When you assign a ability scores, both Strength and Constitution must appear in your top three ability scores. It's okay for one or both of these scores to be tied with a score that's out of your top three scores, but neither Strength nor Constitution can drop out of the top three at 1st level."
@@ -538,6 +592,12 @@
             "desc": "People defined by their \"taak\" or life of a battle-saint they choose to emulate.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["mainland"],
+            "names": [
+                "Orcish names are usually a personal game given at birth and an earned name achieved upon the completion of a notable event. Until a name is earned, they treat their Taak, their chosen way of life, as their surname.",
+                "Male Names: Grog, Baatar, Erdem, Ganbold, Gerelt, Jargal, Krush, Orm, Otgon, Tomor",
+                "Female Names: Aswar, Davaa, Dura, Edela, Iulfrith, Grelka, Khulan, Maral, Sarnai, Thorfrid, Zaya",
+                "Earned Names: Birdeye, Foe-eater, Moonrunner, Snakecleaver, Steelfist, Thunderhead, Wolfbane"
+            ],
             "powers": [
                 {
                     "pwrtitle": "Lethal (Kin Power)",
@@ -556,6 +616,7 @@
             "img": "https://uploads.worldanvil.com/uploads/images/311deeb593f92faf50618766e753b7f4.jpg",
             "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well.",
             "setting": ["urthu"],
+            
             "powers": [
                 {
                     "pwrtitle": "Deep Dweller (all sahuagin have this)",
@@ -600,6 +661,7 @@
             "desc": "Devilish-looking humanoids, orphaned by fate. Unique among the Kins, Tiefling are not born, they are found. Often a Tiefling infant is delivered by a beautiful woman to a location where they will be discovered quickly, and a glamor is placed on them to encourage the child to be taken care of. Inexplicably people that take in a tiefling child always have enough to be comfortable. They have a wide range of skills and culture from individual to individual. No two Tiefling are alike. They are found among all peoples.",
             "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
             "setting": ["mainland", "urthu"],
+            "names": ["The names of Tiefling are in accordance to the Kin and culture they are raised with. So determine who raise you, then find their Kin and choose that naming convention."],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -642,6 +704,10 @@
             "desc": "An ancient insectoid people organized into hives with a natural talent for magical song.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
             "setting": ["mainland", "urthu"],
+            "names": [
+                "Thraskan do not differentiate between males and females and generally keep such identifications to potential mates. Most Thraskan names are long and multisyllabic musical notes that other humanoids can't reproduce. As such, Thraskan's usually go by simple sound-related monikers with other races with heavy K or Z consonants to evoke a notable sound from their true name.",
+                "Example Names. Bzz, Chrp, Klik, Klink, Klang, Krk, Kssh, Fft, Fwip, Tssh, Wssh, Zzt, Zzp"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -683,6 +749,7 @@
             "img": "https://www.dandwiki.com/w/images/9/98/Werewolf_Splash.jpeg",
             "desc": "People cursed by Kah-y-Rah to walk as lycanthropes or other were-creatures but who maintain their intelligence and personality.",
             "setting": ["mainland"],
+            
             "powers": [
                 {
                     "pwrtitle": "Beast Form (Kin Power)",
@@ -705,6 +772,13 @@
             "img": "https://www.originalmagicart.store/cdn/shop/products/Swanland_RuhanOfTheFomori_Print_5000x.jpg",
             "desc": "Goat-like Nomadic desert dwellers with arguably the best marksmen in the world. Each one wears a unique wooden/cashmere mask made by their mother from her own wool and wood gathered by their father. It is a grave insult to take another's mask, even a bitter enemy, and replacements are never made. Conflicts between groups cease to find and return masks that end up taken or lost. The clans cycle their route around Osis and its freshwater lake. They are indigenous to the Smokesands Desert and the regions north of Mori's Wall.",
             "setting": ["urthu"],
+            "names": [
+                "Ukaru names are a method of identifying who you are speaking to, for such a nomadic people it can be years or generations before two different clans really interact in a significant way. As such, Ukaru names are often long and genealogical, this is to strengthen familial bonds across distant relations while also tracking reputation. Ukaru memories are long and conflicts between clans can take generations to resolve. The clans are matriarchal, with sons leaving their clans to join their wife's. As such lineages are tracked matrilineally, with the following suffixes added: Mother \"-ma\", grandmother \"-ga\", great-grandmother or further back \"-gal\", clan signifier \"-tal\".",
+                "Male Given Names: Alim, Arslan, Malud, Musa, Nur, Turan, Ilham",
+                "Female Given Names: Arza, Aisha, Fatin, Gul, Seda, Zehra",
+                "Clan Names: Hoj, Raku, Nakal, Reyan, Memmit",
+                "Example Name: Malud Aisha-ma Gul-ga Seda-gal Aisha-gal Raku-tal would be \"Malud, son of Aisha, grandson of Gul, great-grandson of Seda, great-great-grandson of Aisha of the Raku clan.\" However \"Malud Aisha-ma\" or \"Malud Raku-tal\" may be sufficient for most purposes."
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -747,6 +821,10 @@
             "desc": "Cunning multi-caste snake-people from a distant island chain.",
             "srd": "",
             "setting": ["mainland"],
+            "names": [
+                "The Yazatli do not identify each other's gender with names and their names are generally unisex. Due to the hissing nature of their native language, Yazatli names end up seeming like sound effects to other creatures. Additionally, each Yazatli is treated according to its caste and earned merit within that caste. Combined with communal raising of broods, family lineages are not tracked.",
+                "Example Names. Arzha, Gnassh, Gorsz, Kerriss, Klasz, Reszj, Seriss, Sokar, Szaat, Szhaa, Szkar, Voral, Voraesz, Zserusz."
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -789,6 +867,11 @@
             "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
             "setting": ["mainland", "urthu"],
+            "names": [
+                "Ysthar names are typically unisex and a combination of several concepts, most of which is lost in translation. Their names are often related to constellations, astronomical objects or weather phenomenon. Sometimes they will use the literal translation when dealing with outsiders.",
+                "Example names: Ix'hel, Kal'awa, Awak'anka, Ku'chel, Ux'apna, Tz'kal, Ek'anlil, It'zelhak",
+                "Simple Names: Cloud, Thunderclap, Comet, Rainbow, Raptor, Hunter, Gourd, Twilight"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -831,6 +914,7 @@
             "desc": "The people of Myrr are a varied bunch, perhaps you look mostly human but have a Kathic grandfather, or your mother and father were a kobold and a dragonborn.",
             "srd": "",
             "setting": ["mainland", "urthu"],
+            "names": ["You pretty much have complete free reign here. Mix and match from your parentage or pick from one. Perhaps you're a quarter Orc and named Dura for your Orcish grandmother."],
             "powers": [
                 {
                     "pwrDesc": "You may select from any of the Kin powers of the members of your family, provideded they are a parent or grandparent of yours. A Kin that goes back further might confer cosmetic options, such as pointed ears or sharper teeth, but no mechanical benefits. Any power you select you also have access to its feats."

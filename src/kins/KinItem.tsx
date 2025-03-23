@@ -9,6 +9,7 @@ type KinItemProps = {
   title: string,
   img: string,
   desc: string,
+  names?: string[],
   srd?: string,
   powers: Array<KinPowerProps>
 }
@@ -29,6 +30,7 @@ function KinItem(
     title,
     img,
     desc,
+    names, 
     srd,
     powers
   }: KinItemProps,
@@ -73,6 +75,20 @@ function KinItem(
             {desc}
           </div>
         </div> 
+          {names &&
+          <>
+        <div className="heading">Names</div>
+          <div className='name-desc'>
+            {
+              names.map((line, i) => {
+                return (
+                  <p key={'nameline'+i}>{line}</p>
+                )
+              })
+            }
+          </div>
+          </>
+            }
         <div className='power'>
           <div className="heading">Power{powers.length > 1 && 's'}</div>
           <div className='content'>
