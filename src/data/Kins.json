@@ -247,7 +247,12 @@
             "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventuerers who become accustomed to this find goblin companions among the most reliable folk around.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["mainland", "urthu"],
-            
+            "names": [
+                "Goblin are defined by their clans, which spread far and wide throughout the world. Their kin name \"Goblin\" comes from a slight mispronounciation of the most widespread clan Gob'lan.",
+                "Female Names: Alis, Ashling, Ayva, Brida, Ifa, Keeva, Leela, Nessa, Nolig, Una",
+                "Male Names: Adan, Angu, Cor, Cormac, Dunk, Kenan, Nel, Oin, Tyrin",
+                "Clan Surnames: Gob'Lan, Gob'Rac, Gob'Hob, Gob'Locan, Gob'Gorba"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -313,7 +318,10 @@
             "img": "https://pbs.twimg.com/media/FOYTL-VX0AYPlLz.jpg",
             "desc": "The residents of Irmanna, the Silent City, eventually take on its characteristics. Shrouded in the stony hollows between the Shell and the Near Sisters, they practice their crafts, which include a form of necromancy that has never drawn the Gaze of the Fallen. They are not often seen outside of their home, but inspire dread and fear when they do. Irmannan necromancy has allowed many to speak directly to the dead without severe consequences, and so the strange folk are tolerated. Irmannan can look like any Kin, but their Kin Powers and identity are Irmannan.",
             "setting": ["urthu"],
-            
+            "names": [
+                "Irmannan are flexible with their names and often change them as necessary. Often a Shadowkin will find a particular sound they like and choose names that involve it.",
+                "For example, one Irmannan might enjoy the sound \"char\" and use the names: Chara, Charul, Charla, Malchar, Ochar, Vochara"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -434,7 +442,13 @@
             "desc": "Short humanoids with canid-like traits. Typically exceptionally hairy with tails of varying lengths. These creatures are curious explorers, living in packs of two to ten. Often prized as a method of sending messages long distance, due to their penchant for travel and their discreet attitudes. Most of the \"Big Folk\" call them halflings or something similar.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["urthu"],
-            
+            "names": [
+                "Kwari are often named with a vowel-double consonant-vowel convention.",
+                "Female names end with \"-a\" or \"-i\" and Males often end in \"-o\" or \"-u\". Names never end with \"-e\". Surnames are often taken from trades or notable locations.",
+                "Female Names: Alli, Ella, Obbi, Onna, Unna",
+                "Male Names: Addu, Enno, Ezzo, Itho, Okko, Unno",
+                "Surnames: Brookbend, Blackbeach, Bladesmith, Coral, Crag, Deadwood, Stagehand, Thornfield, Urthfield"
+            ],
             "powers": [
                 {
                     "pwrDesc": "CHOOSE ONE:"
@@ -616,7 +630,11 @@
             "img": "https://uploads.worldanvil.com/uploads/images/311deeb593f92faf50618766e753b7f4.jpg",
             "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well.",
             "setting": ["urthu"],
-            
+            "names": [
+                "Sahuagin names are often inspired by heroes or godnames from their history with various suffix attachments. \"-kotar\", \"-athar\", and \"-astri\" identifies a hero, while \"-vun\" and \"-vu\" are often associated with godnames.",
+                "Female Names: Amastri, Amavun, Isiathar, Khethastri, Nefrathar, Nefathar, Sekhvu",
+               "Male Names: Anukotar, Henuathar, Horastri, Isetvun, Karovu, Matkakotar, Ramekotar, Ramevun"
+            ],
             "powers": [
                 {
                     "pwrtitle": "Deep Dweller (all sahuagin have this)",
