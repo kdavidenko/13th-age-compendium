@@ -44,13 +44,13 @@ function ConvertPage() {
       }
       { location === 'urthu' && 
         <>
-          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter</div>
+          <div className='convertIcon'>Archmage <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Loresinger</div>
           <hr />
-          <div className='convertIcon'>Crusader <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conqueror</div>
+          <div className='convertIcon'>Crusader <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conquerer</div>
           <hr />
           <div className='convertIcon'>Diabolist <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Epiphany</div>
           <hr />
-          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Loresinger</div>
+          <div className='convertIcon'>Dwarf King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Vault</div>
           <hr />
           <div className='convertIcon'>Elf Queen <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Shadowbinder</div>
           <hr />
@@ -62,11 +62,11 @@ function ConvertPage() {
           <hr />
           <div className='convertIcon'>Lich King <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Hive</div>
           <hr />
-          <div className='convertIcon'>Orc Lord <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Conqueror</div>
+          <div className='convertIcon'>Orc Lord <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Collector</div>
           <hr />
-          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Shaman</div>
+          <div className='convertIcon'>Priestess <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Crone</div>
           <hr />
-          <div className='convertIcon'>Prince of Shadows <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Collector</div>
+          <div className='convertIcon'>Prince of Shadows <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Arbiter</div>
           <hr />
           <div className='convertIcon'>The Three <TrendingFlatIcon fontSize='small' style={{verticalAlign:'middle'}} /> Breaker</div>
           <hr />

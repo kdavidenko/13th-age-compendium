@@ -1,6 +1,30 @@
 {
     "heroic": [
         {
+            "id":"crone",
+            "iconType": "heroic",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/crone.png",
+            "name": "The Crone",
+            "description": "The wisest crone of the Ukaru clans, her spiritual influence is undeniable and unquestioningly beneficial.",
+            "quote": "\"Come, child. Rest your weary soul.\"",
+            "usualLocation": "Osis",
+            "commonKnowledge": [
+                "She is the most skilled healer in Urthu and is happy to share this knowledge. Most warriors of the region have passed under her care of the care of her pupils.",
+                "All who follow the paths of peace are welcome in her city of Osis and it is a remote haven on the least hospitable side of the continent."
+            ],
+            "adventurers": [
+                "Clerics and paladins often find their way to the service of the Crone. Despite having her own beliefs, she and her functionaries offer spiritual support to all faiths.",
+                "Those who work for the Crone find healing and potions available and it is rumored she has the power to restore the dead under certain conditions."
+            ],
+            "allies": "The Loresinger and Sealord have a Pact with her. She tought the Shadowbinder in their youth, and she has visions from the Unwaking.",
+            "enemies": "The Collector threatens her people's souls, while the Hive threatens their lives.",
+            "history": [
+                "Among the Icons of Urthu, the Crone maintains health and spiritual matters for the people. Sometimes the Crone has been among the Thraskan, sometimes they have been among the Irmannan, but the current Crone is from the desert-dwelling Ukaru.",
+                "During the last invasion of the Hive several decades ago, the current Crone worked with the Loresinger, the Sealord of that time, and even the Breaker to push them back."
+            ],
+            "trueDanger": "Everything will be alright while the Crone provides sage counsel to her allies."
+        },
+        {
             "id":"loresinger",
             "iconType": "heroic",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/loresinger.png",
@@ -17,7 +41,7 @@
                 "Those who find themselves in the employ of the Loresinger are typically rewarded with esoteric but meaningful items. Often the use of them evades understanding until the right moment.",
                 "Would-be adventuerers who value cryptic knowledge or unique items are drawn to the Loresinger's service."
             ],
-            "allies": "The Sealord and Shaman have a Pact with him. He remembers every Arbiter fondly.",
+            "allies": "The Sealord and Crone have a Pact with him. He remembers every Arbiter fondly.",
             "enemies": "The Shadowbinder works in profane magics, however tame it appears. The Hive threatens his people's home. The Huntress ranges in his lands and the Conqueror is too aggressive.",
             "history": [
                 "Born before the Fall of Heaven, over seven thousand years ago, he is ancient but still capable of swift action if required. He has been a valued advisor and ally for generations of leaders before the current Icons."
@@ -40,37 +64,13 @@
             "adventurers": [
                 "Adventuerers who travel long enough on Urthu will find themselves working for the Sealord in one way or another. He pays well, on time, and is prone to bonuses should the task become more difficult than presented."
             ],
-            "allies": "The Loresinger and Shaman have a Pact with him, he has cordial relations with the Shadowbinder and agents of both the Arbiter and the Unwaking.",
+            "allies": "The Loresinger and Crone have a Pact with him, he has cordial relations with the Shadowbinder and agents of both the Arbiter and the Unwaking.",
             "enemies": "The tenous truce with the Breaker could snap at any moment, the Conquerer threatens to usurp him, and the Hive is at his doorstep. All while the Huntress attacks any encroachment.",
             "history": [
                 "For centuries there has been a Sealord of Hullshatter Port, and the pact with the Breaker has been maintained for most of that time.",
                 "Some Sealords have tried to take control of Urthu, but such endeavors have all ended in failure. The most successful Sealords cooperated with the other peoples of the continent, and thus far the current Sealord is only too happy to continue that tradition."
             ],
             "trueDanger": "Everything will be alright while the Sealord rules the forces of Morkarr and the Pact is maintained."
-        },
-        {
-            "id":"shaman",
-            "iconType": "heroic",
-            "symbolPath": "/13th-age-compendium/img/iconSymbol/shaman.png",
-            "name": "The Shaman",
-            "description": "The wisest crone of the Ukaru clans, her spiritual influence is undeniable and unquestioningly beneficial.",
-            "quote": "\"Come, child. Rest your weary soul.\"",
-            "usualLocation": "Osis",
-            "commonKnowledge": [
-                "She is the most skilled healer in Urthu and is happy to share this knowledge. Most warriors of the region have passed under her care of the care of her pupils.",
-                "All who follow the paths of peace are welcome in her city of Osis and it is a remote haven on the least hospitable side of the continent."
-            ],
-            "adventurers": [
-                "Clerics and paladins often find their way to the service of the Shaman. Despite having her own beliefs, she and her functionaries offer spiritual support to all faiths.",
-                "Those who work for the Shaman find healing and potions available and it is rumored she has the power to restore the dead under certain conditions."
-            ],
-            "allies": "The Loresinger and Sealord have a Pact with her. She tought the Shadowbinder in their youth, and she has visions from the Unwaking.",
-            "enemies": "The Collector threatens her people's souls, while the Hive threatens their lives.",
-            "history": [
-                "Among the Icons of Urthu, the Shaman maintains health and spiritual matters for the people. Sometimes the Shaman has been among the Thraskan, sometimes they have been among the Irmannan, but the current Shaman is from the desert-dwelling Ukaru.",
-                "During the last invasion of the Hive several decades ago, the current Shaman worked with the Loresinger, the Sealord of that time, and even the Breaker to push them back."
-            ],
-            "trueDanger": "Everything will be alright while the Shaman provides sage counsel to her allies."
         },
         {
             "id":"unwaking",
@@ -138,7 +138,7 @@
                 "It is rare the Conquerer patrons adventurers and the task is simple or safe. To succeed in his service is worthy of song and boast."
             ],
             "allies": "He has had dealings with the Collector and the Shadowbinder in the past.",
-            "enemies": "He views the Sealord as too weak and soft, and the Loresinger and Shaman should be pressed under heal. However, he is too fixated on fighting the Epiphany and the Hive to usurp anyone. The Huntress is only too happy to attack his armies.",
+            "enemies": "He views the Sealord as too weak and soft, and the Loresinger and Crone should be pressed under heal. However, he is too fixated on fighting the Epiphany and the Hive to usurp anyone. The Huntress is only too happy to attack his armies.",
             "history": [
                 "Often the champion of Morkarr's forces on Urthu, the Conqueror is a brilliant strategist and exceptional warrior in his own right. He has never been defeated in single combat."
             ],
@@ -162,7 +162,7 @@
                 "It is just as possible that the Huntress is an opposition force to adventurers as she is an employer.",
                 "She often takes the guise of an Aven woman with red, black, and white feathers."
             ],
-            "allies": "The Shaman and the Shadowbinder are few of the ones the Huntress tolerates.",
+            "allies": "The Crone and the Shadowbinder are few of the ones the Huntress tolerates.",
             "enemies": "Anyone who encroaches on her wildlands, specifically the Conqueror or the Hive. She has a special hatred of the Epiphany's demons.",
             "history": [
                 "Hailing from far away across the sea, she is only recently arrived. However, she is the largest and most powerful dragon on the island and quickly subjugated many of the other powerful beasts in the mountain valleys. It's believed she is a child of the Dragon Elders from long ago."
@@ -186,12 +186,38 @@
                 "To be visited by one of their shadowspawn can be seen as an omen of great respect or of great danger.",
                 "To the people of Irmanna, to work on behalf of the Shadowbinder is a great honor and for outsiders it is truly noteworthy. Most often, it is through an Irmannan ally that outsiders work for them."
             ],
-            "allies": "They have fond memories of the Shaman's teachings and are cordial with the Sealord. They have a friendship cultivating with the Huntress.",
+            "allies": "They have fond memories of the Crone's teachings and are cordial with the Sealord. They have a friendship cultivating with the Huntress.",
             "enemies": "They are at odds with the Loresinger and seek to protect their city from the Epiphany's demons, the Hive, and the iron fist of the Conqueror.",
             "history": [
-                "The current Shadowbringer has been a force of influence within Irmanna for some time, though they do not rule the city directly. They are functionally a high priest and cultural influence, much like the Shaman."
+                "The current Shadowbringer has been a force of influence within Irmanna for some time, though they do not rule the city directly. They are functionally a high priest and cultural influence, much like the Crone."
             ],
             "trueDanger": "Everything will be alright so long as the Shadowbinder does not fall to the temptation of darkness."
+        },
+        {
+            "id":"vault",
+            "iconType": "ambiguous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/vault.png",
+            "name": "The Vault",
+            "description": "A ruthless but efficient businesswoman, she has cornered the markets of Urthu and barely a sack of beans is sold without her knowing.",
+            "quote": "\"Opportunities are like ships, there's always another one coming.\"",
+            "usualLocation": "Hath'Ria, the City of Roads",
+            "commonKnowledge": [
+                "The Vault often travels and her business enterprises are divided into various syndicates that are ostensibly aligned, but often come into conflict with each other.",
+                "There are very few clients the Vault will not work with, so long as there is profit for her to exploit.",
+                "Without the Vault, it's possible the entire Morkarr expedition would fall apart. This is probably why the Sealord tolerates her less than savory activities.",
+                "The Vault is one of the most widely traveled Icons, hailing from the far north of the mainland, and she is believed to be a Kathic."
+            ],
+            "adventurers": [
+                "The Vault might be one of the first Icons many would-be adventurers have experience with, as the many caravans traveling across the continent are often sourced from Hath'Ria. Additionally, most of the job boards in the more populated areas of Urthu are managed by the Vault.",
+                "Those seeking financial rewards more than any other will find working for the Vault very profitable, indeed."
+            ],
+            "allies": "The Vault is loosely affiliated with the Pact of the Sealord, the Crone, and the Loresinger, but is not a member. They are not close allies with any, but also not very hostile with many.",
+            "enemies": "The Vault sees the Breaker as a potential rival and the Epiphany and Hive as existential threats.",
+            "history": [
+                "About ten years ago, the Expedition fell on hard times. Events such as the Breaker Accord almost falling apart, various cults, and demonic incursions finally arriving on Urthu stretched the Expedition to its limit. In this chaos, the Vault arrived with her syndicate leaders and reorganized trade, as well as connecting Urthu more strongly with the mainland.",
+                "Since then, the economy of the continent has stabilized, but there is growing concern that it is too centralized with the Vault. What happens if she were to leave? What happens if her goals no longer align with the Expedition?"
+            ],
+            "trueDanger": "Everything will be alright as long as the Vault doesn't make a play for control."
         }
     ],
     "villainous": [
@@ -238,7 +264,7 @@
                 "Those who actively seek their employ often find themselves in dire straits and find their loyalty repaid with betrayed at a crucial moment.."
             ],
             "allies": "Occassionally, the Epiphany or the Conquerer.",
-            "enemies": "The actions of the Collector have made many enemies, but he has a special emnity for the Sealord, the Shaman, and the Loresinger. The Shaman has a high price on his head for his spiritual crimes against her people.",
+            "enemies": "The actions of the Collector have made many enemies, but he has a special emnity for the Sealord, the Crone, and the Loresinger. The Crone has a high price on his head for his spiritual crimes against her people.",
             "history": [
                 "Much like the Huntress, they are a recent arrival on Urthu, beginning in the Smokesands with tales of dead hunters and stolen Ukaru masks. There has not been a Collector before now."
             ],
@@ -288,7 +314,7 @@
             "enemies": "All on the surface of Urthu.",
             "history": [
                 "Every few decades, the Hive attempts to regain control of the surface and thus far the peoples of Urthu have managed to unite against them. Only time will tell if this incursion will be the same.",
-                "Centuries ago, the Loresinger and the Sealord, Shadowbinder, and Shaman of a previous age banded together to ward Urthu from the Hive. With the coming of the Last Night, those wards weakened enough that a new, larger invasion has begun."
+                "Centuries ago, the Loresinger and the Sealord, Shadowbinder, and Crone of a previous age banded together to ward Urthu from the Hive. With the coming of the Last Night, those wards weakened enough that a new, larger invasion has begun."
             ],
             "trueDanger": "All will be well so long as the Hive is contained by the unity of the Pact."
         }

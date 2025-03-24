@@ -100,7 +100,7 @@
       top: 51%;
       left: 22%;
     }
-    #urthu-shaman {
+    #urthu-crone {
       top: 38%;
       left: 75%;
     }
@@ -139,6 +139,10 @@
     #urthu-hive {
       top: 42%;
       left: 28%;
+    }
+    #urthu-vault {
+      top: 59%;
+      left: 37%;
     }
     .icon-shadow {
       border-radius: 30px;
