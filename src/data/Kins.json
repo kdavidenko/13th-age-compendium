@@ -57,7 +57,7 @@
         },
         {
             "title": "Chalonian/Tortle",
-            "img": "https://uploads.worldanvil.com/uploads/images/e7762bdce4958945fdc12fab706d9b62.jpg",
+            "img": "/13th-age-compendium/img/kinImg/tortle.jpg",
             "desc": "Hailing originally from the southern coasts of the mainland, the Chelonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
             "setting": ["mainland", "urthu"],
             "names": ["Prefixes: Be-, I, Ka-, Le-, Li-, Lo-, Me-, Mi-, Mo-, Mu-, Ne-, Ni-, Nu-, Sho-, Shu-", "Male suffixes: Che, Dao, Gu, Han, Hao, Je, Mo, Ong, Ran, Yi, Yu, Zi, Zu", "Female suffixes: Ai, Fa, Hau, Leu, Lin, Meen, Meu, Sha, Ung, Yanu, Zu",
@@ -243,7 +243,7 @@
         },
         {
             "title": "Goblins",
-            "img": "https://i0.wp.com/nerdarchy.com/wp-content/uploads/2020/09/beastlands-goblin-scaled.jpg",
+            "img": "/13th-age-compendium/img/kinImg/goblin.jpg",
             "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventuerers who become accustomed to this find goblin companions among the most reliable folk around.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["mainland", "urthu"],
@@ -315,7 +315,7 @@
         },
         {
             "title": "Irmannan/Shadowkin",
-            "img": "https://pbs.twimg.com/media/FOYTL-VX0AYPlLz.jpg",
+            "img": "/13th-age-compendium/img/kinImg/irmannan.jpg",
             "desc": "The residents of Irmanna, the Silent City, eventually take on its characteristics. Shrouded in the stony hollows between the Shell and the Near Sisters, they practice their crafts, which include a form of necromancy that has never drawn the Gaze of the Fallen. They are not often seen outside of their home, but inspire dread and fear when they do. Irmannan necromancy has allowed many to speak directly to the dead without severe consequences, and so the strange folk are tolerated. Irmannan can look like any Kin, but their Kin Powers and identity are Irmannan.",
             "setting": ["urthu"],
             "names": [
@@ -438,7 +438,7 @@
         },
         {
             "title": "Kwari/Halfling",
-            "img": "https://www.historymuseum.ca/blog/wp-content/uploads/2019/07/neandertal-1-Cutrona.jpg",
+            "img": "/13th-age-compendium/img/kinImg/kwari.jpg",
             "desc": "Short humanoids with canid-like traits. Typically exceptionally hairy with tails of varying lengths. These creatures are curious explorers, living in packs of two to ten. Often prized as a method of sending messages long distance, due to their penchant for travel and their discreet attitudes. Most of the \"Big Folk\" call them halflings or something similar.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["urthu"],
@@ -487,7 +487,7 @@
         },
         {
             "title": "Morgul'taak/Orc",
-            "img": "https://images3.alphacoders.com/906/906070.jpg",
+            "img": "/13th-age-compendium/img/kinImg/orc.jpg",
             "desc": "Known across the southern seas as the most skilled sailors in the world, the Orcs of Morkarr are as skilled at tradecraft and diplomacy as they are with their longships. Among the peoples of Urthu, their society is more of an outpost and while they have long had a presence here, this is not their home. Alongside them have come Minotaur, Ogres, and a myriad other kin from their homelands. Unless urgent business takes them further inland, they are mostly found near the western coast.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["urthu"],
@@ -539,7 +539,7 @@
         },
         {
             "title": "Ocotzli/Serpentfolk",
-            "img": "https://www.artofwillstore.com/wp-content/uploads/2022/09/Naga.jpg",
+            "img": "/13th-age-compendium/img/kinImg/ocotzli.jpg",
             "desc": "Similar to their cousins, the Yazatli, the Ocotzli are Yazatli who, in ancient times, adhered to the call of the sea and gave veneration to the Leviathan. They vanished beneath the waves for generations until the great elemental lord's return over 25 years ago. Now they have taken up residence throughout the Serpentswrath Isles, and have made overtures of peace, but there is still little trust between them and the other societies. Among the Ocotzli are several breeds or castes, ranging from nearly human to serpentine.",
             "srd": "",
             "setting": ["urthu"],
@@ -602,7 +602,7 @@
         },
         {
             "title": "Orc / People of the Taak",
-            "img": "https://theclichedtavern.files.wordpress.com/2015/10/half-o.jpg",
+            "img": "/13th-age-compendium/img/kinImg/orc.jpg",
             "desc": "People defined by their \"taak\" or life of a battle-saint they choose to emulate.",
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["mainland"],
@@ -627,7 +627,7 @@
         },
         {
             "title": "Sahuagin / Deepfolk",
-            "img": "https://uploads.worldanvil.com/uploads/images/311deeb593f92faf50618766e753b7f4.jpg",
+            "img": "/13th-age-compendium/img/kinImg/sahuagin.jpg",
             "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well.",
             "setting": ["urthu"],
             "names": [
@@ -675,7 +675,7 @@
         },
         {
             "title": "The Lost/Tiefling",
-            "img": "https://www.enworld.org/media/tiefling-3-jpeg.113534/full",
+            "img": "/13th-age-compendium/img/kinImg/tiefling.jpg",
             "desc": "Devilish-looking humanoids, orphaned by fate. Unique among the Kins, Tiefling are not born, they are found. Often a Tiefling infant is delivered by a beautiful woman to a location where they will be discovered quickly, and a glamor is placed on them to encourage the child to be taken care of. Inexplicably people that take in a tiefling child always have enough to be comfortable. They have a wide range of skills and culture from individual to individual. No two Tiefling are alike. They are found among all peoples.",
             "srd": "https://www.13thagesrd.com/races/tiefling-demontouched/",
             "setting": ["mainland", "urthu"],
@@ -718,7 +718,7 @@
         },
         {
             "title": "Thraskan/Mantisfolk",
-            "img": "https://1.bp.blogspot.com/-qv7qmAoGEw4/WzEBEefRiwI/AAAAAAAABYE/g9qougcNp70aNrg6J2Yc2RlgxQS2RDdzACEwYBhgL/s1600/thri-kreen.jpg",
+            "img": "/13th-age-compendium/img/kinImg/thraskan.jpg",
             "desc": "An ancient insectoid people organized into hives with a natural talent for magical song.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
             "setting": ["mainland", "urthu"],
@@ -787,7 +787,7 @@
         },
         {
             "title": "Ukaru/Desertfolk",
-            "img": "https://www.originalmagicart.store/cdn/shop/products/Swanland_RuhanOfTheFomori_Print_5000x.jpg",
+            "img": "/13th-age-compendium/img/kinImg/ukaru.jpg",
             "desc": "Goat-like Nomadic desert dwellers with arguably the best marksmen in the world. Each one wears a unique wooden/cashmere mask made by their mother from her own wool and wood gathered by their father. It is a grave insult to take another's mask, even a bitter enemy, and replacements are never made. Conflicts between groups cease to find and return masks that end up taken or lost. The clans cycle their route around Osis and its freshwater lake. They are indigenous to the Smokesands Desert and the regions north of Mori's Wall.",
             "setting": ["urthu"],
             "names": [
@@ -835,7 +835,7 @@
         },
         {
             "title": "Yazatli/Snakefolk",
-            "img": "https://www.dndspeak.com/wp-content/uploads/2023/04/maxresdefault-5.jpg",
+            "img": "/13th-age-compendium/img/kinImg/yazatli.jpg",
             "desc": "Cunning multi-caste snake-people from a distant island chain.",
             "srd": "",
             "setting": ["mainland"],
@@ -881,7 +881,7 @@
         },
         {
             "title": "Ysthar/Lizardfolk",
-            "img": "https://www.gmbinder.com/images/vGYZJH6.jpg",
+            "img": "/13th-age-compendium/img/kinImg/ysthar.jpg",
             "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
             "setting": ["mainland", "urthu"],
