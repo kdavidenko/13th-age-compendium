@@ -46,7 +46,7 @@ function KinItem(
         backgroundImage: `url(${img})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center left",
         color: "#fff",
         textShadow: "#000 0px 0px 5px",
         textAlign: "center"

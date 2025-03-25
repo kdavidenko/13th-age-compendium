@@ -244,7 +244,7 @@
         {
             "title": "Goblins",
             "img": "/13th-age-compendium/img/kinImg/goblin.jpg",
-            "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventuerers who become accustomed to this find goblin companions among the most reliable folk around.",
+            "desc": "Fey creatures that have spent centuries in the wilds. They are found in most areas where rot and dark crevices exist. They have a reputation as thieves despite having no concept of property. In goblin communities you use what is at hand and leave it for the next person when done with it. Adventurers who become accustomed to this find goblin companions among the most reliable folk around.",
             "srd": "https://www.13thagesrd.com/races/halfling/",
             "setting": ["mainland", "urthu"],
             "names": [
@@ -492,7 +492,7 @@
             "srd": "https://www.13thagesrd.com/races/half-orc/",
             "setting": ["urthu"],
             "names": [
-                "Orcish names are usually a personal game given at birth and an earned name achieved upon the completion of a notable event. Until a name is earned, they treat their Taak, their chosen way of life, as their surname.",
+                "Orcish names are usually a personal game given at birth and an earned name achieved upon the completion of a notable event. Until a name is earned, they treat their Taak, their chosen way of life, as their surname. For most orcs on Urthu that is Morgul'taak.",
                 "Male Names: Grog, Baatar, Erdem, Ganbold, Gerelt, Jargal, Krush, Orm, Otgon, Tomor",
                 "Female Names: Aswar, Davaa, Dura, Edela, Iulfrith, Grelka, Khulan, Maral, Sarnai, Thorfrid, Zaya",
                 "Earned Names: Birdeye, Foe-eater, Moonrunner, Snakecleaver, Steelfist, Thunderhead, Wolfbane"
@@ -719,7 +719,7 @@
         {
             "title": "Thraskan/Mantisfolk",
             "img": "/13th-age-compendium/img/kinImg/thraskan.jpg",
-            "desc": "An ancient insectoid people organized into hives with a natural talent for magical song.",
+            "desc": "An ancient insectoid people organized into hives with a natural talent for magical song. Among all the Kin of Myrr they are among the most widespread but the most reclusive. They live in extended familiy clusters of thirty to thirty thousand individuals and each hive has its own Song. Periodically, a hive will send individuals out to share their updated Song with one of the Lorekeepers, functionally immortal Thraskan mages that have the song of every hive, especially the extinct ones, memorized.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
             "setting": ["mainland", "urthu"],
             "names": [
@@ -882,7 +882,7 @@
         {
             "title": "Ysthar/Lizardfolk",
             "img": "/13th-age-compendium/img/kinImg/ysthar.jpg",
-            "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty.",
+            "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty. Of all the Kin of Myrr, they are the most cosmically aware, this has led them to a widespread perspective of content nihilism and as such are focused more intently on the Now than the past or future.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
             "setting": ["mainland", "urthu"],
             "names": [
