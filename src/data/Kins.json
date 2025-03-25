@@ -58,9 +58,9 @@
         {
             "title": "Chalonian/Tortle",
             "img": "/13th-age-compendium/img/kinImg/tortle.jpg",
-            "desc": "Hailing originally from the southern coasts of the mainland, the Chelonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
+            "desc": "Hailing originally from the southern coasts of the mainland, the Chalonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
             "setting": ["mainland", "urthu"],
-            "names": ["Prefixes: Be-, I, Ka-, Le-, Li-, Lo-, Me-, Mi-, Mo-, Mu-, Ne-, Ni-, Nu-, Sho-, Shu-", "Male suffixes: Che, Dao, Gu, Han, Hao, Je, Mo, Ong, Ran, Yi, Yu, Zi, Zu", "Female suffixes: Ai, Fa, Hau, Leu, Lin, Meen, Meu, Sha, Ung, Yanu, Zu",
+            "names": ["Chalonian names always include from a list of prefixes followed by a given name suffix. Most often families will share prefixes, despite it not being a surname.", "Prefixes: Be-, I, Ka-, Le-, Li-, Lo-, Me-, Mi-, Mo-, Mu-, Ne-, Ni-, Nu-, Sho-, Shu-", "Male suffixes: Che, Dao, Gu, Han, Hao, Je, Mo, Ong, Ran, Yi, Yu, Zi, Zu", "Female suffixes: Ai, Fa, Hau, Leu, Lin, Meen, Meu, Sha, Ung, Yanu, Zu",
         "Examples: Be-Fa, Li-Gu, Sho-Meen, Shu-Ung"],
             "powers": [
                 {
@@ -626,9 +626,9 @@
             ]
         },
         {
-            "title": "Sahuagin / Deepfolk",
+            "title": "Sahuagin / Sharkfolk",
             "img": "/13th-age-compendium/img/kinImg/sahuagin.jpg",
-            "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well.",
+            "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well. They are renowned for their abilities to traverse the sea and each of their vast underwater nation serves their Leviathan. On Urthu, the most powerful Leviathan is the Breaker, but recently other nations have encroached on this new frontier.",
             "setting": ["urthu"],
             "names": [
                 "Sahuagin names are often inspired by heroes or godnames from their history with various suffix attachments. \"-kotar\", \"-athar\", and \"-astri\" identifies a hero, while \"-vun\" and \"-vu\" are often associated with godnames.",
@@ -637,19 +637,41 @@
             ],
             "powers": [
                 {
-                    "pwrtitle": "Deep Dweller (all sahuagin have this)",
-                    "pwrDesc": "Sahuagin can move and fight in water as well as a flying creature can in open air. They can breathe both water and air. However, once every three arcs you must submerge yourself in salt water. If you do not, you begin the next arc Helpless until you submerge yourself in salt water. If you finish that arc without submerging in salt water, you die."
+                    "pwrtitle": "Aquatic Preference (all sahuagin have this)",
+                    "pwrDesc": "Sahuagin can move and fight in water as well as a flying creature can in open air. They can breathe both water and air. At the end of each arc, if you have not submerged in saltwater this arc, make an Easy (6+) save. If it has been two arcs, make a Normal (11+) save. If it has been three or more make a Hard (16+) save. If you fail a save, you start the next arc with an additional skull for each failed Aquatic Preference save. Whenever you submerge in saltwater, remove all of your skulls.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You only gain skulls after failing the Normal (11+) save."
+                        },
+                        {
+                            "featType": "Epic Feat (replaces champion)", 
+                            "feat": "You only gain skulls after failing the Hard (16+) save."
+                        }
+                    ]
+                    
                 },
                 {
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
                     "pwrtitle": "Aberrant Resistance (Kin Power)",
-                    "pwrDesc": "Once per battle, you may roll a save against an ability or spell twice and keep the desired result. However, the first save you make against an ability or spell used by a monster of the aberration type in any battle automatically fails."
+                    "pwrDesc": "Once per arc, you may roll a save against an ability or spell twice and keep the desired result. However, the first save you make against an ability or spell used by a monster of the aberration type in battle automatically fails.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You may use Aberrant Resistance once per battle instead of once per arc."
+                        },
+                        {
+                            "featType": "Epic Feat (replaces champion)", 
+                            "feat": "You no longer fail the first save against an ability or spell used by a monster of the aberration type in battle."
+                        }
+                    ]
+                    
                 },
                 {
                     "pwrtitle": "Paragon of Below (Kin Power)",
-                    "pwrDesc": "Your ancestry is connected to the deepest of beings, as such you have four arms. When you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
+                    "pwrDesc": "You are able to channel the deep ocean currents and rhythms unfelt by the sun-kissed kins. This manifests in your strikes becoming more fluid and concussive. When you roll a 2, 3, or 4 when making a melee weapon attack, you may reroll and take the second roll.",
                     "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
