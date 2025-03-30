@@ -1,3 +1,7 @@
+body {
+  padding: 0 !important; /* material ui override */
+}
+
 .App {
   max-width: 800px;
   height:auto;
@@ -6,14 +10,4 @@
   margin: 25px auto;
   background: rgba(255, 255, 255, 0.75);
   padding: 25px;
-
-
-  nav {
-    text-align: center;
-  }
-
-  nav a {
-    margin: 0 12px;
-    text-decoration: none;
-  }
 }

@@ -1,9 +1,12 @@
-.Navbar {
- text-align: center;
+.nav {
 
   a {
-    margin:12px;
+    color:inherit;
     text-decoration: none;
-    padding: 8px 12px;
   }
+}
+
+[role="menu"] a {
+  text-decoration: none;
+  color:inherit;
 }
