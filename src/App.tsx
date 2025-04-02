@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import MapPage from './maps/MapPage';
 import RegionMap from 'maps/RegionMap';
 import ClassPage from 'class/ClassPage';
+import MagicPage from 'magic/Magic';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/region" element={ <RegionMap />} />
             <Route path="/icons" element={ <IconPage />} />
             <Route path="/convert" element={ <ConvertPage />} />
+            <Route path="/magic" element={ <MagicPage />} />
           </Routes>
       </div>
     </>

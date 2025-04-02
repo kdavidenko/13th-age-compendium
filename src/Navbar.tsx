@@ -6,7 +6,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-const pages = ['Kins', 'Classes', "Region", "Icons"];
+const pages = ['Kins', 'Classes', "Region", "Icons", "Magic"];
 const settings = ['Mainland', 'Urthu'];
 
 function Navbar() {
@@ -41,7 +41,7 @@ function Navbar() {
                   variant="h6"
                   noWrap
                   component="a"
-                  href="#app-bar-with-responsive-menu"
+                  href="#"
                   sx={{
                     mr: 2,
                     display: { xs: 'none', md: 'flex' },
