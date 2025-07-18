@@ -6,7 +6,7 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-const pages = ['Kins', 'Classes', "Region", "Icons", "Magic"];
+const pages = ['Kins', 'Classes', "Region", "Icons", "Magic", "Feats"];
 const settings = ['Mainland', 'Urthu'];
 
 function Navbar() {

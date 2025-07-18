@@ -1,0 +1,4062 @@
+[
+  {
+    "featType": "Kin",
+    "featName": "Push It (Kin Power)",
+    "req": "Human",
+    "desc": "C: If push it misses, it is not expended.",
+    "pageNum": 30
+  },
+  {
+    "featType": "Kin",
+    "featName": "Quick to Fight (Kin Power)",
+    "req": "Human",
+    "desc": "A: If you roll higher initiative than all enemies, +2 to all defenses for the first round.",
+    "pageNum": 30
+  },
+  {
+    "featType": "Kin",
+    "featName": "Comrade Defender (Kin Power)",
+    "req": "Dwarf",
+    "desc": "A: The comrade defender attack has a +2 attack bonus.",
+    "pageNum": 31
+  },
+  {
+    "featType": "Kin",
+    "featName": "Never Give In (Kin Power)",
+    "req": "Dwarf",
+    "desc": "A: The first time the never give in save fails, it is not expended.",
+    "pageNum": 31
+  },
+  {
+    "featType": "Kin",
+    "featName": "That's Your Best Shot? (Kin Power)",
+    "req": "Dwarf",
+    "desc": "A: If the escalation die is 2+, the best shot recovery is free.",
+    "pageNum": 31
+  },
+  {
+    "featType": "Kin",
+    "featName": "Heritage of the Sword",
+    "req": "Elf",
+    "desc": "A: Use d6 and d8 without penalties; or if already able to use such swords without penalties, +2 damage (5th level: +4 damage, 8th level: +8).",
+    "pageNum": 32
+  },
+  {
+    "featType": "Kin",
+    "featName": "Eminence (Kin Power)",
+    "req": "Elf",
+    "desc": "A: Both elements of eminence can be used once apiece each battle.",
+    "pageNum": 32
+  },
+  {
+    "featType": "Kin",
+    "featName": "Highborn Teleport (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Before or after highborn teleport deal 15 damage to one engaged enemy (8th level: 30 damage).",
+    "pageNum": 32
+  },
+  {
+    "featType": "Kin",
+    "featName": "Mystic Initiative (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Once per arc, declared before rolling initiative, after all combatants have rolled, swap your final initiative with the enemy with the highest initiative result.",
+    "pageNum": 32
+  },
+  {
+    "featType": "Kin",
+    "featName": "Cruel (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Once per arc, cruel can be used to deal 5 ongoing damage per level against a missed target or on a natural odd attack roll.",
+    "pageNum": 35
+  },
+  {
+    "featType": "Kin",
+    "featName": "Devious Strike (Kin Power)",
+    "req": "Elf",
+    "desc": "A: If devious strike hits, +2 defences until an enemy misses.",
+    "pageNum": 35
+  },
+  {
+    "featType": "Kin",
+    "featName": "Shadow-step (Kin Power)",
+    "req": "Elf",
+    "desc": "A: If the shadow-step save fails, it is not expended.",
+    "pageNum": 35
+  },
+  {
+    "featType": "Kin",
+    "featName": "Elven Grace (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Once per arc, roll a d4 for elven grace instead of a d8; if elven grace action is not triggered, this is not expended.",
+    "pageNum": 35
+  },
+  {
+    "featType": "Kin",
+    "featName": "Fortunate Fey (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Fortunate fey rerolls can be used five times per arc.",
+    "pageNum": 36
+  },
+  {
+    "featType": "Kin",
+    "featName": "Queen's Eye (Kin Power)",
+    "req": "Elf",
+    "desc": "C: Once per arc, queen's eye can be used to turn a ranged hit into a critical hit instead.",
+    "pageNum": 36
+  },
+  {
+    "featType": "Kin",
+    "featName": "Animal Talker",
+    "req": "Gnome",
+    "desc": "A: You can talk to most normal animals. Twice per arc, you can make a normal skill check to gather useful information from an animal, hard check if magical beast. If you also have fox friend, once per arc you can gather useful information from your fox without having to roll a skill check.",
+    "pageNum": 37
+  },
+  {
+    "featType": "Kin",
+    "featName": "Confounding (Kin Power)",
+    "req": "Gnome",
+    "desc": "C: The confounding power target is weakened until the end of your next turn instead of dazed.",
+    "pageNum": 38
+  },
+  {
+    "featType": "Kin",
+    "featName": "Fox Friend (Kin Power)",
+    "req": "Gnome",
+    "desc": "C: You can use two different fox friend powers per battle.",
+    "pageNum": 38
+  },
+  {
+    "featType": "Kin",
+    "featName": "Concordance (Kin Power)",
+    "req": "Half-Elf",
+    "desc": "C: Gain a second random kin power.",
+    "pageNum": 39
+  },
+  {
+    "featType": "Kin",
+    "featName": "Surprising (Kin Power)",
+    "req": "Half-Elf",
+    "desc": "C: Surprising can alternatively be used to add +1 to a natural odd d20 roll.",
+    "pageNum": 39
+  },
+  {
+    "featType": "Kin",
+    "featName": "Evasive (Kin Power)",
+    "req": "Halfling",
+    "desc": "C: The evasive reroll is at –5 penalty instead.",
+    "pageNum": 40
+  },
+  {
+    "featType": "Kin",
+    "featName": "Perseverance (Kin Power)",
+    "req": "Halfling",
+    "desc": "A: The perseverance reroll can be used in any later arc.",
+    "pageNum": 40
+  },
+  {
+    "featType": "Kin",
+    "featName": "Skitterfoot (Kin Power)",
+    "req": "Halfling",
+    "desc": "C: Skitterfoot can be used twice per battle.",
+    "pageNum": 40
+  },
+  {
+    "featType": "Kin",
+    "featName": "Fighting Free (Kin Power)",
+    "req": "Troll-kin",
+    "desc": "A: Fighting free can trigger on natural 13+.",
+    "pageNum": 43
+  },
+  {
+    "featType": "Kin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Fighting free can be used a second time when the escalation die reaches 3+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Kin",
+    "featName": "Killer Instinct (Kin Power)",
+    "req": "Troll-kin",
+    "desc": "A: The damage bonus from killer instinct is cumulative, stacking each time you rally.",
+    "pageNum": 43
+  },
+  {
+    "featType": "Kin",
+    "featName": "Lethal (Kin Power)",
+    "req": "Troll-kin",
+    "desc": "A: If lethal attack is with a weapon, deal +7 damage (5th level: +15 damage, 8th level: +25).",
+    "pageNum": 43
+  },
+  {
+    "featType": "Kin",
+    "featName": "Chromatic Resistance",
+    "req": "Dragonic",
+    "desc": "A: Gain resist energy 14+ to acid, cold, fire, lightning, and poison.",
+    "pageNum": 45
+  },
+  {
+    "featType": "Kin",
+    "featName": "Breath Weapon (Kin Power)",
+    "req": "Dragonic",
+    "desc": "C: Breath weapon now targets 1d6 nearby enemies in a group.",
+    "pageNum": 45
+  },
+  {
+    "featType": "Kin",
+    "featName": "Energized Attacks (Kin Power)",
+    "req": "Dragonic",
+    "desc": "C: The energized attacks boosted attack can be against two targets.",
+    "pageNum": 45
+  },
+  {
+    "featType": "Kin",
+    "featName": "Rise Above (Kin Power)",
+    "req": "Dragonic",
+    "desc": "C: Rise above ignores the effects of up to three conditions for a turn.",
+    "pageNum": 45
+  },
+  {
+    "featType": "Kin",
+    "featName": "Mechanically Efficient",
+    "req": "Forgeborn",
+    "desc": "A: Gain resist 16+ to necro and poison. Whenever you would be stunned, you are instead shocked.",
+    "pageNum": 46
+  },
+  {
+    "featType": "Kin",
+    "featName": "Never Say Die (Kin Power)",
+    "req": "Forgeborn",
+    "desc": "A: You die at six Skulls. You die at negative hit points equal to two-thirds of your normal hit points.",
+    "pageNum": 46
+  },
+  {
+    "featType": "Kin",
+    "featName": "Rugged (Kin Power)",
+    "req": "Forgeborn",
+    "desc": "A: Increase your total number of recoveries by 1.",
+    "pageNum": 46
+  },
+  {
+    "featType": "Kin",
+    "featName": "Curse of Chaos (Kin Power)",
+    "req": "Tiefling",
+    "desc": "C: Whenever a nearby enemy rolls a natural 1 on an attack against you, gain a bonus immediate use of curse of chaos against them.",
+    "pageNum": 49
+  },
+  {
+    "featType": "Kin",
+    "featName": "Deadly Trickster (Kin Power)",
+    "req": "Tiefling",
+    "desc": "C: When your initiative roll is even, you also get to use it as a trick die when the escalation die is 3+.",
+    "pageNum": 49
+  },
+  {
+    "featType": "Kin",
+    "featName": "Halo (Kin Power)",
+    "req": "Holy One",
+    "desc": "A: Once per battle, halo kin power can be restarted as a free action when the escalation die reaches 2+.",
+    "pageNum": 51
+  },
+  {
+    "featType": "Kin",
+    "featName": "Karmic Soul (Kin Power)",
+    "req": "Holy One",
+    "desc": "C: Every natural 7 with an attack is a hit.",
+    "pageNum": 51
+  },
+  {
+    "featType": "Kin",
+    "featName": "Overworld Wings (Kin Power)",
+    "req": "Holy One",
+    "desc": "A: Gain +4 bonus to disengage checks while flying.",
+    "pageNum": 51
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Grim Determination",
+    "req": "Class",
+    "desc": "A: Crit range with basic melee and thrown weapon attacks also increase by the same amount as your defences.",
+    "pageNum": 65
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, reroll a death save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Rage",
+    "req": "Class",
+    "desc": "A: While raging, gain a +4 to both PD and MD.",
+    "pageNum": 65
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Roll a “rage” die to try to start raging every time you are conscious and damaged by an enemy attack.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Harsh Response",
+    "req": "Class",
+    "desc": "A: Once per battle as a free action, when an enemy makes an opportunity attack against you, you can make a no-trigger attack against them after the opportunity attack. In addition, if you are fighting with two 1-handed melee weapons, this Harsh Response attack has its crit range increased by 2.",
+    "pageNum": 65
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Zenith of Power",
+    "req": "Class",
+    "desc": "Z: Take an additional barbarian talent.",
+    "pageNum": 65
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Barbaric Cleave",
+    "req": "Talent",
+    "desc": "A: Once per arc, when Barbaric Cleave attack misses, use a free action to turn the miss into a hit.",
+    "pageNum": 66
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: +2 attack bonus with Barbaric Cleave. Once per arc when the attack hits, heal using a recovery as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Barbaric Cleave can be used 2/battle, but only once per round.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Beast Aspect",
+    "req": "Talent",
+    "desc": "A: Choose three of the Beast Aspect benefits.",
+    "pageNum": 66
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Survival increases to +4 on the death save, speed increases to +10 initiative, and endurance increases to +2 and +3.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces adv) Choose four of the Beast Aspect benefits.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Building Frenzy",
+    "req": "Talent",
+    "desc": "A: Count the first time you are staggered each battle as a miss that builds your frenzy.",
+    "pageNum": 66
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) Count both the first time you are hit each battle and the first time you are staggered each battle as misses that build your frenzy.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Count every time you are hit and the first time you are staggered each battle as misses that build your frenzy.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Heavy Iron",
+    "req": "Talent",
+    "desc": "A: Once per arc, turn a crit that targets your AC or PD into a regular hit.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, when hit by an attack that targets AC or PD, avoid all effects other regular damage, including avoiding ongoing damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, as an interrupt action, take half damage from all attacks against you by a specific enemy this turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Strongheart",
+    "req": "Talent",
+    "desc": "A: Increase your total number of recoveries by 1.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain +1 PD and +1 MD. When you heal with a recovery, roll a save against a temporary effect.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces adv) Increase your total number of recoveries by 2.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Two-hander",
+    "req": "Talent",
+    "desc": "A: Once per arc, as a free action, when an enemy moves to engage you while you are using a two-handed melee weapon, make a no-trigger melee attack against the enemy before its next action.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: One battle per arc, as a quick action, start a battle-long effect that forces damaged enemies engaged with you to take –2 penalties to their attacks, so long as you are fighting with a two-handed weapon.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: The Two-hander effect against a staggered enemy weakens them (save ends).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Unstoppable",
+    "req": "Talent",
+    "desc": "A: Once per arc, when you heal with Unstoppable, gain double the hit points.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, when you hit with Unstoppable, end up to three temporary conditions.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Increase your total number of recoveries by 1. You can use Unstoppable twice per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Violence",
+    "req": "Talent",
+    "desc": "A: After making the attack roll and rolling the Violence die, you can spend a recover to reroll the Violence die.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: If you spend a standard action to rally, you get another use of Violence this battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: The bonus is now +1d12. Once per arc, use Violence an additional time that battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Whirlwind",
+    "req": "Talent",
+    "desc": "A: Once per arc, when you use Whirlwind while not raging, start raging.",
+    "pageNum": 67
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, turn a miss with a Whirlwind attack into a hit.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Use Whirlwind at any time. You can take your move action in-between Whirlwind attacks. Each creature hit with a Whirlwind attack cannot make opportunity attacks against you this turn, either from moving or from rolling a 1-3.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "My Turn",
+    "req": "Talent",
+    "desc": "C: If you are raging, your attack can be a raging strike instead of a no-trigger attack.",
+    "pageNum": 68
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Misses do not expend the power.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Shrug It Off",
+    "req": "Talent",
+    "desc": "C: Shrug It Off can be used twice per arc, just once per crit.",
+    "pageNum": 68
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Slayer",
+    "req": "Talent",
+    "desc": "C: Slayer damage bonus is +1d10 per level (8th level: +1d12 per level).",
+    "pageNum": 68
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "",
+    "req": "",
+    "desc": "E: Slayer can be used twice per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Barbarian Ancestor Spirit",
+    "req": "Talent",
+    "desc": "E: Ancestor Spirits have +4 crit range and deal 15/27/36 damage on a miss.",
+    "pageNum": 69
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Bloody Resolve",
+    "req": "Talent",
+    "desc": "E: Bloody Resolve can be used twice per arc, and the Bloody Resolve threshold is now 30 + Constitution ability score.",
+    "pageNum": 69
+  },
+  {
+    "featType": "Barbarian",
+    "featName": "Relentless",
+    "req": "Talent",
+    "desc": "E: When you crit, gain resist damage 18+ until the start of your next turn.",
+    "pageNum": 69
+  },
+  {
+    "featType": "Bard",
+    "featName": "Social Skills",
+    "req": "Class",
+    "desc": "A: Gain an additional use of Social Skill each arc. The bonus for the additional use on a reroll is now +5.",
+    "pageNum": 72
+  },
+  {
+    "featType": "Bard",
+    "featName": "Brass: Horns & Trumpets",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Brass adventurer feats for trumpet call, brassy, you get the horns, and piercing tones.",
+    "pageNum": 77
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all benefits listed as Brass champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all benefits listed as Brass epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Trumpet Call (Brass Combat Riff)",
+    "req": "Granted by core Brass feats",
+    "desc": "A: The inspiration die can now also be spent on a save, a disengage check, or a skill check.",
+    "pageNum": 77
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The inspiration die is now a d6.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, the inspiration die is a d8.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Brassy (Brass Healing)",
+    "req": "Granted by core Brass feats",
+    "desc": "A: Add Charisma modifier to healing provided by brassy.",
+    "pageNum": 77
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, you can heal using a recovery at the same time that brassy allows an ally to heal.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: The recovery/recoveries provided by brassy is/are now free.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "You Get the Horns (Brass Miss-Effect)",
+    "req": "Granted by core Brass feats",
+    "desc": "A: The enemy is vulnerable to the next two attacks before the end of your next turn.",
+    "pageNum": 77
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, the vulnerability effect is now “save ends” requiring an easy save (6+).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, when using you get the horns, an ally can reroll a single attack against the vulnerable enemy as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Piercing Tones (Brass Keynote)",
+    "req": "Granted by core Brass feat",
+    "desc": "A: Once per battle on your turn, use an attack that is normally a melee attack against a nearby enemy.",
+    "pageNum": 77
+  },
+  {
+    "featType": "Bard",
+    "featName": "Dance: Poise & Motion",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Dance adventurer feats for move it, perfect step, pass-by, and in motion.",
+    "pageNum": 78
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all benefits listed as Dance champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all benefits listed as Dance epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Move It (Dance Combat Riff)",
+    "req": "Granted by core Dance feats",
+    "desc": "A: You can use the move action yourself.",
+    "pageNum": 78
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Twice per arc, move it can affect two of your nearby allies; or you and one ally.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Perfect Step (Dance Healing)",
+    "req": "Granted by core Dance feats",
+    "desc": "A: Add Charisma modifier to the healing provided (5th level: double Charisma mod; 8th level: quadruple Charisma mod).",
+    "pageNum": 78
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain a second use of perfect step when the escalation die is 4+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Pass-By (Dance Miss-Effect)",
+    "req": "Granted by core Dance feats",
+    "desc": "A: The disengage check can be granted to a nearby ally.",
+    "pageNum": 78
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The disengage check has a +2 bonus.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Twice per arc, pass-by can affect two nearby allies, or you and one other nearby ally.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "In Motion (Dance Keynote)",
+    "req": "Granted by core Dance feats",
+    "desc": "A: The enemy now uses the lower of the two rolls.",
+    "pageNum": 78
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: In motion can work against attacks vs. PD as well as AC.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Drums: Rhythm & Percussion",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Drums adventurer feats for beatdown, upbeats, downbeat, and heavy drumming.",
+    "pageNum": 79
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all the benefits listed as Drums champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all the benefits listed as Drums epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Beatdown (Drums Combat Riff)",
+    "req": "Granted by core Drums feats",
+    "desc": "A: Beatdown now targets up to 1d4 enemies.",
+    "pageNum": 79
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: After using beatdown, you can use it again when you've hit with a natural even melee attack roll.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Each enemy damaged by beatdown must roll a normal save (11+) or be dazed until the end of its next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Upbeats (Drums Healing)",
+    "req": "Granted by core Drums feats",
+    "desc": "A: Add +1d4 healing per point on the escalation die.",
+    "pageNum": 79
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Instead, add +1d8 healing per point on the escalation die.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Instead, add +1d12 healing per point on the escalation die.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Downbeat (Drums Miss-Effect)",
+    "req": "Granted by core Drums feats",
+    "desc": "A: Bump your level by +1 to determine the spell's hit point threshold.",
+    "pageNum": 80
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, also deal damage equal to triple Strength or Dexterity modifier (8th level: five times that modifier).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, the target is weakened instead of dazed.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Heavy Drumming (Drums Keynote)",
+    "req": "Granted by core Drums feats",
+    "desc": "A: Heavy drumming can now be used three times an arc.",
+    "pageNum": 80
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: The bonus is now the total number of Skulls for all party members.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Flutes & Pipes & Ocarinas",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Flutes adventurer feats for flutter, oh trill, random twitter, and tricky.",
+    "pageNum": 80
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all the benefits listed as Flutes champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all the benefits listed as Flutes epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Flutter (Flutes Combat Riff)",
+    "req": "Granted by core Flute feat",
+    "desc": "A: You no longer need a nearby ally. The target simply can't attack you.",
+    "pageNum": 80
+  },
+  {
+    "featType": "Bard",
+    "featName": "Oh Trill (Flutes Healing)",
+    "req": "Granted by core Flute feats",
+    "desc": "A: Once per arc, the recovery is a free recovery.",
+    "pageNum": 80
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Oh trill now triggers on a natural 1-7.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, two nearby allies can heal using a recovery instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Random Twitter (Flutes Miss-Effect)",
+    "req": "Granted by core Flute feats",
+    "desc": "A: If there are no enemy mooks nearby, the attacker deals damage equal to its level to itself or one of its nearby allies (5th level: damage equal to double their level; 8th level: triple their level).",
+    "pageNum": 81
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Cancel any miss damage the target would have taken from the attack.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, take out two mooks instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Tricky (Flutes Keynote)",
+    "req": "Granted by core Flute feats",
+    "desc": "C: Tricky is now twice per arc, but only once per battle.",
+    "pageNum": 81
+  },
+  {
+    "featType": "Bard",
+    "featName": "Strings: Lutes & Harps & Guitars",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Strings adventurer feats for simple chord, easy listening, strum along, and accord.",
+    "pageNum": 82
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all the benefits listed as Strings champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all the benefits listed as Strings epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Simple Chord (Strings Combat Riff)",
+    "req": "Granted by core Strings feats",
+    "desc": "A: Twice per arc, your ally can add the escalation die to their save.",
+    "pageNum": 82
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, a simple chord save becomes an easy save (6+).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, simple chord affects two nearby allies instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Easy Listening (Strings Healing)",
+    "req": "Granted by core Strings feats",
+    "desc": "A: Easy listening is now twice per arc.",
+    "pageNum": 82
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Instead, add double Charisma modifier (8th level: triple Charisma modifier).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Strum Along (Strings Miss-Effect)",
+    "req": "Granted by core Strings feats",
+    "desc": "A: Add +4 damage if the attack hits.",
+    "pageNum": 82
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Instead, add +8 damage if the attack hits.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Instead, add +14 damage if the attack hits.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Accord (Strings Keynote)",
+    "req": "Granted by core Strings feats",
+    "desc": "A: The escalation die only has to be 2+ to cast accord.",
+    "pageNum": 82
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Accord can be used again in the same battle, with the same spell borrowed before, when the escalation die reaches 6+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Accord can now be used twice per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Voice: Singing & Chanting & Calling",
+    "req": "Talent",
+    "desc": "A: Gain all the benefits listed as Voice adventurer feats for power word, avenge me, take heart, and jack of spells.",
+    "pageNum": 83
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) Gain all the benefits listed as Voice champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) Gain all the benefits listed as Voice epic feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Power Word (Voice Combat Riff)",
+    "req": "Granted by core Voice feats",
+    "desc": "A: The target hit point threshold is now your hit points +10.",
+    "pageNum": 83
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Instead, the target hit point threshold is now your hit points +20.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Instead, the target hit point threshold is now your hit points +50.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Avenge Me (Voice Healing)",
+    "req": "Granted by core Voice feats",
+    "desc": "A: The bonus to attack and damage is now +4.",
+    "pageNum": 83
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The healing bonus is now triple your Charisma modifier.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Instead, the healing bonus increases to five times your Charisma modifier.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Take Heart (Voice Miss-Effect)",
+    "req": "Granted by core Voice feats",
+    "desc": "C: Instead, use 1d6.",
+    "pageNum": 83
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Instead, use 1d8.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Overture",
+    "req": "Talent",
+    "desc": "C: Each battle, you can choose one Overture at-will attack spell you do not know, and cast it until the end of the battle as if you possessed its associated talent.",
+    "pageNum": 84
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per battle, turn a miss (but not a fumble) with one of your Overture spells into a hit.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Songmaster",
+    "req": "Talent",
+    "desc": "A: If both dice rolled to sustain a song roll high enough to sustain the song, one conscious nearby ally gains temporary hit points equal to double your level (8th level: triple your level).",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, you can start a new song on the same turn that you used the final verse effect of a different song.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Each time you use a song's final verse, gain temporary hit points equal to triple your level.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "All the Best Stories",
+    "req": "Class",
+    "desc": "A: Once per arc, when you or an ally use an icon connection that ends up having a twist, you can heighten the effects of both the icon relationship advantage and the twist.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Combat Gambit",
+    "req": "Class",
+    "desc": "A: Once per battle, as a free action, take an ally's attack roll as your own. The ally rerolls their attack, and you keep their original natural roll and use it as your next attack roll this battle.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Endless Patter",
+    "req": "Class",
+    "desc": "A: Once per battle, when you are hit by a melee attack, you can force the enemy to reroll the attack with an attack penalty equal to your Charisma modifier.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Loremaster",
+    "req": "Class",
+    "desc": "C: Gain two additional points in backgrounds; these can be used to raise a background that has something to do with history, bardic lore, or magical knowledge up to the usually impossible rating of +6. Gain a single point of relationship with the Archmage, Dwarf King, Elf Queen, or Lich King. Add the point to a relationship you already have up to your normal maximum, or start a new one.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Mythkenner",
+    "req": "Class",
+    "desc": "C: Gain two additional points in backgrounds; these can be used to raise a background that has something to do with religion, mythology, or history up to the usually impossible rating of +6. Gain a single point of relationship with the Crusader, the Priestess, or the Great Gold Wyrm. Add the point to a relationship you already have up to your normal maximum, or start a new one.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Ascending Notes",
+    "req": "Spells & Songs",
+    "desc": "A: Ascending notes is now a recharge 6+.",
+    "pageNum": 86
+  },
+  {
+    "featType": "Bard",
+    "featName": "Befuddle",
+    "req": "Spells & Songs",
+    "desc": "A: Befuddle is now recharge 6+.",
+    "pageNum": 88
+  },
+  {
+    "featType": "Bard",
+    "featName": "Song of Heroes",
+    "req": "Spells & Songs",
+    "desc": "A: Song of Heroes is now recharge 11+.",
+    "pageNum": 88
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and the bonuses each increase by +1, to +2 for early verses and +3 for the final verse.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Soundburst",
+    "req": "Spells & Songs",
+    "desc": "A: The spell now targets 1d4 + 1 enemies in a group.",
+    "pageNum": 89
+  },
+  {
+    "featType": "Bard",
+    "featName": "Vicious Mockery",
+    "req": "Spells & Songs",
+    "desc": "A: The spell is not expended on a natural even miss.",
+    "pageNum": 89
+  },
+  {
+    "featType": "Bard",
+    "featName": "Song of Thunder",
+    "req": "Spells & Songs",
+    "desc": "C: The spell now targets 1d4 + 2 nearby enemies.",
+    "pageNum": 90
+  },
+  {
+    "featType": "Bard",
+    "featName": "Arrow of Verse",
+    "req": "Spells & Songs",
+    "desc": "C: Second casting now only requires that the escalation die be 2 points higher.",
+    "pageNum": 91
+  },
+  {
+    "featType": "Bard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) As champion feat, and usage is now twice per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Bard",
+    "featName": "Rallying Cry",
+    "req": "Spells & Songs",
+    "desc": "C: The spell now affects up to 5 nearby allies.",
+    "pageNum": 91
+  },
+  {
+    "featType": "Bard",
+    "featName": "Wink Wink",
+    "req": "Spells & Songs",
+    "desc": "E: You can now teleport to far-away locations as well as nearby ones.",
+    "pageNum": 92
+  },
+  {
+    "featType": "Bard",
+    "featName": "Inspire Legends",
+    "req": "Spells & Songs",
+    "desc": "E: The spell now affects you and up to four nearby or far-away allies.",
+    "pageNum": 93
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Heal",
+    "req": "Class",
+    "desc": "A: Add Wisdom modifier to the amount of healing (5th level: twice Wisdom mod; 8th level: quadruple Wisdom mod).",
+    "pageNum": 98
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The target can heal using one of your recoveries instead of their own.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, when you use heal, every nearby ally has the option to heal using a recovery.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "One More Spell",
+    "req": "Class",
+    "desc": "Z: Gain an additional cleric spell of your level.",
+    "pageNum": 99
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Cathedral's Light",
+    "req": "Talent",
+    "desc": "A: You have the adventurer feat for one of the two new domains you have been gifted. Choose which one.",
+    "pageNum": 99
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) You have the adventurer feats for your arc's both new domains, and your choice of one of the champion feats.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Friendship or Love",
+    "req": "Talent",
+    "desc": "C: Once per arc, use a free action to cancel a charmed, confusion, or shocked effect on yourself or one nearby ally. Even if you wouldn't ordinarily be able to use any actions.",
+    "pageNum": 100
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Healing",
+    "req": "Talent",
+    "desc": "A: The first heal spell after using this invocation allows the target to heal using a free recovery.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The invocation of healing now gives two additional uses of heal this battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Justice or Vengeance",
+    "req": "Talent",
+    "desc": "A: The attack-reroll blessing can be dispensed twice per battle, only once per turn.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, but up to three times per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Knowledge or Lore",
+    "req": "Talent",
+    "desc": "A: In the round after the reroll provided, the chosen character gets another standard action on their turn as a free action.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and now roll a d4 for the invocation.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain a different positive relationship point each arc with a random icon.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Life or Death",
+    "req": "Talent",
+    "desc": "A: You and nearby allies gain a +1 bonus to death saves.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The healing effect now applies to both the first and second allies who become staggered during a battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: The first use of resurrection spell is free.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Perfection or Beauty",
+    "req": "Talent",
+    "desc": "C: Once per arc, the fumble-reroll effect can be used against the first two fumbles by allies.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Protection or Community",
+    "req": "Talent",
+    "desc": "C: Whenever one or more allies are targeted with a spell, one ally can roll a save against a temporary effect.",
+    "pageNum": 101
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Storm",
+    "req": "Talent",
+    "desc": "A: The interrupt action can be used at-will when the escalation die is 2+.",
+    "pageNum": 102
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Strength",
+    "req": "Talent",
+    "desc": "A: Once per arc, as a free action, when the escalation die is 3+, deal extra damage to a target you hit, but do not crit, with a melee attack. The damage bonus is a number of d8s equal to your Strength modifier or your level, whichever is higher.",
+    "pageNum": 102
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, but with d12s.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Sun or Anti-Undead",
+    "req": "Talent",
+    "desc": "A: Gain a +2 bonus to all defenses against attacks by undead.",
+    "pageNum": 102
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain resist damage 16+ to fire, holy, and necro.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: Trickery or Cunning or Illusion",
+    "req": "Talent",
+    "desc": "A: Your trick die can be used for any one d20 roll, not just an attack.",
+    "pageNum": 102
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Domain: War or Leadership",
+    "req": "Talent",
+    "desc": "A: The bonus now applies against all enemies you attack.",
+    "pageNum": 102
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: Allies that have at least one Skull gain a +2 bonus from this power instead of +1.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Combat Boon",
+    "req": "Spell",
+    "desc": "A: If combat boon attack is a natural 16+, the subsequent save automatically succeeds.",
+    "pageNum": 103
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: Even if the attack misses, the ally can still roll a save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Javelin of Faith",
+    "req": "Spell",
+    "desc": "A: The extra quick action can be gifted as a free action to a nearby ally on their turn, before the start of your next turn.",
+    "pageNum": 103
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The spell can now target a far-away enemy. It also deals +7 damage against an undamaged target (8th level: +14).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Sacred Violence",
+    "req": "Spell",
+    "desc": "A: The trigger for gaining a use of heal is now a natural 14+.",
+    "pageNum": 103
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The attack now targets PD unless the target is staggered.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: The spell can gain two uses of heal each battle instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Bless",
+    "req": "Spell",
+    "desc": "E: Once per arc, the bonus applies to both crit range and attack bonus.",
+    "pageNum": 103
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Hammer of Faith",
+    "req": "Spell",
+    "desc": "A: While this spell is in effect, melee attack misses now deal at least half damage.",
+    "pageNum": 104
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Judgment",
+    "req": "Spell",
+    "desc": "C: Judgment is now a close-quarters spell that deals half damage on a miss.",
+    "pageNum": 104
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Judgment is now recharge 16+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Mark of Enmity",
+    "req": "Spell",
+    "desc": "A: The d4 is now a d3, and the d8 is now a d6. The attack's crit range increases by 2.",
+    "pageNum": 104
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The weakened effect now lasts until the end of you next turn, and then continues until the target succeeds with an easy save at the end of its own turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) As champion feat, and when the escalation die reaches 4+, mark of enmity can be used a second time.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Mighty Healing",
+    "req": "Spell",
+    "desc": "C: One of the creatures healed by this spell can use a free recovery.",
+    "pageNum": 104
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Shield of Faith",
+    "req": "Spell",
+    "desc": "Z: The bonuses double, so cast for power is +4, and cast for broad effect is +2.",
+    "pageNum": 105
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Spirits of the Righteous",
+    "req": "Spell",
+    "desc": "C: On a hit, you also gain the bonus to defenses until the end of your next turn.",
+    "pageNum": 105
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Warrior's Inspiration",
+    "req": "Spell",
+    "desc": "A: Add Charisma modifier to healing (5th level: double Charisma mod; 8th level: quadruple Charisma mod).",
+    "pageNum": 106
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "C: The ally can make one save apiece against each temporary condition, including ongoing damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Warrior's inspiration can be used twice per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Cause Fear",
+    "req": "Spell",
+    "desc": "A: Cause fear can be cast as a close-quarters spell if you target an enemy engaged with you.",
+    "pageNum": 106
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, you can cast this spell with a quick action if target a foe you have hit this turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Cure Wounds",
+    "req": "Spell",
+    "desc": "C: If the escalation die is 3+, this spell recharges with a quick rest, but only once per arc.",
+    "pageNum": 106
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Divine Endurance",
+    "req": "Spell",
+    "desc": "C: You can cast divine endurance as if it were 1 level higher.",
+    "pageNum": 106
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: Divine endurance can be cast as a move action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Weal Boon",
+    "req": "Spell",
+    "desc": "C: Remove two Skulls instead.",
+    "pageNum": 107
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: The bonus is 5 higher than normal.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Crisis of Faith",
+    "req": "Spell",
+    "desc": "C: The spell affects an enemy if it is one of the six enemies closest to you, and the save to keep crisis of faith going is now easy (6+).",
+    "pageNum": 107
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Respite",
+    "req": "Spell",
+    "desc": "C: You can now target yourself with the spell.",
+    "pageNum": 107
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) You can now target yourself with the spell, and the save is an automatic success.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Sphere of Radiance",
+    "req": "Spell",
+    "desc": "C: The recovery is free.",
+    "pageNum": 108
+  },
+  {
+    "featType": "Cleric",
+    "featName": "",
+    "req": "",
+    "desc": "Z: Target one additional ally or one additional enemy.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Cleric",
+    "featName": "Prayer for Readiness",
+    "req": "Spell",
+    "desc": "E: The first two blessed rerolls that fail or miss are not expended.",
+    "pageNum": 109
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Extra Tough",
+    "req": "Class",
+    "desc": "A: Increase your total number of recoveries by 1.",
+    "pageNum": 114
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "Z: Whenever you are conscious with more than 0 hit points and the escalation die advances, add 20 to your maximum hit points until the end of the battle. This raises your current hit points by 20 as well.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Momentum",
+    "req": "Class",
+    "desc": "C: If your natural initiative roll is even, you start the battle with Momentum.",
+    "pageNum": 114
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Momentum now applies to the first and the second melee attack rolls you make on your turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Threatening",
+    "req": "Class",
+    "desc": "A: If wearing light armor, you gain the “maintaining contact” option of the ranger's Control the Range talent.",
+    "pageNum": 114
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: Whenever an enemy attempts to disengage from you and fails, it's vulnerable to your attacks for the rest of the battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Final Talent",
+    "req": "Class",
+    "desc": "Z: Take an additional Fighter talent from any tier.",
+    "pageNum": 114
+  },
+  {
+    "featType": "Fighter",
+    "featName": "True Bond",
+    "req": "Class",
+    "desc": "Z: Form a connection with one epic magic weapon, armor, or shield. It can speak to you and gains the following additional once per battle ability.",
+    "pageNum": 114
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "Weapon: Turn its hit into a crit with an easy save (6+).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "Armor: Force an enemy to reroll its attack against your AC.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "Shield: Force an enemy to reroll an attack against your PD with a –5 penalty.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Cleave",
+    "req": "Talent",
+    "desc": "A: If your move action is available, you can use it before making your Cleave attack to reach an enemy you are not already engaged with.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: If using a two-handed melee weapon, you can use Cleave twice per battle, but only once per round.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain a +4 attack bonus with your Cleave attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Counter-Attack",
+    "req": "Talent",
+    "desc": "A: Counter-Attack now deals full damage.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: If fighting with two weapons, you can use Counter-Attack twice per battle, but only once per round.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: If fighting with two weapons, you can use Counter-Attack against a natural even miss.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Heavy Warrior",
+    "req": "Talent",
+    "desc": "A: Once per arc, Heavy Warrior can be used twice in a battle.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: If wearing heavy armor and using a shield, reduce the damage by 10 after halving it (8th level: by 20). In addition, you can use the power against an attack that targets PD.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Twice per arc, as a free action, you can add the number of recoveries you've used to a save you roll.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Power Attack",
+    "req": "Talent",
+    "desc": "A: Power Attack can now be used with a fighter maneuver or a flexible attack. If there are multiple attack rolls, Power Attack only applies to the first attack roll.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: Power Attack is now useable when the escalation die is 1+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Skilled Intercept",
+    "req": "Talent",
+    "desc": "A: Getting hit by an enemy you are intercepting does not make you lose Momentum. In addition, you can add the escalation die to your save to pop free and intercept.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and you gain a bonus to your defenses against the moving enemy's attack equal to 2 or the escalation die, whichever is higher.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per battle, you can use Skilled Intercept save to intercept a moving enemy when the enemy is not even moving past you.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Tough as Iron",
+    "req": "Talent",
+    "desc": "A: Once per arc, you can rally twice during a battle as a quick action, without needing to roll a save for the second rally.",
+    "pageNum": 115
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: Increase your total number of recoveries by 2.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: When you roll a natural 19 or 20 on an attack, you gain an additional use of Tough as Iron this battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Comeback Strike",
+    "req": "Talent",
+    "desc": "C: Twice per arc, you can use Comeback Strike twice per battle.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain a +4 attack bonus with Comeback Strike attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Never Defeated",
+    "req": "Talent",
+    "desc": "C: The bonus is now to all your defenses.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: When you rally, you can spend an additional recovery to heal additional hit points.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Big Swing",
+    "req": "Maneuver",
+    "desc": "A: If using a two-handed melee weapon and your first big swing attack in a battle misses, you can use big swing a second time in that battle.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Big swing now targets one or two enemies.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Carve an Opening",
+    "req": "Maneuver",
+    "desc": "A: Once per battle, expand your crit range by 1 when you miss.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: Expand your crit range by 2 when you hit instead of 1.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Escalation Strike",
+    "req": "Maneuver",
+    "desc": "A: Use the alternative damage table.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Grit & Scrap",
+    "req": "Maneuver",
+    "desc": "A: If you miss with the attack, you can use it again later in the battle.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "C: If you have one or more Skulls, you gain an additional use of grit & scrap each battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Melee Footwork",
+    "req": "Maneuver",
+    "desc": "A: If this attack hits, you—or an ally engaged with at least one of the enemies you are engaged with—can make a disengage check with the same melee footwork bonus you used on the attack as a free action.",
+    "pageNum": 116
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Battle Drill",
+    "req": "Maneuver",
+    "desc": "A: If none of the attacks hit, you can use battle drill again later this battle.",
+    "pageNum": 117
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: Usage becomes twice per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Grim Intent",
+    "req": "Maneuver",
+    "desc": "C: Grim intent is now twice per battle.",
+    "pageNum": 117
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Poised Defense",
+    "req": "Maneuver",
+    "desc": "C: If the attack misses, you can use poised defense again later this battle.",
+    "pageNum": 117
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Positioning Strike",
+    "req": "Maneuver",
+    "desc": "C: You now only take one-quarter damage from opportunity attacks until the end of your next turn.",
+    "pageNum": 117
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Thump & Bash",
+    "req": "Maneuver",
+    "desc": "C: Thump & bash is now twice per battle.",
+    "pageNum": 117
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Chop Bludgeon Stab",
+    "req": "Maneuver",
+    "desc": "C: Misses now deal half damage.",
+    "pageNum": 118
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: You can now target up to four enemies, with one attack each.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Blood & Blades",
+    "req": "Maneuver",
+    "desc": "C: If the d8 roll fails, you regain blood & blades after the battle and can use it again in the next fight.",
+    "pageNum": 118
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) As champion feat, but roll a d12 instead of a d8.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Inescapable Strike",
+    "req": "Maneuver",
+    "desc": "E: Inescapable strike is now once per battle.",
+    "pageNum": 118
+  },
+  {
+    "featType": "Fighter",
+    "featName": "I Say Thee, Nay!",
+    "req": "Maneuver",
+    "desc": "E: You can spend a recovery to reroll your I say thee, nay! attack.",
+    "pageNum": 118
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Defensive Fighting",
+    "req": "Flexible Attack",
+    "desc": "A: You also gain the bonus to PD.",
+    "pageNum": 120
+  },
+  {
+    "featType": "Fighter",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces adv) You also gain the bonus to both PD and MD.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Hack & Slash",
+    "req": "Flexible Attack",
+    "desc": "A: If you have move action, you can move before using the triggered damage or half-damage attack vs. a different enemy.",
+    "pageNum": 120
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Steady Iron",
+    "req": "Flexible Attack",
+    "desc": "A: Steady Iron is now twice per battle.",
+    "pageNum": 120
+  },
+  {
+    "featType": "Fighter",
+    "featName": "Heavy Blow",
+    "req": "Flexible Attack",
+    "desc": "C: The target's AC is now reduced by 3.",
+    "pageNum": 121
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Lay on Hands",
+    "req": "Class",
+    "desc": "A: Lay on hands is now twice per arc, and can be used more than once per battle.",
+    "pageNum": 125
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) Lay on hands is now three times per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) Lay on hands is now four times per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "Z: When using lay on hands on an ally, you can spend up to 30 hit points to heal your ally additional hp, double the amount you lost. This cannot drop you to 0 hp.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Smite",
+    "req": "Class",
+    "desc": "A: When Smite drops a non-mook foe to 0 hit points, that use is not expended.",
+    "pageNum": 126
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain +2 attack bonus with Smite attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: When the target of Smite is left with 100 hit points or fewer, it is also weakened until the end of your next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "Z: Each time Smite misses, deal +20 damage (cumulative) with all Smite attacks for the rest of the arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Talent of the Gods",
+    "req": "Class",
+    "desc": "Z: Take an additional paladin talent, any tier",
+    "pageNum": 126
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Bastion",
+    "req": "Talent",
+    "desc": "A: Increase your total number of recoveries by 1.",
+    "pageNum": 126
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: The enemy whose attack was blunted is vulnerable (save ends) to both you and the ally helped with Bastion.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: When Bastion is used, the ally takes no damage. You still lose hit points equal to half the damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Bold",
+    "req": "Talent",
+    "desc": "A: Once per battle, as an interrupt action, when the escalation die is 2+, a nearby ally who missed can reroll the attack. Until the end of the battle your ally is also immune to fear powers and to any non-damage effects of attacks named or described as “fear” effects.",
+    "pageNum": 126
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain a +2 bonus to death saves.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: Nearby allies gain a +1 bonus to death saves.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Evil Way",
+    "req": "Talent",
+    "desc": "A: Once per arc, when the escalation die is 3+, the ally you steal a recovery from doesn't have to be unconscious or last-gasping; merely staggered. When stealing a recovery from a merely staggered ally and miss with the Smite attack, that ally gains a Skull.",
+    "pageNum": 127
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Touch of Death (Evil Way Spell)",
+    "req": "Talent",
+    "desc": "C: Gain a cumulative +1 bonus to all saves for each nearby ally that has at lea one Skull.",
+    "pageNum": 127
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: Touch of death is now twice per arc, though only once per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "God-Touched",
+    "req": "Talent",
+    "desc": "A: You can use Strength as the attack ability for cleric's spells you cast. Bonuses that a magic weapon provides to the attacks also apply to these spells.",
+    "pageNum": 128
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Choose two limited-use cleric spells instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Paladin's Challenge",
+    "req": "Talent",
+    "desc": "A: Once per battle, when the escalation die is 1+, Challenging your foe increases the damage from the melee attack by 10 (5th level: by 20; 8th level: by 45).",
+    "pageNum": 128
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Every time you miss a Challenged foe, your crit range against that foe increases by 1 until you crit it or the Challenge ends.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: Enemies you Challenge are vulnerable to your subsequent attacks, as long as the Challenge is in effect.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Undaunted",
+    "req": "Talent",
+    "desc": "A: Once per battle, after rolling a save, add Charisma modifier to the result.",
+    "pageNum": 128
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, as a free action during your turn, choose to lose hit points equal to your level to reroll a save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain +1 bonus to PD and MD.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Voice of Song",
+    "req": "Talent",
+    "desc": "A: You can use Strength as the attack ability for bard spells and songs you cast. Bonuses that a magic weapon provides to the attacks also apply to these spells or songs.",
+    "pageNum": 128
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "C: Choose two limited-use bard songs or spells instead of one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Champion of the Light",
+    "req": "Talent",
+    "desc": "C: Once per arc, for each battle you have previously fought this arc, gain an attack reroll blessing that can be used as a free action yourself or given to a nearby ally to use as a free action later this battle.",
+    "pageNum": 129
+  },
+  {
+    "featType": "Paladin",
+    "featName": "",
+    "req": "",
+    "desc": "E: When you cast lay on hands on another character that has at least one positive icon relationship point with a heroic icon, they can heal using your recovery roll instead of their own.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Improved Smite",
+    "req": "Talent",
+    "desc": "C: The first time you gain a Skull each battle, gain an additional use of Smite useable in that battle or the next, even if the next battle is in the next arc.",
+    "pageNum": 129
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Holy Avenger",
+    "req": "Talent",
+    "desc": "E: The first time in each battle that you or one of your allies takes a Skull, your next attack with the Holy Avenger that scores a normal hit turns into a critical hit.",
+    "pageNum": 130
+  },
+  {
+    "featType": "Paladin",
+    "featName": "Dragon's Golden Shield",
+    "req": "Talent",
+    "desc": "E: Gain an additional icon relationship point with the Great Gold Wyrm or the Three or with some other draconically relevant icon in your campaign.",
+    "pageNum": 131
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Tracker",
+    "req": "Class",
+    "desc": "A: Gain an additional use of Tracker each arc. The bonus for the additional use on a reroll is now +5.",
+    "pageNum": 136
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: You can track as well in urban areas as you do in the wilderness",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires champ) You can track flying creatures and creatures that normally wouldn't be trackable, and it's likely that even teleportation gives you a hint of direction.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Terrain Stunt",
+    "req": "Class",
+    "desc": "A: At the start of each battle in a non-urban environment, roll a d6. Any time after the escalation die reaches that number, you can use a quick action to execute a Terrain Stunt. At 5th level, you can use Terrain Stunt once more each battle after the escalation die reaches 6+. At 8th level, once per arc, roll a d4 instead of a d6 to determine your Terrain Stunt's escalation count.",
+    "pageNum": 137
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Fey Queen's Enchantments",
+    "req": "Talent",
+    "desc": "A: Once per arc, gather power like a sorcerer to empower your sorcerer spell. As an overspill effect, when you gather power, gain a +2 bonus to the defense of your choice until the start of your next turn.",
+    "pageNum": 138
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Ranger ex Cathedral",
+    "req": "Talent",
+    "desc": "A: Once per battle, cast the cleric class feature heal spell as if you were an Armored cleric, meaning you need to be next to them to cast it on them.",
+    "pageNum": 138
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, but as if you were a Vestment cleric, able to target a nearby ally.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Shadow-touched",
+    "req": "Talent",
+    "desc": "E: You can use the improved version of shadow slip.",
+    "pageNum": 138
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Lethal Hunter",
+    "req": "Talent",
+    "desc": "A: Gain an additional use of lethal hunter each arc.",
+    "pageNum": 138
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Bump lethal hunter damage up one level.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain an additional use of lethal hunter each battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "First Strike",
+    "req": "Talent",
+    "desc": "A: If you use First Strike to target an enemy that has not yet acted this battle, your crit range expands by an additional 2 points.",
+    "pageNum": 139
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Your First Strike crit range applies to all your attacks made against an enemy in the turn you first attack it.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: The crit range of your First Strike attacks expands by 1.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Twin Arrows",
+    "req": "Talent",
+    "desc": "C: When you make a double ranged attack on your turn, your lower roll gains a +4 attack bonus if you chose to attack two targets instead of one.",
+    "pageNum": 139
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Cunning Aim",
+    "req": "Talent",
+    "desc": "C: If one of your attacks against PD hits, your ranged attacks against that enemy that normally target AC can target PD instead until the end of the battle.",
+    "pageNum": 139
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Twice per arc, you can use Cunning Aim to target MD instead of AC. If you have the champion feat, a hit with the ability switches your targeting to MD for the rest of the battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Skirmisher",
+    "req": "Talent",
+    "desc": "A: Also gain a quick action on your skirmisher turns.",
+    "pageNum": 140
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and gain an additional use of skirmisher each arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: When you use skirmisher, roll a d20 and add the escalation die and the number of Skulls living party members possess. If you roll 20+, do not expend this use of the skirmisher action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Combat Archery",
+    "req": "Talent",
+    "desc": "A: Once per arc, when the escalation die is 3+, turn a hit with a ranger ranged attack into a crit.",
+    "pageNum": 140
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Take half damage from opportunity attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Make opportunity attacks with your ranged weapon as if it was a melee weapon.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Control the Range",
+    "req": "Talent",
+    "desc": "A: Once per battle, as an interrupt action, when an enemy has moved to engage you, you can roll a disengage check after that enemy's move has ended and before any other actions.",
+    "pageNum": 140
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain an additional use of skirmisher this battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Sword Way",
+    "req": "Talent",
+    "desc": "A: Once per battle, deal half damage on a miss with a melee attack instead of the normal miss damage.",
+    "pageNum": 141
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, as an interrupt action, force an enemy to reroll a melee attack against you that is not a critical hit. Gain another use of this action when the escalation die reaches 4+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain an additional use of skirmisher this battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Two-Weapon Technique",
+    "req": "Talent",
+    "desc": "A: Gain +1 AC when fighting with two weapons",
+    "pageNum": 141
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, while fighting with two weapons, as an interrupt action, force an enemy to reroll a melee attack against you. If their attack misses, you can make an opportunity attack against them as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: If your first attack drops an enemy, you can use a move action as a free action before resolving your second attack roll. Use the second attack roll you already rolled against the second enemy.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Blur of Blades",
+    "req": "Talent",
+    "desc": "C: After triggering Blur of Blades, gain an attack reroll that can only be used on a skirmisher turn later this battle.",
+    "pageNum": 141
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, trigger Blur of Blades during a skirmisher turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Storm of Arrows",
+    "req": "Talent",
+    "desc": "C: Arrow storm misses now deal half damage.",
+    "pageNum": 142
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, you can target each enemy with up to 2 attacks when using arrow storm.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Animal Companion",
+    "req": "Talent",
+    "desc": "A (Communicative Companion): Your companion is a talking animal and communicates with the rest of the adventurers when it chooses.",
+    "pageNum": 143
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "A (Independent Companion): Your companion can move as freely as any other hero. It takes its turns before or after your turn, you choose.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "A (Relentless Companion): Your companion's attacks now deal miss damage equal to your level.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "A (Savage Companion): Your companion gains an additional two bonus 1/arc uses of its special attack. Only one 1/arc use per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "A (Tough Companion): Raise your companion's hit point threshold by a level.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C (Constant Companion): Your companion starts every battle in play.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C (Pack Mentality): When the escalation die is 2+, your companion rolls 2d20s when attacking an enemy engaged with one of its allies.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "E (Many Friends): Once per arc, you have a bonus companion, appearing as you roll initiative. It does not have to be of the same type as your usual companion. Keep track of the call them in difficulty for each creature separately.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Elemental Nature",
+    "req": "Talent",
+    "desc": "A: When the escalation die reaches 4+, gain a 1/battle use of one of your Elemental Nature spells that you have not already cast this battle.",
+    "pageNum": 146
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Rush Attack",
+    "req": "Class",
+    "desc": "A: When the escalation die is 2+, bump up Rush Attack damage by two levels.",
+    "pageNum": 151
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, reroll an attack that qualified for Rush Attack damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc, when Rush Attack slays a non-mook enemy, gain a bonus move action and a bonus standard action this turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Sneak Attack",
+    "req": "Class",
+    "desc": "A: Sneak Attack also works against enemies who are charmed, confused, dazed, shocked, stunned, vulnerable, or weakened.",
+    "pageNum": 152
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, when the escalation die is 1+, use a quick action to deal Sneak Attack damage to an enemy you are engaged with that qualifies as an enemy as an enemy you could deal Sneak Attack damage to.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Three times per arc, as a free action, you can add your Sneak Attack damage to any hit against one target that would not otherwise have qualified for the damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Skulduggery",
+    "req": "Class",
+    "desc": "A: Gain the bonus power thief's strike in addition to normal number of powers.",
+    "pageNum": 152
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain an additional use of Skulduggery each arc. The bonus for the additional use on a reroll is now +5.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Twice per level, steal something with a successful thief's strike that would ordinarily not be able to be stolen, but the Prince of Shadows could.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Murderous",
+    "req": "Talent",
+    "desc": "A: Gain a +2 attack bonus against staggered enemies.",
+    "pageNum": 152
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Staggered enemies are always vulnerable to your attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Your crit range against staggered enemies expands by 2 (now +4).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Shadow Walk",
+    "req": "Talent",
+    "desc": "A: Add the attack bonus of a melee weapon or arcane implement you are wielding to the shadow walk attack roll.",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain a point of Bravado if you choose to roll the shadow walk attack and hit.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: You can reappear from your shadow walk in a nearby location you wouldn't have been able to reach unimpeded physically.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Shift, Wriggle, and Roll",
+    "req": "Talent",
+    "desc": "A: If the reroll attack misses, gain a point of Bravado.",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, you can use Shift, Wriggle, and Roll twice in a battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: If the rerolled attack you've forced is a miss, you can pop free of all enemies, move to engage the enemy that attacked you, and make a no-trigger melee attack against that enemy as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Tumble",
+    "req": "Talent",
+    "desc": "A: Add the escalation die to your disengage attempts.",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: As a free action, you can spend a point of Bravado to reroll a disengage check with an additional +2 bonus.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Whenever you take critical hit damage, roll a hard save (16+). If you succeed, instead take only half the damage of a normal hit, and none of the attack's non-damage effects.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Danger Trigger",
+    "req": "Class",
+    "desc": "A: If enemies gain an initiative bonus for surprising or ambushing you, you gain the same initiative bonus as them. At 5th level, in addition, if you roll higher initiative than all enemies in a battle, you gain a point of Bravado. At 8th level, once per arc, if you have a higher initiative result than any enemies in the battle, you can use one quick action before the battle truly begins.",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Rogue of Two-Weapons",
+    "req": "Class",
+    "desc": "A: You can now wield two melee weapons and the two-weapon fighting advantage (hitting with your melee attacks on a natural 2).",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Smooth Talk",
+    "req": "Class",
+    "desc": "A: Gain the benefits of the bard's Social Skills class feature.",
+    "pageNum": 154
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Swashbuckle",
+    "req": "Class",
+    "desc": "A: Once per battle, pull off a daring stunt the likes of which others could scarcely conceive.",
+    "pageNum": 155
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Evasive Strike",
+    "req": "Power",
+    "desc": "A: If you drop the target with your evasive strike attack, you can pop free from all enemies instead.",
+    "pageNum": 155
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: If you hit with evasive strike and spend a point of Bravado, gain a +2 bonus to AC and PD against the next attack that targets you this battle (8th level: the +2 defense bonus also extends to MD).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Deadly Thrust",
+    "req": "Power",
+    "desc": "A: Half damage on a miss.",
+    "pageNum": 155
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, reroll a miss on a deadly thrust attack with a +4 bonus.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Flying Blade",
+    "req": "Power",
+    "desc": "A: If you have a magic melee weapon, it can share its default bonus with the small, bladed weapons you're throwing with flying blade. If you're using a hand crossbow, reloading is a free action for you even if it isn't magical.",
+    "pageNum": 155
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per battle, throw blades at two targets instead of one, or fire the hand crossbow at two targets with a free reload between attacks.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Roll With It",
+    "req": "Power",
+    "desc": "A: The power can trigger with any attack against AC, not just melee.",
+    "pageNum": 155
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and it's now usable twice per battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Slick Feint",
+    "req": "Power",
+    "desc": "A: If the second attack is against a different target than the first attack, the second attack can be against PD.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: If the first against MD misses, you get your point of Bravado back.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Sure Cut",
+    "req": "Power",
+    "desc": "C: When you hit with sure cut, the target is vulnerable to the next attack that targets it.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Tumbling Strike",
+    "req": "Power",
+    "desc": "A: You can reroll disengage check you're making with tumbling strike and abide by the reroll.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Bleeding Strike",
+    "req": "Power",
+    "desc": "A: You can use bleeding strike a second time in a battle by spending 1 point of Bravado.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: Misses with bleeding strike now also deal half the ongoing damage they would have dealt with a hit (in addition to standard miss effects).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Deflection",
+    "req": "Power",
+    "desc": "C: The power also triggers on a missed ranged attack against AC.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) The power now triggers on any miss against your AC or PD.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "So Cool",
+    "req": "Power",
+    "desc": "C: When you use so cool, roll a normal save. If you succeed, gain a second point of Bravado.",
+    "pageNum": 156
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Suppressing Strike",
+    "req": "Power",
+    "desc": "A: The hindered effect can now also work against staggered double-strength targets.",
+    "pageNum": 157
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and the hindered effect can now also work against staggered triple-strength targets.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain two additional uses of suppressing strike per arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Thief's Strike",
+    "req": "Power",
+    "desc": "A: Twice per arc, deal full damage with thief's strike instead of half damage.",
+    "pageNum": 157
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Cut After Cut",
+    "req": "Power",
+    "desc": "E: You can now score a critical hit with the attacks.",
+    "pageNum": 157
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Flick of the Wrist",
+    "req": "Power",
+    "desc": "C: Once per arc, use flick of the wrist a second time in a battle.",
+    "pageNum": 157
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Sly Dodger",
+    "req": "Power",
+    "desc": "C: The defense bonus now also applies to any other attack rolls made against you by the same enemy this turn.",
+    "pageNum": 157
+  },
+  {
+    "featType": "Rogue",
+    "featName": "",
+    "req": "",
+    "desc": "E: After the enemy's attack misses you when you use sly dodger, you can immediately take a move action as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Coup de Killer",
+    "req": "Power",
+    "desc": "E: Spend 2 Bravado to use coup de killer a second time in an arc.",
+    "pageNum": 158
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Death's Twin",
+    "req": "Power",
+    "desc": "E: If your attack against your first death's twin target is a natural even hit or miss, you can make your second basic attack against that same target.",
+    "pageNum": 158
+  },
+  {
+    "featType": "Rogue",
+    "featName": "Key to Shadow",
+    "req": "Power",
+    "desc": "E: The attack is now a basic melee attack instead of a no-trigger melee attack, so you can add Sneak Attack/Rush Attack damage and gain Bravado if it hits.",
+    "pageNum": 158
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Chain",
+    "req": "Class",
+    "desc": "A: Once per arc, when you cast a chain spell, you may chain the spell to one final additional target. This extra attack deals half damage with no chance of chaining again.",
+    "pageNum": 163
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Gather Power",
+    "req": "Class",
+    "desc": "A: Gain the surge shield overspill.",
+    "pageNum": 164
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Reverberate",
+    "req": "Class",
+    "desc": "C: Once per arc, you can cast a spell that lists Reverberate as its champion feat a second time in the round after you cast it the first time. The spells are accursed drain, catastrophic blast, echoing thunder, unhallowed torrent, and wild flare.",
+    "pageNum": 164
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Surging",
+    "req": "Class",
+    "desc": "A: Twice per arc, you can reroll the number of targets for any spell that lists Surging as its adventurer feat. The spells are accursed drain, catastrophic blast, energy lash, energy wave, and unhallowed torrent.",
+    "pageNum": 165
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Wild Breath",
+    "req": "Class",
+    "desc": "A: When you cast any spell that lists Wild Breath as its adventurer feat, you deal 5 damage to an additional nearby enemy that is not otherwise targeted by the spell (5th level: 10 damage; 8th level: 20 damage). The spells are breath of black acid, breath of blue lightning, breath of empty void, breath of green poison, breath of red fire, breath of silver mist, breath of white ice, golden shield, and three dooms.",
+    "pageNum": 165
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Wracking Echo",
+    "req": "Class",
+    "desc": "E: Once per arc, deal an additional 20 ongoing damage to one target that you hit with any spell that has the Wracking Echo feat. The spells are accursed drain, cascade, and three dooms.",
+    "pageNum": 165
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Arcane Heritage",
+    "req": "Talent",
+    "desc": "A: Gain the wizard class feature: Cantrip, and gain one use per arc of the wizard's utility spell as a bonus spell.",
+    "pageNum": 165
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per battle, as a free action after you have rolled a spell attack, your spell can ignore all forms of resistance.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per battle, when an enemy cancels, counter-magics, or otherwise magically shuts down one of your spells, reverse the cancellation as a free action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Chromatic Heritage",
+    "req": "Talent",
+    "desc": "A: Once per arc, automatically succeed at the save for Chromatic Heritage breath weapon targeting an additional foe.",
+    "pageNum": 165
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: The flaring wings bonus to disengage checks applies every time you gather power, regardless of whether you use an overspill effect.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per arc you get a dragon-trick of your choice.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Fey Heritage",
+    "req": "Talent",
+    "desc": "A: If you roll a twist with an Elf Queen relationship advantage, the twist should be more beneficial now, and more interesting later.",
+    "pageNum": 166
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Roll twice, then use just one of the two bonus kin powers each battle.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Gain unearthly glamour as a bonus spell instead of a class feature you have to swap for. When you cast unearthly glamour, roll a d6. On a 6, also gain an icon connection with the Elf Queen that must be used by the end of the arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Infernal Heritage",
+    "req": "Talent",
+    "desc": "A: Gain both the random infernal abilities you roll on the d6. If both have the same result, reroll one until it is different.",
+    "pageNum": 166
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Your infernal overspill effect now damages an additional 1d4 enemies.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: When the escalation die reaches 6+, gain an ability of your choice from the list.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Metallic Protector Heritage",
+    "req": "Talent",
+    "desc": "A: The overspill bonus also applies to one nearby ally of your choice.",
+    "pageNum": 166
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and the overspill bonus increases by an additional +2 for both you and the chosen ally.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: The overspill bonus now applies to all defenses, not just AC.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Spell Fist",
+    "req": "Talent",
+    "desc": "A: You can use the d8 melee weapons listed for sorcerers without attack penalties.",
+    "pageNum": 167
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Gain the fourth Spell Fist advantage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Twice per battle, you can include one enemy engaged with you as an additional target of any attack spell you cast that targets other enemies.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Touch of Chaos",
+    "req": "Talent",
+    "desc": "A: Exclude at-will spells from the spells you acquire randomly from this talent.",
+    "pageNum": 167
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Undead Remnant Heritage",
+    "req": "Talent",
+    "desc": "A: You now die at seven Skulls. You also now die at negative 75% of your hit points.",
+    "pageNum": 167
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Burning Hands",
+    "req": "Spell",
+    "desc": "A: The first time each attack that you roll a natural 18+ with a burning hands attack roll, you can choose another nearby target for the spell. The new target doesn't have to be part of the original group and can't have been one of the original targets.",
+    "pageNum": 168
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: You can now target each enemy engaged with you with your burning hands spell in addition to any other targets.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Chaos Bolt",
+    "req": "Spell",
+    "desc": "A: You can now target far-away targets with chaos bolt.",
+    "pageNum": 168
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, cast two chaos bolts using a single standard action, so long as they target different creatures.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) Twice per arc, cast two chaos bolts using a single standard action, so long as they target different creatures.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Scorching Ray",
+    "req": "Spell",
+    "desc": "A: Once per battle, you can reroll your scorching ray attack once, but if you do, do not regain the use of the spell until a quick rest.",
+    "pageNum": 168
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: The save against the ongoing fire damage is now a normal save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Your crit range with at-will sorcerer spells increases by 3.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Blue Lightning",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 169
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: When the target fails a save against the “Spark,” the damage is dealt to the three closest nearby allies instead of just one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of White Ice",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 169
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Echoing Thunder",
+    "req": "Spell",
+    "desc": "A: The spell's aftershock damage is cued up even if the attack misses.",
+    "pageNum": 169
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Reverberate (grated by core feat, see reverberate entry",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Energy Wave",
+    "req": "Spell",
+    "desc": "A: Surging (granted by core feat, see surging entry).",
+    "pageNum": 170
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Lightning Fork",
+    "req": "Spell",
+    "desc": "A: You can now target far-away targets with lightning fork, but once you target a far-away target, you cannot bring the lightning fork “back” to target a nearby enemy.",
+    "pageNum": 170
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: If you cast this spell when the escalation die is 3+, the spell is a recharge 11+ spell for this casting only instead of an arc spell. If the recharge roll fails, the spell goes back to being an arc spell.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Resist Energy",
+    "req": "Spell",
+    "desc": "A: You may choose one additional target of the spell.",
+    "pageNum": 170
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: The recharge roll drops to 6+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Black Acid",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 170
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: The ongoing damage from an odd hit or miss now also applies to all natural rolls of 2+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Catastrophic Blast",
+    "req": "Spell",
+    "desc": "A: Surging (granted by core feat, see surging entry).",
+    "pageNum": 171
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Reverberate (granted by core feat, see reverberate entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Head Wrecker",
+    "req": "Spell",
+    "desc": "E: The critical hit range is +4 and expands by 4 with each subsequent target.",
+    "pageNum": 171
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Unhallowed Torrent",
+    "req": "Spell",
+    "desc": "A: Surging (granted by core feat, see surging entry).",
+    "pageNum": 171
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Reverberate (granted by core feat, see reverberate entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Golden Shield",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 172
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Double the maximum hit point increase if the spell is empowered.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: The spell can now target up to three nearby or far-away enemies or up to four engaged enemies.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Wild Flare",
+    "req": "Spell",
+    "desc": "A: Once per arc, you may reroll the randomly determined target.",
+    "pageNum": 172
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Reverberate (granted by core feat, see reverberate entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Green Poison",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 172
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Misses now deal an additional 10 ongoing poison damage, hard save ends (8th level: 20 ongoing).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Silver Mist",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 172
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Your hit points also increase by +10 until the end of the battle (8th level: +20).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Energetic Auras",
+    "req": "Spell",
+    "desc": "C: The spell now targets 1d3 + 1 allies, if that's higher than the escalation die.",
+    "pageNum": 174
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) If cast when empowered, bump the effect on your allies' attacks up by one level.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Energy Lash",
+    "req": "Spell",
+    "desc": "A: Surging (granted by core feat, see surging entry).",
+    "pageNum": 174
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "The Queen's Shadows",
+    "req": "Spell",
+    "desc": "C: If you have at least one icon relationship point with the Elf Queen or the Prince of Shadows, this spell can still only be cast in one battle per arc, but during that battle, can be recast as many times as you like. Each casting after the first deals only half damage and does not provide an extra use of the overspill effect.",
+    "pageNum": 174
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Accursed Drain",
+    "req": "Spell",
+    "desc": "A: Surging (granted by core feat, see surging entry).",
+    "pageNum": 175
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Reverberate (granted by core feat, see reverberate entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Wracking echo (granted by core feat, see wracking echo entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Red Fire",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 175
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: If the escalation die is 6+, this spell deals double damage (triple if empowered, triple on a crit, quadruple on an empowered crit).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Cascade",
+    "req": "Spell",
+    "desc": "E: Wracking echo (granted by core feat, see wracking echo entry).",
+    "pageNum": 175
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Three Dooms",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 176
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: Wracking echo (granted by core feat, see wracking echo entry).",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Breath of Empty Void",
+    "req": "Spell",
+    "desc": "A: Wild breath (granted by core feat, see wild breath entry).",
+    "pageNum": 176
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: You can target far-away enemies, and missing doesn't damage you.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Calling the High",
+    "req": "Spell",
+    "desc": "A: You roll three d6s and can choose the icon if any two of them match.",
+    "pageNum": 176
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Abjuration",
+    "req": "Talent",
+    "desc": "A: Your Abjuration shields/wards degrade slowly instead of all at once, so when the +4 bonus ends, it becomes a +2 bonus that lasts until the end of your next turn.",
+    "pageNum": 182
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: When you gain the +4 Abjuration bonus, one nearby ally shares the ward and gets a +2 bonus to all defenses until the end of your next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Evocation",
+    "req": "Talent",
+    "desc": "A: When you use Evocation, you can reroll each natural attack roll that's less than or equal to the escalation die once.",
+    "pageNum": 183
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and you can now use Evocation when the escalation die is 1+.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: You can now use Evocation with spells that target MD.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "High Arcana",
+    "req": "Talent",
+    "desc": "A: Gain an additional use of counter-magic each arc.",
+    "pageNum": 183
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The saves for double-strength and triple-strength creatures become one notch harder, and elite targets need a natural 20 to save against your counter-magic.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: If you successfully negate a limited-use spell or power with a natural even roll, your target also loses that use of the spell or power.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Vance's Polysyllabic Verbalizations",
+    "req": "Talent",
+    "desc": "A: Gain the ability to use the move action R&D option.",
+    "pageNum": 184
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires adv) Three times per arc, you can use VPV R&D on the arc spells you gain using VPV R&D. They keep dropping a level lower each time.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Cantrip Mastery",
+    "req": "Class",
+    "desc": "A: Cantrips are at-will spells for you. In addition, you can cast a cantrip as a quick action. At 5th level, you can use cantrip-style versions of any wizard spell you have memorized, even if you have already expended the spell. At 8th level, you can replace one of your normal spells with a once per arc spell related to one of your cantrips that has much greater effect than the cantrip, about the power of one of your normal spells of that level.",
+    "pageNum": 185
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Magic Missile",
+    "req": "Class",
+    "desc": "A: You can cast magic missile once per arc.",
+    "pageNum": 186
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) You can cast magic missile in a second battle per arc, and you get +1 missile each time.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (requires adv & champ) You can cast magic missile in a third battle per arc, and you get an additional +3 missiles each time.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Utility Spell",
+    "req": "Spell",
+    "desc": "A: Each utility spell you take lets you cast two spells from the available options instead of one (5th level: three spells instead of two; 8th level: four spells instead of three).",
+    "pageNum": 186
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Mana Storm",
+    "req": "Spell",
+    "desc": "A: Targets can now be far-away, and the lightning version targets 1d3 + 1 foes.",
+    "pageNum": 189
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Once per arc, reroll a mana storm attack.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Ray of Frost (and Fire)",
+    "req": "Spell",
+    "desc": "A: When your ray of frost attack roll is a natural even hit, if the target is staggered after taking the damage, it is also dazed until the end of your next turn.",
+    "pageNum": 189
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: You may target exactly six foes with ray of frost, in which case the spell deals half damage (hit or miss), but it's fire damage, not cold damage.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Shocking Grasp",
+    "req": "Spell",
+    "desc": "A: The spell deals damage as if it were one level higher.",
+    "pageNum": 189
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: You can cast the spell as a quick action (still first action only), in which case it deals half damage on a hit and none on a miss.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Once per battle, when you hit a target of the spell, they are also dazed until the end of your next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Acid Arrow",
+    "req": "Spell",
+    "desc": "A: Double the ongoing damage if you hit.",
+    "pageNum": 190
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: If the escalation die is 3+, your crit range with acid arrow expands by 2.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Color Spray",
+    "req": "Spell",
+    "desc": "A: Increase the hit point threshold of the weakened effect by 5 (5th level: by 10; 8th level: by 20).",
+    "pageNum": 191
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The spell now targets 1d4 + 1 nearby enemies in a group.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Force Salvo",
+    "req": "Spell",
+    "desc": "A: You can now target far-away enemies, and your critical hit range with this spell expands by 1.",
+    "pageNum": 191
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: Target up to five foes.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Target each foe with up to two bolts.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Rebuke",
+    "req": "Spell",
+    "desc": "A: Damage on hits and misses is now double your level, and the save is now normal.",
+    "pageNum": 191
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: When you roll a natural even miss against the target, you daze it until the end of your next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Shield",
+    "req": "Spell",
+    "desc": "A: Hit or miss, you take only half damage from any attack you use shield against.",
+    "pageNum": 191
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: You can cast shield when an ally you are next to is hit.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: The spell deals 30 force damage to the attacker, negating the reroll if the attacker is brought down.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Confusion",
+    "req": "Spell",
+    "desc": "C: You can now target a far-away foe. After the target recovers from the confusion, it is dazed (save ends).",
+    "pageNum": 192
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Curse of Greater Pain",
+    "req": "Spell",
+    "desc": "A: You can now target far-away enemies, and your critical hit range expands by 1.",
+    "pageNum": 192
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: If you miss, you may retarget the spell against a second foe instead of dealing half damage to the first one.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Lightning Bolt",
+    "req": "Spell",
+    "desc": "C: A natural even hit also deals 15 ongoing lightning damage (8th level: 20 ongoing lightning damage, and the save is a hard save).",
+    "pageNum": 192
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: Lightning bolt can now be cast 2/arc, but the escalation die must be 3+ the second time.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "Z: For your spells that deal lightning damage, increase the crit range by 2.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Teleport Shield",
+    "req": "Spell",
+    "desc": "C: When your teleport shield attack misses, the spell's attack is not expended that round.",
+    "pageNum": 193
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: You can now teleport the enemy somewhere far-away that you can see; other restrictions still apply.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Denial",
+    "req": "Spell",
+    "desc": "C: Increase the number of targets by up to 1.",
+    "pageNum": 193
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: When you roll a natural even miss with the spell, the target is also dazed until the end of your next turn.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Dimension Door",
+    "req": "Spell",
+    "desc": "C: After using dimension door for the first time in a battle, you can roll a normal save each time you are hit by an enemy attack later in the battle. If the save succeeds, you gain an extra use of this dimension door teleport effect. Each time you use dimension door, it requires a move action.",
+    "pageNum": 193
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Fireball",
+    "req": "Spell",
+    "desc": "C: You can wait to decide whether to cast the spell recklessly until after you have rolled for the initial number of targets.",
+    "pageNum": 193
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: If you cast the spell recklessly, it becomes a recharge 16+ spell for you the rest of the arc.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "Z: All your spells that deal fire damage deal +10 fire damage, hit or miss, to each target.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Haste",
+    "req": "Spell",
+    "desc": "C: One target of your choice can reroll an attack roll or disengage check they make with their action. If the escalation die is 3+, all the targets may do so.",
+    "pageNum": 194
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Blink",
+    "req": "Spell",
+    "desc": "E: Resistance changes to resist damage 18+ until the target is hit once, then drops to resist damage 16+. Increase the teleport chance by 20%.",
+    "pageNum": 194
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Hold Foe",
+    "req": "Spell",
+    "desc": "C: You can cast the spell on two targets if they each have half the listed hit points or fewer.",
+    "pageNum": 194
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: The target loses its next standard action instead of its next move action; if the escalation die is 3+, it loses its next standard action and move action.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Disintegrate",
+    "req": "Spell",
+    "desc": "E: Increase damage to 80 (9th level) or 100 (10th level). You can now target a far-away creature.",
+    "pageNum": 195
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Meteor Swarm",
+    "req": "Spell",
+    "desc": "E: The miss damage increases to half damage.",
+    "pageNum": 195
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Teleport",
+    "req": "Spell",
+    "desc": "E: Your allies don't need to be next to you before you cast the spell, just nearby. Alternatively, if they are all next to you when you cast the spell, you can teleport to a location known to one of your allies.",
+    "pageNum": 197
+  },
+  {
+    "featType": "Ranger",
+    "featName": "Ranger's Pet",
+    "req": "Talent",
+    "desc": "A: Your pet gains another ability.",
+    "pageNum": 198
+  },
+  {
+    "featType": "Ranger",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) As adventurer feat, and your pet gives a +5 bonus to your first two death saves each battle and a +3 bonus to all last gasp saves.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "Sorcerer's Familiar",
+    "req": "Talent",
+    "desc": "A: Your familiar gains tough as a permanent ability.",
+    "pageNum": 198
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "C: Your familiar gains another ability, forever.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Sorcerer",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces adv) As adventurer feat, and the save to find your familiar's spell becomes an easy save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "Wizard's Familiar",
+    "req": "Talent",
+    "desc": "A: Your familiar gains another ability.",
+    "pageNum": 198
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "C: The save to find your familiar's spell becomes an easy save.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Wizard",
+    "featName": "",
+    "req": "",
+    "desc": "E: (replaces champ) Your familiar is reliable, and you don't have to roll a save to access its end-is-not-the-end spell. You get it as soon as you've cast your last limited-use spell.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Universal",
+    "featName": "Further Backgrounding",
+    "req": "Universal",
+    "desc": "A: Gain 2 background points to add to existing or new backgrounds. The maximum number of points you can assign to a background increases by +1.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "",
+    "req": "",
+    "desc": "C: Same as adventurer feat.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Universal",
+    "featName": "",
+    "req": "",
+    "desc": "E: Same as adventurer feat.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Universal",
+    "featName": "Improved Connections",
+    "req": "Universal",
+    "desc": "A: Once per level, you can treat a failed icon die roll as if it had succeeded with a 6. You must still roll for a twist when you use the icon connection.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "",
+    "req": "",
+    "desc": "C: (replaces adv) You also gain an additional icon relationship die.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Universal",
+    "featName": "Improved Initiative",
+    "req": "Universal",
+    "desc": "A: Gain a +4 bonus to Initiative checks. At 5th level, the bonus is +5 instead. At 8th level, the bonus is +6 instead.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "Linguist",
+    "req": "Universal",
+    "desc": "A: If your campaign cares about languages, you speak enough of standard humanoid languages to comprehend enough of what most other humanoids are saying. You are not fluent, no one will mistake you for a native speaker, and your vocabulary is adventurer-centric. You can also read enough to get by in all these languages.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "",
+    "req": "",
+    "desc": "C: (requires adv) You can speak, read, and write all the humanoid languages fluently. Stranger languages are no problem for you either.",
+    "pageNum": ""
+  },
+  {
+    "featType": "Universal",
+    "featName": "Powerful Kin",
+    "req": "Universal",
+    "desc": "E: Gain a second kin power from your kin.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "Precise Shot",
+    "req": "Universal",
+    "desc": "A: When your ranged or close-quarters attack targets an enemy who is engaged with an ally, you have no chance of hitting that ally. This applies to spells as well as weapon attacks.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "Rapid Reload",
+    "req": "Universal",
+    "desc": "A: Reloading a heavy crossbow now takes only a quick action. Reloading a hand or light crossbow is a free action.",
+    "pageNum": 211
+  },
+  {
+    "featType": "Universal",
+    "featName": "Reach Tricks",
+    "req": "Universal",
+    "desc": "A: Once per battle, tell the GM how you are using your weapon's reach to perform an unexpected stunt. To use the stunt, you must roll a 6+ on a d20.",
+    "pageNum": 212
+  },
+  {
+    "featType": "Universal",
+    "featName": "Ritual Casting",
+    "req": "Universal",
+    "desc": "A: You can cast any spells you know as rituals. Classes that are already ritual casters don't need this feat.",
+    "pageNum": 212
+  },
+  {
+    "featType": "Universal",
+    "featName": "Skill Escalation",
+    "req": "Universal",
+    "desc": "A: Twice per arc, add the escalation die to one of your skill checks. Choose after you roll the check.",
+    "pageNum": 212
+  },
+  {
+    "featType": "Universal",
+    "featName": "Strong Recovery",
+    "req": "Universal",
+    "desc": "A: When you roll recovery dice, add +3 to the result. At 5th level, add +6 instead. At 8th level, add +12 instead.",
+    "pageNum": 212
+  },
+  {
+    "featType": "Universal",
+    "featName": "Toughness",
+    "req": "Universal",
+    "desc": "A: Gain additional hit points equal to your baseline class hit points. At 5th level, the total bonus hit points increase to double your baseline hit point value. At 8th level, the total bonus hit points increase to quadruple your baseline hit point value.",
+    "pageNum": 212
+  },
+  {
+    "featType": "Universal",
+    "featName": "Zenith Adventurer",
+    "req": "Universal",
+    "desc": "Z: Gain one epic-tier feat and one adventurer-tier feat.",
+    "pageNum": 212
+  }
+]

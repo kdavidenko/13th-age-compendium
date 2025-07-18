@@ -1,0 +1,45 @@
+.FeatsPage {
+  position: relative;
+}
+
+.info-icon {
+  margin-left: 3px;
+}
+
+.Kin-feat {
+  background: #AEE5E0;
+}
+
+.Barbarian-feat {
+  background: #F4A3A3;
+}
+
+.Bard-feat {
+  background: #D6B3FF;
+}
+
+.Cleric-feat {
+  background: #FBE6A2;
+}
+.Fighter-feat {
+  background: #CCCCCC;
+}
+.Paladin-feat {
+  background: #E3E6F3;
+}
+.Ranger-feat {
+  background: #B9E0C4;
+}
+.Rogue-feat {
+  background: #CFCFCF;
+}
+.Sorcerer-feat {
+  background: #F2B6B6;
+}
+.Wizard-feat {
+  background: #B3D4FC;
+}
+
+.Universal-feat {
+  background: #F5D7B3
+}

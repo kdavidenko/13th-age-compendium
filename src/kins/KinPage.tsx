@@ -13,6 +13,7 @@ function KinPage() {
         <div>To help in selection, on the left is the official term for the Kin and on the right is the common equivalent (such as "The Lost/Tiefling"). These terms are interchangeable.</div>
         <div>If you are not using a race from the core rulebook, it will likely not be in Foundry and you'll have to port the power over. I can help with any settings required to make it function properly.</div>
         <div>Ignore any specified abilities score increase (such as "+2 to Dexterity or Wisdom") and just take a +2 bonus to any stat of your choice. If there is a special note or restriction, such as with Ogre/Giantkin, you still have to adhere to that.</div>
+        <div><i>NOTE: Homebrew/3rd Party kin are marked with an *</i></div>
       </div>
       { 
         Kins.kins.map(function(Kin, i) {

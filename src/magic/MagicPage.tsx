@@ -1,6 +1,6 @@
 import { RegionState } from 'app/reducers/regionReducer';
 import { useSelector } from 'react-redux';
-import './Magic.css';
+import './MagicPage.css';
 
 function MagicPage() {
   const location = useSelector<RegionState, RegionState['region']>((state:any) => state.regionReducer.region)

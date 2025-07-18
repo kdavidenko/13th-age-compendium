@@ -1,7 +1,7 @@
 {
     "kins": [
         {
-            "title": "Aven/Aarakocra",
+            "title": "Aven/Aarakocra*",
             "img": "https://images.squarespace-cdn.com/content/v1/5bd88db093a6320f071b1a50/52d4fa87-631d-4d35-8f6a-3bacbcd44047/5e_ToA_Aarakocra.png",
             "desc": "Mystical eagle-people who can fly. Tend to be reclusive.",
             "srd": "",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "title": "Chalonian/Tortle",
+            "title": "Chalonian/Tortle*",
             "img": "/13th-age-compendium/img/kinImg/tortle.jpg",
             "desc": "Hailing originally from the southern coasts of the mainland, the Chalonian people have traveled far and wide alongside the orcs. Valued for their laconic wisdom and naturally dense armor, they are among the most respected kin in Morkarr and few expeditions have none on the vessel.",
             "setting": ["mainland", "urthu"],
@@ -96,7 +96,7 @@
             "title": "Dragonborn",
             "img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Chromatic-Dragonborn-Dungeons-and-Dragons-Cover.jpg",
             "desc": "Dragon-like people. They are as varied as their draconic kin",
-            "srd": "https://www.13thagesrd.com/races/beastblooded/",
+            "srd": "https://www.13thagesrd.com/races/dragonic-dragonspawn/",
             "setting": ["mainland"],
             "names": [
                 "The individual names of Dragonborn are always a personal name combined with whatever subrace they are in place of a surname.",
@@ -207,7 +207,7 @@
             ]
         },
         {
-            "title": "Fairy",
+            "title": "Fairy*",
             "img": "https://static.wixstatic.com/media/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg/v1/fill/w_600,h_850,al_c,q_85,enc_auto/3656ed_11a193d7208a4e6f83057d5a0c720935~mv2.jpg",
             "desc": "Tricky, small, and swift. They have their own rules of behavior that can seem rather alien.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/pixie-3pp/",
@@ -314,7 +314,7 @@
             ]
         },
         {
-            "title": "Irmannan/Shadowkin",
+            "title": "Irmannan/Shadowkin*",
             "img": "/13th-age-compendium/img/kinImg/irmannan.jpg",
             "desc": "The residents of Irmanna, the Silent City, eventually take on its characteristics. Shrouded in the stony hollows between the Shell and the Near Sisters, they practice their crafts, which include a form of necromancy that has never drawn the Gaze of the Fallen. They are not often seen outside of their home, but inspire dread and fear when they do. Irmannan necromancy has allowed many to speak directly to the dead without severe consequences, and so the strange folk are tolerated. Irmannan can look like any Kin, but their Kin Powers and identity are Irmannan.",
             "setting": ["urthu"],
@@ -359,7 +359,7 @@
             ]
         },
         {
-            "title": "Kandali/Kobold",
+            "title": "Kandali/Kobold*",
             "img": "https://www.belloflostsouls.net/wp-content/uploads/2023/08/kobold-feat.jpg",
             "desc": "Small dragon-like creatures forsaken by higher powers",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/kobold-3pp/",
@@ -538,7 +538,7 @@
             ]
         },
         {
-            "title": "Ocotzli/Serpentfolk",
+            "title": "Ocotzli/Serpentfolk*",
             "img": "/13th-age-compendium/img/kinImg/ocotzli.jpg",
             "desc": "Similar to their cousins, the Yazatli, the Ocotzli are Yazatli who, in ancient times, adhered to the call of the sea and gave veneration to the Leviathan. They vanished beneath the waves for generations until the great elemental lord's return over 25 years ago. Now they have taken up residence throughout the Serpentswrath Isles, and have made overtures of peace, but there is still little trust between them and the other societies. Among the Ocotzli are several breeds or castes, ranging from nearly human to serpentine.",
             "srd": "",
@@ -584,7 +584,7 @@
             ]
         },
         {
-            "title": "Ogre/Giantkin",
+            "title": "Ogre/Giantkin*",
             "img": "https://www.pcinvasion.com/wp-content/uploads/2020/10/Baldurs-Gate-3-Ogre-summon-Lumps-War-Horn-Lump-the-Enlightened-One-.jpg",
             "desc": "Crude and brutal, their lives revolve around meals and strength.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kinoko-games/half-ogre-3pp/",
@@ -626,7 +626,7 @@
             ]
         },
         {
-            "title": "Sahuagin / Sharkfolk",
+            "title": "Sahuagin / Sharkfolk*",
             "img": "/13th-age-compendium/img/kinImg/sahuagin.jpg",
             "desc": "People from far beneath the waves of the great ocean. They do not do well when away from salt water for long, but through magical support they can adventure well. They are renowned for their abilities to traverse the sea and each of their vast underwater nation serves their Leviathan. On Urthu, the most powerful Leviathan is the Breaker, but recently other nations have encroached on this new frontier.",
             "setting": ["urthu"],
@@ -739,7 +739,7 @@
             ]
         },
         {
-            "title": "Thraskan/Mantisfolk",
+            "title": "Thraskan/Mantisfolk*",
             "img": "/13th-age-compendium/img/kinImg/thraskan.jpg",
             "desc": "An ancient insectoid people organized into hives with a natural talent for magical song. Among all the Kin of Myrr they are among the most widespread but the most reclusive. They live in extended familiy clusters of thirty to thirty thousand individuals and each hive has its own Song. Periodically, a hive will send individuals out to share their updated Song with one of the Lorekeepers, functionally immortal Thraskan mages that have the song of every hive, especially the extinct ones, memorized.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/kobold-press/roachling-3pp/",
@@ -785,7 +785,7 @@
             ]
         },
         {
-            "title": "Sukrah/Werefolk",
+            "title": "Sukrah/Werefolk*",
             "img": "https://www.dandwiki.com/w/images/9/98/Werewolf_Splash.jpeg",
             "desc": "People cursed by Kah-y-Rah to walk as lycanthropes or other were-creatures but who maintain their intelligence and personality.",
             "setting": ["mainland"],
@@ -808,7 +808,7 @@
             ]
         },
         {
-            "title": "Ukaru/Desertfolk",
+            "title": "Ukaru/Desertfolk*",
             "img": "/13th-age-compendium/img/kinImg/ukaru.jpg",
             "desc": "Goat-like Nomadic desert dwellers with arguably the best marksmen in the world. Each one wears a unique wooden/cashmere mask made by their mother from her own wool and wood gathered by their father. It is a grave insult to take another's mask, even a bitter enemy, and replacements are never made. Conflicts between groups cease to find and return masks that end up taken or lost. The clans cycle their route around Osis and its freshwater lake. They are indigenous to the Smokesands Desert and the regions north of Mori's Wall.",
             "setting": ["urthu"],
@@ -856,7 +856,7 @@
             ]
         },
         {
-            "title": "Yazatli/Snakefolk",
+            "title": "Yazatli/Snakefolk*",
             "img": "/13th-age-compendium/img/kinImg/yazatli.jpg",
             "desc": "Cunning multi-caste snake-people from a distant island chain.",
             "srd": "",
@@ -902,7 +902,7 @@
             ]
         },
         {
-            "title": "Ysthar/Lizardfolk",
+            "title": "Ysthar/Lizardfolk*",
             "img": "/13th-age-compendium/img/kinImg/ysthar.jpg",
             "desc": "Cosmically obsessed reptilians with a perspective of time occurring all at once. They are an ancient people who span the whole of the world. They can appear like banded geckos, arboreal lizards, monitors or bulky crocodilians. They are found most places and tend to travel in clan-groups of five to thirty. Of all the Kin of Myrr, they are the most cosmically aware, this has led them to a widespread perspective of content nihilism and as such are focused more intently on the Now than the past or future.",
             "srd": "https://www.13thagesrd.com/races/3rd-party-races/jon-brazer-enterprises/lizardfolk/",
