@@ -8,7 +8,7 @@
 
 .feat-tier {
   margin-top:12px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.75);
 }
 
 .feat-tier-title {
@@ -18,6 +18,10 @@
 
 .feat-tier:only-child {
   margin-top:0px;
+  border-bottom:none;
+}
+
+.feat-tier:last-child {
   border-bottom:none;
 }
 

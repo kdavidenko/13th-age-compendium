@@ -83,13 +83,13 @@ function FeatsPage() {
           </Typography>
       </Popover>
       <hr />
-    <TableContainer component={Paper} sx={{ minWidth: 650, maxHeight: 750 }}>
+    <TableContainer component={Paper} sx={{ maxHeight: 750 }}>
       <Table aria-label="simple table" stickyHeader>
         <TableHead>
           <TableRow className='table-headers'>
             <TableCell><h3>Name</h3></TableCell>
+            <TableCell align="left"><h3>Type</h3></TableCell>
             <TableCell align="left"><h3>Source</h3></TableCell>
-            <TableCell align="left"><h3>Pre-Req</h3></TableCell>
             <TableCell align="left"><h3>Description</h3></TableCell>
           </TableRow>
         </TableHead>
