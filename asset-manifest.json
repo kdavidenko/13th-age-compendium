@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/13th-age-compendium/static/css/main.d7a6b296.css",
-    "main.js": "/13th-age-compendium/static/js/main.ce8d2dd1.js",
+    "main.css": "/13th-age-compendium/static/css/main.f41e9ed9.css",
+    "main.js": "/13th-age-compendium/static/js/main.f2ef301e.js",
     "static/js/453.cc6f8940.chunk.js": "/13th-age-compendium/static/js/453.cc6f8940.chunk.js",
     "static/media/myrrMap.png": "/13th-age-compendium/static/media/myrrMap.f96e5bf98e8500cdfd73.png",
     "index.html": "/13th-age-compendium/index.html",
-    "main.d7a6b296.css.map": "/13th-age-compendium/static/css/main.d7a6b296.css.map",
-    "main.ce8d2dd1.js.map": "/13th-age-compendium/static/js/main.ce8d2dd1.js.map",
+    "main.f41e9ed9.css.map": "/13th-age-compendium/static/css/main.f41e9ed9.css.map",
+    "main.f2ef301e.js.map": "/13th-age-compendium/static/js/main.f2ef301e.js.map",
     "453.cc6f8940.chunk.js.map": "/13th-age-compendium/static/js/453.cc6f8940.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7a6b296.css",
-    "static/js/main.ce8d2dd1.js"
+    "static/css/main.f41e9ed9.css",
+    "static/js/main.f2ef301e.js"
   ]
 }
