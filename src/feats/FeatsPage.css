@@ -6,6 +6,26 @@
   margin-left: 3px;
 }
 
+.feat-tier {
+  margin-top:12px;
+  border-bottom: 1px solid black;
+}
+
+.feat-tier-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.feat-tier:only-child {
+  margin-top:0px;
+  border-bottom:none;
+}
+
+.feat-desc-item {
+  margin: 12px 0px;
+}
+
+
 .Kin-feat {
   background: #AEE5E0;
 }

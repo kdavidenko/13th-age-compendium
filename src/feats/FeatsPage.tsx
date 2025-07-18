@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutlined'
 import { Popover, Typography } from '@mui/material';
 import { useRef, useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -15,6 +16,18 @@ import Paper from '@mui/material/Paper';
 import Feats from '../data/Feats.json';
 import './FeatsPage.css';
 
+type Feat = {
+    featType: string,
+    featName: string,
+    req: string,
+    desc: {
+      adventurer?: string | string[],
+      champion?: string | string[],
+      epic?: string | string[],
+      zenith?: string | string[]
+    }
+
+  }
 
 function FeatsPage() {
   const [popOpen, setPopOpen] = useState(false);
@@ -70,30 +83,50 @@ function FeatsPage() {
           </Typography>
       </Popover>
       <hr />
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+    <TableContainer component={Paper} sx={{ minWidth: 650, maxHeight: 750 }}>
+      <Table aria-label="simple table" stickyHeader>
         <TableHead>
           <TableRow className='table-headers'>
-            <TableCell>Name</TableCell>
-            <TableCell align="left">Source</TableCell>
-            <TableCell align="left">Pre-Req</TableCell>
-            <TableCell align="left">Description</TableCell>
+            <TableCell><h3>Name</h3></TableCell>
+            <TableCell align="left"><h3>Source</h3></TableCell>
+            <TableCell align="left"><h3>Pre-Req</h3></TableCell>
+            <TableCell align="left"><h3>Description</h3></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {Feats.map((Feat) => (
-
+          {Feats.map((Feat:Feat) => (
             <TableRow
-              key={Feat.desc}
+              key={uuidv4()}
               className={`${Feat.featType}-feat`}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                {Feat.featName}
+                <h4>{Feat.featName}</h4>
               </TableCell>
               <TableCell align="left">{Feat.featType}</TableCell>
               <TableCell align="left">{Feat.req}</TableCell>
-              <TableCell align="left">{Feat.desc}</TableCell>
+              <TableCell align="left">
+                {
+                  (['adventurer', 'champion', 'epic', 'zenith'] as const).map(tier => {
+                    const tierContent = Feat.desc[tier];
+
+                    if (!tierContent || (Array.isArray(tierContent) && tierContent.length === 0)) {
+                      return null; // Skip empty tiers
+                    }
+
+                    const items = Array.isArray(tierContent) ? tierContent : [tierContent];
+
+                    return (
+                      <div key={tier} className="feat-tier">
+                        <div className="feat-tier-title">{tier.charAt(0).toUpperCase() + tier.slice(1)}</div>
+                        {items.map((item, index) => (
+                          <div className="feat-desc-item" key={index}>{item}</div>
+                        ))}
+                      </div>
+                    );
+                  })
+                }
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
