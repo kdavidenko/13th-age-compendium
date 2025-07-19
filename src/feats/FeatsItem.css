@@ -1,0 +1,105 @@
+.FeatItem {
+  cursor: pointer;
+}
+
+.feat-tier {
+  margin-top:12px;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.75);
+}
+
+.feat-tier-title {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.feat-tier:only-child {
+  margin-top:0px;
+  border-bottom:none;
+}
+
+.feat-tier:last-child {
+  border-bottom:none;
+}
+
+.feat-desc-item {
+  margin: 12px 0px;
+}
+
+.Kin-feat {
+  background-color: #AEE5E0;
+}
+.Kin-feat-content {
+  background-color: #AEE5E050;
+}
+
+.Barbarian-feat {
+  background-color: #F4A3A3;
+}
+.Barbarian-feat-content {
+  background-color: #F4A3A350;
+}
+
+.Bard-feat {
+  background-color: #D6B3FF;
+}
+.Bard-feat-content{
+  background-color: #D6B3FF50;
+}
+
+.Cleric-feat {
+  background-color: #FBE6A2;
+}
+.Cleric-feat-content {
+  background-color: #FBE6A250;
+}
+
+.Fighter-feat {
+  background-color: #CCCCCC;
+}
+.Fighter-feat-content {
+  background-color: #CCCCCC50;
+}
+
+.Paladin-feat {
+  background-color: #E3E6F3;
+}
+.Paladin-feat-content {
+  background-color: #E3E6F350;
+}
+
+.Ranger-feat {
+  background-color: #B9E0C4;
+}
+.Ranger-feat-content {
+  background-color: #B9E0C450;
+}
+
+.Rogue-feat {
+  background-color: #CFCFCF;
+}
+.Rogue-feat-content {
+  background-color: #CFCFCF50;
+}
+
+.Sorcerer-feat {
+  background-color: #F2B6B6;
+}
+.Sorcerer-feat-content {
+  background-color: #F2B6B650;
+}
+
+.Wizard-feat {
+  background-color: #B3D4FC;
+}
+.Wizard-feat-content {
+  background-color: #B3D4FC50;
+}
+
+.Universal-feat {
+  background-color: #F5D7B3;
+}
+.Universal-feat-content {
+  background-color: #F5D7B350;
+}
+
+

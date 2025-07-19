@@ -1,7 +1,7 @@
 import { RegionState } from 'app/reducers/regionReducer';
 import { useSelector } from 'react-redux';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutlined'
-import { Popover, Typography } from '@mui/material';
+import { Popover, TableFooter, TablePagination, Typography } from '@mui/material';
 import { useRef, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -12,6 +12,9 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+
+import TablePaginationActions from 'pagination/TablePaginationActions';
+import FeatsItem from './FeatsItem';
 
 import Feats from '../data/Feats.json';
 import './FeatsPage.css';
@@ -32,6 +35,10 @@ type Feat = {
 function FeatsPage() {
   const [popOpen, setPopOpen] = useState(false);
   const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [openRow, setOpenRow] = useState<number | null>(null);
+
   const popOverIconRef = useRef<HTMLDivElement | null>(null);
 
   const handlePopoverOpen = () => {
@@ -44,7 +51,24 @@ function FeatsPage() {
     setPopOpen(false);
   };
 
-  const location = useSelector<RegionState, RegionState['region']>((state:any) => state.regionReducer.region)
+  // Avoid a layout jump when reaching the last page with empty rows.
+  const emptyRows =
+    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - Feats.length) : 0;
+
+  const handleChangePage = (
+    event: React.MouseEvent<HTMLButtonElement> | null,
+    newPage: number,
+  ) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
+
 
   return (
     <div className="FeatsPage">
@@ -76,62 +100,70 @@ function FeatsPage() {
         disableRestoreFocus
       >
         <Typography sx={{ p: 1 }}>
-          "A:" indicates Adventurer feats (lvls 1-4)<br />
-          "C:" indicates Champion feats (lvls 5-7)<br />
-          "E:" indicates Epic feats (lvls 8-10)<br />
-          "Z:" indicates Zenith feats (taken as incremental at 10th)
+          Adventurer feats are taken at lvls 1-4<br />
+          Champion feats are taken at lvls 5-7<br />
+          Epic feats are taken at lvls 8-10<br />
+          Zenith feats are taken as incremental at 10th
           </Typography>
       </Popover>
       <hr />
-    <TableContainer component={Paper} sx={{ maxHeight: 750 }}>
-      <Table aria-label="simple table" stickyHeader>
-        <TableHead>
-          <TableRow className='table-headers'>
-            <TableCell><h3>Name</h3></TableCell>
-            <TableCell align="left"><h3>Type</h3></TableCell>
-            <TableCell align="left"><h3>Source</h3></TableCell>
-            <TableCell align="left"><h3>Description</h3></TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {Feats.map((Feat:Feat) => (
-            <TableRow
-              key={uuidv4()}
-              className={`${Feat.featType}-feat`}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <TableCell component="th" scope="row">
-                <h4>{Feat.featName}</h4>
-              </TableCell>
-              <TableCell align="left">{Feat.featType}</TableCell>
-              <TableCell align="left">{Feat.req}</TableCell>
-              <TableCell align="left">
-                {
-                  (['adventurer', 'champion', 'epic', 'zenith'] as const).map(tier => {
-                    const tierContent = Feat.desc[tier];
-
-                    if (!tierContent || (Array.isArray(tierContent) && tierContent.length === 0)) {
-                      return null; // Skip empty tiers
-                    }
-
-                    const items = Array.isArray(tierContent) ? tierContent : [tierContent];
-
-                    return (
-                      <div key={tier} className="feat-tier">
-                        <div className="feat-tier-title">{tier.charAt(0).toUpperCase() + tier.slice(1)}</div>
-                        {items.map((item, index) => (
-                          <div className="feat-desc-item" key={index}>{item}</div>
-                        ))}
-                      </div>
-                    );
-                  })
-                }
-              </TableCell>
+      <TableContainer component={Paper}>
+        <Table sx={{ minWidth: 500 }} aria-label="custom pagination table">
+          <TableHead>
+            <TableRow className="table-headers">
+              <TableCell><h3>Name</h3></TableCell>
+              <TableCell align="left"><h3>Type</h3></TableCell>
+              <TableCell align="left"><h3>Source</h3></TableCell>
+              <TableCell />
             </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+          </TableHead>
+
+        <TableBody>
+          {(rowsPerPage > 0
+            ? Feats.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+            : Feats
+          ).map((Feat: Feat, index:number) => (
+                <FeatsItem
+                  key={uuidv4()}
+                  feat={Feat}
+                  index={index}
+                  openRow={openRow}
+                  setOpenRow={setOpenRow}
+                  colSpan={4} // match your total number of columns
+                />
+            ))}
+
+            {emptyRows > 0 && (
+              <TableRow style={{ height: 53 * emptyRows }}>
+                <TableCell colSpan={4} />
+              </TableRow>
+            )}
+          </TableBody>
+          <TableFooter>
+            <TableRow>
+              <TablePagination
+                rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
+                colSpan={4}
+                count={Feats.length}
+                rowsPerPage={rowsPerPage}
+                page={page}
+                slotProps={{
+                  select: {
+                    inputProps: {
+                      'aria-label': 'rows per page',
+                    },
+                    native: true,
+                  },
+                }}
+                onPageChange={handleChangePage}
+                onRowsPerPageChange={handleChangeRowsPerPage}
+                ActionsComponent={TablePaginationActions}
+              />
+            </TableRow>
+          </TableFooter>
+        </Table>
+      </TableContainer>
+
     </div>
   );
 }
