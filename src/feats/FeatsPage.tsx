@@ -1,6 +1,6 @@
 import InfoOutlineIcon from '@mui/icons-material/InfoOutlined'
 import { Popover, TableFooter, TablePagination, Typography } from '@mui/material';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import Table from '@mui/material/Table';
@@ -69,6 +69,11 @@ function FeatsPage() {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
+
+  //send back to start of pages if filter set
+  useEffect(() =>{
+    setPage(0);
+  },[filteredFeats])
 
   return (
     <div className="FeatsPage">
