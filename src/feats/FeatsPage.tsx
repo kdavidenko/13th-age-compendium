@@ -1,5 +1,3 @@
-import { RegionState } from 'app/reducers/regionReducer';
-import { useSelector } from 'react-redux';
 import InfoOutlineIcon from '@mui/icons-material/InfoOutlined'
 import { Popover, TableFooter, TablePagination, Typography } from '@mui/material';
 import { useRef, useState } from 'react';
@@ -18,8 +16,9 @@ import FeatsItem from './FeatsItem';
 
 import Feats from '../data/Feats.json';
 import './FeatsPage.css';
+import SearchBar from 'searchbar/SearchBar';
 
-type Feat = {
+export type Feat = {
     featType: string,
     featName: string,
     req: string,
@@ -38,6 +37,7 @@ function FeatsPage() {
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [openRow, setOpenRow] = useState<number | null>(null);
+  const [filteredFeats, setFilteredFeats] = useState<Feat[]>(Feats);
 
   const popOverIconRef = useRef<HTMLDivElement | null>(null);
 
@@ -51,6 +51,7 @@ function FeatsPage() {
     setPopOpen(false);
   };
 
+  // PAGINATION ---
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - Feats.length) : 0;
@@ -68,7 +69,6 @@ function FeatsPage() {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
   };
-
 
   return (
     <div className="FeatsPage">
@@ -107,6 +107,8 @@ function FeatsPage() {
           </Typography>
       </Popover>
       <hr />
+        <SearchBar data={Feats} onFilteredChange={setFilteredFeats} />
+      <hr />
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 500 }} aria-label="custom pagination table">
           <TableHead>
@@ -120,8 +122,8 @@ function FeatsPage() {
 
         <TableBody>
           {(rowsPerPage > 0
-            ? Feats.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-            : Feats
+            ? filteredFeats.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+            : filteredFeats
           ).map((Feat: Feat, index:number) => (
                 <FeatsItem
                   key={uuidv4()}
@@ -144,7 +146,7 @@ function FeatsPage() {
               <TablePagination
                 rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
                 colSpan={4}
-                count={Feats.length}
+                count={filteredFeats.length}
                 rowsPerPage={rowsPerPage}
                 page={page}
                 slotProps={{
