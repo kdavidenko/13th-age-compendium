@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yazatli Calendar</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style>
+.month-block {
+	overflow: hidden;
+	max-width: 1125px;
+	margin: 25px auto;
+	text-align: center;
+ 	border: 1px solid black;
+}
+.month {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+}
+.week {
+	float:left;
+}
+ .day {
+ 	border-top: 1px solid black;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ 	float:left;
+ }
+ .col-1 { width:12.5%; }
+ .col-2 { width:25%; }
+ .col-3 { width:37.5%; }
+ .col-4 { width:50%; }
+ .col-5 { width:62.5%; }
+ .col-6 { width:75%; }
+ .col-7 { width:87.5%; }
+ .col-8 { width:100%; }
+
+ .current-day {
+ 	font-weight: bold;
+ 	background:#e0aaaa;
+ }
+ .day-head {
+ 	font-weight: bold;
+ 	font-size: 24px;
+ 	border-bottom: 1px solid black;
+ 	padding: 15px 0px;
+    margin: 0px;
+ }
+ .ritual-day {
+ 	font-style: italic;
+ 	color:#800080;
+ }
+ .omen .ritual-day {
+ 	font-weight: bold;
+ 	text-decoration: underline;
+ }
+ .forbidden-day {background-color:black; color:white;}
+ .taalrudaxi { font-size: 11px; color:#5a4f2b;}
+</style>
+
+
+</head>
+<body>
+
+<h1>Yazatli Calendar</h1>
+<p>every 24 days progress month, except every 72 days add 1 day</p>
+
+<p>every day add 1 number (restart after 11)</p>
+
+<p>every day select next from Name (25)</p>
+
+<p><b>Dawn Season</b><br/>Ausphitar<br/>Prevernal / end of winter / dragon god fights off darkness<br/>End of December - Early March</p>
+<p><b>Flower Season</b><br/>Jinessa<br/>Spring / fey goddess brings growth<br/>March - June</p>
+<p><b>Flame Season</b><br/>Zelnemis<br/>Summer / devil god brings heat<br/>June - Late August</p>
+<p><b>Harvest Season</b><br/>Kerese<br/>Autumn / nature goddess brings harvest<br/>Late August - October</p>
+<p><b>Snow Season</b><br/>Vermori<br/>Winter / cosmic goddess progresses the cycle<br/>October - December</p>
+<p><b>Last Night</b> Winter Solstice - Dec 21</p>
+
+<div>
+	<h3>Notable Days</h3>
+	<ol>
+		<li>Void 11 is considered Friday the 13th</li>
+		<li>Peacock 1 is considered the best day to get married</li>
+		<li>Zodiacs are related to which Sacred Name were you born under, ie which god are you blessed by, with the number being the intensity of the blessing</li>
+		<li>It's bad luck to work on Void days</li>
+		<li>Agreements written up under Shadow are considered sketchy</li>
+		<li>Green and Pale elves consider Beast and Spider blessed names, respetively.</li>
+	</ol>
+
+</div>
+
+Days of the Year
+
+<h1>
+	<div><span id="currentAFHYear"></span> AFH (After Fall of Heaven)</div>
+	<div><span id="currentAKYear"></span> A.K. (After Khanmor)</div>
+	<div><span id="currentGEYear"></span> G.E. (Galvanic Era)</div>	
+	<div><span id="currentANYear"></span> A.N. (After Last Night)</div>	
+</h1>
+<div id='calendarList' class="calendar-list">
+</div>
+
+<script>
+
+$(document).ready(function(){
+const month = ['Goldsun', 'Dawntide', 'Goldfade', 'Night of Beasts', 'Bloomsun', 'Flowertide', 'Bloomfade', 'Night of Storms', 'Redsun', 'Flametide', 'Redfade', 'Night of Vermin', 'Greensun', 'Harvestide', 'Greenfade', 'Night of Shadows', 'Silversun', 'Snowtide', 'Silverfade', 'Last Night'];
+const monthDays = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+const nightDays = [1]
+const sacredNames = ['Dragon', 'Dove', 'Blade', 'Shield', 'Beast', 'Peacock', 'Song', 'Time', 'Rainbow', 'Lightning', 'Cow', 'Bow', 'Sun', 'Child', 'Spider', 'Spirit', 'Moon', 'Death', 'Thread', 'Shadow', 'Devil', 'Hammer', 'Fire', 'Blood', 'Void'];
+const daysOfTheWeek = ["Ausday","Jinday","Kerday","Verday","Zelday","Alday","Ethday","Ysday"]
+const tldxSeq = ['Dragonsun', 'First Star 1, First Night', 'First Moon 1, First Night', 'First Wind 1, First Night', 'First Sky 1, First Night', 'Second Sun 2, First Night', 'Second Star 2, First Night', 'Second Moon 2, First Night', 'Second Wind 2, First Night', 'Second Sky 2, First Night', 'Last Sun 2, First Night', 'Last Star 2, First Night', 'Last Moon 2, First Night', 'Last Wind 2, First Night', 'Last Sky 2, First Night', 'First Sun 2, First Night', 'First Star 2, First Night', 'First Moon 2, First Night', 'First Wind 2, First Night', 'First Sky 2, First Night', 'Second Sun 2, First Night', 'Second Star 2, First Night', 'Second Moon 2, First Night', 'Second Wind 2, First Night', 'Second Sky 2, First Night', 'Last Sun 2, First Night', 'Last Star 2, First Night', 'Last Moon 2, First Night', 'Last Wind 2, First Night', 'Last Sky 2, First Night', 'First Sun 3, First Night', 'First Star 3, First Night', 'First Moon 3, First Night', 'First Wind 3, First Night', 'First Sky 3, First Night', 'Second Sun 3, First Night', 'Second Star 3, First Night', 'Second Moon 3, First Night', 'Second Wind 3, First Night', 'Second Sky 3, First Night', 'Last Sun 3, First Night', 'Last Star 3, First Night', 'Last Moon 3, First Night', 'Last Wind 3, First Night', 'Last Sky 3, First Night', 'FIRST NIGHT', 'First Sun 1, Second Night', 'First Star 1, Second Night', 'First Moon 1, Second Night', 'First Wind 1, Second Night', 'First Sky 1, Second Night', 'Second Sun 2, Second Night', 'Second Star 2, Second Night', 'Second Moon 2, Second Night', 'Second Wind 2, Second Night', 'Second Sky 2, Second Night', 'Last Sun 2, Second Night', 'Last Star 2, Second Night', 'Last Moon 2, Second Night', 'Last Wind 2, Second Night', 'Last Sky 2, Second Night', 'First Sun 2, Second Night', 'First Star 2, Second Night', 'First Moon 2, Second Night', 'First Wind 2, Second Night', 'First Sky 2, Second Night', 'Second Sun 2, Second Night', 'Second Star 2, Second Night', 'Second Moon 2, Second Night', 'Second Wind 2, Second Night', 'Second Sky 2, Second Night', 'Last Sun 2, Second Night', 'Last Star 2, Second Night', 'Last Moon 2, Second Night', 'Last Wind 2, Second Night', 'Last Sky 2, Second Night', 'First Sun 3, Second Night', 'First Star 3, Second Night', 'First Moon 3, Second Night', 'First Wind 3, Second Night', 'First Sky 3, Second Night', 'Second Sun 3, Second Night', 'Second Star 3, Second Night', 'Second Moon 3, Second Night', 'Second Wind 3, Second Night', 'Second Sky 3, Second Night', 'Last Sun 3, Second Night', 'Last Star 3, Second Night', 'Last Moon 3, Second Night', 'Last Wind 3, Second Night', 'Last Sky 3, Second Night', 'SECOND NIGHT', 'First Sun 1, Last Night', 'First Star 1, Last Night', 'First Moon 1, Last Night', 'First Wind 1, Last Night', 'First Sky 1, Last Night', 'Second Sun 2, Last Night', 'Second Star 2, Last Night', 'Second Moon 2, Last Night', 'Second Wind 2, Last Night', 'Second Sky 2, Last Night', 'Last Sun 2, Last Night', 'Last Star 2, Last Night', 'Last Moon 2, Last Night', 'Last Wind 2, Last Night', 'Last Sky 2, Last Night', 'First Sun 2, Last Night', 'First Star 2, Last Night', 'First Moon 2, Last Night', 'First Wind 2, Last Night', 'First Sky 2, Last Night', 'Second Sun 2, Last Night', 'Second Star 2, Last Night', 'Second Moon 2, Last Night', 'Second Wind 2, Last Night', 'Second Sky 2, Last Night', 'Last Sun 2, Last Night', 'Last Star 2, Last Night', 'Last Moon 2, Last Night', 'Last Wind 2, Last Night', 'Last Sky 2, Last Night', 'First Sun 3, Last Night', 'First Star 3, Last Night', 'First Moon 3, Last Night', 'First Wind 3, Last Night', 'First Sky 3, Last Night', 'Second Sun 3, Last Night', 'Second Star 3, Last Night', 'Second Moon 3, Last Night', 'Second Wind 3, Last Night', 'Second Sky 3, Last Night', 'Last Sun 3, Last Night', 'Last Star 3, Last Night', 'Last Moon 3, Last Night', 'Last Wind 3, Last Night', 'Last Sky 3, Last Night', 'LAST NIGHT']
+
+//0 = Ausday New Years, 7 = Ysday New Years
+let monthDOM = document.getElementById('months');
+let weekdayCTR = -1;
+let newWeek;
+let dayOfYear = 1;
+let yearNumberDay = 1;
+let campaignStartDay = 168; //168
+let campaignDay = -168; //168
+let firstEncounterStoneThief = 176 // in year 7596 (Spirit 1)
+let currentCampaignDate = 87; //87
+let currentYear = 7596; //current year: 7596 / fake year 5361 / 7589 = YEAR OF LAST NIGHT
+const currentYearInCycle = currentYear % 25;
+// 55 year cycle
+
+let currentSacredName = 0; // Dragon
+let currentSacredNum = 1; // 1
+let tldxCur = 0; // Dragonsun
+
+function getYearStart() {
+	for (y = 0; y < currentYear;y++ ){
+		for (i = 0; i < month.length; i++) {
+			let curMonth = month[i]
+			let days;
+			let monthID = curMonth.replace(/ /g, "");
+			if (month[i].includes("Night")){
+				//FORBIDDEN DAYS
+					if (currentSacredNum === 11) {
+						currentSacredNum = 1;
+					} else {
+						currentSacredNum++;
+					}
+					if (currentSacredName === 24) {
+						currentSacredName = 0;
+					} else {
+						currentSacredName++;
+					}
+					if (dayOfYear === 365) {
+						dayOfYear = 1;
+					} else {
+						dayOfYear++;
+					}
+					if (tldxCur === 137) {
+						tldxCur = 0;
+					} else {
+						tldxCur++
+					}
+			} else {
+				//REGULAR MONTHS
+				for (x = 0; x < monthDays.length; x++) {
+					if (currentSacredNum === 11) {
+						currentSacredNum = 1;
+					} else {
+						currentSacredNum++;
+					}
+					if (currentSacredName === 24) {
+						currentSacredName = 0;
+					} else {
+						currentSacredName++;
+					}
+					if (dayOfYear === 365) {
+						dayOfYear = 1;
+					} else {
+						dayOfYear++;
+					}
+					if (tldxCur === 137) {
+						tldxCur = 0;
+					} else {
+						tldxCur++
+					}
+
+				};
+			}
+		};
+	};
+	console.log(currentSacredName, currentSacredNum, tldxCur);
+};
+getYearStart();
+	for (i = 0; i < month.length; i++) {
+		let curMonth = month[i]
+		let days;
+		let monthID = curMonth.replace(/ /g, "");
+		if (dayOfYear > 365) dayOfYear = 1;
+
+		let list = '<div id="'+monthID+'" class="month-block"></div>'
+		$('#calendarList').append(list);
+		let header = '<div class="month">' + curMonth + '</div>'
+		$('#'+monthID).append(header);
+		if (month[i].includes("Night")){
+			//FORBIDDEN DAYS
+				if (dayOfYear === campaignStartDay) markDays = true;
+				if (campaignDay >= 0){
+					campaignDate = 'Day: '+campaignDay;
+				} else {
+					campaignDate = '&nbsp;'
+				}
+				let currentDayMarker;
+				if (campaignDay == currentCampaignDate) {
+					currentDayMarker = ' current-day';
+				} else {
+					currentDayMarker = '&nbsp;';
+				}
+
+				let omenSeries;
+				if (currentSacredNum === 1) {
+					omenSeries = ' omen'
+				} else {
+					omenSeries = '';
+				}
+				let dayPosition = ' col-1'
+
+				let item = '<div class="day forbidden-day yearDay'+dayOfYear + ' ' + monthID + ' campaignDay'+ campaignDay+currentDayMarker+' '+omenSeries+' col-1"><p class="day-head">' + nightDays[0] + '</p><p>'+campaignDate+'</p><p class="ritual-day">' + sacredNames[currentSacredName] + ' ' + currentSacredNum + '</p><p class="taalrudaxi">'+tldxSeq[tldxCur]+'</p></div>'
+				$('#'+monthID).append(item);
+
+				if (currentSacredNum === 11) {
+					currentSacredNum = 1;
+				} else {
+					currentSacredNum++;
+				}
+				if (currentSacredName === 24) {
+					currentSacredName = 0;
+				} else {
+					currentSacredName++;
+				}
+				dayOfYear++
+				campaignDay++
+				if (tldxCur === 137) {
+					tldxCur = 0;
+				} else {
+					tldxCur++
+				}
+		} else {
+			//REGULAR MONTHS
+			for (x = 0; x < monthDays.length; x++) {
+				if (campaignDay >= 0){
+					campaignDate = 'Day: '+campaignDay;
+				} else {
+					campaignDate = '&nbsp;'
+				}
+				let currentDayMarker;
+				if (campaignDay == currentCampaignDate) {
+					currentDayMarker = ' current-day';
+				} else {
+					currentDayMarker = '&nbsp;';
+				}
+
+				let omenSeries;
+				if (currentSacredNum === 1) {
+					omenSeries = ' omen'
+				} else {
+					omenSeries = '';
+				}
+
+
+				let dayPosition = ' col-1'
+		
+				let item = '<div class="day yearDay'+dayOfYear + ' ' + monthID + ' campaignDay'+ campaignDay+currentDayMarker+' '+omenSeries+' col-1"><p class="day-head">' + monthDays[x] + '</p><p>'+campaignDate+'</p><p class="ritual-day">' + sacredNames[currentSacredName] + ' ' + currentSacredNum + '</p><p class="taalrudaxi">'+tldxSeq[tldxCur]+'</p></div>'
+				$('#'+monthID).append(item);
+
+				if (currentSacredNum === 11) {
+					currentSacredNum = 1;
+				} else {
+					currentSacredNum++;
+				}
+				if (currentSacredName === 24) {
+					currentSacredName = 0;
+				} else {
+					currentSacredName++;
+				}
+
+				dayOfYear++
+				campaignDay++
+
+				if (tldxCur === 137) {
+					tldxCur = 0;
+				} else {
+					tldxCur++
+				}
+
+			};
+		}
+	};
+	document.getElementById('currentAFHYear').innerHTML = currentYear;
+	document.getElementById('currentAKYear').innerHTML = currentYear - 5872; //AFH year Khammor receded
+	document.getElementById('currentGEYear').innerHTML = currentYear - 7559; //AFH year Watcher waged war
+	document.getElementById('currentANYear').innerHTML = currentYear - 7589; //AN year Last Night happened
+});
+
+</script>
+
+<!--
+
+https://donjon.bin.sh/fantasy/calendar/
+
+{"year_len":365,"events":0,"n_months":20,"months":["Goldsun","Flametide","Goldfade","Night of Beasts","Bloomsun","Flowertide","Bloomfade","Night of Shadows","Greensun","Vinetide","Greenfade","Night of Storms","Silversun","Harvestide","Silverfade","Night of Vermin","Redsun","Stonetide","Redfade","Last Night"],"month_len":{"Goldsun":24,"Flametide":24,"Goldfade":24,"Night of Beasts":1,"Bloomsun":24,"Flowertide":24,"Bloomfade":24,"Night of Shadows":1,"Greensun":24,"Vinetide":24,"Greenfade":24,"Night of Storms":1,"Silversun":24,"Harvestide":24,"Silverfade":24,"Night of Vermin":1,"Redsun":24,"Stonetide":24,"Redfade":24,"Last Night":1},"week_len":8,"weekdays":["Ausday","Jinday","Kerday","Verday","Zelday","Alday","Ethday","Ysday"],"n_moons":0,"moons":[],"lunar_cyc":{},"lunar_shf":{},"year":5324,"first_day":6,"notes":{"5324-1-20":"Campaign 3 Started","5324-4-24":"Current Day"}}
+
+
+-->
+</body>
+</html>
+
+
