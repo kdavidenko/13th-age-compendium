@@ -250,7 +250,7 @@
             "iconType": "villainous",
             "symbolPath": "/13th-age-compendium/img/iconSymbol/collector.png",
             "name": "The Collector",
-            "description": "A raider and murderer of unkonwn origin. They hunt throughout Urthu and have inspired immitators. Of the Icons, they are the most directly active.",
+            "description": "A raider and murderer of unknown origin. They hunt throughout Urthu and have inspired immitators. Of the Icons, they are the most directly active.",
             "quote": "\"Your spine will make a fine addition to my trophy wall.\"",
             "usualLocation": "Smokesands, but they travel throughout Urthu",
             "commonKnowledge": [
@@ -269,6 +269,31 @@
                 "Much like the Huntress, they are a recent arrival on Urthu, beginning in the Smokesands with tales of dead hunters and stolen Ukaru masks. There has not been a Collector before now."
             ],
             "trueDanger": "All will be well so long as the Collector does not seek power and only collects."
+        },
+        {
+            "id":"devourer",
+            "iconType": "villainous",
+            "symbolPath": "/13th-age-compendium/img/iconSymbol/devourer.png",
+            "name": "The Devourer",
+            "description": "It is a hungry monster. The more places of power it devours, the stronger it gets. It is a moving location that eats cities and palaces. Icons have died in its maw.",
+            "quote": "\"The sound of the earth tearing asunder.\"",
+            "usualLocation": "Throughout Urthu and the surrounding waters, occassionally it has shown up on the Mainland. Deprived of sight, it hunts by smell and taste and instinct—and by the signals sent to it by the Cult of the Devourer.",
+            "commonKnowledge": [
+                "The Devourer is a living dungeon that is similar to the Collector, but it collects locations."
+            ],
+            "adventurers": [
+                "The most common interaction adventurers have with the Devourer is to do combat with its cult and to try to delve its depths for treasure.",
+                "Adventurers are tasty, but sometimes tickle or get stuck in the Devourer's craw."
+            ],
+            "allies": "Some Hives have adhered to the leavings of the Devourer and attract it to targets it might enjoy.",
+            "enemies": "Most other icons have conflict of some kind with the Devourer",
+            "history": [
+                "To stop the Devourer from wrecking Urthu, an ancient adventurer stole the Eyes of the Devourer.",
+                "Without its Eyes, the Devourer  is blind and must now blunder through the earth. It has other senses—not that it ever saw through those Eyes as we understand seeing—but its reach is limited. It thrashes in blind fury, eating surface features to momentarily stave off its pain, fumbling toward apotheosis.",
+                "The theft of its Eyes was a stopgap measure. Even without them, the Devourer could still grow strong enough to threaten Urthu, and possibly the world, if it consumes enough places of power.",
+                "It is a hungry monster. The more places of power it devours, the stronger it gets. It is a moving location that eats cities and palaces. Icons have died in its maw. The Devourer has waxed and waned over the ages, but never been destroyed. It is as canny as it is cruel, and is always quick to escape back into the depths when threatened."
+            ],
+            "trueDanger": "All will be well so long as the Devourer does not recover her Eyes."
         },
         {
             "id":"epiphany",
