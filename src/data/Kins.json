@@ -103,29 +103,44 @@
                 "Male Names: Ajax, Alastair, Basilius, Ermolai, Eskander, Grzegorz, Ippotis, Pyrrhus, Rehor, Tryphon, Tymoteusz, Xenophanes",
                 "Female Names: Agnete, Akra, Alyona, Calanthe, Dorete, Eurydice, Hypatia, Irinusz, Phaedra, Thesra, Zenaida, Zoya"
             ],
-            "powers": [                {
-                    "pwrtitle":"Breath Weapon (Kin Power)",
-                    "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 1d6 damage per your level of an energy type that makes sense for your character.",
+            "powers": [
+                {
+                    "pwrtitle":"Chromatic Resistance (Dragonborn Feat)",
+                    "pwrDesc": "All dragonborn heroes can take the following adventurer-tier feat. You're not a dragon. Sometimes you'e more than a dragon.",
                     "pwrFeats": [
                         {
-                            "featType": "Adventurer Feat", 
-                            "feat": "Roll a hard save (16+) when you use your breath weapon. If you succeed, the breath weapon is not expended."
-                        },
+                            "featType": "Adventurer Feat (Chromatic Resistance)", 
+                            "feat": "You gain resist energy 14+ to the following energy types: acid, cold, fire, lightning, and poison. (You take half damage from attacks of these types unless the attacker rolls a natural 14.)"
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Breath Weapon (Kin Power)",
+                    "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 10 damage of an energy type that makes sense for your character (5th: 20 damage; 8th: 50 damage).",
+                    "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "Your breath weapon attack targets 1d3 nearby enemies in a group instead."
-                        },
+                            "feat": "Your breath weapon attack now targets 1d3 nearby enemies in a group."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Energized Attacks (Kin Power)",
+                    "pwrDesc": "Once per battle when the escalation die is 2+, you can use your draconic energy to boost an attack. The attack deals +10 damage to the target, hit or miss, and the bonus damage is of the energy type that fits your character's draconic ancestry. If the attack has multiple targets, choose one to suffer the extra damage. Once per battle when the escalation die is 5+, you can boost a second attack (5th: +20 damage; 8th: +40 damage).",
+                    "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": " Your breath weapon damage dice are d8s instead of d6s."
-                        },
+                            "feat": "You can boost your attack against two targets, not just one."
+                        }
+                    ]
+                },
+                {
+                    "pwrtitle":"Rise Above (Kin Power)",
+                    "pwrDesc": "Once per battle on your turn, for your entire turn, ignore the effects of one condition affecting you. Ongoing damage counts as such a condition, but rise above lets you ignore only one “dose” of the damage in cases where it built up from multiple attacks. (To be clear, you ignore the effects during your turn, and can still save against them at the end of your turn if they are \"save ends\" effects.)",
+                    "pwrFeats": [
                         {
                             "featType": "Champion Feat", 
-                            "feat": "The first time each battle you are staggered, you regain one use of your breath weapon attack if it's expended."
-                        },
-                        {
-                            "featType": "Epic Feat", 
-                            "feat": "You can use your breath weapon twice per battle instead of once, and the target of your breath weapon attacks can now be far away."
+                            "feat": "Ignore the effects of up to three conditions, with each \"dose\" of ongoing damage counting as one condition."
                         }
                     ]
                 }
@@ -295,7 +310,6 @@
             "desc": "Found all over the world, they are as varied as their many nations.",
             "srd": "https://www.13thagesrd.com/races/human/",
             "setting": ["mainland"],
-            
             "powers": [
                 {
                     "pwrtitle":"Bonus Feat",
@@ -502,6 +516,20 @@
                     "pwrDesc": "CHOOSE ONE:"
                 },
                 {
+                    "pwrtitle": "Fighting Free (Kin Power)",
+                    "pwrDesc": "Once per battle, you can use an attack roll that is a natural 16+ as both an attack roll and as an immediate save roll against a condition of your choice. You choose which resolves first, the save or the attack.",
+                    "pwrFeats": [
+                        {
+                            "featType": "Adventurer Feat", 
+                            "feat": "You can now use fighting free on any roll that is a natural 13+."
+                        }
+                        {
+                            "featType": "Champion Feat", 
+                            "feat": "You get a second use of fighting free in a battle when the escalation die reaches 3+."
+                        }
+                    ]
+                },
+                {
                     "pwrtitle": "Killer Instinct (Kin Power)",
                     "pwrDesc": "In a battle in which you have rallied, you deal +3 damage with attacks for the rest of the battle (5th level: +6; 8th level: +12).",
                     "pwrFeats": [
@@ -522,16 +550,6 @@
                         {
                             "featType": "Champion Feat", 
                             "feat": "If the lethal attack reroll is a natural 16+, you can use lethal again later this battle."
-                        }
-                    ]
-                },
-                {
-                    "pwrtitle": "Survivor Tough (Kin Power)",
-                    "pwrDesc": "Your recovery dice are one size larger. d4 < d6 < d8 < d10 < d12 < 2d6 < 2d8.",
-                    "pwrFeats": [
-                        {
-                            "featType": "Adventurer Feat", 
-                            "feat": "Increase your total number of recoveries by +1."
                         }
                     ]
                 }
@@ -713,16 +731,6 @@
                         {
                             "featType": "Champion Feat", 
                             "feat": "Whenever a nearby enemy rolls a natural 1 on an attack against you, you can use curse of chaos against them without expending it."
-                        }
-                    ]
-                },
-                {
-                    "pwrtitle":"Cruel (Kin Power)",
-                    "pwrDesc": "Once per battle as a free action, deal ongoing damage to a single target you hit with a natural even attack roll. The ongoing damage is 15 at adventurer tier, 30 at champion, and 50 at epic. As usual, a normal save (11+) ends the damage.",
-                    "pwrFeats": [
-                        {
-                            "featType": "Champion Feat", 
-                            "feat": "Once per arc, you can instead use cruel to deal 5 ongoing damage per level against a target you have missed or had a natural odd attack roll against. (Yes, you could even deal the ongoing damage with a natural 1; you're that cruel.)"
                         }
                     ]
                 },
