@@ -115,6 +115,9 @@
                     ]
                 },
                 {
+                    "pwrDesc": "CHOOSE ONE:"
+                },
+                {
                     "pwrtitle":"Breath Weapon (Kin Power)",
                     "pwrDesc": "Once per battle, make a close-quarters breath weapon attack as a quick action using your highest ability score against one nearby enemy's Physical Defense. On a hit, the attack deals 10 damage of an energy type that makes sense for your character (5th: 20 damage; 8th: 50 damage).",
                     "pwrFeats": [
@@ -522,7 +525,7 @@
                         {
                             "featType": "Adventurer Feat", 
                             "feat": "You can now use fighting free on any roll that is a natural 13+."
-                        }
+                        },
                         {
                             "featType": "Champion Feat", 
                             "feat": "You get a second use of fighting free in a battle when the escalation die reaches 3+."
